@@ -2,7 +2,7 @@ openapi: 3.0.0
 info:
   title: HarToOpenApi
   version: 1.0.0
-  description: OpenAPI spec generated from HAR data for specs on 2025-01-20T09:55:10.864Z
+  description: OpenAPI spec generated from HAR data for specs on 2025-01-20T10:09:04.057Z
 paths:
   /api/dealer-list/1:
     get:
@@ -735,13 +735,23 @@ paths:
       responses:
         '200':
           content:
-            multipart/form-data:
+            application/json:
+              example:
+                noURLReason: ''
+                url: >-
+                  https://it01-onboarding.usbank.com/recfin/SLN/IR/start?stck_nbr=SH534389&condition=new&year=2024&make=Cruiser%20RV&model=Shadow%20Cruiser&dealerid=49214&price=28995&length=27.583333333333332&src_ind=05
               schema:
+                additionalProperties: false
                 properties:
-                  filename:
-                    description: ''
-                    format: binary
+                  noURLReason:
                     type: string
+                  url:
+                    format: uri
+                    type: string
+                    x-qt-uri-protocols:
+                      - https
+                required: []
+                title: APIUsbankGetcloudapplylinkGetRequest
                 type: object
           description: ''
       summary: Get Api Usbank Getcloudapplylink

@@ -250,7 +250,8 @@
           "cookies": [],
           "content": {
             "size": 217,
-            "mimeType": "application/json"
+            "mimeType": "application/json",
+            "text": "{\"url\":\"https://it01-onboarding.usbank.com/recfin/SLN/IR/start?stck_nbr=SH534389&condition=new&year=2024&make=Cruiser%20RV&model=Shadow%20Cruiser&dealerid=49214&price=28995&length=27.583333333333332&src_ind=05\",\"noURLReason\":\"\"}"
           },
           "redirectURL": "",
           "headersSize": -1,
@@ -496,7 +497,8 @@
           "cookies": [],
           "content": {
             "size": 217,
-            "mimeType": "application/json"
+            "mimeType": "application/json",
+            "text": "{\"url\":\"https://it01-onboarding.usbank.com/recfin/SLN/IR/start?stck_nbr=SH534389&condition=new&year=2024&make=Cruiser%20RV&model=Shadow%20Cruiser&dealerid=49214&price=28995&length=27.583333333333332&src_ind=05\",\"noURLReason\":\"\"}"
           },
           "redirectURL": "",
           "headersSize": -1,
