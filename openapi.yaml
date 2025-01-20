@@ -2,7 +2,7 @@ openapi: 3.0.0
 info:
   title: HarToOpenApi
   version: 1.0.0
-  description: OpenAPI spec generated from HAR data for specs on 2025-01-20T10:28:57.714Z
+  description: OpenAPI spec generated from HAR data for specs on 2025-01-20T10:30:07.684Z
 paths:
   /RollickGetDealerAward:
     get:
@@ -956,6 +956,58 @@ paths:
               schema:
                 type: string
       summary: Post Images Upload
+  /ip:
+    get:
+      description: ''
+      operationId: getIp
+      parameters:
+        - description: priority
+          in: header
+          name: priority
+          schema:
+            default: u=1, i
+            example: u=1, i
+            type: string
+      responses:
+        '200':
+          content:
+            application/json:
+              example:
+                city: Hyderabad
+                country: IN
+                ip: 14.98.168.54
+                ll:
+                  - 17.411
+                  - 78.4487
+                region: TG
+                timezone: Asia/Kolkata
+                zip: '500009'
+              schema:
+                additionalProperties: false
+                properties:
+                  city:
+                    type: string
+                  country:
+                    type: string
+                  ip:
+                    type: string
+                  ll:
+                    items:
+                      type: number
+                    type: array
+                  region:
+                    type: string
+                  timezone:
+                    type: string
+                  zip:
+                    format: integer
+                    type: string
+                required: []
+                title: IPGetRequest
+                type: object
+          description: ''
+      summary: Get Ip
+    parameters: []
   /queue/6cb240ad-addf-4db6-a787-c188f1c9edc7:
     parameters: []
     post:
