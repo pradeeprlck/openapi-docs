@@ -2,7 +2,7 @@ openapi: 3.0.0
 info:
   title: HarToOpenApi
   version: 1.0.0
-  description: OpenAPI spec generated from HAR data for specs on 2025-01-20T08:29:55.847Z
+  description: OpenAPI spec generated from HAR data for specs on 2025-01-20T08:47:34.374Z
 paths:
   /api/geocode/86336:
     get:
@@ -179,6 +179,133 @@ paths:
           description: ''
       summary: Get Api Geocode By ID
     parameters: []
+  /api/manufacturers:
+    parameters: []
+    post:
+      description: ''
+      operationId: postApiManufacturers
+      parameters:
+        - description: cookie
+          in: header
+          name: cookie
+          schema:
+            default: >-
+              _vwo_ds=3%241737356614%3A22.36187259%3A%3A;
+              _vwo_uuid=D9CB9BB543671B71ABD6A67AF331C26F6; zip=86336;
+              _vwo_uuid_v2=D761515BE3CD17148864552296899E8C4|609649387132e191379d5cec5e7d6730;
+              _vis_opt_s=1%7C; _vis_opt_test_cookie=1;
+              _pubcid=93808ee5-5756-465d-88e7-207889d11a88;
+              _sharedID=bf87ca83-d21a-4d54-8e18-d9a4eb51370e;
+              _sharedID_cst=VyxHLMwsHQ%3D%3D;
+              _fbp=fb.1.1737360014302.969791556622762447;
+              _gcl_au=1.1.1141836078.1737360017;
+              _ga=GA1.2.1053247222.1737360019; _gid=GA1.2.193055681.1737360019;
+              _pubcid_cst=zix7LPQsHA%3D%3D;
+              __gads=ID=13e5efa678235b26:T=1737360018:RT=1737362313:S=ALNI_MZ5ePlOQRiJap_-kFH7YLR5_IpS_g;
+              __gpi=UID=00000fec0c324f7e:T=1737360018:RT=1737362313:S=ALNI_ManTJGLqpjaNx8jnzcoZzLFBldYrg;
+              __eoi=ID=3b16e87c76c80f9e:T=1737360018:RT=1737362313:S=AA-AfjZHq9QjV8aYPp7nan5NfN4V;
+              cto_bidid=j-y9RF9tQk9vZFY4Y0dEMmx5S1UzZUdlWWVNV2Iwc3E2Y3A0azR3T2hzOERieHo1eHh0RUI2aVVyQjM4MUtrR0tSOGJrYVd1QU82akxaR1gwd080YTRLOUw0bElhSm4yeFZmQXowbiUyRlpKMVg1YWhzJTNE;
+              cto_bundle=sNfEcF9xMUZIcWZNSjhpdWF3TThyN1FxejJMaCUyRlozV1Z0em9vZlplbWFGYiUyRm5hJTJGODlOWkh4ZkNXQjViZyUyRnU3a2tkVjV2MVZ6QyUyQmI0b2FhRDdCdEl6U0NRUTZBR3p4NmxheFllcWhtblU0a2loaGNSam82NU82dk8lMkJleTIzeEhpRDcwVXBrSzF4clhKSkMlMkZuOEdVbGM3YUZhMVdkMjZmdk5uS1M1dmRJNThObTVYWVBJcWJNclNwd3c0RTNSSmxHS3lWZ2dhUW54bk03YXB2Y0gxNSUyRm5PV1ZsUSUzRCUzRA;
+              FCNEC=%5B%5B%22AKsRol-lttDF5lHyRC_MvYize0riKwQhP40JRgw1gzNdTx3th0nCFvjEr_bxN9bWoaIfV7qE8XDn2MY6T-AVLeigguLxx1AT10PkfX0tVvmzdUau50gF_ci9SdFz76ooSWAYBMD4muAJeCg41ALRJ3VyzZ258u-qYw%3D%3D%22%5D%5D;
+              _hp2_id.2484844913=%7B%22userId%22%3A%226203459445565571%22%2C%22pageviewId%22%3A%22722350236661885%22%2C%22sessionId%22%3A%223626253316130115%22%2C%22identity%22%3Anull%2C%22trackerVersion%22%3A%224.0%22%7D;
+              _hp2_ses_props.2484844913=%7B%22r%22%3A%22https%3A%2F%2Fqa.gorollick.com%2Fr%2Fvehicle-details%2F2022-keystone-avalanche-312rs%3Ftrim%3D365699%26id%3D076e8ab8-d064-4b9d-9d84-3934c33044c9%26distance%3D200%26zip%3D86336%26categories%3Drvs%22%2C%22ts%22%3A1737362595817%2C%22d%22%3A%22qa.gorollick.com%22%2C%22h%22%3A%22%2Fr%2Fthank-you%22%2C%22q%22%3A%22%3Ftrim%3D365699%26id%3D076e8ab8-d064-4b9d-9d84-3934c33044c9%26dids%3Dec5c0a1c67184973%22%7D;
+              _vwo_sn=5692%3A5%3A%3A%3A1;
+              Aimbase.Analytics.Session={"id":"7b365d07-15e3-4b39-be71-918cc25e91bf","lpvid":"37cb4f1e-9a1f-4ff5-8c47-a2fecaf7a12f","ref":""}
+            example: >-
+              _vwo_ds=3%241737356614%3A22.36187259%3A%3A;
+              _vwo_uuid=D9CB9BB543671B71ABD6A67AF331C26F6; zip=86336;
+              _vwo_uuid_v2=D761515BE3CD17148864552296899E8C4|609649387132e191379d5cec5e7d6730;
+              _vis_opt_s=1%7C; _vis_opt_test_cookie=1;
+              _pubcid=93808ee5-5756-465d-88e7-207889d11a88;
+              _sharedID=bf87ca83-d21a-4d54-8e18-d9a4eb51370e;
+              _sharedID_cst=VyxHLMwsHQ%3D%3D;
+              _fbp=fb.1.1737360014302.969791556622762447;
+              _gcl_au=1.1.1141836078.1737360017;
+              _ga=GA1.2.1053247222.1737360019; _gid=GA1.2.193055681.1737360019;
+              _pubcid_cst=zix7LPQsHA%3D%3D;
+              __gads=ID=13e5efa678235b26:T=1737360018:RT=1737362313:S=ALNI_MZ5ePlOQRiJap_-kFH7YLR5_IpS_g;
+              __gpi=UID=00000fec0c324f7e:T=1737360018:RT=1737362313:S=ALNI_ManTJGLqpjaNx8jnzcoZzLFBldYrg;
+              __eoi=ID=3b16e87c76c80f9e:T=1737360018:RT=1737362313:S=AA-AfjZHq9QjV8aYPp7nan5NfN4V;
+              cto_bidid=j-y9RF9tQk9vZFY4Y0dEMmx5S1UzZUdlWWVNV2Iwc3E2Y3A0azR3T2hzOERieHo1eHh0RUI2aVVyQjM4MUtrR0tSOGJrYVd1QU82akxaR1gwd080YTRLOUw0bElhSm4yeFZmQXowbiUyRlpKMVg1YWhzJTNE;
+              cto_bundle=sNfEcF9xMUZIcWZNSjhpdWF3TThyN1FxejJMaCUyRlozV1Z0em9vZlplbWFGYiUyRm5hJTJGODlOWkh4ZkNXQjViZyUyRnU3a2tkVjV2MVZ6QyUyQmI0b2FhRDdCdEl6U0NRUTZBR3p4NmxheFllcWhtblU0a2loaGNSam82NU82dk8lMkJleTIzeEhpRDcwVXBrSzF4clhKSkMlMkZuOEdVbGM3YUZhMVdkMjZmdk5uS1M1dmRJNThObTVYWVBJcWJNclNwd3c0RTNSSmxHS3lWZ2dhUW54bk03YXB2Y0gxNSUyRm5PV1ZsUSUzRCUzRA;
+              FCNEC=%5B%5B%22AKsRol-lttDF5lHyRC_MvYize0riKwQhP40JRgw1gzNdTx3th0nCFvjEr_bxN9bWoaIfV7qE8XDn2MY6T-AVLeigguLxx1AT10PkfX0tVvmzdUau50gF_ci9SdFz76ooSWAYBMD4muAJeCg41ALRJ3VyzZ258u-qYw%3D%3D%22%5D%5D;
+              _hp2_id.2484844913=%7B%22userId%22%3A%226203459445565571%22%2C%22pageviewId%22%3A%22722350236661885%22%2C%22sessionId%22%3A%223626253316130115%22%2C%22identity%22%3Anull%2C%22trackerVersion%22%3A%224.0%22%7D;
+              _hp2_ses_props.2484844913=%7B%22r%22%3A%22https%3A%2F%2Fqa.gorollick.com%2Fr%2Fvehicle-details%2F2022-keystone-avalanche-312rs%3Ftrim%3D365699%26id%3D076e8ab8-d064-4b9d-9d84-3934c33044c9%26distance%3D200%26zip%3D86336%26categories%3Drvs%22%2C%22ts%22%3A1737362595817%2C%22d%22%3A%22qa.gorollick.com%22%2C%22h%22%3A%22%2Fr%2Fthank-you%22%2C%22q%22%3A%22%3Ftrim%3D365699%26id%3D076e8ab8-d064-4b9d-9d84-3934c33044c9%26dids%3Dec5c0a1c67184973%22%7D;
+              _vwo_sn=5692%3A5%3A%3A%3A1;
+              Aimbase.Analytics.Session={"id":"7b365d07-15e3-4b39-be71-918cc25e91bf","lpvid":"37cb4f1e-9a1f-4ff5-8c47-a2fecaf7a12f","ref":""}
+            type: string
+        - description: priority
+          in: header
+          name: priority
+          schema:
+            default: u=1, i
+            example: u=1, i
+            type: string
+      requestBody:
+        content:
+          application/json:
+            example:
+              categories: ''
+              distance: 4096
+              inventory: 1
+              segments: RVs
+              zip: 60531
+            schema:
+              additionalProperties: false
+              properties:
+                categories:
+                  type: string
+                distance:
+                  type: integer
+                inventory:
+                  type: integer
+                segments:
+                  type: string
+                zip:
+                  type: integer
+              required: []
+              title: APIManufacturersPostRequest
+              type: object
+        required: true
+      responses:
+        '200':
+          content:
+            multipart/form-data:
+              schema:
+                properties:
+                  filename:
+                    description: ''
+                    format: binary
+                    type: string
+                type: object
+          description: ''
+      security:
+        - cookie:
+            - cookieVwoDs
+            - cookieVwoUuid
+            - cookieZip
+            - cookieVwoUuidV2
+            - cookieVisOptS
+            - cookieVisOptTestCookie
+            - cookiePubcid
+            - cookieSharedId
+            - cookieSharedIdCst
+            - cookieFbp
+            - cookieGclAu
+            - cookieGa
+            - cookieGid
+            - cookiePubcidCst
+            - cookieGads
+            - cookieGpi
+            - cookieEoi
+            - cookieCtoBidid
+            - cookieCtoBundle
+            - cookieFcnec
+            - cookieHp2Id2484844913
+            - cookieHp2SesProps2484844913
+            - cookieVwoSn
+            - cookieAimbaseAnalyticsSession
+      summary: Post Api Manufacturers
   /api/usbank/getcloudapplylink:
     get:
       description: ''
@@ -499,3 +626,105 @@ paths:
       summary: Post Queue By UUID
 servers:
   - url: https://qa.gorollick.com
+components:
+  securitySchemes:
+    cookieVwoDs:
+      type: apiKey
+      name: _vwo_ds
+      in: cookie
+    cookieVwoUuid:
+      type: apiKey
+      name: _vwo_uuid
+      in: cookie
+    cookieZip:
+      type: apiKey
+      name: zip
+      in: cookie
+    cookieVwoUuidV2:
+      type: apiKey
+      name: _vwo_uuid_v2
+      in: cookie
+    cookieVisOptS:
+      type: apiKey
+      name: _vis_opt_s
+      in: cookie
+    cookieVisOptTestCookie:
+      type: apiKey
+      name: _vis_opt_test_cookie
+      in: cookie
+    cookiePubcid:
+      type: apiKey
+      name: _pubcid
+      in: cookie
+    cookieSharedId:
+      type: apiKey
+      name: _sharedID
+      in: cookie
+    cookieSharedIdCst:
+      type: apiKey
+      name: _sharedID_cst
+      in: cookie
+    cookieFbp:
+      type: apiKey
+      name: _fbp
+      in: cookie
+    cookieGclAu:
+      type: apiKey
+      name: _gcl_au
+      in: cookie
+    cookieGa:
+      type: apiKey
+      name: _ga
+      in: cookie
+    cookieGid:
+      type: apiKey
+      name: _gid
+      in: cookie
+    cookiePubcidCst:
+      type: apiKey
+      name: _pubcid_cst
+      in: cookie
+    cookieGads:
+      type: apiKey
+      name: __gads
+      in: cookie
+    cookieGpi:
+      type: apiKey
+      name: __gpi
+      in: cookie
+    cookieEoi:
+      type: apiKey
+      name: __eoi
+      in: cookie
+    cookieCtoBidid:
+      type: apiKey
+      name: cto_bidid
+      in: cookie
+    cookieCtoBundle:
+      type: apiKey
+      name: cto_bundle
+      in: cookie
+    cookieFcnec:
+      type: apiKey
+      name: FCNEC
+      in: cookie
+    cookieHp2Id2484844913:
+      type: apiKey
+      name: _hp2_id.2484844913
+      in: cookie
+    cookieHp2SesProps2484844913:
+      type: apiKey
+      name: _hp2_ses_props.2484844913
+      in: cookie
+    cookieVwoSn:
+      type: apiKey
+      name: _vwo_sn
+      in: cookie
+    cookieAimbaseAnalyticsSession:
+      type: apiKey
+      name: Aimbase.Analytics.Session
+      in: cookie
+    cookie:
+      type: apiKey
+      name: cookie
+      in: header

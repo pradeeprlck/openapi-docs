@@ -1245,6 +1245,555 @@
           "_workerFetchStart": -1,
           "_workerRespondWithSettled": -1
         }
+      },
+      {
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "send",
+                "scriptId": "12154",
+                "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                "lineNumber": 1,
+                "columnNumber": 82857
+              },
+              {
+                "functionName": "ajax",
+                "scriptId": "12154",
+                "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                "lineNumber": 1,
+                "columnNumber": 78434
+              },
+              {
+                "functionName": "loadBrands",
+                "scriptId": "12176",
+                "url": "https://qa.gorollick.com/scripts/gorollick/sell-your-vehicle.js",
+                "lineNumber": 157,
+                "columnNumber": 6
+              },
+              {
+                "functionName": "pre_select_category",
+                "scriptId": "12176",
+                "url": "https://qa.gorollick.com/scripts/gorollick/sell-your-vehicle.js",
+                "lineNumber": 92,
+                "columnNumber": 4
+              },
+              {
+                "functionName": "",
+                "scriptId": "12176",
+                "url": "https://qa.gorollick.com/scripts/gorollick/sell-your-vehicle.js",
+                "lineNumber": 12,
+                "columnNumber": 4
+              },
+              {
+                "functionName": "e",
+                "scriptId": "12154",
+                "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                "lineNumber": 1,
+                "columnNumber": 30037
+              },
+              {
+                "functionName": "t",
+                "scriptId": "12154",
+                "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                "lineNumber": 1,
+                "columnNumber": 30339
+              }
+            ],
+            "parent": {
+              "description": "setTimeout",
+              "callFrames": [
+                {
+                  "functionName": "",
+                  "scriptId": "12154",
+                  "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                  "lineNumber": 1,
+                  "columnNumber": 30548
+                },
+                {
+                  "functionName": "c",
+                  "scriptId": "12154",
+                  "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                  "lineNumber": 1,
+                  "columnNumber": 28326
+                },
+                {
+                  "functionName": "fireWith",
+                  "scriptId": "12154",
+                  "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                  "lineNumber": 1,
+                  "columnNumber": 29071
+                },
+                {
+                  "functionName": "fire",
+                  "scriptId": "12154",
+                  "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                  "lineNumber": 1,
+                  "columnNumber": 29107
+                },
+                {
+                  "functionName": "c",
+                  "scriptId": "12154",
+                  "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                  "lineNumber": 1,
+                  "columnNumber": 28326
+                },
+                {
+                  "functionName": "fireWith",
+                  "scriptId": "12154",
+                  "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                  "lineNumber": 1,
+                  "columnNumber": 29071
+                },
+                {
+                  "functionName": "ready",
+                  "scriptId": "12154",
+                  "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                  "lineNumber": 1,
+                  "columnNumber": 32044
+                },
+                {
+                  "functionName": "$",
+                  "scriptId": "12154",
+                  "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                  "lineNumber": 1,
+                  "columnNumber": 31823
+                }
+              ]
+            }
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "xhr",
+        "cache": {},
+        "connection": "5653864",
+        "pageref": "page_2",
+        "request": {
+          "method": "POST",
+          "url": "https://qa.gorollick.com/api/manufacturers",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":authority",
+              "value": "qa.gorollick.com"
+            },
+            {
+              "name": ":method",
+              "value": "POST"
+            },
+            {
+              "name": ":path",
+              "value": "/api/manufacturers"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "accept",
+              "value": "*/*"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-US,en-IN;q=0.9,en;q=0.8,te;q=0.7"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache"
+            },
+            {
+              "name": "content-length",
+              "value": "76"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json"
+            },
+            {
+              "name": "cookie",
+              "value": "_vwo_ds=3%241737356614%3A22.36187259%3A%3A; _vwo_uuid=D9CB9BB543671B71ABD6A67AF331C26F6; zip=86336; _vwo_uuid_v2=D761515BE3CD17148864552296899E8C4|609649387132e191379d5cec5e7d6730; _vis_opt_s=1%7C; _vis_opt_test_cookie=1; _pubcid=93808ee5-5756-465d-88e7-207889d11a88; _sharedID=bf87ca83-d21a-4d54-8e18-d9a4eb51370e; _sharedID_cst=VyxHLMwsHQ%3D%3D; _fbp=fb.1.1737360014302.969791556622762447; _gcl_au=1.1.1141836078.1737360017; _ga=GA1.2.1053247222.1737360019; _gid=GA1.2.193055681.1737360019; _pubcid_cst=zix7LPQsHA%3D%3D; __gads=ID=13e5efa678235b26:T=1737360018:RT=1737362313:S=ALNI_MZ5ePlOQRiJap_-kFH7YLR5_IpS_g; __gpi=UID=00000fec0c324f7e:T=1737360018:RT=1737362313:S=ALNI_ManTJGLqpjaNx8jnzcoZzLFBldYrg; __eoi=ID=3b16e87c76c80f9e:T=1737360018:RT=1737362313:S=AA-AfjZHq9QjV8aYPp7nan5NfN4V; cto_bidid=j-y9RF9tQk9vZFY4Y0dEMmx5S1UzZUdlWWVNV2Iwc3E2Y3A0azR3T2hzOERieHo1eHh0RUI2aVVyQjM4MUtrR0tSOGJrYVd1QU82akxaR1gwd080YTRLOUw0bElhSm4yeFZmQXowbiUyRlpKMVg1YWhzJTNE; cto_bundle=sNfEcF9xMUZIcWZNSjhpdWF3TThyN1FxejJMaCUyRlozV1Z0em9vZlplbWFGYiUyRm5hJTJGODlOWkh4ZkNXQjViZyUyRnU3a2tkVjV2MVZ6QyUyQmI0b2FhRDdCdEl6U0NRUTZBR3p4NmxheFllcWhtblU0a2loaGNSam82NU82dk8lMkJleTIzeEhpRDcwVXBrSzF4clhKSkMlMkZuOEdVbGM3YUZhMVdkMjZmdk5uS1M1dmRJNThObTVYWVBJcWJNclNwd3c0RTNSSmxHS3lWZ2dhUW54bk03YXB2Y0gxNSUyRm5PV1ZsUSUzRCUzRA; FCNEC=%5B%5B%22AKsRol-lttDF5lHyRC_MvYize0riKwQhP40JRgw1gzNdTx3th0nCFvjEr_bxN9bWoaIfV7qE8XDn2MY6T-AVLeigguLxx1AT10PkfX0tVvmzdUau50gF_ci9SdFz76ooSWAYBMD4muAJeCg41ALRJ3VyzZ258u-qYw%3D%3D%22%5D%5D; _hp2_id.2484844913=%7B%22userId%22%3A%226203459445565571%22%2C%22pageviewId%22%3A%22722350236661885%22%2C%22sessionId%22%3A%223626253316130115%22%2C%22identity%22%3Anull%2C%22trackerVersion%22%3A%224.0%22%7D; _hp2_ses_props.2484844913=%7B%22r%22%3A%22https%3A%2F%2Fqa.gorollick.com%2Fr%2Fvehicle-details%2F2022-keystone-avalanche-312rs%3Ftrim%3D365699%26id%3D076e8ab8-d064-4b9d-9d84-3934c33044c9%26distance%3D200%26zip%3D86336%26categories%3Drvs%22%2C%22ts%22%3A1737362595817%2C%22d%22%3A%22qa.gorollick.com%22%2C%22h%22%3A%22%2Fr%2Fthank-you%22%2C%22q%22%3A%22%3Ftrim%3D365699%26id%3D076e8ab8-d064-4b9d-9d84-3934c33044c9%26dids%3Dec5c0a1c67184973%22%7D; _vwo_sn=5692%3A5%3A%3A%3A1; Aimbase.Analytics.Session={\"id\":\"7b365d07-15e3-4b39-be71-918cc25e91bf\",\"lpvid\":\"37cb4f1e-9a1f-4ff5-8c47-a2fecaf7a12f\",\"ref\":\"\"}"
+            },
+            {
+              "name": "dnt",
+              "value": "1"
+            },
+            {
+              "name": "origin",
+              "value": "https://qa.gorollick.com"
+            },
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "priority",
+              "value": "u=1, i"
+            },
+            {
+              "name": "referer",
+              "value": "https://qa.gorollick.com/r/sell-my-rv"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"Windows\""
+            },
+            {
+              "name": "sec-fetch-dest",
+              "value": "empty"
+            },
+            {
+              "name": "sec-fetch-mode",
+              "value": "cors"
+            },
+            {
+              "name": "sec-fetch-site",
+              "value": "same-origin"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "x-requested-with",
+              "value": "XMLHttpRequest"
+            }
+          ],
+          "queryString": [],
+          "cookies": [
+            {
+              "name": "_vwo_ds",
+              "value": "3%241737356614%3A22.36187259%3A%3A",
+              "path": "/",
+              "domain": ".gorollick.com",
+              "expires": "2025-02-19T07:41:42.000Z",
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "_vwo_uuid",
+              "value": "D9CB9BB543671B71ABD6A67AF331C26F6",
+              "path": "/",
+              "domain": ".gorollick.com",
+              "expires": "2026-01-20T13:30:54.000Z",
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "zip",
+              "value": "86336",
+              "path": "/",
+              "domain": "qa.gorollick.com",
+              "expires": "2025-02-19T08:43:56.000Z",
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "_vwo_uuid_v2",
+              "value": "D761515BE3CD17148864552296899E8C4|609649387132e191379d5cec5e7d6730",
+              "path": "/",
+              "domain": ".gorollick.com",
+              "expires": "2026-01-21T08:43:55.000Z",
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "_vis_opt_s",
+              "value": "1%7C",
+              "path": "/",
+              "domain": ".gorollick.com",
+              "expires": "2025-04-30T08:00:10.000Z",
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "_vis_opt_test_cookie",
+              "value": "1",
+              "path": "/",
+              "domain": ".gorollick.com",
+              "expires": "1969-12-31T23:59:59.000Z",
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "_pubcid",
+              "value": "93808ee5-5756-465d-88e7-207889d11a88",
+              "path": "/",
+              "domain": ".gorollick.com",
+              "expires": "2026-01-20T08:00:54.000Z",
+              "httpOnly": false,
+              "secure": false,
+              "sameSite": "Lax"
+            },
+            {
+              "name": "_sharedID",
+              "value": "bf87ca83-d21a-4d54-8e18-d9a4eb51370e",
+              "path": "/",
+              "domain": ".gorollick.com",
+              "expires": "2026-01-20T08:00:19.000Z",
+              "httpOnly": false,
+              "secure": false,
+              "sameSite": "Lax"
+            },
+            {
+              "name": "_sharedID_cst",
+              "value": "VyxHLMwsHQ%3D%3D",
+              "path": "/",
+              "domain": ".gorollick.com",
+              "expires": "2026-01-20T08:00:19.000Z",
+              "httpOnly": false,
+              "secure": false,
+              "sameSite": "Lax"
+            },
+            {
+              "name": "_fbp",
+              "value": "fb.1.1737360014302.969791556622762447",
+              "path": "/",
+              "domain": ".gorollick.com",
+              "expires": "2025-04-20T08:42:48.000Z",
+              "httpOnly": false,
+              "secure": false,
+              "sameSite": "Lax"
+            },
+            {
+              "name": "_gcl_au",
+              "value": "1.1.1141836078.1737360017",
+              "path": "/",
+              "domain": ".gorollick.com",
+              "expires": "2025-04-20T08:00:17.000Z",
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "_ga",
+              "value": "GA1.2.1053247222.1737360019",
+              "path": "/",
+              "domain": ".gorollick.com",
+              "expires": "2026-02-24T08:42:47.729Z",
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "_gid",
+              "value": "GA1.2.193055681.1737360019",
+              "path": "/",
+              "domain": ".gorollick.com",
+              "expires": "2025-01-21T08:42:47.000Z",
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "_pubcid_cst",
+              "value": "zix7LPQsHA%3D%3D",
+              "path": "/",
+              "domain": ".gorollick.com",
+              "expires": "2026-01-20T08:00:54.000Z",
+              "httpOnly": false,
+              "secure": false,
+              "sameSite": "Lax"
+            },
+            {
+              "name": "__gads",
+              "value": "ID=13e5efa678235b26:T=1737360018:RT=1737362313:S=ALNI_MZ5ePlOQRiJap_-kFH7YLR5_IpS_g",
+              "path": "/",
+              "domain": ".gorollick.com",
+              "expires": "2026-02-14T08:00:18.000Z",
+              "httpOnly": false,
+              "secure": true,
+              "sameSite": "None"
+            },
+            {
+              "name": "__gpi",
+              "value": "UID=00000fec0c324f7e:T=1737360018:RT=1737362313:S=ALNI_ManTJGLqpjaNx8jnzcoZzLFBldYrg",
+              "path": "/",
+              "domain": ".gorollick.com",
+              "expires": "2026-02-14T08:00:18.000Z",
+              "httpOnly": false,
+              "secure": true,
+              "sameSite": "None"
+            },
+            {
+              "name": "__eoi",
+              "value": "ID=3b16e87c76c80f9e:T=1737360018:RT=1737362313:S=AA-AfjZHq9QjV8aYPp7nan5NfN4V",
+              "path": "/",
+              "domain": ".gorollick.com",
+              "expires": "2025-07-19T08:00:18.000Z",
+              "httpOnly": false,
+              "secure": true,
+              "sameSite": "None"
+            },
+            {
+              "name": "cto_bidid",
+              "value": "j-y9RF9tQk9vZFY4Y0dEMmx5S1UzZUdlWWVNV2Iwc3E2Y3A0azR3T2hzOERieHo1eHh0RUI2aVVyQjM4MUtrR0tSOGJrYVd1QU82akxaR1gwd080YTRLOUw0bElhSm4yeFZmQXowbiUyRlpKMVg1YWhzJTNE",
+              "path": "/",
+              "domain": ".gorollick.com",
+              "expires": "2026-02-14T14:12:47.000Z",
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "cto_bundle",
+              "value": "sNfEcF9xMUZIcWZNSjhpdWF3TThyN1FxejJMaCUyRlozV1Z0em9vZlplbWFGYiUyRm5hJTJGODlOWkh4ZkNXQjViZyUyRnU3a2tkVjV2MVZ6QyUyQmI0b2FhRDdCdEl6U0NRUTZBR3p4NmxheFllcWhtblU0a2loaGNSam82NU82dk8lMkJleTIzeEhpRDcwVXBrSzF4clhKSkMlMkZuOEdVbGM3YUZhMVdkMjZmdk5uS1M1dmRJNThObTVYWVBJcWJNclNwd3c0RTNSSmxHS3lWZ2dhUW54bk03YXB2Y0gxNSUyRm5PV1ZsUSUzRCUzRA",
+              "path": "/",
+              "domain": ".gorollick.com",
+              "expires": "2026-02-14T08:42:55.000Z",
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "FCNEC",
+              "value": "%5B%5B%22AKsRol-lttDF5lHyRC_MvYize0riKwQhP40JRgw1gzNdTx3th0nCFvjEr_bxN9bWoaIfV7qE8XDn2MY6T-AVLeigguLxx1AT10PkfX0tVvmzdUau50gF_ci9SdFz76ooSWAYBMD4muAJeCg41ALRJ3VyzZ258u-qYw%3D%3D%22%5D%5D",
+              "path": "/",
+              "domain": ".gorollick.com",
+              "expires": "2026-01-20T08:43:00.000Z",
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "_hp2_id.2484844913",
+              "value": "%7B%22userId%22%3A%226203459445565571%22%2C%22pageviewId%22%3A%22722350236661885%22%2C%22sessionId%22%3A%223626253316130115%22%2C%22identity%22%3Anull%2C%22trackerVersion%22%3A%224.0%22%7D",
+              "path": "/",
+              "domain": ".gorollick.com",
+              "expires": "2026-02-18T18:43:15.000Z",
+              "httpOnly": false,
+              "secure": false,
+              "sameSite": "Lax"
+            },
+            {
+              "name": "_hp2_ses_props.2484844913",
+              "value": "%7B%22r%22%3A%22https%3A%2F%2Fqa.gorollick.com%2Fr%2Fvehicle-details%2F2022-keystone-avalanche-312rs%3Ftrim%3D365699%26id%3D076e8ab8-d064-4b9d-9d84-3934c33044c9%26distance%3D200%26zip%3D86336%26categories%3Drvs%22%2C%22ts%22%3A1737362595817%2C%22d%22%3A%22qa.gorollick.com%22%2C%22h%22%3A%22%2Fr%2Fthank-you%22%2C%22q%22%3A%22%3Ftrim%3D365699%26id%3D076e8ab8-d064-4b9d-9d84-3934c33044c9%26dids%3Dec5c0a1c67184973%22%7D",
+              "path": "/",
+              "domain": ".gorollick.com",
+              "expires": "2025-01-20T09:13:16.000Z",
+              "httpOnly": false,
+              "secure": false,
+              "sameSite": "Lax"
+            },
+            {
+              "name": "_vwo_sn",
+              "value": "5692%3A5%3A%3A%3A1",
+              "path": "/",
+              "domain": ".gorollick.com",
+              "expires": "2025-01-20T09:13:55.000Z",
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "Aimbase.Analytics.Session",
+              "value": "{\"id\":\"7b365d07-15e3-4b39-be71-918cc25e91bf\",\"lpvid\":\"37cb4f1e-9a1f-4ff5-8c47-a2fecaf7a12f\",\"ref\":\"\"}",
+              "path": "/",
+              "domain": "qa.gorollick.com",
+              "expires": "2025-01-20T09:03:56.000Z",
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": -1,
+          "bodySize": 76,
+          "postData": {
+            "mimeType": "application/json",
+            "text": "{\"categories\":\"\",\"segments\":\"RVs\",\"distance\":4096,\"inventory\":1,\"zip\":60531}"
+          }
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "access-control-allow-credentials",
+              "value": "true"
+            },
+            {
+              "name": "access-control-allow-headers",
+              "value": "Origin, X-Requested-With, Content-Type, Accept, Authorization"
+            },
+            {
+              "name": "access-control-allow-methods",
+              "value": "GET, OPTIONS"
+            },
+            {
+              "name": "access-control-allow-origin",
+              "value": "https://qa.gorollick.com"
+            },
+            {
+              "name": "cache-control",
+              "value": "private, no-cache, no-store, must-revalidate"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache, must-revalidate"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "name": "date",
+              "value": "Mon, 20 Jan 2025 08:44:00 GMT"
+            },
+            {
+              "name": "etag",
+              "value": "W/\"1361-i4z3eybyBqE9bHH+OJFwpKD0Yzw\""
+            },
+            {
+              "name": "server",
+              "value": "nginx"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=15768000; includeSubDomains"
+            },
+            {
+              "name": "vary",
+              "value": "Accept-Encoding"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 4961,
+            "mimeType": "application/json"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 1753,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "52.162.210.125",
+        "startedDateTime": "2025-01-20T08:43:56.254Z",
+        "time": 2645.7940000109375,
+        "timings": {
+          "blocked": 2.570999874562025,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.2610000000000001,
+          "wait": 2640.8559999327363,
+          "receive": 2.106000203639269,
+          "_blocked_queueing": 0.9619998745620251,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
       }
     ]
   }
