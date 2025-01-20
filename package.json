@@ -1,0 +1,15 @@
+{
+  "name": "openapi-docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch index.js index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "har-to-openapi": "^2.1.1"
+  }
+}

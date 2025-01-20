@@ -1,0 +1,75 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "HarToOpenApi",
+    "version": "1.0.0",
+    "description": "OpenAPI spec generated from HAR data for sghb.hbmp.mediafuse.com on 2025-01-17T07:28:56.106Z"
+  },
+  "paths": {
+    "/geo/": {
+      "get": {
+        "description": "",
+        "operationId": "getGeo",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "content": {
+              "multipart/form-data": {
+                "schema": {
+                  "properties": {
+                    "filename": {
+                      "description": "",
+                      "format": "binary",
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                }
+              }
+            },
+            "description": "",
+            "headers": {
+              "Permissions-Policy": {
+                "description": "Custom header Permissions-Policy",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "X-Robots-Tag": {
+                "description": "Custom header X-Robots-Tag",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "X-Server-Ip": {
+                "description": "Custom header X-Server-Ip",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "X-Server-Name": {
+                "description": "Custom header X-Server-Name",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "X-Tte": {
+                "description": "Custom header X-Tte",
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "summary": "Get Geo"
+      },
+      "parameters": []
+    }
+  },
+  "servers": [
+    {
+      "url": "https://sghb.hbmp.mediafuse.com"
+    }
+  ]
+}

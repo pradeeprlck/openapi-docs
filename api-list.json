@@ -1,0 +1,595 @@
+{
+    "log": {
+      "version": "1.2",
+      "creator": {
+        "name": "WebInspector",
+        "version": "537.36"
+      },
+      "pages": [
+        {
+          "startedDateTime": "2025-01-16T12:13:43.184Z",
+          "id": "page_1",
+          "title": "https://qa.gorollick.com/r/inventory/rvs-for-sale?categories=rvs&zip=86336&distance=150",
+          "pageTimings": {
+            "onContentLoad": 4225.734000094235,
+            "onLoad": 17869.364999700338
+          }
+        }
+      ],
+      "entries": [
+        {
+          "_initiator": {
+            "type": "script",
+            "stack": {
+              "callFrames": [
+                {
+                  "functionName": "xhr",
+                  "scriptId": "1324",
+                  "url": "https://player.hbmp.mediafuse.com/prebidlink/4EqYQ/hbw_master_516356_13396.js",
+                  "lineNumber": 4,
+                  "columnNumber": 8281
+                },
+                {
+                  "functionName": "loadGeo",
+                  "scriptId": "1324",
+                  "url": "https://player.hbmp.mediafuse.com/prebidlink/4EqYQ/hbw_master_516356_13396.js",
+                  "lineNumber": 4,
+                  "columnNumber": 36651
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "1324",
+                  "url": "https://player.hbmp.mediafuse.com/prebidlink/4EqYQ/hbw_master_516356_13396.js",
+                  "lineNumber": 4,
+                  "columnNumber": 37340
+                }
+              ],
+              "parent": {
+                "description": "setTimeout",
+                "callFrames": [
+                  {
+                    "functionName": "init",
+                    "scriptId": "1324",
+                    "url": "https://player.hbmp.mediafuse.com/prebidlink/4EqYQ/hbw_master_516356_13396.js",
+                    "lineNumber": 4,
+                    "columnNumber": 37320
+                  },
+                  {
+                    "functionName": "Qr",
+                    "scriptId": "1324",
+                    "url": "https://player.hbmp.mediafuse.com/prebidlink/4EqYQ/hbw_master_516356_13396.js",
+                    "lineNumber": 5,
+                    "columnNumber": 52642
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "1324",
+                    "url": "https://player.hbmp.mediafuse.com/prebidlink/4EqYQ/hbw_master_516356_13396.js",
+                    "lineNumber": 5,
+                    "columnNumber": 58225
+                  },
+                  {
+                    "functionName": "B.<computed>",
+                    "scriptId": "1324",
+                    "url": "https://player.hbmp.mediafuse.com/prebidlink/4EqYQ/hbw_master_516356_13396.js",
+                    "lineNumber": 4,
+                    "columnNumber": 2727
+                  },
+                  {
+                    "functionName": "P",
+                    "scriptId": "1324",
+                    "url": "https://player.hbmp.mediafuse.com/prebidlink/4EqYQ/hbw_master_516356_13396.js",
+                    "lineNumber": 4,
+                    "columnNumber": 2579
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "1324",
+                    "url": "https://player.hbmp.mediafuse.com/prebidlink/4EqYQ/hbw_master_516356_13396.js",
+                    "lineNumber": 5,
+                    "columnNumber": 58327
+                  },
+                  {
+                    "functionName": "P",
+                    "scriptId": "1324",
+                    "url": "https://player.hbmp.mediafuse.com/prebidlink/4EqYQ/hbw_master_516356_13396.js",
+                    "lineNumber": 4,
+                    "columnNumber": 2579
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "1324",
+                    "url": "https://player.hbmp.mediafuse.com/prebidlink/4EqYQ/hbw_master_516356_13396.js",
+                    "lineNumber": 5,
+                    "columnNumber": 16770
+                  },
+                  {
+                    "functionName": "P",
+                    "scriptId": "1324",
+                    "url": "https://player.hbmp.mediafuse.com/prebidlink/4EqYQ/hbw_master_516356_13396.js",
+                    "lineNumber": 4,
+                    "columnNumber": 2579
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "1324",
+                    "url": "https://player.hbmp.mediafuse.com/prebidlink/4EqYQ/hbw_master_516356_13396.js",
+                    "lineNumber": 4,
+                    "columnNumber": 9798
+                  },
+                  {
+                    "functionName": "P",
+                    "scriptId": "1324",
+                    "url": "https://player.hbmp.mediafuse.com/prebidlink/4EqYQ/hbw_master_516356_13396.js",
+                    "lineNumber": 4,
+                    "columnNumber": 2579
+                  },
+                  {
+                    "functionName": "n",
+                    "scriptId": "1324",
+                    "url": "https://player.hbmp.mediafuse.com/prebidlink/4EqYQ/hbw_master_516356_13396.js",
+                    "lineNumber": 5,
+                    "columnNumber": 52050
+                  },
+                  {
+                    "functionName": "Xr",
+                    "scriptId": "1324",
+                    "url": "https://player.hbmp.mediafuse.com/prebidlink/4EqYQ/hbw_master_516356_13396.js",
+                    "lineNumber": 5,
+                    "columnNumber": 52097
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "1324",
+                    "url": "https://player.hbmp.mediafuse.com/prebidlink/4EqYQ/hbw_master_516356_13396.js",
+                    "lineNumber": 5,
+                    "columnNumber": 52122
+                  },
+                  {
+                    "functionName": "P",
+                    "scriptId": "1324",
+                    "url": "https://player.hbmp.mediafuse.com/prebidlink/4EqYQ/hbw_master_516356_13396.js",
+                    "lineNumber": 4,
+                    "columnNumber": 2579
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "1324",
+                    "url": "https://player.hbmp.mediafuse.com/prebidlink/4EqYQ/hbw_master_516356_13396.js",
+                    "lineNumber": 4,
+                    "columnNumber": 9798
+                  },
+                  {
+                    "functionName": "P",
+                    "scriptId": "1324",
+                    "url": "https://player.hbmp.mediafuse.com/prebidlink/4EqYQ/hbw_master_516356_13396.js",
+                    "lineNumber": 4,
+                    "columnNumber": 2579
+                  },
+                  {
+                    "functionName": "b",
+                    "scriptId": "1324",
+                    "url": "https://player.hbmp.mediafuse.com/prebidlink/4EqYQ/hbw_master_516356_13396.js",
+                    "lineNumber": 4,
+                    "columnNumber": 2758
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "1324",
+                    "url": "https://player.hbmp.mediafuse.com/prebidlink/4EqYQ/hbw_master_516356_13396.js",
+                    "lineNumber": 5,
+                    "columnNumber": 58336
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "1324",
+                    "url": "https://player.hbmp.mediafuse.com/prebidlink/4EqYQ/hbw_master_516356_13396.js",
+                    "lineNumber": 5,
+                    "columnNumber": 58382
+                  }
+                ]
+              }
+            }
+          },
+          "_priority": "High",
+          "_resourceType": "xhr",
+          "cache": {},
+          "connection": "5249683",
+          "pageref": "page_1",
+          "request": {
+            "method": "GET",
+            "url": "https://sghb.hbmp.mediafuse.com/geo/",
+            "httpVersion": "HTTP/1.1",
+            "headers": [
+              {
+                "name": "Accept",
+                "value": "*/*"
+              },
+              {
+                "name": "Accept-Encoding",
+                "value": "gzip, deflate, br, zstd"
+              },
+              {
+                "name": "Accept-Language",
+                "value": "en-US,en-IN;q=0.9,en;q=0.8,te;q=0.7"
+              },
+              {
+                "name": "Connection",
+                "value": "keep-alive"
+              },
+              {
+                "name": "DNT",
+                "value": "1"
+              },
+              {
+                "name": "Host",
+                "value": "sghb.hbmp.mediafuse.com"
+              },
+              {
+                "name": "Origin",
+                "value": "https://qa.gorollick.com"
+              },
+              {
+                "name": "Referer",
+                "value": "https://qa.gorollick.com/"
+              },
+              {
+                "name": "Sec-Fetch-Dest",
+                "value": "empty"
+              },
+              {
+                "name": "Sec-Fetch-Mode",
+                "value": "cors"
+              },
+              {
+                "name": "Sec-Fetch-Site",
+                "value": "cross-site"
+              },
+              {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+              },
+              {
+                "name": "sec-ch-ua",
+                "value": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""
+              },
+              {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+              },
+              {
+                "name": "sec-ch-ua-platform",
+                "value": "\"Windows\""
+              }
+            ],
+            "queryString": [],
+            "cookies": [],
+            "headersSize": 591,
+            "bodySize": 0
+          },
+          "response": {
+            "status": 200,
+            "statusText": "OK",
+            "httpVersion": "HTTP/1.1",
+            "headers": [
+              {
+                "name": "Access-Control-Allow-Credentials",
+                "value": "true"
+              },
+              {
+                "name": "Access-Control-Allow-Origin",
+                "value": "https://qa.gorollick.com"
+              },
+              {
+                "name": "Connection",
+                "value": "Keep-Alive"
+              },
+              {
+                "name": "Content-Length",
+                "value": "171"
+              },
+              {
+                "name": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "name": "Date",
+                "value": "Thu, 16 Jan 2025 12:13:47 GMT"
+              },
+              {
+                "name": "Permissions-Policy",
+                "value": "browsing-topics=()"
+              },
+              {
+                "name": "Server",
+                "value": "Mediafuse"
+              },
+              {
+                "name": "X-Robots-Tag",
+                "value": "noindex"
+              },
+              {
+                "name": "X-Server-Ip",
+                "value": "23.227.151.194"
+              },
+              {
+                "name": "X-Server-Name",
+                "value": "ads19"
+              },
+              {
+                "name": "X-Tte",
+                "value": "43"
+              }
+            ],
+            "cookies": [],
+            "content": {
+              "size": 171,
+              "mimeType": "application/json",
+              "compression": 0
+            },
+            "redirectURL": "",
+            "headersSize": 372,
+            "bodySize": 171,
+            "_transferSize": 543,
+            "_error": null,
+            "_fetchedViaServiceWorker": false
+          },
+          "serverIPAddress": "23.227.151.194",
+          "startedDateTime": "2025-01-16T12:13:46.088Z",
+          "time": 1406.7740000105796,
+          "timings": {
+            "blocked": 4.907000033527613,
+            "dns": 222.789,
+            "ssl": 216.56999999999994,
+            "connect": 963.2909999999999,
+            "send": 0.6680000000000064,
+            "wait": 214.46799990946056,
+            "receive": 0.6510000675916672,
+            "_blocked_queueing": 1.6250000335276127,
+            "_workerStart": -1,
+            "_workerReady": -1,
+            "_workerFetchStart": -1,
+            "_workerRespondWithSettled": -1
+          }
+        },
+        {
+          "_initiator": {
+            "type": "script",
+            "stack": {
+              "callFrames": [
+                {
+                  "functionName": "send",
+                  "scriptId": "1270",
+                  "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                  "lineNumber": 1,
+                  "columnNumber": 82857
+                },
+                {
+                  "functionName": "ajax",
+                  "scriptId": "1270",
+                  "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                  "lineNumber": 1,
+                  "columnNumber": 78434
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "1270",
+                  "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                  "lineNumber": 1,
+                  "columnNumber": 80487
+                },
+                {
+                  "functionName": "getLocationFromZip",
+                  "scriptId": "1274",
+                  "url": "https://qa.gorollick.com/scripts/gorollick/common.js?2.186.0",
+                  "lineNumber": 293,
+                  "columnNumber": 25
+                },
+                {
+                  "functionName": "getLocationDetails",
+                  "scriptId": "1380",
+                  "url": "https://qa.gorollick.com/scripts/gorollick/contact-us.js?2.186.0",
+                  "lineNumber": 140,
+                  "columnNumber": 14
+                }
+              ],
+              "parent": {
+                "description": "await",
+                "callFrames": [
+                  {
+                    "functionName": "init",
+                    "scriptId": "1380",
+                    "url": "https://qa.gorollick.com/scripts/gorollick/contact-us.js?2.186.0",
+                    "lineNumber": 25,
+                    "columnNumber": 4
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "1380",
+                    "url": "https://qa.gorollick.com/scripts/gorollick/contact-us.js?2.186.0",
+                    "lineNumber": 153,
+                    "columnNumber": 0
+                  }
+                ]
+              }
+            }
+          },
+          "_priority": "High",
+          "_resourceType": "xhr",
+          "cache": {},
+          "connection": "5247418",
+          "pageref": "page_1",
+          "request": {
+            "method": "GET",
+            "url": "https://qa.gorollick.com/api/geocode/86336",
+            "httpVersion": "http/2.0",
+            "headers": [
+              {
+                "name": ":authority",
+                "value": "qa.gorollick.com"
+              },
+              {
+                "name": ":method",
+                "value": "GET"
+              },
+              {
+                "name": ":path",
+                "value": "/api/geocode/86336"
+              },
+              {
+                "name": ":scheme",
+                "value": "https"
+              },
+              {
+                "name": "accept",
+                "value": "*/*"
+              },
+              {
+                "name": "accept-encoding",
+                "value": "gzip, deflate, br, zstd"
+              },
+              {
+                "name": "accept-language",
+                "value": "en-US,en-IN;q=0.9,en;q=0.8,te;q=0.7"
+              },
+              {
+                "name": "dnt",
+                "value": "1"
+              },
+              {
+                "name": "priority",
+                "value": "u=1, i"
+              },
+              {
+                "name": "referer",
+                "value": "https://qa.gorollick.com/r/inventory/rvs-for-sale?categories=rvs&zip=86336&distance=150"
+              },
+              {
+                "name": "sec-ch-ua",
+                "value": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""
+              },
+              {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+              },
+              {
+                "name": "sec-ch-ua-platform",
+                "value": "\"Windows\""
+              },
+              {
+                "name": "sec-fetch-dest",
+                "value": "empty"
+              },
+              {
+                "name": "sec-fetch-mode",
+                "value": "cors"
+              },
+              {
+                "name": "sec-fetch-site",
+                "value": "same-origin"
+              },
+              {
+                "name": "user-agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+              },
+              {
+                "name": "x-requested-with",
+                "value": "XMLHttpRequest"
+              }
+            ],
+            "queryString": [],
+            "cookies": [],
+            "headersSize": -1,
+            "bodySize": 0
+          },
+          "response": {
+            "status": 200,
+            "statusText": "",
+            "httpVersion": "http/2.0",
+            "headers": [
+              {
+                "name": "access-control-allow-credentials",
+                "value": "true"
+              },
+              {
+                "name": "access-control-allow-headers",
+                "value": "Origin, X-Requested-With, Content-Type, Accept, Authorization"
+              },
+              {
+                "name": "access-control-allow-methods",
+                "value": "GET, OPTIONS"
+              },
+              {
+                "name": "access-control-allow-origin",
+                "value": "*"
+              },
+              {
+                "name": "cache-control",
+                "value": "private, no-cache, no-store, must-revalidate"
+              },
+              {
+                "name": "cache-control",
+                "value": "no-cache, must-revalidate"
+              },
+              {
+                "name": "content-encoding",
+                "value": "gzip"
+              },
+              {
+                "name": "content-type",
+                "value": "application/json; charset=utf-8"
+              },
+              {
+                "name": "date",
+                "value": "Thu, 16 Jan 2025 12:13:47 GMT"
+              },
+              {
+                "name": "etag",
+                "value": "W/\"318-TUn+Q69a69KhHVn6vAfg0k7hM1k\""
+              },
+              {
+                "name": "server",
+                "value": "nginx"
+              },
+              {
+                "name": "strict-transport-security",
+                "value": "max-age=15768000; includeSubDomains"
+              },
+              {
+                "name": "vary",
+                "value": "Accept-Encoding"
+              }
+            ],
+            "cookies": [],
+            "content": {
+              "size": 792,
+              "mimeType": "application/json"
+            },
+            "redirectURL": "",
+            "headersSize": -1,
+            "bodySize": -1,
+            "_transferSize": 793,
+            "_error": null,
+            "_fetchedViaServiceWorker": false
+          },
+          "serverIPAddress": "52.162.210.125",
+          "startedDateTime": "2025-01-16T12:13:46.403Z",
+          "time": 226.99899971485138,
+          "timings": {
+            "blocked": 4.879999916404486,
+            "dns": -1,
+            "ssl": -1,
+            "connect": -1,
+            "send": 0.6499999999999999,
+            "wait": 220.89199982866646,
+            "receive": 0.5769999697804451,
+            "_blocked_queueing": 1.3649999164044857,
+            "_workerStart": -1,
+            "_workerReady": -1,
+            "_workerFetchStart": -1,
+            "_workerRespondWithSettled": -1
+          }
+        }
+      ]
+    }
+  }
