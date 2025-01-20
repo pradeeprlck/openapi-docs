@@ -1564,6 +1564,246 @@
           "_workerFetchStart": -1,
           "_workerRespondWithSettled": -1
         }
+      },
+      {
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "send",
+                "scriptId": "12154",
+                "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                "lineNumber": 1,
+                "columnNumber": 82857
+              },
+              {
+                "functionName": "ajax",
+                "scriptId": "12154",
+                "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                "lineNumber": 1,
+                "columnNumber": 78434
+              },
+              {
+                "functionName": "",
+                "scriptId": "12176",
+                "url": "https://qa.gorollick.com/scripts/gorollick/sell-your-vehicle.js",
+                "lineNumber": 656,
+                "columnNumber": 6
+              },
+              {
+                "functionName": "dispatch",
+                "scriptId": "12154",
+                "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                "lineNumber": 1,
+                "columnNumber": 43063
+              },
+              {
+                "functionName": "y.handle",
+                "scriptId": "12154",
+                "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                "lineNumber": 1,
+                "columnNumber": 41047
+              }
+            ]
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "xhr",
+        "cache": {},
+        "connection": "5721120",
+        "pageref": "page_2",
+        "request": {
+          "method": "POST",
+          "url": "https://qa.gorollick.com/api/vinDecode",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":authority",
+              "value": "qa.gorollick.com"
+            },
+            {
+              "name": ":method",
+              "value": "POST"
+            },
+            {
+              "name": ":path",
+              "value": "/api/vinDecode"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "accept",
+              "value": "application/json, text/javascript, */*; q=0.01"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-US,en-IN;q=0.9,en;q=0.8,te;q=0.7"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache"
+            },
+            {
+              "name": "content-length",
+              "value": "27"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json;charset=UTF-8"
+            },
+            {
+              "name": "dnt",
+              "value": "1"
+            },
+            {
+              "name": "origin",
+              "value": "https://qa.gorollick.com"
+            },
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "priority",
+              "value": "u=1, i"
+            },
+            {
+              "name": "referer",
+              "value": "https://qa.gorollick.com/r/sell-my-rv"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"Windows\""
+            },
+            {
+              "name": "sec-fetch-dest",
+              "value": "empty"
+            },
+            {
+              "name": "sec-fetch-mode",
+              "value": "cors"
+            },
+            {
+              "name": "sec-fetch-site",
+              "value": "same-origin"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "x-requested-with",
+              "value": "XMLHttpRequest"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 27,
+          "postData": {
+            "mimeType": "application/json;charset=UTF-8",
+            "text": "{\"vin\":\"1STHMAC19NJ559745\"}"
+          }
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "access-control-allow-credentials",
+              "value": "true"
+            },
+            {
+              "name": "access-control-allow-headers",
+              "value": "Origin, X-Requested-With, Content-Type, Accept, Authorization"
+            },
+            {
+              "name": "access-control-allow-methods",
+              "value": "GET, OPTIONS"
+            },
+            {
+              "name": "access-control-allow-origin",
+              "value": "https://qa.gorollick.com"
+            },
+            {
+              "name": "cache-control",
+              "value": "private, no-cache, no-store, must-revalidate"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache, must-revalidate"
+            },
+            {
+              "name": "content-length",
+              "value": "24"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "name": "date",
+              "value": "Mon, 20 Jan 2025 09:18:00 GMT"
+            },
+            {
+              "name": "etag",
+              "value": "W/\"18-WXnsD2vySYivFd8TB9K6FSM2IEQ\""
+            },
+            {
+              "name": "server",
+              "value": "nginx"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=15768000; includeSubDomains"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 24,
+            "mimeType": "application/json",
+            "text": "{\"code\":200,\"result\":{}}"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 426,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "52.162.210.125",
+        "startedDateTime": "2025-01-20T09:17:57.987Z",
+        "time": 230.17399990931153,
+        "timings": {
+          "blocked": 3.7880001174509523,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 1.019,
+          "wait": 223.4209998752177,
+          "receive": 1.9459999166429043,
+          "_blocked_queueing": 3.0120001174509525,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
       }
     ]
   }
