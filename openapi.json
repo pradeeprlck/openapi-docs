@@ -3,7 +3,7 @@
   "info": {
     "title": "HarToOpenApi",
     "version": "1.0.0",
-    "description": "OpenAPI spec generated from HAR data for qa.gorollick.com on 2025-01-20T08:03:20.690Z"
+    "description": "OpenAPI spec generated from HAR data for qa.gorollick.com on 2025-01-20T08:07:55.929Z"
   },
   "paths": {
     "/api/geocode/86336": {
@@ -35,15 +35,231 @@
         "responses": {
           "200": {
             "content": {
-              "multipart/form-data": {
+              "application/json": {
+                "example": {
+                  "results": [
+                    {
+                      "address_components": [
+                        {
+                          "long_name": "86336",
+                          "short_name": "86336",
+                          "types": [
+                            "postal_code"
+                          ]
+                        },
+                        {
+                          "long_name": "Sedona",
+                          "short_name": "Sedona",
+                          "types": [
+                            "locality",
+                            "political"
+                          ]
+                        },
+                        {
+                          "long_name": "Arizona",
+                          "short_name": "AZ",
+                          "types": [
+                            "administrative_area_level_1",
+                            "political"
+                          ]
+                        },
+                        {
+                          "long_name": "United States",
+                          "short_name": "US",
+                          "types": [
+                            "country",
+                            "political"
+                          ]
+                        }
+                      ],
+                      "formatted_address": "Sedona, AZ 86336, USA",
+                      "geometry": {
+                        "bounds": {
+                          "northeast": {
+                            "lat": 35.0691488,
+                            "lng": -111.569532
+                          },
+                          "southwest": {
+                            "lat": 34.7996938,
+                            "lng": -112.078361
+                          }
+                        },
+                        "location": {
+                          "lat": 34.8905205,
+                          "lng": -111.8091625
+                        },
+                        "location_type": "APPROXIMATE",
+                        "viewport": {
+                          "northeast": {
+                            "lat": 35.0691488,
+                            "lng": -111.569532
+                          },
+                          "southwest": {
+                            "lat": 34.7996938,
+                            "lng": -112.078361
+                          }
+                        }
+                      },
+                      "place_id": "ChIJ48Wda7p0LYcRMlwZSRpeqWM",
+                      "types": [
+                        "postal_code"
+                      ]
+                    }
+                  ],
+                  "status": "OK"
+                },
                 "schema": {
+                  "additionalProperties": false,
                   "properties": {
-                    "filename": {
-                      "description": "",
-                      "format": "binary",
+                    "results": {
+                      "items": {
+                        "additionalProperties": false,
+                        "properties": {
+                          "address_components": {
+                            "items": {
+                              "additionalProperties": false,
+                              "properties": {
+                                "long_name": {
+                                  "type": "string"
+                                },
+                                "short_name": {
+                                  "type": "string"
+                                },
+                                "types": {
+                                  "items": {
+                                    "type": "string"
+                                  },
+                                  "type": "array"
+                                }
+                              },
+                              "required": [],
+                              "title": "AddressComponent",
+                              "type": "object"
+                            },
+                            "type": "array"
+                          },
+                          "formatted_address": {
+                            "type": "string"
+                          },
+                          "geometry": {
+                            "additionalProperties": false,
+                            "properties": {
+                              "bounds": {
+                                "additionalProperties": false,
+                                "properties": {
+                                  "northeast": {
+                                    "additionalProperties": false,
+                                    "properties": {
+                                      "lat": {
+                                        "type": "number"
+                                      },
+                                      "lng": {
+                                        "type": "number"
+                                      }
+                                    },
+                                    "required": [],
+                                    "title": "Location",
+                                    "type": "object"
+                                  },
+                                  "southwest": {
+                                    "additionalProperties": false,
+                                    "properties": {
+                                      "lat": {
+                                        "type": "number"
+                                      },
+                                      "lng": {
+                                        "type": "number"
+                                      }
+                                    },
+                                    "required": [],
+                                    "title": "Location",
+                                    "type": "object"
+                                  }
+                                },
+                                "required": [],
+                                "title": "Bounds",
+                                "type": "object"
+                              },
+                              "location": {
+                                "additionalProperties": false,
+                                "properties": {
+                                  "lat": {
+                                    "type": "number"
+                                  },
+                                  "lng": {
+                                    "type": "number"
+                                  }
+                                },
+                                "required": [],
+                                "title": "Location",
+                                "type": "object"
+                              },
+                              "location_type": {
+                                "type": "string"
+                              },
+                              "viewport": {
+                                "additionalProperties": false,
+                                "properties": {
+                                  "northeast": {
+                                    "additionalProperties": false,
+                                    "properties": {
+                                      "lat": {
+                                        "type": "number"
+                                      },
+                                      "lng": {
+                                        "type": "number"
+                                      }
+                                    },
+                                    "required": [],
+                                    "title": "Location",
+                                    "type": "object"
+                                  },
+                                  "southwest": {
+                                    "additionalProperties": false,
+                                    "properties": {
+                                      "lat": {
+                                        "type": "number"
+                                      },
+                                      "lng": {
+                                        "type": "number"
+                                      }
+                                    },
+                                    "required": [],
+                                    "title": "Location",
+                                    "type": "object"
+                                  }
+                                },
+                                "required": [],
+                                "title": "Bounds",
+                                "type": "object"
+                              }
+                            },
+                            "required": [],
+                            "title": "Geometry",
+                            "type": "object"
+                          },
+                          "place_id": {
+                            "type": "string"
+                          },
+                          "types": {
+                            "items": {
+                              "type": "string"
+                            },
+                            "type": "array"
+                          }
+                        },
+                        "required": [],
+                        "title": "Result",
+                        "type": "object"
+                      },
+                      "type": "array"
+                    },
+                    "status": {
                       "type": "string"
                     }
                   },
+                  "required": [],
+                  "title": "APIGeocodeByIDGetRequest",
                   "type": "object"
                 }
               }
