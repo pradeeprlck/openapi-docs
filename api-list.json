@@ -4262,6 +4262,294 @@
           "_workerFetchStart": -1,
           "_workerRespondWithSettled": -1
         }
+      },
+      {
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "send",
+                "scriptId": "1271",
+                "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                "lineNumber": 1,
+                "columnNumber": 82857
+              },
+              {
+                "functionName": "ajax",
+                "scriptId": "1271",
+                "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                "lineNumber": 1,
+                "columnNumber": 78434
+              },
+              {
+                "functionName": "samsclubverify",
+                "scriptId": "1301",
+                "url": "https://qa.gorollick.com/scripts/gorollick/vdp.js",
+                "lineNumber": 239,
+                "columnNumber": 32
+              },
+              {
+                "functionName": "",
+                "scriptId": "1301",
+                "url": "https://qa.gorollick.com/scripts/gorollick/vdp.js",
+                "lineNumber": 149,
+                "columnNumber": 8
+              },
+              {
+                "functionName": "e",
+                "scriptId": "1271",
+                "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                "lineNumber": 1,
+                "columnNumber": 30037
+              },
+              {
+                "functionName": "t",
+                "scriptId": "1271",
+                "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                "lineNumber": 1,
+                "columnNumber": 30339
+              }
+            ],
+            "parent": {
+              "description": "setTimeout",
+              "callFrames": [
+                {
+                  "functionName": "",
+                  "scriptId": "1271",
+                  "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                  "lineNumber": 1,
+                  "columnNumber": 30548
+                },
+                {
+                  "functionName": "c",
+                  "scriptId": "1271",
+                  "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                  "lineNumber": 1,
+                  "columnNumber": 28326
+                },
+                {
+                  "functionName": "fireWith",
+                  "scriptId": "1271",
+                  "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                  "lineNumber": 1,
+                  "columnNumber": 29071
+                },
+                {
+                  "functionName": "fire",
+                  "scriptId": "1271",
+                  "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                  "lineNumber": 1,
+                  "columnNumber": 29107
+                },
+                {
+                  "functionName": "c",
+                  "scriptId": "1271",
+                  "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                  "lineNumber": 1,
+                  "columnNumber": 28326
+                },
+                {
+                  "functionName": "fireWith",
+                  "scriptId": "1271",
+                  "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                  "lineNumber": 1,
+                  "columnNumber": 29071
+                },
+                {
+                  "functionName": "ready",
+                  "scriptId": "1271",
+                  "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                  "lineNumber": 1,
+                  "columnNumber": 32044
+                },
+                {
+                  "functionName": "$",
+                  "scriptId": "1271",
+                  "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                  "lineNumber": 1,
+                  "columnNumber": 31823
+                }
+              ]
+            }
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "xhr",
+        "cache": {},
+        "connection": "5832624",
+        "pageref": "page_3",
+        "request": {
+          "method": "GET",
+          "url": "https://qa.gorollick.com/samsclub/verify",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":authority",
+              "value": "qa.gorollick.com"
+            },
+            {
+              "name": ":method",
+              "value": "GET"
+            },
+            {
+              "name": ":path",
+              "value": "/samsclub/verify"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "accept",
+              "value": "*/*"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-US,en-IN;q=0.9,en;q=0.8,te;q=0.7"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache"
+            },
+            {
+              "name": "dnt",
+              "value": "1"
+            },
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "priority",
+              "value": "u=1, i"
+            },
+            {
+              "name": "referer",
+              "value": "https://qa.gorollick.com/samsclub/vehicle-details/2024-e-z-go-valor-48v?trim=40018460&id=1fb59fb9-197d-4b13-9e93-38f63d663b79&distance=200&zip=86336&categories=golf-carts"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"Windows\""
+            },
+            {
+              "name": "sec-fetch-dest",
+              "value": "empty"
+            },
+            {
+              "name": "sec-fetch-mode",
+              "value": "cors"
+            },
+            {
+              "name": "sec-fetch-site",
+              "value": "same-origin"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "x-requested-with",
+              "value": "XMLHttpRequest"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "access-control-allow-credentials",
+              "value": "true"
+            },
+            {
+              "name": "access-control-allow-headers",
+              "value": "Origin, X-Requested-With, Content-Type, Accept"
+            },
+            {
+              "name": "access-control-allow-methods",
+              "value": "GET, OPTIONS"
+            },
+            {
+              "name": "access-control-allow-origin",
+              "value": "*"
+            },
+            {
+              "name": "cache-control",
+              "value": "No-Store"
+            },
+            {
+              "name": "content-length",
+              "value": "2"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "name": "date",
+              "value": "Mon, 20 Jan 2025 10:24:31 GMT"
+            },
+            {
+              "name": "etag",
+              "value": "W/\"2-vyGp6PvFo4RvsFtPoIWeCReyIC8\""
+            },
+            {
+              "name": "server",
+              "value": "nginx"
+            },
+            {
+              "name": "x-custom-header",
+              "value": "86336"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 2,
+            "mimeType": "application/json",
+            "text": "{}"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 291,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "52.162.210.125",
+        "startedDateTime": "2025-01-20T10:24:29.518Z",
+        "time": 226.1600000783801,
+        "timings": {
+          "blocked": 3.846000243276358,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.46799999999999997,
+          "wait": 220.85200018253923,
+          "receive": 0.9939996525645256,
+          "_blocked_queueing": 1.0410002432763577,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
       }
     ]
   }

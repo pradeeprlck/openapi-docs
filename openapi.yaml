@@ -2,7 +2,7 @@ openapi: 3.0.0
 info:
   title: HarToOpenApi
   version: 1.0.0
-  description: OpenAPI spec generated from HAR data for specs on 2025-01-20T10:17:51.009Z
+  description: OpenAPI spec generated from HAR data for specs on 2025-01-20T10:26:15.451Z
 paths:
   /RollickGetDealerAward:
     get:
@@ -1246,6 +1246,35 @@ paths:
                 type: object
           description: ''
       summary: Post Queue By UUID
+  /samsclub/verify:
+    get:
+      description: ''
+      operationId: getSamsclubVerify
+      parameters:
+        - description: priority
+          in: header
+          name: priority
+          schema:
+            default: u=1, i
+            example: u=1, i
+            type: string
+      responses:
+        '200':
+          content:
+            application/json:
+              example: {}
+              schema:
+                additionalProperties: false
+                title: SamsclubVerifyGetRequest
+                type: object
+          description: ''
+          headers:
+            x-custom-header:
+              description: Custom header x-custom-header
+              schema:
+                type: string
+      summary: Get Samsclub Verify
+    parameters: []
   /verify-recaptcha:
     parameters: []
     post:
