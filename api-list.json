@@ -3422,6 +3422,213 @@
           "_workerFetchStart": -1,
           "_workerRespondWithSettled": -1
         }
+      },
+      {
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "",
+                "scriptId": "73",
+                "url": "https://qa.gorollick.com/scripts/grecaptcha.js",
+                "lineNumber": 21,
+                "columnNumber": 16
+              }
+            ],
+            "parentId": {
+              "id": "613",
+              "debuggerId": "-8021257371187082656.3642631981199251985"
+            }
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "fetch",
+        "cache": {},
+        "connection": "5763836",
+        "request": {
+          "method": "POST",
+          "url": "https://qa.gorollick.com/verify-recaptcha",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":authority",
+              "value": "qa.gorollick.com"
+            },
+            {
+              "name": ":method",
+              "value": "POST"
+            },
+            {
+              "name": ":path",
+              "value": "/verify-recaptcha"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "accept",
+              "value": "*/*"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-US,en-IN;q=0.9,en;q=0.8,te;q=0.7"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache"
+            },
+            {
+              "name": "content-length",
+              "value": "1968"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json"
+            },
+            {
+              "name": "dnt",
+              "value": "1"
+            },
+            {
+              "name": "origin",
+              "value": "https://qa.gorollick.com"
+            },
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "priority",
+              "value": "u=1, i"
+            },
+            {
+              "name": "referer",
+              "value": "https://qa.gorollick.com/r/vehicle-details/2024-honda-ruckus?trim=492177&id=41bb080a-fa31-4885-8f46-4f295276ea6c&distance=200&zip=86336&categories=scooters"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"Windows\""
+            },
+            {
+              "name": "sec-fetch-dest",
+              "value": "empty"
+            },
+            {
+              "name": "sec-fetch-mode",
+              "value": "cors"
+            },
+            {
+              "name": "sec-fetch-site",
+              "value": "same-origin"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 1968,
+          "postData": {
+            "mimeType": "application/json",
+            "text": "{\"token\":\"03AFcWeA66scGUtaVyVu13Sn0BT1gFfLEtXD8X5XN2QfhlwogEQW0ug8MJasjJVtWRsDnYQiUTUULw0-bsOvEVmV38CFKBvIv-uio8n659it9zzGvKQHx8SvZMVlsaLil6fuRgLwJL6TbcaXLKxOmiiUTt_cXdbFX6ZShqy81BSU7ehdFHs3mscD3xVWupXcUnv8eOt8C1qgaTlfycwHikqFzpCZYO0e7fCV8AG8hYp3JeVPdgrreEhfhkXpttacYetKztp9nkj3-oldnu0De4-TkAjJvHZHpZdNrXRWJP5t7w1lc-fMcMyqaO6I5HnZPGbTtJCcAjIVH18yV_MlJtgo645iNvkotsDgaQIi7SIDZPKk_izVlDlfsue8mEZtOCwy2EoQ9BG0bl36euJF8KqEDflawHozRuA5C22DajG30iwjM4n3t_FBQSSj3x8ArWZ-ex9y9Dr8-FZ5yLgzcdvOdQ_BC4f4AJ8b-H6cZkUF7hpzYSdx7MSzyfT-CnYNKwTejIb3zejJ55UplysZKIk351FZg8Xthd6BRwf1q-SuL4p4-JdyiAayL_32rHDL6whFkV4PQjW73geAELj4zAytb-akrJW99IO03NFVIljaZd6EQM3uAIfOBo3JbdYUagg1Dyrk27Fjq4j1dybmAG-T-YNswGFZNXhKn4SCIvapPQx0W-J49EbrZmWnpWDU6VEJHjEKKFbmnZ4vIRNGNfDxn1gMN52IeCi2zrdcx3ULEMlpwwr2wrCQFQluilRQ4KvhNT6NwpEVKrR5wbreVXmHo8ITcTAmglO8VDKlvHCYHaObqZMvQqA3OddXTJnd9Rq-BdGZnAQsURQ-nNWKTSAbfZ3VrGVmnWxbpcCJOTW7vJL824yo8xnmQwGAQcWO5J-jkphOZ5Mm9uxoUpWVY3gLpBwytw3wyH1q8SYIjQu6es8n2SD3cMU4LLP3E39liJHNLN7VTI8-a8PJwldaiqWh7963zjo5p-H1Pk4PJN8fw571RYcngPZcKxi6l8gCXKLrJvMhtxiTv6dzp2nsJ6N7NtkAIKjbtDadId4ldQWjOJ1EUSxCC9gDfbGU2eNqEQ5KufeM7Lqjm25VgMWve-n-5VYYEvqsWWIyk3uC6PB6MxK6X_aIIvnA1vZ1g8M7mE4clbEF8Ed6WUPOo2T7Wj3uYd262PShVG1i15yWLb3Lnk_pehpyHTWNkeWsBn7gS0smv2xKRMd2tWqObVWyBcXsr2a1OaLO_ck_fbD5StY20QJFQLTw70lSsxa65H9A50RxNFN9VPMuu09pY1Aoug4iAuvNZzepHdBydx8UH-tOukyZsApItZHvES4bgp8Xtn6OIPeM6N_1CzCctR37Ys3eqf4aEUC-Nn9J8sjlTP_6-X1CIRoGNo_ZvVsOQlGc6e6_saFJGW-iWYUcZswWCmg9rkFGd1fcjxWtul_aU3M8poceXGfWxhBE5WpfJ4cjmltLW9AGXzBzM78APbP5SklBp9nxAJd9lzjM25FlSyH8HgO5bhqmQ-T57Vi0niIFZJLdWCA9umINrGI_gEVch3btv01W8QxEjHtvE0ZGtDdoYvkI1HqJ8gVw14srKM-LWgNEq74qZu0vCPrtinVGE-wN6LtrNCChYgpOKQxYhEy_VCCXNsMLmvBx9pwEIVepv5gilYRsOAxRSx5FozAVFN-1YSVt_scFQrPeTa9vMrySeOSylMM_Kndlsqpu7rEFAmiWO_QkCFxMETbi6I9r0aGXoelthQ-FYnGNtoo3kteKA_QJxQR_aDAt7QXf7tYI8kTxBZqA0H9HnRvAlI8pvAR0vQBA3BMFcYIU89H6zKW2WvfVWVEo7VuatQW-epZ6Kjk_TDZLfIf2loCI8sNUpTlnQlbJvHFFUF2HiWPWtjCaQsZWk5uSgyIB0_LBu5SMBI6yBuH57SHC9nQDkBnsgQBSqIpjSm2Zme4g\"}"
+          }
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "access-control-allow-credentials",
+              "value": "true"
+            },
+            {
+              "name": "access-control-allow-headers",
+              "value": "Origin, X-Requested-With, Content-Type, Accept"
+            },
+            {
+              "name": "access-control-allow-methods",
+              "value": "GET, OPTIONS"
+            },
+            {
+              "name": "access-control-allow-origin",
+              "value": "https://qa.gorollick.com"
+            },
+            {
+              "name": "cache-control",
+              "value": "public, max-age=3600"
+            },
+            {
+              "name": "content-length",
+              "value": "23"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "name": "date",
+              "value": "Mon, 20 Jan 2025 09:54:30 GMT"
+            },
+            {
+              "name": "etag",
+              "value": "W/\"17-Cic6v0GBtjAgXIC9ysJN7Hqs5ms\""
+            },
+            {
+              "name": "server",
+              "value": "nginx"
+            },
+            {
+              "name": "x-custom-header",
+              "value": "86336"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 23,
+            "mimeType": "application/json",
+            "text": "{\"showRecaptcha\":false}"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 339,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "52.162.210.125",
+        "startedDateTime": "2025-01-20T09:54:28.053Z",
+        "time": 299.6239997446537,
+        "timings": {
+          "blocked": 2.866000015079975,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.41999999999999993,
+          "wait": 293.9010000323355,
+          "receive": 2.436999697238207,
+          "_blocked_queueing": 1.5920000150799751,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
       }
     ]
   }
