@@ -1850,6 +1850,260 @@
           "_workerFetchStart": -1,
           "_workerRespondWithSettled": -1
         }
+      },
+      {
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "send",
+                "scriptId": "12154",
+                "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                "lineNumber": 1,
+                "columnNumber": 82857
+              },
+              {
+                "functionName": "ajax",
+                "scriptId": "12154",
+                "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                "lineNumber": 1,
+                "columnNumber": 78434
+              },
+              {
+                "functionName": "SubmitLead",
+                "scriptId": "12174",
+                "url": "https://qa.gorollick.com/scripts/gorollick/queue.js?2.186.0",
+                "lineNumber": 46,
+                "columnNumber": 29
+              },
+              {
+                "functionName": "submitSellYourVehicleLead",
+                "scriptId": "12175",
+                "url": "https://qa.gorollick.com/scripts/gorollick/leads.js",
+                "lineNumber": 1047,
+                "columnNumber": 28
+              },
+              {
+                "functionName": "",
+                "scriptId": "12176",
+                "url": "https://qa.gorollick.com/scripts/gorollick/sell-your-vehicle.js",
+                "lineNumber": 395,
+                "columnNumber": 34
+              },
+              {
+                "functionName": "",
+                "scriptId": "12176",
+                "url": "https://qa.gorollick.com/scripts/gorollick/sell-your-vehicle.js",
+                "lineNumber": 388,
+                "columnNumber": 16
+              }
+            ],
+            "parent": {
+              "description": "await",
+              "callFrames": [
+                {
+                  "functionName": "dispatch",
+                  "scriptId": "12154",
+                  "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                  "lineNumber": 1,
+                  "columnNumber": 43063
+                },
+                {
+                  "functionName": "y.handle",
+                  "scriptId": "12154",
+                  "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                  "lineNumber": 1,
+                  "columnNumber": 41047
+                }
+              ]
+            }
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "xhr",
+        "cache": {},
+        "connection": "5727292",
+        "pageref": "page_2",
+        "request": {
+          "method": "POST",
+          "url": "https://queue-qa.rollick.io/queue/6cb240ad-addf-4db6-a787-c188f1c9edc7",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":authority",
+              "value": "queue-qa.rollick.io"
+            },
+            {
+              "name": ":method",
+              "value": "POST"
+            },
+            {
+              "name": ":path",
+              "value": "/queue/6cb240ad-addf-4db6-a787-c188f1c9edc7"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "accept",
+              "value": "application/json, text/javascript, */*; q=0.01"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-US,en-IN;q=0.9,en;q=0.8,te;q=0.7"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache"
+            },
+            {
+              "name": "content-length",
+              "value": "1481"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json; charset=UTF-8"
+            },
+            {
+              "name": "dnt",
+              "value": "1"
+            },
+            {
+              "name": "origin",
+              "value": "https://qa.gorollick.com"
+            },
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "priority",
+              "value": "u=1, i"
+            },
+            {
+              "name": "referer",
+              "value": "https://qa.gorollick.com/"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"Windows\""
+            },
+            {
+              "name": "sec-fetch-dest",
+              "value": "empty"
+            },
+            {
+              "name": "sec-fetch-mode",
+              "value": "cors"
+            },
+            {
+              "name": "sec-fetch-site",
+              "value": "cross-site"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 1481,
+          "postData": {
+            "mimeType": "application/json; charset=UTF-8",
+            "text": "{\"national\":false,\"sendEmail\":true,\"s\":\"s4\",\"partnerId\":\"9f0de136b26708c0\",\"website\":\"www.rvretailer.net\",\"location\":\"\",\"source\":\"r\",\"rosId\":\"\",\"fn\":\"pradeep\",\"ln\":\"Reddy\",\"timeIteration\":\"\",\"email\":\"pradeep.chada@gorollick.io\",\"phone\":\"8978684171\",\"comments\":\"\",\"textMe\":true,\"nationalGeneralOptIn\":false,\"campaigns\":{},\"affinity\":\"Sam's Club\",\"affinityId\":\"188260bfc980bb7e\",\"vid\":\"-1\",\"rfr\":\"Sam's Club\",\"referralUrl\":\"https://qa.gorollick.com/r/sell-my-rv\",\"z\":\"86336\",\"pk_campaign\":\"\",\"pk_source\":\"\",\"pk_medium\":\"\",\"pk_kwd\":\"\",\"pk_content\":\"\",\"pc\":\"\",\"avala\":{\"userUid\":\"1b2fc82f-e5e0-40f0-ba5c-5790130f555d\",\"sessionUid\":\"7b365d07-15e3-4b39-be71-918cc25e91bf\",\"source\":\"\",\"campaign\":\"\",\"event\":\"\",\"medium\":\"\",\"term\":\"\",\"content\":\"\"},\"sourceType\":\"Rollick Website\",\"tradeInVehicleObj\":{\"year\":\"2022\",\"make\":\"Winnebago\",\"model\":\"Access\",\"usage\":\"2\",\"amount\":\"23243\",\"zipcode\":\"86336\",\"description\":\"\",\"payoff\":\"\",\"uom\":\"mi\",\"condition\":\"Clean\",\"batteryAge\":\"\",\"category\":\"RV\",\"financeTitle\":\"\",\"buyingAnswer\":\"Yes\",\"vin\":\"1STHMAC19NJ559745\"},\"lmcu_uid\":\"\",\"lmcu_cuid\":\"\",\"lmcu_cu_name\":\"\",\"submittedFrom\":\"https://qa.gorollick.com/r/sell-my-rv\",\"OEMSponsored\":false,\"sellLead\":true,\"leadType\":\"Purchase Opportunity\",\"asap\":true,\"vehicle\":{\"rmc_year\":\"2022\",\"rmc_make\":\"Winnebago\",\"model\":\"Access\",\"condition\":\"U\",\"segment\":\"RVs\",\"rmc_category\":\"RV\"},\"vehicleConditionType\":\"u\",\"key\":\"6cb240ad-addf-4db6-a787-c188f1c9edc7\",\"transactionId\":\"b865e493-d192-473d-ba4f-ef13c66e754d\"}"
+          }
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "access-control-allow-credentials",
+              "value": "true"
+            },
+            {
+              "name": "access-control-allow-headers",
+              "value": "Origin, X-Requested-With, Content-Type, Accept"
+            },
+            {
+              "name": "access-control-allow-methods",
+              "value": "GET, OPTIONS"
+            },
+            {
+              "name": "access-control-allow-origin",
+              "value": "https://qa.gorollick.com"
+            },
+            {
+              "name": "content-length",
+              "value": "29"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "name": "date",
+              "value": "Mon, 20 Jan 2025 09:21:53 GMT"
+            },
+            {
+              "name": "etag",
+              "value": "W/\"1d-33Y36c4ZABCiRGqCTdEqZHGNvcw\""
+            },
+            {
+              "name": "server",
+              "value": "nginx"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=15768000; includeSubDomains"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 29,
+            "mimeType": "application/json",
+            "text": "{\"result\":\"1fab7e20e0f86962\"}"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 347,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "52.162.210.125",
+        "startedDateTime": "2025-01-20T09:21:50.422Z",
+        "time": 1385.1230000145733,
+        "timings": {
+          "blocked": 1147.879999955833,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.18599999999999994,
+          "wait": 233.2889997726679,
+          "receive": 3.7680002860724926,
+          "_blocked_queueing": 1146.275999955833,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
       }
     ]
   }

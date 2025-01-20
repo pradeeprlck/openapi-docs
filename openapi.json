@@ -3,7 +3,7 @@
   "info": {
     "title": "HarToOpenApi",
     "version": "1.0.0",
-    "description": "OpenAPI spec generated from HAR data for specs on 2025-01-20T09:29:41.461Z"
+    "description": "OpenAPI spec generated from HAR data for specs on 2025-01-20T09:31:53.401Z"
   },
   "paths": {
     "/api/geocode/86336": {
@@ -1094,6 +1094,397 @@
           }
         },
         "summary": "Post Api Vin Decode"
+      }
+    },
+    "/queue/6cb240ad-addf-4db6-a787-c188f1c9edc7": {
+      "parameters": [],
+      "post": {
+        "description": "",
+        "operationId": "postQueueByUuid",
+        "parameters": [
+          {
+            "description": "priority",
+            "in": "header",
+            "name": "priority",
+            "schema": {
+              "default": "u=1, i",
+              "example": "u=1, i",
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "example": {
+                "OEMSponsored": false,
+                "affinity": "Sam's Club",
+                "affinityId": "188260bfc980bb7e",
+                "asap": true,
+                "avala": {
+                  "campaign": "",
+                  "content": "",
+                  "event": "",
+                  "medium": "",
+                  "sessionUid": "7b365d07-15e3-4b39-be71-918cc25e91bf",
+                  "source": "",
+                  "term": "",
+                  "userUid": "1b2fc82f-e5e0-40f0-ba5c-5790130f555d"
+                },
+                "campaigns": {},
+                "comments": "",
+                "email": "pradeep.chada@gorollick.io",
+                "fn": "pradeep",
+                "key": "6cb240ad-addf-4db6-a787-c188f1c9edc7",
+                "leadType": "Purchase Opportunity",
+                "lmcu_cu_name": "",
+                "lmcu_cuid": "",
+                "lmcu_uid": "",
+                "ln": "Reddy",
+                "location": "",
+                "national": false,
+                "nationalGeneralOptIn": false,
+                "partnerId": "9f0de136b26708c0",
+                "pc": "",
+                "phone": "8978684171",
+                "pk_campaign": "",
+                "pk_content": "",
+                "pk_kwd": "",
+                "pk_medium": "",
+                "pk_source": "",
+                "referralUrl": "https://qa.gorollick.com/r/sell-my-rv",
+                "rfr": "Sam's Club",
+                "rosId": "",
+                "s": "s4",
+                "sellLead": true,
+                "sendEmail": true,
+                "source": "r",
+                "sourceType": "Rollick Website",
+                "submittedFrom": "https://qa.gorollick.com/r/sell-my-rv",
+                "textMe": true,
+                "timeIteration": "",
+                "tradeInVehicleObj": {
+                  "amount": "23243",
+                  "batteryAge": "",
+                  "buyingAnswer": "Yes",
+                  "category": "RV",
+                  "condition": "Clean",
+                  "description": "",
+                  "financeTitle": "",
+                  "make": "Winnebago",
+                  "model": "Access",
+                  "payoff": "",
+                  "uom": "mi",
+                  "usage": "2",
+                  "vin": "1STHMAC19NJ559745",
+                  "year": "2022",
+                  "zipcode": "86336"
+                },
+                "transactionId": "b865e493-d192-473d-ba4f-ef13c66e754d",
+                "vehicle": {
+                  "condition": "U",
+                  "model": "Access",
+                  "rmc_category": "RV",
+                  "rmc_make": "Winnebago",
+                  "rmc_year": "2022",
+                  "segment": "RVs"
+                },
+                "vehicleConditionType": "u",
+                "vid": "-1",
+                "website": "www.rvretailer.net",
+                "z": "86336"
+              },
+              "schema": {
+                "additionalProperties": false,
+                "properties": {
+                  "OEMSponsored": {
+                    "type": "boolean"
+                  },
+                  "affinity": {
+                    "type": "string"
+                  },
+                  "affinityId": {
+                    "type": "string"
+                  },
+                  "asap": {
+                    "type": "boolean"
+                  },
+                  "avala": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "campaign": {
+                        "type": "string"
+                      },
+                      "content": {
+                        "type": "string"
+                      },
+                      "event": {
+                        "type": "string"
+                      },
+                      "medium": {
+                        "type": "string"
+                      },
+                      "sessionUid": {
+                        "format": "uuid",
+                        "type": "string"
+                      },
+                      "source": {
+                        "type": "string"
+                      },
+                      "term": {
+                        "type": "string"
+                      },
+                      "userUid": {
+                        "format": "uuid",
+                        "type": "string"
+                      }
+                    },
+                    "required": [],
+                    "title": "Avala",
+                    "type": "object"
+                  },
+                  "campaigns": {
+                    "additionalProperties": false,
+                    "title": "Campaigns",
+                    "type": "object"
+                  },
+                  "comments": {
+                    "type": "string"
+                  },
+                  "email": {
+                    "type": "string"
+                  },
+                  "fn": {
+                    "type": "string"
+                  },
+                  "key": {
+                    "format": "uuid",
+                    "type": "string"
+                  },
+                  "leadType": {
+                    "type": "string"
+                  },
+                  "lmcu_cu_name": {
+                    "type": "string"
+                  },
+                  "lmcu_cuid": {
+                    "type": "string"
+                  },
+                  "lmcu_uid": {
+                    "type": "string"
+                  },
+                  "ln": {
+                    "type": "string"
+                  },
+                  "location": {
+                    "type": "string"
+                  },
+                  "national": {
+                    "type": "boolean"
+                  },
+                  "nationalGeneralOptIn": {
+                    "type": "boolean"
+                  },
+                  "partnerId": {
+                    "type": "string"
+                  },
+                  "pc": {
+                    "type": "string"
+                  },
+                  "phone": {
+                    "type": "string"
+                  },
+                  "pk_campaign": {
+                    "type": "string"
+                  },
+                  "pk_content": {
+                    "type": "string"
+                  },
+                  "pk_kwd": {
+                    "type": "string"
+                  },
+                  "pk_medium": {
+                    "type": "string"
+                  },
+                  "pk_source": {
+                    "type": "string"
+                  },
+                  "referralUrl": {
+                    "format": "uri",
+                    "type": "string",
+                    "x-qt-uri-protocols": [
+                      "https"
+                    ]
+                  },
+                  "rfr": {
+                    "type": "string"
+                  },
+                  "rosId": {
+                    "type": "string"
+                  },
+                  "s": {
+                    "type": "string"
+                  },
+                  "sellLead": {
+                    "type": "boolean"
+                  },
+                  "sendEmail": {
+                    "type": "boolean"
+                  },
+                  "source": {
+                    "type": "string"
+                  },
+                  "sourceType": {
+                    "type": "string"
+                  },
+                  "submittedFrom": {
+                    "format": "uri",
+                    "type": "string",
+                    "x-qt-uri-protocols": [
+                      "https"
+                    ]
+                  },
+                  "textMe": {
+                    "type": "boolean"
+                  },
+                  "timeIteration": {
+                    "type": "string"
+                  },
+                  "tradeInVehicleObj": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "amount": {
+                        "format": "integer",
+                        "type": "string"
+                      },
+                      "batteryAge": {
+                        "type": "string"
+                      },
+                      "buyingAnswer": {
+                        "type": "string"
+                      },
+                      "category": {
+                        "type": "string"
+                      },
+                      "condition": {
+                        "type": "string"
+                      },
+                      "description": {
+                        "type": "string"
+                      },
+                      "financeTitle": {
+                        "type": "string"
+                      },
+                      "make": {
+                        "type": "string"
+                      },
+                      "model": {
+                        "type": "string"
+                      },
+                      "payoff": {
+                        "type": "string"
+                      },
+                      "uom": {
+                        "type": "string"
+                      },
+                      "usage": {
+                        "format": "integer",
+                        "type": "string"
+                      },
+                      "vin": {
+                        "type": "string"
+                      },
+                      "year": {
+                        "format": "integer",
+                        "type": "string"
+                      },
+                      "zipcode": {
+                        "format": "integer",
+                        "type": "string"
+                      }
+                    },
+                    "required": [],
+                    "title": "TradeInVehicleObj",
+                    "type": "object"
+                  },
+                  "transactionId": {
+                    "format": "uuid",
+                    "type": "string"
+                  },
+                  "vehicle": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "condition": {
+                        "type": "string"
+                      },
+                      "model": {
+                        "type": "string"
+                      },
+                      "rmc_category": {
+                        "type": "string"
+                      },
+                      "rmc_make": {
+                        "type": "string"
+                      },
+                      "rmc_year": {
+                        "format": "integer",
+                        "type": "string"
+                      },
+                      "segment": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [],
+                    "title": "Vehicle",
+                    "type": "object"
+                  },
+                  "vehicleConditionType": {
+                    "type": "string"
+                  },
+                  "vid": {
+                    "format": "integer",
+                    "type": "string"
+                  },
+                  "website": {
+                    "type": "string"
+                  },
+                  "z": {
+                    "format": "integer",
+                    "type": "string"
+                  }
+                },
+                "required": [],
+                "title": "QueueByUUIDPostRequest",
+                "type": "object"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "example": {
+                  "result": "1fab7e20e0f86962"
+                },
+                "schema": {
+                  "additionalProperties": false,
+                  "properties": {
+                    "result": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [],
+                  "title": "QueueByUUIDPostRequest",
+                  "type": "object"
+                }
+              }
+            },
+            "description": ""
+          }
+        },
+        "summary": "Post Queue By UUID"
       }
     }
   },
