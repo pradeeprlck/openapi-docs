@@ -3,13 +3,13 @@
   "info": {
     "title": "HarToOpenApi",
     "version": "1.0.0",
-    "description": "OpenAPI spec generated from HAR data for sghb.hbmp.mediafuse.com on 2025-01-17T07:28:56.106Z"
+    "description": "OpenAPI spec generated from HAR data for dev.visualwebsiteoptimizer.com on 2025-01-20T07:05:39.289Z"
   },
   "paths": {
-    "/geo/": {
+    "/cdn/edrv/nc-46fd4dcb0aadf31516f737f3f3860027br.js": {
       "get": {
         "description": "",
-        "operationId": "getGeo",
+        "operationId": "getCdnEdrvNc46Fd4Dcb0Aadf31516F737F3F3860027BrJs",
         "parameters": [],
         "responses": {
           "200": {
@@ -29,32 +29,50 @@
             },
             "description": "",
             "headers": {
-              "Permissions-Policy": {
-                "description": "Custom header Permissions-Policy",
+              "cdn_cache_status": {
+                "description": "Custom header cdn_cache_status",
                 "schema": {
                   "type": "string"
                 }
               },
-              "X-Robots-Tag": {
-                "description": "Custom header X-Robots-Tag",
+              "x-goog-generation": {
+                "description": "Custom header x-goog-generation",
                 "schema": {
                   "type": "string"
                 }
               },
-              "X-Server-Ip": {
-                "description": "Custom header X-Server-Ip",
+              "x-goog-hash": {
+                "description": "Custom header x-goog-hash",
                 "schema": {
                   "type": "string"
                 }
               },
-              "X-Server-Name": {
-                "description": "Custom header X-Server-Name",
+              "x-goog-metageneration": {
+                "description": "Custom header x-goog-metageneration",
                 "schema": {
                   "type": "string"
                 }
               },
-              "X-Tte": {
-                "description": "Custom header X-Tte",
+              "x-goog-storage-class": {
+                "description": "Custom header x-goog-storage-class",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "x-goog-stored-content-encoding": {
+                "description": "Custom header x-goog-stored-content-encoding",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "x-goog-stored-content-length": {
+                "description": "Custom header x-goog-stored-content-length",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "x-guploader-uploadid": {
+                "description": "Custom header x-guploader-uploadid",
                 "schema": {
                   "type": "string"
                 }
@@ -62,14 +80,249 @@
             }
           }
         },
-        "summary": "Get Geo"
+        "summary": "Get Cdn Edrv Nc 46 Fd 4 Dcb 0 Aadf 31516 F 737 F 3 F 3860027 Br Js"
+      },
+      "parameters": []
+    },
+    "/cdn/edrv/va_gq-0b7cff9c9e1a4e930950d38503b417c3br.js": {
+      "get": {
+        "description": "",
+        "operationId": "getCdnEdrvVaGq0B7Cff9C9E1A4E930950D38503B417C3BrJs",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "content": {
+              "multipart/form-data": {
+                "schema": {
+                  "properties": {
+                    "filename": {
+                      "description": "",
+                      "format": "binary",
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                }
+              }
+            },
+            "description": "",
+            "headers": {
+              "cdn_cache_status": {
+                "description": "Custom header cdn_cache_status",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "x-goog-generation": {
+                "description": "Custom header x-goog-generation",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "x-goog-hash": {
+                "description": "Custom header x-goog-hash",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "x-goog-metageneration": {
+                "description": "Custom header x-goog-metageneration",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "x-goog-storage-class": {
+                "description": "Custom header x-goog-storage-class",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "x-goog-stored-content-encoding": {
+                "description": "Custom header x-goog-stored-content-encoding",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "x-goog-stored-content-length": {
+                "description": "Custom header x-goog-stored-content-length",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "x-guploader-uploadid": {
+                "description": "Custom header x-guploader-uploadid",
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "summary": "Get Cdn Edrv Va Gq 0 B 7 Cff 9 C 9 E 1 A 4 E 930950 D 38503 B 417 C 3 Br Js"
+      },
+      "parameters": []
+    },
+    "/cdn/edrv/worker-28e1c428aeca10de98ef5d863efbcebfbr.js": {
+      "get": {
+        "description": "",
+        "operationId": "getCdnEdrvWorker28E1C428Aeca10De98Ef5D863EfbcebfbrJs",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "content": {
+              "multipart/form-data": {
+                "schema": {
+                  "properties": {
+                    "filename": {
+                      "description": "",
+                      "format": "binary",
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                }
+              }
+            },
+            "description": "",
+            "headers": {
+              "cdn_cache_status": {
+                "description": "Custom header cdn_cache_status",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "x-goog-generation": {
+                "description": "Custom header x-goog-generation",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "x-goog-hash": {
+                "description": "Custom header x-goog-hash",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "x-goog-metageneration": {
+                "description": "Custom header x-goog-metageneration",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "x-goog-storage-class": {
+                "description": "Custom header x-goog-storage-class",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "x-goog-stored-content-encoding": {
+                "description": "Custom header x-goog-stored-content-encoding",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "x-goog-stored-content-length": {
+                "description": "Custom header x-goog-stored-content-length",
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "x-guploader-uploadid": {
+                "description": "Custom header x-guploader-uploadid",
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "summary": "Get Cdn Edrv Worker 28 E 1 C 428 Aeca 10 De 98 Ef 5 D 863 Efbcebfbr Js"
+      },
+      "parameters": []
+    },
+    "/j.php": {
+      "get": {
+        "description": "",
+        "operationId": "getJPhp",
+        "parameters": [
+          {
+            "description": "a",
+            "in": "query",
+            "name": "a",
+            "schema": {
+              "default": "875455",
+              "example": "875455",
+              "type": "string"
+            }
+          },
+          {
+            "description": "u",
+            "in": "query",
+            "name": "u",
+            "schema": {
+              "default": "https://qa.gorollick.com/r/thank-you?trim=40015722&id=06fb27b1-2a01-4bb3-be29-d71fd7cadcbf&dids=25de28ce5975c939",
+              "example": "https://qa.gorollick.com/r/thank-you?trim=40015722&id=06fb27b1-2a01-4bb3-be29-d71fd7cadcbf&dids=25de28ce5975c939",
+              "type": "string"
+            }
+          },
+          {
+            "description": "vn",
+            "in": "query",
+            "name": "vn",
+            "schema": {
+              "default": "2.1",
+              "example": "2.1",
+              "type": "string"
+            }
+          },
+          {
+            "description": "x",
+            "in": "query",
+            "name": "x",
+            "schema": {
+              "default": "true",
+              "example": "true",
+              "type": "string"
+            }
+          },
+          {
+            "description": "priority",
+            "in": "header",
+            "name": "priority",
+            "schema": {
+              "default": "u=1, i",
+              "example": "u=1, i",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "multipart/form-data": {
+                "schema": {
+                  "properties": {
+                    "filename": {
+                      "description": "",
+                      "format": "binary",
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                }
+              }
+            },
+            "description": ""
+          }
+        },
+        "summary": "Get J Php"
       },
       "parameters": []
     }
   },
   "servers": [
     {
-      "url": "https://sghb.hbmp.mediafuse.com"
+      "url": "https://dev.visualwebsiteoptimizer.com"
     }
   ]
 }
