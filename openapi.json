@@ -3,7 +3,7 @@
   "info": {
     "title": "HarToOpenApi",
     "version": "1.0.0",
-    "description": "OpenAPI spec generated from HAR data for qa.gorollick.com on 2025-01-20T08:07:55.929Z"
+    "description": "OpenAPI spec generated from HAR data for specs on 2025-01-20T08:21:03.812Z"
   },
   "paths": {
     "/api/geocode/86336": {
@@ -11,16 +11,6 @@
         "description": "",
         "operationId": "getApiGeocodeById",
         "parameters": [
-          {
-            "description": "cookie",
-            "in": "header",
-            "name": "cookie",
-            "schema": {
-              "default": "_vwo_ds=3%241737356614%3A22.36187259%3A%3A; _vwo_uuid=D9CB9BB543671B71ABD6A67AF331C26F6; zip=86336; _vwo_uuid_v2=D761515BE3CD17148864552296899E8C4|609649387132e191379d5cec5e7d6730; _vis_opt_s=1%7C; _vis_opt_test_cookie=1; _pubcid=93808ee5-5756-465d-88e7-207889d11a88; _sharedID=bf87ca83-d21a-4d54-8e18-d9a4eb51370e; _sharedID_cst=VyxHLMwsHQ%3D%3D; _fbp=fb.1.1737360014302.969791556622762447; _hp2_ses_props.2484844913=%7B%22ts%22%3A1737360013113%2C%22d%22%3A%22qa.gorollick.com%22%2C%22h%22%3A%22%2Fr%2Finventory%2Frvs-for-sale%22%2C%22q%22%3A%22%3Fdistance%3D200%26zip%3D86336%26categories%3Drvs%22%7D; _gcl_au=1.1.1141836078.1737360017; __gads=ID=13e5efa678235b26:T=1737360018:RT=1737360018:S=ALNI_MZ5ePlOQRiJap_-kFH7YLR5_IpS_g; __gpi=UID=00000fec0c324f7e:T=1737360018:RT=1737360018:S=ALNI_ManTJGLqpjaNx8jnzcoZzLFBldYrg; __eoi=ID=3b16e87c76c80f9e:T=1737360018:RT=1737360018:S=AA-AfjZHq9QjV8aYPp7nan5NfN4V; _ga=GA1.2.1053247222.1737360019; _gid=GA1.2.193055681.1737360019; _pubcid_cst=zix7LPQsHA%3D%3D; _gat_UA-115314153-3=1; _hp2_id.2484844913=%7B%22userId%22%3A%226203459445565571%22%2C%22pageviewId%22%3A%225668473040850445%22%2C%22sessionId%22%3A%226471930034234591%22%2C%22identity%22%3Anull%2C%22trackerVersion%22%3A%224.0%22%7D; FCNEC=%5B%5B%22AKsRol-c567or0oeyjZMwUoOuPKh33MqKxzv_Ud_EK3CvGpthihv3Hja3tRYEquN5Z8dnFescbtDYrr3EZb_0YzwiTNCGj0dmyiAXeHtiTP0-UAk0u9n5ocLosYU-_F5Lob-mqucMVv23LLZQ-Nyc5N85PytLOxtPA%3D%3D%22%5D%5D; cto_bidid=BstQCl9tQk9vZFY4Y0dEMmx5S1UzZUdlWWVNV2Iwc3E2Y3A0azR3T2hzOERieHo1eHh0RUI2aVVyQjM4MUtrR0tSOGJrYVd1QU82akxaR1gwd080YTRLOUw0bEF4NDZnNWw1YUsxRCUyRmFUSjY5SDBvJTNE; cto_bundle=YrT-k19scUlEWlF5TFBpZVFHV0x5Vkx6RiUyQmJodERPYkNlNGhmd2ZPd0dQYXI5ZFpGaWpveCUyQmZERUg1UzdNdmVzWm1vdUdzdXJscVYyNFNncWJxSUoyQ0JrUG5IOEY2WXhqdDhEUVBsSDlOekt3ckN3N2NWalhidTZjcGpheFNOR0MlMkZqZ25oYUJVSGtFUU9xS1o3b0Ntd3h1alczNjNkTFo4YTBVYzByY0dkYUZsUTFsMmpObzI0Q0lwZ2doWG1PZjlHSUhvTno3bGF5dzBUS2xOVGJsb1oycGZRJTNEJTNE; _vwo_sn=2290%3A7%3A%3A%3A1; Aimbase.Analytics.Session={\"id\":\"3d1720a1-aebd-4089-af81-bd4f8bb8a9b4\",\"lpvid\":\"b2a9b2a2-a4e1-49e0-add3-eb43cddf93c5\",\"ref\":\"\"}",
-              "example": "_vwo_ds=3%241737356614%3A22.36187259%3A%3A; _vwo_uuid=D9CB9BB543671B71ABD6A67AF331C26F6; zip=86336; _vwo_uuid_v2=D761515BE3CD17148864552296899E8C4|609649387132e191379d5cec5e7d6730; _vis_opt_s=1%7C; _vis_opt_test_cookie=1; _pubcid=93808ee5-5756-465d-88e7-207889d11a88; _sharedID=bf87ca83-d21a-4d54-8e18-d9a4eb51370e; _sharedID_cst=VyxHLMwsHQ%3D%3D; _fbp=fb.1.1737360014302.969791556622762447; _hp2_ses_props.2484844913=%7B%22ts%22%3A1737360013113%2C%22d%22%3A%22qa.gorollick.com%22%2C%22h%22%3A%22%2Fr%2Finventory%2Frvs-for-sale%22%2C%22q%22%3A%22%3Fdistance%3D200%26zip%3D86336%26categories%3Drvs%22%7D; _gcl_au=1.1.1141836078.1737360017; __gads=ID=13e5efa678235b26:T=1737360018:RT=1737360018:S=ALNI_MZ5ePlOQRiJap_-kFH7YLR5_IpS_g; __gpi=UID=00000fec0c324f7e:T=1737360018:RT=1737360018:S=ALNI_ManTJGLqpjaNx8jnzcoZzLFBldYrg; __eoi=ID=3b16e87c76c80f9e:T=1737360018:RT=1737360018:S=AA-AfjZHq9QjV8aYPp7nan5NfN4V; _ga=GA1.2.1053247222.1737360019; _gid=GA1.2.193055681.1737360019; _pubcid_cst=zix7LPQsHA%3D%3D; _gat_UA-115314153-3=1; _hp2_id.2484844913=%7B%22userId%22%3A%226203459445565571%22%2C%22pageviewId%22%3A%225668473040850445%22%2C%22sessionId%22%3A%226471930034234591%22%2C%22identity%22%3Anull%2C%22trackerVersion%22%3A%224.0%22%7D; FCNEC=%5B%5B%22AKsRol-c567or0oeyjZMwUoOuPKh33MqKxzv_Ud_EK3CvGpthihv3Hja3tRYEquN5Z8dnFescbtDYrr3EZb_0YzwiTNCGj0dmyiAXeHtiTP0-UAk0u9n5ocLosYU-_F5Lob-mqucMVv23LLZQ-Nyc5N85PytLOxtPA%3D%3D%22%5D%5D; cto_bidid=BstQCl9tQk9vZFY4Y0dEMmx5S1UzZUdlWWVNV2Iwc3E2Y3A0azR3T2hzOERieHo1eHh0RUI2aVVyQjM4MUtrR0tSOGJrYVd1QU82akxaR1gwd080YTRLOUw0bEF4NDZnNWw1YUsxRCUyRmFUSjY5SDBvJTNE; cto_bundle=YrT-k19scUlEWlF5TFBpZVFHV0x5Vkx6RiUyQmJodERPYkNlNGhmd2ZPd0dQYXI5ZFpGaWpveCUyQmZERUg1UzdNdmVzWm1vdUdzdXJscVYyNFNncWJxSUoyQ0JrUG5IOEY2WXhqdDhEUVBsSDlOekt3ckN3N2NWalhidTZjcGpheFNOR0MlMkZqZ25oYUJVSGtFUU9xS1o3b0Ntd3h1alczNjNkTFo4YTBVYzByY0dkYUZsUTFsMmpObzI0Q0lwZ2doWG1PZjlHSUhvTno3bGF5dzBUS2xOVGJsb1oycGZRJTNEJTNE; _vwo_sn=2290%3A7%3A%3A%3A1; Aimbase.Analytics.Session={\"id\":\"3d1720a1-aebd-4089-af81-bd4f8bb8a9b4\",\"lpvid\":\"b2a9b2a2-a4e1-49e0-add3-eb43cddf93c5\",\"ref\":\"\"}",
-              "type": "string"
-            }
-          },
           {
             "description": "priority",
             "in": "header",
@@ -35,231 +25,15 @@
         "responses": {
           "200": {
             "content": {
-              "application/json": {
-                "example": {
-                  "results": [
-                    {
-                      "address_components": [
-                        {
-                          "long_name": "86336",
-                          "short_name": "86336",
-                          "types": [
-                            "postal_code"
-                          ]
-                        },
-                        {
-                          "long_name": "Sedona",
-                          "short_name": "Sedona",
-                          "types": [
-                            "locality",
-                            "political"
-                          ]
-                        },
-                        {
-                          "long_name": "Arizona",
-                          "short_name": "AZ",
-                          "types": [
-                            "administrative_area_level_1",
-                            "political"
-                          ]
-                        },
-                        {
-                          "long_name": "United States",
-                          "short_name": "US",
-                          "types": [
-                            "country",
-                            "political"
-                          ]
-                        }
-                      ],
-                      "formatted_address": "Sedona, AZ 86336, USA",
-                      "geometry": {
-                        "bounds": {
-                          "northeast": {
-                            "lat": 35.0691488,
-                            "lng": -111.569532
-                          },
-                          "southwest": {
-                            "lat": 34.7996938,
-                            "lng": -112.078361
-                          }
-                        },
-                        "location": {
-                          "lat": 34.8905205,
-                          "lng": -111.8091625
-                        },
-                        "location_type": "APPROXIMATE",
-                        "viewport": {
-                          "northeast": {
-                            "lat": 35.0691488,
-                            "lng": -111.569532
-                          },
-                          "southwest": {
-                            "lat": 34.7996938,
-                            "lng": -112.078361
-                          }
-                        }
-                      },
-                      "place_id": "ChIJ48Wda7p0LYcRMlwZSRpeqWM",
-                      "types": [
-                        "postal_code"
-                      ]
-                    }
-                  ],
-                  "status": "OK"
-                },
+              "multipart/form-data": {
                 "schema": {
-                  "additionalProperties": false,
                   "properties": {
-                    "results": {
-                      "items": {
-                        "additionalProperties": false,
-                        "properties": {
-                          "address_components": {
-                            "items": {
-                              "additionalProperties": false,
-                              "properties": {
-                                "long_name": {
-                                  "type": "string"
-                                },
-                                "short_name": {
-                                  "type": "string"
-                                },
-                                "types": {
-                                  "items": {
-                                    "type": "string"
-                                  },
-                                  "type": "array"
-                                }
-                              },
-                              "required": [],
-                              "title": "AddressComponent",
-                              "type": "object"
-                            },
-                            "type": "array"
-                          },
-                          "formatted_address": {
-                            "type": "string"
-                          },
-                          "geometry": {
-                            "additionalProperties": false,
-                            "properties": {
-                              "bounds": {
-                                "additionalProperties": false,
-                                "properties": {
-                                  "northeast": {
-                                    "additionalProperties": false,
-                                    "properties": {
-                                      "lat": {
-                                        "type": "number"
-                                      },
-                                      "lng": {
-                                        "type": "number"
-                                      }
-                                    },
-                                    "required": [],
-                                    "title": "Location",
-                                    "type": "object"
-                                  },
-                                  "southwest": {
-                                    "additionalProperties": false,
-                                    "properties": {
-                                      "lat": {
-                                        "type": "number"
-                                      },
-                                      "lng": {
-                                        "type": "number"
-                                      }
-                                    },
-                                    "required": [],
-                                    "title": "Location",
-                                    "type": "object"
-                                  }
-                                },
-                                "required": [],
-                                "title": "Bounds",
-                                "type": "object"
-                              },
-                              "location": {
-                                "additionalProperties": false,
-                                "properties": {
-                                  "lat": {
-                                    "type": "number"
-                                  },
-                                  "lng": {
-                                    "type": "number"
-                                  }
-                                },
-                                "required": [],
-                                "title": "Location",
-                                "type": "object"
-                              },
-                              "location_type": {
-                                "type": "string"
-                              },
-                              "viewport": {
-                                "additionalProperties": false,
-                                "properties": {
-                                  "northeast": {
-                                    "additionalProperties": false,
-                                    "properties": {
-                                      "lat": {
-                                        "type": "number"
-                                      },
-                                      "lng": {
-                                        "type": "number"
-                                      }
-                                    },
-                                    "required": [],
-                                    "title": "Location",
-                                    "type": "object"
-                                  },
-                                  "southwest": {
-                                    "additionalProperties": false,
-                                    "properties": {
-                                      "lat": {
-                                        "type": "number"
-                                      },
-                                      "lng": {
-                                        "type": "number"
-                                      }
-                                    },
-                                    "required": [],
-                                    "title": "Location",
-                                    "type": "object"
-                                  }
-                                },
-                                "required": [],
-                                "title": "Bounds",
-                                "type": "object"
-                              }
-                            },
-                            "required": [],
-                            "title": "Geometry",
-                            "type": "object"
-                          },
-                          "place_id": {
-                            "type": "string"
-                          },
-                          "types": {
-                            "items": {
-                              "type": "string"
-                            },
-                            "type": "array"
-                          }
-                        },
-                        "required": [],
-                        "title": "Result",
-                        "type": "object"
-                      },
-                      "type": "array"
-                    },
-                    "status": {
+                    "filename": {
+                      "description": "",
+                      "format": "binary",
                       "type": "string"
                     }
                   },
-                  "required": [],
-                  "title": "APIGeocodeByIDGetRequest",
                   "type": "object"
                 }
               }
@@ -267,37 +41,6 @@
             "description": ""
           }
         },
-        "security": [
-          {
-            "cookie": [
-              "cookieVwoDs",
-              "cookieVwoUuid",
-              "cookieZip",
-              "cookieVwoUuidV2",
-              "cookieVisOptS",
-              "cookieVisOptTestCookie",
-              "cookiePubcid",
-              "cookieSharedId",
-              "cookieSharedIdCst",
-              "cookieFbp",
-              "cookieHp2SesProps2484844913",
-              "cookieGclAu",
-              "cookieGads",
-              "cookieGpi",
-              "cookieEoi",
-              "cookieGa",
-              "cookieGid",
-              "cookiePubcidCst",
-              "cookieGatUa1153141533",
-              "cookieHp2Id2484844913",
-              "cookieFcnec",
-              "cookieCtoBidid",
-              "cookieCtoBundle",
-              "cookieVwoSn",
-              "cookieAimbaseAnalyticsSession"
-            ]
-          }
-        ],
         "summary": "Get Api Geocode By ID"
       },
       "parameters": []
@@ -348,16 +91,6 @@
             }
           },
           {
-            "description": "cookie",
-            "in": "header",
-            "name": "cookie",
-            "schema": {
-              "default": "_vwo_ds=3%241737356614%3A22.36187259%3A%3A; _vwo_uuid=D9CB9BB543671B71ABD6A67AF331C26F6; zip=86336; _vwo_uuid_v2=D761515BE3CD17148864552296899E8C4|609649387132e191379d5cec5e7d6730; _vis_opt_s=1%7C; _vis_opt_test_cookie=1; _pubcid=93808ee5-5756-465d-88e7-207889d11a88; _sharedID=bf87ca83-d21a-4d54-8e18-d9a4eb51370e; _sharedID_cst=VyxHLMwsHQ%3D%3D; _fbp=fb.1.1737360014302.969791556622762447; _hp2_ses_props.2484844913=%7B%22ts%22%3A1737360013113%2C%22d%22%3A%22qa.gorollick.com%22%2C%22h%22%3A%22%2Fr%2Finventory%2Frvs-for-sale%22%2C%22q%22%3A%22%3Fdistance%3D200%26zip%3D86336%26categories%3Drvs%22%7D; _gcl_au=1.1.1141836078.1737360017; __gads=ID=13e5efa678235b26:T=1737360018:RT=1737360018:S=ALNI_MZ5ePlOQRiJap_-kFH7YLR5_IpS_g; __gpi=UID=00000fec0c324f7e:T=1737360018:RT=1737360018:S=ALNI_ManTJGLqpjaNx8jnzcoZzLFBldYrg; __eoi=ID=3b16e87c76c80f9e:T=1737360018:RT=1737360018:S=AA-AfjZHq9QjV8aYPp7nan5NfN4V; _ga=GA1.2.1053247222.1737360019; _gid=GA1.2.193055681.1737360019; _pubcid_cst=zix7LPQsHA%3D%3D; _gat_UA-115314153-3=1; _vwo_sn=2290%3A6%3A%3A%3A1; Aimbase.Analytics.Session={\"id\":\"3d1720a1-aebd-4089-af81-bd4f8bb8a9b4\",\"lpvid\":\"a8ab679c-5866-4e4a-ab11-7b8782f9bbe9\",\"ref\":\"\"}; _hp2_id.2484844913=%7B%22userId%22%3A%226203459445565571%22%2C%22pageviewId%22%3A%225668473040850445%22%2C%22sessionId%22%3A%226471930034234591%22%2C%22identity%22%3Anull%2C%22trackerVersion%22%3A%224.0%22%7D; FCNEC=%5B%5B%22AKsRol-c567or0oeyjZMwUoOuPKh33MqKxzv_Ud_EK3CvGpthihv3Hja3tRYEquN5Z8dnFescbtDYrr3EZb_0YzwiTNCGj0dmyiAXeHtiTP0-UAk0u9n5ocLosYU-_F5Lob-mqucMVv23LLZQ-Nyc5N85PytLOxtPA%3D%3D%22%5D%5D; cto_bidid=BstQCl9tQk9vZFY4Y0dEMmx5S1UzZUdlWWVNV2Iwc3E2Y3A0azR3T2hzOERieHo1eHh0RUI2aVVyQjM4MUtrR0tSOGJrYVd1QU82akxaR1gwd080YTRLOUw0bEF4NDZnNWw1YUsxRCUyRmFUSjY5SDBvJTNE; cto_bundle=YrT-k19scUlEWlF5TFBpZVFHV0x5Vkx6RiUyQmJodERPYkNlNGhmd2ZPd0dQYXI5ZFpGaWpveCUyQmZERUg1UzdNdmVzWm1vdUdzdXJscVYyNFNncWJxSUoyQ0JrUG5IOEY2WXhqdDhEUVBsSDlOekt3ckN3N2NWalhidTZjcGpheFNOR0MlMkZqZ25oYUJVSGtFUU9xS1o3b0Ntd3h1alczNjNkTFo4YTBVYzByY0dkYUZsUTFsMmpObzI0Q0lwZ2doWG1PZjlHSUhvTno3bGF5dzBUS2xOVGJsb1oycGZRJTNEJTNE",
-              "example": "_vwo_ds=3%241737356614%3A22.36187259%3A%3A; _vwo_uuid=D9CB9BB543671B71ABD6A67AF331C26F6; zip=86336; _vwo_uuid_v2=D761515BE3CD17148864552296899E8C4|609649387132e191379d5cec5e7d6730; _vis_opt_s=1%7C; _vis_opt_test_cookie=1; _pubcid=93808ee5-5756-465d-88e7-207889d11a88; _sharedID=bf87ca83-d21a-4d54-8e18-d9a4eb51370e; _sharedID_cst=VyxHLMwsHQ%3D%3D; _fbp=fb.1.1737360014302.969791556622762447; _hp2_ses_props.2484844913=%7B%22ts%22%3A1737360013113%2C%22d%22%3A%22qa.gorollick.com%22%2C%22h%22%3A%22%2Fr%2Finventory%2Frvs-for-sale%22%2C%22q%22%3A%22%3Fdistance%3D200%26zip%3D86336%26categories%3Drvs%22%7D; _gcl_au=1.1.1141836078.1737360017; __gads=ID=13e5efa678235b26:T=1737360018:RT=1737360018:S=ALNI_MZ5ePlOQRiJap_-kFH7YLR5_IpS_g; __gpi=UID=00000fec0c324f7e:T=1737360018:RT=1737360018:S=ALNI_ManTJGLqpjaNx8jnzcoZzLFBldYrg; __eoi=ID=3b16e87c76c80f9e:T=1737360018:RT=1737360018:S=AA-AfjZHq9QjV8aYPp7nan5NfN4V; _ga=GA1.2.1053247222.1737360019; _gid=GA1.2.193055681.1737360019; _pubcid_cst=zix7LPQsHA%3D%3D; _gat_UA-115314153-3=1; _vwo_sn=2290%3A6%3A%3A%3A1; Aimbase.Analytics.Session={\"id\":\"3d1720a1-aebd-4089-af81-bd4f8bb8a9b4\",\"lpvid\":\"a8ab679c-5866-4e4a-ab11-7b8782f9bbe9\",\"ref\":\"\"}; _hp2_id.2484844913=%7B%22userId%22%3A%226203459445565571%22%2C%22pageviewId%22%3A%225668473040850445%22%2C%22sessionId%22%3A%226471930034234591%22%2C%22identity%22%3Anull%2C%22trackerVersion%22%3A%224.0%22%7D; FCNEC=%5B%5B%22AKsRol-c567or0oeyjZMwUoOuPKh33MqKxzv_Ud_EK3CvGpthihv3Hja3tRYEquN5Z8dnFescbtDYrr3EZb_0YzwiTNCGj0dmyiAXeHtiTP0-UAk0u9n5ocLosYU-_F5Lob-mqucMVv23LLZQ-Nyc5N85PytLOxtPA%3D%3D%22%5D%5D; cto_bidid=BstQCl9tQk9vZFY4Y0dEMmx5S1UzZUdlWWVNV2Iwc3E2Y3A0azR3T2hzOERieHo1eHh0RUI2aVVyQjM4MUtrR0tSOGJrYVd1QU82akxaR1gwd080YTRLOUw0bEF4NDZnNWw1YUsxRCUyRmFUSjY5SDBvJTNE; cto_bundle=YrT-k19scUlEWlF5TFBpZVFHV0x5Vkx6RiUyQmJodERPYkNlNGhmd2ZPd0dQYXI5ZFpGaWpveCUyQmZERUg1UzdNdmVzWm1vdUdzdXJscVYyNFNncWJxSUoyQ0JrUG5IOEY2WXhqdDhEUVBsSDlOekt3ckN3N2NWalhidTZjcGpheFNOR0MlMkZqZ25oYUJVSGtFUU9xS1o3b0Ntd3h1alczNjNkTFo4YTBVYzByY0dkYUZsUTFsMmpObzI0Q0lwZ2doWG1PZjlHSUhvTno3bGF5dzBUS2xOVGJsb1oycGZRJTNEJTNE",
-              "type": "string"
-            }
-          },
-          {
             "description": "priority",
             "in": "header",
             "name": "priority",
@@ -387,179 +120,367 @@
             "description": ""
           }
         },
-        "security": [
-          {
-            "cookie": [
-              "cookieVwoDs",
-              "cookieVwoUuid",
-              "cookieZip",
-              "cookieVwoUuidV2",
-              "cookieVisOptS",
-              "cookieVisOptTestCookie",
-              "cookiePubcid",
-              "cookieSharedId",
-              "cookieSharedIdCst",
-              "cookieFbp",
-              "cookieHp2SesProps2484844913",
-              "cookieGclAu",
-              "cookieGads",
-              "cookieGpi",
-              "cookieEoi",
-              "cookieGa",
-              "cookieGid",
-              "cookiePubcidCst",
-              "cookieGatUa1153141533",
-              "cookieVwoSn",
-              "cookieAimbaseAnalyticsSession",
-              "cookieHp2Id2484844913",
-              "cookieFcnec",
-              "cookieCtoBidid",
-              "cookieCtoBundle"
-            ]
-          }
-        ],
         "summary": "Get Api Usbank Getcloudapplylink"
       },
       "parameters": []
+    },
+    "/queue/ee5116b7-dd85-48c4-920c-241a6653876d": {
+      "parameters": [],
+      "post": {
+        "description": "",
+        "operationId": "postQueueByUuid",
+        "parameters": [
+          {
+            "description": "priority",
+            "in": "header",
+            "name": "priority",
+            "schema": {
+              "default": "u=1, i",
+              "example": "u=1, i",
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "example": {
+                "OEMSponsored": true,
+                "affinity": "Sam's Club",
+                "affinityId": "188260bfc980bb7e",
+                "appointment": {
+                  "comments": "",
+                  "method": "Phone",
+                  "scheduleDate1": "Jan 20 2025",
+                  "scheduleDate2": "",
+                  "timeOfDay": "Morning",
+                  "type": "Appointment"
+                },
+                "avala": {
+                  "campaign": "",
+                  "content": "",
+                  "event": "",
+                  "medium": "",
+                  "sessionUid": "3d1720a1-aebd-4089-af81-bd4f8bb8a9b4",
+                  "source": "",
+                  "term": "",
+                  "userUid": "1b2fc82f-e5e0-40f0-ba5c-5790130f555d"
+                },
+                "campaigns": {},
+                "comments": "Appointment Requested.",
+                "email": "chadapradeepreddy@gmail.com",
+                "fn": "Jack",
+                "inventoryId": "076e8ab8-d064-4b9d-9d84-3934c33044c9",
+                "key": "ee5116b7-dd85-48c4-920c-241a6653876d",
+                "lmcu_cu_name": "",
+                "lmcu_cuid": "",
+                "lmcu_uid": "",
+                "ln": "Drake",
+                "location": "Prescott",
+                "national": false,
+                "nationalGeneralOptIn": false,
+                "partnerId": "ec5c0a1c67184973",
+                "pc": "",
+                "phone": "3464645645",
+                "pk_campaign": "",
+                "pk_content": "",
+                "pk_kwd": "",
+                "pk_medium": "",
+                "pk_source": "",
+                "provider": null,
+                "referralUrl": "https://qa.gorollick.com/r/vehicle-details/2022-keystone-avalanche-312rs?trim=365699&id=076e8ab8-d064-4b9d-9d84-3934c33044c9&distance=200&zip=86336&categories=rvs",
+                "rfr": "Sam's Club",
+                "rosId": "1b2fc82f-e5e0-40f0-ba5c-5790130f555d",
+                "s": "s4",
+                "sendEmail": true,
+                "source": "r",
+                "sourceType": "Rollick Website",
+                "submittedFrom": "https://qa.gorollick.com/r/vehicle-details/2022-keystone-avalanche-312rs?trim=365699&id=076e8ab8-d064-4b9d-9d84-3934c33044c9&distance=200&zip=86336&categories=rvs",
+                "textMe": true,
+                "tradeInVehicleObj": "",
+                "transactionId": "ca3123c2-6d01-4719-b996-60c6671625eb",
+                "trimId": "",
+                "usBankDealer": true,
+                "usBankDealerApplyUrl": "https://uat03-onboarding.usbank.com/recfin/SLN/IR/start?stck_nbr=1061492&condition=new&year=2022&make=Keystone&model=Avalanche&dealerid=48842&price=72687&length=34.916666666666664&src_ind=06",
+                "vehicle": {
+                  "bike_year": "2022",
+                  "manuf": "Keystone",
+                  "model": "Avalanche",
+                  "trim": "312RS"
+                },
+                "vehicleConditionType": "n",
+                "vid": "-1",
+                "website": "www.affinityrv.com",
+                "z": "86336"
+              },
+              "schema": {
+                "additionalProperties": false,
+                "properties": {
+                  "OEMSponsored": {
+                    "type": "boolean"
+                  },
+                  "affinity": {
+                    "type": "string"
+                  },
+                  "affinityId": {
+                    "type": "string"
+                  },
+                  "appointment": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "comments": {
+                        "type": "string"
+                      },
+                      "method": {
+                        "type": "string"
+                      },
+                      "scheduleDate1": {
+                        "type": "string"
+                      },
+                      "scheduleDate2": {
+                        "type": "string"
+                      },
+                      "timeOfDay": {
+                        "type": "string"
+                      },
+                      "type": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [],
+                    "title": "Appointment",
+                    "type": "object"
+                  },
+                  "avala": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "campaign": {
+                        "type": "string"
+                      },
+                      "content": {
+                        "type": "string"
+                      },
+                      "event": {
+                        "type": "string"
+                      },
+                      "medium": {
+                        "type": "string"
+                      },
+                      "sessionUid": {
+                        "format": "uuid",
+                        "type": "string"
+                      },
+                      "source": {
+                        "type": "string"
+                      },
+                      "term": {
+                        "type": "string"
+                      },
+                      "userUid": {
+                        "format": "uuid",
+                        "type": "string"
+                      }
+                    },
+                    "required": [],
+                    "title": "Avala",
+                    "type": "object"
+                  },
+                  "campaigns": {
+                    "additionalProperties": false,
+                    "title": "Campaigns",
+                    "type": "object"
+                  },
+                  "comments": {
+                    "type": "string"
+                  },
+                  "email": {
+                    "type": "string"
+                  },
+                  "fn": {
+                    "type": "string"
+                  },
+                  "inventoryId": {
+                    "format": "uuid",
+                    "type": "string"
+                  },
+                  "key": {
+                    "format": "uuid",
+                    "type": "string"
+                  },
+                  "lmcu_cu_name": {
+                    "type": "string"
+                  },
+                  "lmcu_cuid": {
+                    "type": "string"
+                  },
+                  "lmcu_uid": {
+                    "type": "string"
+                  },
+                  "ln": {
+                    "type": "string"
+                  },
+                  "location": {
+                    "type": "string"
+                  },
+                  "national": {
+                    "type": "boolean"
+                  },
+                  "nationalGeneralOptIn": {
+                    "type": "boolean"
+                  },
+                  "partnerId": {
+                    "type": "string"
+                  },
+                  "pc": {
+                    "type": "string"
+                  },
+                  "phone": {
+                    "type": "string"
+                  },
+                  "pk_campaign": {
+                    "type": "string"
+                  },
+                  "pk_content": {
+                    "type": "string"
+                  },
+                  "pk_kwd": {
+                    "type": "string"
+                  },
+                  "pk_medium": {
+                    "type": "string"
+                  },
+                  "pk_source": {
+                    "type": "string"
+                  },
+                  "provider": {
+                    "nullable": true
+                  },
+                  "referralUrl": {
+                    "format": "uri",
+                    "type": "string",
+                    "x-qt-uri-protocols": [
+                      "https"
+                    ]
+                  },
+                  "rfr": {
+                    "type": "string"
+                  },
+                  "rosId": {
+                    "format": "uuid",
+                    "type": "string"
+                  },
+                  "s": {
+                    "type": "string"
+                  },
+                  "sendEmail": {
+                    "type": "boolean"
+                  },
+                  "source": {
+                    "type": "string"
+                  },
+                  "sourceType": {
+                    "type": "string"
+                  },
+                  "submittedFrom": {
+                    "format": "uri",
+                    "type": "string",
+                    "x-qt-uri-protocols": [
+                      "https"
+                    ]
+                  },
+                  "textMe": {
+                    "type": "boolean"
+                  },
+                  "tradeInVehicleObj": {
+                    "type": "string"
+                  },
+                  "transactionId": {
+                    "format": "uuid",
+                    "type": "string"
+                  },
+                  "trimId": {
+                    "type": "string"
+                  },
+                  "usBankDealer": {
+                    "type": "boolean"
+                  },
+                  "usBankDealerApplyUrl": {
+                    "format": "uri",
+                    "type": "string",
+                    "x-qt-uri-protocols": [
+                      "https"
+                    ]
+                  },
+                  "vehicle": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "bike_year": {
+                        "format": "integer",
+                        "type": "string"
+                      },
+                      "manuf": {
+                        "type": "string"
+                      },
+                      "model": {
+                        "type": "string"
+                      },
+                      "trim": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [],
+                    "title": "Vehicle",
+                    "type": "object"
+                  },
+                  "vehicleConditionType": {
+                    "type": "string"
+                  },
+                  "vid": {
+                    "format": "integer",
+                    "type": "string"
+                  },
+                  "website": {
+                    "type": "string"
+                  },
+                  "z": {
+                    "format": "integer",
+                    "type": "string"
+                  }
+                },
+                "required": [],
+                "title": "QueueByUUIDPostRequest",
+                "type": "object"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "multipart/form-data": {
+                "schema": {
+                  "properties": {
+                    "filename": {
+                      "description": "",
+                      "format": "binary",
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                }
+              }
+            },
+            "description": ""
+          }
+        },
+        "summary": "Post Queue By UUID"
+      }
     }
   },
   "servers": [
     {
       "url": "https://qa.gorollick.com"
     }
-  ],
-  "components": {
-    "securitySchemes": {
-      "cookieVwoDs": {
-        "type": "apiKey",
-        "name": "_vwo_ds",
-        "in": "cookie"
-      },
-      "cookieVwoUuid": {
-        "type": "apiKey",
-        "name": "_vwo_uuid",
-        "in": "cookie"
-      },
-      "cookieZip": {
-        "type": "apiKey",
-        "name": "zip",
-        "in": "cookie"
-      },
-      "cookieVwoUuidV2": {
-        "type": "apiKey",
-        "name": "_vwo_uuid_v2",
-        "in": "cookie"
-      },
-      "cookieVisOptS": {
-        "type": "apiKey",
-        "name": "_vis_opt_s",
-        "in": "cookie"
-      },
-      "cookieVisOptTestCookie": {
-        "type": "apiKey",
-        "name": "_vis_opt_test_cookie",
-        "in": "cookie"
-      },
-      "cookiePubcid": {
-        "type": "apiKey",
-        "name": "_pubcid",
-        "in": "cookie"
-      },
-      "cookieSharedId": {
-        "type": "apiKey",
-        "name": "_sharedID",
-        "in": "cookie"
-      },
-      "cookieSharedIdCst": {
-        "type": "apiKey",
-        "name": "_sharedID_cst",
-        "in": "cookie"
-      },
-      "cookieFbp": {
-        "type": "apiKey",
-        "name": "_fbp",
-        "in": "cookie"
-      },
-      "cookieHp2SesProps2484844913": {
-        "type": "apiKey",
-        "name": "_hp2_ses_props.2484844913",
-        "in": "cookie"
-      },
-      "cookieGclAu": {
-        "type": "apiKey",
-        "name": "_gcl_au",
-        "in": "cookie"
-      },
-      "cookieGads": {
-        "type": "apiKey",
-        "name": "__gads",
-        "in": "cookie"
-      },
-      "cookieGpi": {
-        "type": "apiKey",
-        "name": "__gpi",
-        "in": "cookie"
-      },
-      "cookieEoi": {
-        "type": "apiKey",
-        "name": "__eoi",
-        "in": "cookie"
-      },
-      "cookieGa": {
-        "type": "apiKey",
-        "name": "_ga",
-        "in": "cookie"
-      },
-      "cookieGid": {
-        "type": "apiKey",
-        "name": "_gid",
-        "in": "cookie"
-      },
-      "cookiePubcidCst": {
-        "type": "apiKey",
-        "name": "_pubcid_cst",
-        "in": "cookie"
-      },
-      "cookieGatUa1153141533": {
-        "type": "apiKey",
-        "name": "_gat_UA-115314153-3",
-        "in": "cookie"
-      },
-      "cookieVwoSn": {
-        "type": "apiKey",
-        "name": "_vwo_sn",
-        "in": "cookie"
-      },
-      "cookieAimbaseAnalyticsSession": {
-        "type": "apiKey",
-        "name": "Aimbase.Analytics.Session",
-        "in": "cookie"
-      },
-      "cookieHp2Id2484844913": {
-        "type": "apiKey",
-        "name": "_hp2_id.2484844913",
-        "in": "cookie"
-      },
-      "cookieFcnec": {
-        "type": "apiKey",
-        "name": "FCNEC",
-        "in": "cookie"
-      },
-      "cookieCtoBidid": {
-        "type": "apiKey",
-        "name": "cto_bidid",
-        "in": "cookie"
-      },
-      "cookieCtoBundle": {
-        "type": "apiKey",
-        "name": "cto_bundle",
-        "in": "cookie"
-      },
-      "cookie": {
-        "type": "apiKey",
-        "name": "cookie",
-        "in": "header"
-      }
-    }
-  }
+  ]
 }
