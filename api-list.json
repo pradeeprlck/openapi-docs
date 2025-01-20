@@ -2104,6 +2104,1324 @@
           "_workerFetchStart": -1,
           "_workerRespondWithSettled": -1
         }
+      },
+      {
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "send",
+                "scriptId": "24359",
+                "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                "lineNumber": 1,
+                "columnNumber": 82857
+              },
+              {
+                "functionName": "ajax",
+                "scriptId": "24359",
+                "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                "lineNumber": 1,
+                "columnNumber": 78434
+              },
+              {
+                "functionName": "verifyEmailOnClickBtn",
+                "scriptId": "24358",
+                "url": "https://qa.gorollick.com/scripts/gorollick/common.js?2.186.0",
+                "lineNumber": 983,
+                "columnNumber": 10
+              },
+              {
+                "functionName": "onclick",
+                "scriptId": "24801",
+                "url": "https://qa.gorollick.com/r/report-purchase/landing",
+                "lineNumber": 672,
+                "columnNumber": 160
+              }
+            ]
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "xhr",
+        "cache": {},
+        "connection": "5736299",
+        "pageref": "page_3",
+        "request": {
+          "method": "POST",
+          "url": "https://qa.gorollick.com/api/verify/leadEmail",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":authority",
+              "value": "qa.gorollick.com"
+            },
+            {
+              "name": ":method",
+              "value": "POST"
+            },
+            {
+              "name": ":path",
+              "value": "/api/verify/leadEmail"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "accept",
+              "value": "application/json, text/javascript, */*; q=0.01"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-US,en-IN;q=0.9,en;q=0.8,te;q=0.7"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache"
+            },
+            {
+              "name": "content-length",
+              "value": "35"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json;charset=UTF-8"
+            },
+            {
+              "name": "dnt",
+              "value": "1"
+            },
+            {
+              "name": "origin",
+              "value": "https://qa.gorollick.com"
+            },
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "priority",
+              "value": "u=1, i"
+            },
+            {
+              "name": "referer",
+              "value": "https://qa.gorollick.com/r/report-purchase/landing"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"Windows\""
+            },
+            {
+              "name": "sec-fetch-dest",
+              "value": "empty"
+            },
+            {
+              "name": "sec-fetch-mode",
+              "value": "cors"
+            },
+            {
+              "name": "sec-fetch-site",
+              "value": "same-origin"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "x-requested-with",
+              "value": "XMLHttpRequest"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 35,
+          "postData": {
+            "mimeType": "application/json;charset=UTF-8",
+            "text": "{\"email\":\"easypradeep@outlook.com\"}"
+          }
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "access-control-allow-credentials",
+              "value": "true"
+            },
+            {
+              "name": "access-control-allow-headers",
+              "value": "Origin, X-Requested-With, Content-Type, Accept, Authorization"
+            },
+            {
+              "name": "access-control-allow-methods",
+              "value": "GET, OPTIONS"
+            },
+            {
+              "name": "access-control-allow-origin",
+              "value": "https://qa.gorollick.com"
+            },
+            {
+              "name": "cache-control",
+              "value": "private, no-cache, no-store, must-revalidate"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache, must-revalidate"
+            },
+            {
+              "name": "content-length",
+              "value": "15"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "name": "date",
+              "value": "Mon, 20 Jan 2025 09:35:03 GMT"
+            },
+            {
+              "name": "etag",
+              "value": "W/\"f-VaSQ4oDUiZblZNAEkkN+sX+q3Sg\""
+            },
+            {
+              "name": "server",
+              "value": "nginx"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=15768000; includeSubDomains"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 15,
+            "mimeType": "application/json"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 417,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "52.162.210.125",
+        "startedDateTime": "2025-01-20T09:35:01.406Z",
+        "time": 286.4549998193979,
+        "timings": {
+          "blocked": 2.7189999284148216,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.9500000000000002,
+          "wait": 281.28200008031723,
+          "receive": 1.5039998106658459,
+          "_blocked_queueing": 1.3359999284148216,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
+      },
+      {
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "send",
+                "scriptId": "25058",
+                "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                "lineNumber": 1,
+                "columnNumber": 82857
+              },
+              {
+                "functionName": "ajax",
+                "scriptId": "25058",
+                "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                "lineNumber": 1,
+                "columnNumber": 78434
+              },
+              {
+                "functionName": "loadModels",
+                "scriptId": "25081",
+                "url": "https://qa.gorollick.com/scripts/gorollick/report-purchase.js",
+                "lineNumber": 88,
+                "columnNumber": 6
+              },
+              {
+                "functionName": "",
+                "scriptId": "25081",
+                "url": "https://qa.gorollick.com/scripts/gorollick/report-purchase.js",
+                "lineNumber": 260,
+                "columnNumber": 4
+              },
+              {
+                "functionName": "e",
+                "scriptId": "25058",
+                "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                "lineNumber": 1,
+                "columnNumber": 30037
+              },
+              {
+                "functionName": "t",
+                "scriptId": "25058",
+                "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                "lineNumber": 1,
+                "columnNumber": 30339
+              }
+            ],
+            "parent": {
+              "description": "setTimeout",
+              "callFrames": [
+                {
+                  "functionName": "",
+                  "scriptId": "25058",
+                  "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                  "lineNumber": 1,
+                  "columnNumber": 30548
+                },
+                {
+                  "functionName": "c",
+                  "scriptId": "25058",
+                  "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                  "lineNumber": 1,
+                  "columnNumber": 28326
+                },
+                {
+                  "functionName": "fireWith",
+                  "scriptId": "25058",
+                  "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                  "lineNumber": 1,
+                  "columnNumber": 29071
+                },
+                {
+                  "functionName": "fire",
+                  "scriptId": "25058",
+                  "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                  "lineNumber": 1,
+                  "columnNumber": 29107
+                },
+                {
+                  "functionName": "c",
+                  "scriptId": "25058",
+                  "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                  "lineNumber": 1,
+                  "columnNumber": 28326
+                },
+                {
+                  "functionName": "fireWith",
+                  "scriptId": "25058",
+                  "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                  "lineNumber": 1,
+                  "columnNumber": 29071
+                },
+                {
+                  "functionName": "ready",
+                  "scriptId": "25058",
+                  "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                  "lineNumber": 1,
+                  "columnNumber": 32044
+                },
+                {
+                  "functionName": "$",
+                  "scriptId": "25058",
+                  "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                  "lineNumber": 1,
+                  "columnNumber": 31823
+                }
+              ]
+            }
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "xhr",
+        "cache": {},
+        "connection": "5736299",
+        "pageref": "page_4",
+        "request": {
+          "method": "POST",
+          "url": "https://qa.gorollick.com/api/models",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":authority",
+              "value": "qa.gorollick.com"
+            },
+            {
+              "name": ":method",
+              "value": "POST"
+            },
+            {
+              "name": ":path",
+              "value": "/api/models"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "accept",
+              "value": "*/*"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-US,en-IN;q=0.9,en;q=0.8,te;q=0.7"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache"
+            },
+            {
+              "name": "content-length",
+              "value": "76"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json"
+            },
+            {
+              "name": "dnt",
+              "value": "1"
+            },
+            {
+              "name": "origin",
+              "value": "https://qa.gorollick.com"
+            },
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "priority",
+              "value": "u=1, i"
+            },
+            {
+              "name": "referer",
+              "value": "https://qa.gorollick.com/r/report-purchase/bonus-saving-form"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"Windows\""
+            },
+            {
+              "name": "sec-fetch-dest",
+              "value": "empty"
+            },
+            {
+              "name": "sec-fetch-mode",
+              "value": "cors"
+            },
+            {
+              "name": "sec-fetch-site",
+              "value": "same-origin"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "x-requested-with",
+              "value": "XMLHttpRequest"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 76,
+          "postData": {
+            "mimeType": "application/json",
+            "text": "{\"categories\":\"\",\"subcategories\":\"\",\"manufacturers\":\"\",\"years\":\"2025, 2026\"}"
+          }
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "access-control-allow-credentials",
+              "value": "true"
+            },
+            {
+              "name": "access-control-allow-headers",
+              "value": "Origin, X-Requested-With, Content-Type, Accept, Authorization"
+            },
+            {
+              "name": "access-control-allow-methods",
+              "value": "GET, OPTIONS"
+            },
+            {
+              "name": "access-control-allow-origin",
+              "value": "https://qa.gorollick.com"
+            },
+            {
+              "name": "cache-control",
+              "value": "private, no-cache, no-store, must-revalidate"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache, must-revalidate"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "name": "date",
+              "value": "Mon, 20 Jan 2025 09:35:07 GMT"
+            },
+            {
+              "name": "etag",
+              "value": "W/\"2088a-a7dNNNob+LtPFTAU7cxst15CGPE\""
+            },
+            {
+              "name": "server",
+              "value": "nginx"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=15768000; includeSubDomains"
+            },
+            {
+              "name": "vary",
+              "value": "Accept-Encoding"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 133258,
+            "mimeType": "application/json"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 17991,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "52.162.210.125",
+        "startedDateTime": "2025-01-20T09:35:05.239Z",
+        "time": 745.1120000332594,
+        "timings": {
+          "blocked": 3.1649998130202293,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.43900000000000006,
+          "wait": 740.8519998817444,
+          "receive": 0.6560003384947777,
+          "_blocked_queueing": 1.3819998130202293,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
+      },
+      {
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "send",
+                "scriptId": "25058",
+                "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                "lineNumber": 1,
+                "columnNumber": 82857
+              },
+              {
+                "functionName": "ajax",
+                "scriptId": "25058",
+                "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                "lineNumber": 1,
+                "columnNumber": 78434
+              },
+              {
+                "functionName": "loadDealers",
+                "scriptId": "25081",
+                "url": "https://qa.gorollick.com/scripts/gorollick/report-purchase.js",
+                "lineNumber": 114,
+                "columnNumber": 6
+              },
+              {
+                "functionName": "",
+                "scriptId": "25081",
+                "url": "https://qa.gorollick.com/scripts/gorollick/report-purchase.js",
+                "lineNumber": 261,
+                "columnNumber": 4
+              },
+              {
+                "functionName": "e",
+                "scriptId": "25058",
+                "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                "lineNumber": 1,
+                "columnNumber": 30037
+              },
+              {
+                "functionName": "t",
+                "scriptId": "25058",
+                "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                "lineNumber": 1,
+                "columnNumber": 30339
+              }
+            ],
+            "parent": {
+              "description": "setTimeout",
+              "callFrames": [
+                {
+                  "functionName": "",
+                  "scriptId": "25058",
+                  "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                  "lineNumber": 1,
+                  "columnNumber": 30548
+                },
+                {
+                  "functionName": "c",
+                  "scriptId": "25058",
+                  "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                  "lineNumber": 1,
+                  "columnNumber": 28326
+                },
+                {
+                  "functionName": "fireWith",
+                  "scriptId": "25058",
+                  "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                  "lineNumber": 1,
+                  "columnNumber": 29071
+                },
+                {
+                  "functionName": "fire",
+                  "scriptId": "25058",
+                  "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                  "lineNumber": 1,
+                  "columnNumber": 29107
+                },
+                {
+                  "functionName": "c",
+                  "scriptId": "25058",
+                  "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                  "lineNumber": 1,
+                  "columnNumber": 28326
+                },
+                {
+                  "functionName": "fireWith",
+                  "scriptId": "25058",
+                  "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                  "lineNumber": 1,
+                  "columnNumber": 29071
+                },
+                {
+                  "functionName": "ready",
+                  "scriptId": "25058",
+                  "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                  "lineNumber": 1,
+                  "columnNumber": 32044
+                },
+                {
+                  "functionName": "$",
+                  "scriptId": "25058",
+                  "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                  "lineNumber": 1,
+                  "columnNumber": 31823
+                }
+              ]
+            }
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "xhr",
+        "cache": {},
+        "connection": "5736299",
+        "pageref": "page_4",
+        "request": {
+          "method": "GET",
+          "url": "https://qa.gorollick.com/api/dealer-list/1?_=1737365703416",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":authority",
+              "value": "qa.gorollick.com"
+            },
+            {
+              "name": ":method",
+              "value": "GET"
+            },
+            {
+              "name": ":path",
+              "value": "/api/dealer-list/1?_=1737365703416"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "accept",
+              "value": "*/*"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-US,en-IN;q=0.9,en;q=0.8,te;q=0.7"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache"
+            },
+            {
+              "name": "dnt",
+              "value": "1"
+            },
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "priority",
+              "value": "u=1, i"
+            },
+            {
+              "name": "referer",
+              "value": "https://qa.gorollick.com/r/report-purchase/bonus-saving-form"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"Windows\""
+            },
+            {
+              "name": "sec-fetch-dest",
+              "value": "empty"
+            },
+            {
+              "name": "sec-fetch-mode",
+              "value": "cors"
+            },
+            {
+              "name": "sec-fetch-site",
+              "value": "same-origin"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "x-requested-with",
+              "value": "XMLHttpRequest"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "_",
+              "value": "1737365703416"
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "access-control-allow-credentials",
+              "value": "true"
+            },
+            {
+              "name": "access-control-allow-headers",
+              "value": "Origin, X-Requested-With, Content-Type, Accept, Authorization"
+            },
+            {
+              "name": "access-control-allow-methods",
+              "value": "GET, OPTIONS"
+            },
+            {
+              "name": "access-control-allow-origin",
+              "value": "*"
+            },
+            {
+              "name": "cache-control",
+              "value": "private, no-cache, no-store, must-revalidate"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache, must-revalidate"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "name": "date",
+              "value": "Mon, 20 Jan 2025 09:35:07 GMT"
+            },
+            {
+              "name": "etag",
+              "value": "W/\"4921a-W8Msi83m1ZCx3ezTbMdHtO7Lp1w\""
+            },
+            {
+              "name": "server",
+              "value": "nginx"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=15768000; includeSubDomains"
+            },
+            {
+              "name": "vary",
+              "value": "Accept-Encoding"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 299546,
+            "mimeType": "application/json"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 93959,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "52.162.210.125",
+        "startedDateTime": "2025-01-20T09:35:05.240Z",
+        "time": 1037.898000329733,
+        "timings": {
+          "blocked": 3.781000064611435,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.20799999999999974,
+          "wait": 799.2229999924898,
+          "receive": 234.68600027263165,
+          "_blocked_queueing": 1.201000064611435,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
+      },
+      {
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "uploadFiles",
+                "scriptId": "25081",
+                "url": "https://qa.gorollick.com/scripts/gorollick/report-purchase.js",
+                "lineNumber": 715,
+                "columnNumber": 24
+              },
+              {
+                "functionName": "uploadProofOfPurchase",
+                "scriptId": "25081",
+                "url": "https://qa.gorollick.com/scripts/gorollick/report-purchase.js",
+                "lineNumber": 738,
+                "columnNumber": 14
+              },
+              {
+                "functionName": "validateUpload",
+                "scriptId": "25081",
+                "url": "https://qa.gorollick.com/scripts/gorollick/report-purchase.js",
+                "lineNumber": 155,
+                "columnNumber": 22
+              },
+              {
+                "functionName": "",
+                "scriptId": "25081",
+                "url": "https://qa.gorollick.com/scripts/gorollick/report-purchase.js",
+                "lineNumber": 444,
+                "columnNumber": 26
+              },
+              {
+                "functionName": "dispatch",
+                "scriptId": "25058",
+                "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                "lineNumber": 1,
+                "columnNumber": 43063
+              },
+              {
+                "functionName": "y.handle",
+                "scriptId": "25058",
+                "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                "lineNumber": 1,
+                "columnNumber": 41047
+              }
+            ]
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "fetch",
+        "cache": {},
+        "connection": "5740159",
+        "pageref": "page_4",
+        "request": {
+          "method": "POST",
+          "url": "https://content-qa.rollick.io/images/upload",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en-IN;q=0.9,en;q=0.8,te;q=0.7"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "176519"
+            },
+            {
+              "name": "Content-Type",
+              "value": "multipart/form-data; boundary=----WebKitFormBoundaryjqjiDwpwtLekDKgb"
+            },
+            {
+              "name": "DNT",
+              "value": "1"
+            },
+            {
+              "name": "Host",
+              "value": "content-qa.rollick.io"
+            },
+            {
+              "name": "Origin",
+              "value": "https://qa.gorollick.com"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Referer",
+              "value": "https://qa.gorollick.com/"
+            },
+            {
+              "name": "Sec-Fetch-Dest",
+              "value": "empty"
+            },
+            {
+              "name": "Sec-Fetch-Mode",
+              "value": "cors"
+            },
+            {
+              "name": "Sec-Fetch-Site",
+              "value": "cross-site"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"Windows\""
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": 750,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Access-Control-Allow-Credentials",
+              "value": "true"
+            },
+            {
+              "name": "Access-Control-Allow-Headers",
+              "value": "Origin, X-Requested-With, Content-Type, Accept"
+            },
+            {
+              "name": "Access-Control-Allow-Methods",
+              "value": "POST, GET, OPTIONS"
+            },
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "https://qa.gorollick.com"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "public, max-age=300"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "name": "Date",
+              "value": "Mon, 20 Jan 2025 09:36:54 GMT"
+            },
+            {
+              "name": "ETag",
+              "value": "W/\"1b8-mVRbdRTa+PQUX38ridIOoXH1t2o\""
+            },
+            {
+              "name": "Server",
+              "value": "nginx"
+            },
+            {
+              "name": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "name": "Vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "X-RateLimit-Limit",
+              "value": "50"
+            },
+            {
+              "name": "X-RateLimit-Remaining",
+              "value": "49"
+            },
+            {
+              "name": "X-RateLimit-Reset",
+              "value": "1737366715"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 440,
+            "mimeType": "application/json",
+            "compression": 150
+          },
+          "redirectURL": "",
+          "headersSize": 600,
+          "bodySize": 290,
+          "_transferSize": 890,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "52.162.210.125",
+        "startedDateTime": "2025-01-20T09:36:51.299Z",
+        "time": 1488.7590000889597,
+        "timings": {
+          "blocked": 5.200999886512756,
+          "dns": 0.489,
+          "ssl": 228.043,
+          "connect": 456.28,
+          "send": 700.069,
+          "wait": 321.2999999100864,
+          "receive": 5.420000292360783,
+          "_blocked_queueing": 4.693999886512756,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
+      },
+      {
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "send",
+                "scriptId": "25058",
+                "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                "lineNumber": 1,
+                "columnNumber": 82857
+              },
+              {
+                "functionName": "ajax",
+                "scriptId": "25058",
+                "url": "https://qa.gorollick.com/scripts/jquery-3.6.1.min.js",
+                "lineNumber": 1,
+                "columnNumber": 78434
+              },
+              {
+                "functionName": "submitBonusSavingInfo",
+                "scriptId": "25081",
+                "url": "https://qa.gorollick.com/scripts/gorollick/report-purchase.js",
+                "lineNumber": 508,
+                "columnNumber": 10
+              },
+              {
+                "functionName": "onclick",
+                "scriptId": "25773",
+                "url": "https://qa.gorollick.com/r/report-purchase/bonus-saving-form",
+                "lineNumber": 767,
+                "columnNumber": 111
+              }
+            ]
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "xhr",
+        "cache": {},
+        "connection": "5740634",
+        "pageref": "page_4",
+        "request": {
+          "method": "POST",
+          "url": "https://qa.gorollick.com/api/purchases",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":authority",
+              "value": "qa.gorollick.com"
+            },
+            {
+              "name": ":method",
+              "value": "POST"
+            },
+            {
+              "name": ":path",
+              "value": "/api/purchases"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "accept",
+              "value": "*/*"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-US,en-IN;q=0.9,en;q=0.8,te;q=0.7"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache"
+            },
+            {
+              "name": "content-length",
+              "value": "700"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json"
+            },
+            {
+              "name": "dnt",
+              "value": "1"
+            },
+            {
+              "name": "origin",
+              "value": "https://qa.gorollick.com"
+            },
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "priority",
+              "value": "u=1, i"
+            },
+            {
+              "name": "referer",
+              "value": "https://qa.gorollick.com/r/report-purchase/bonus-saving-form"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"Windows\""
+            },
+            {
+              "name": "sec-fetch-dest",
+              "value": "empty"
+            },
+            {
+              "name": "sec-fetch-mode",
+              "value": "cors"
+            },
+            {
+              "name": "sec-fetch-site",
+              "value": "same-origin"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "x-requested-with",
+              "value": "XMLHttpRequest"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 700,
+          "postData": {
+            "mimeType": "application/json",
+            "text": "{\"firstName\":\"pradeep\",\"lastName\":\"Reddy\",\"email\":\"pradeep.chada@gorollick.io\",\"phone\":\"8978684171\",\"address\":\"43423\",\"city\":\"hYDERABAD\",\"state\":\"TX\",\"zip\":\"75753\",\"year\":\"2003\",\"make\":\"Winnebago\",\"model\":\"Trophy\",\"dealerName\":\"Pop RVs\",\"purchaseDate\":\"2014-03-22\",\"price\":\"23424\",\"file\":\"C:\\\\fakepath\\\\Dhanjeya Grand.pdf\",\"fileURL\":\"https://rollickimages.blob.core.windows.net/rollick%2FProofOfPurchase/rol-050f3591-8b32-4306-9bb8-26eaa0ddf9f7.pdf\",\"crsId\":\"\",\"nxg\":true,\"clickstreamId\":\"5ef08b2582658dd0fa2cec82a2130939\",\"dealerId\":\"6705aa809aacf8f6\",\"source\":\"rollick\",\"imageUrl\":\"https://rollickimages.blob.core.windows.net/rollick%2FProofOfPurchase/rol-050f3591-8b32-4306-9bb8-26eaa0ddf9f7.pdf\"}"
+          }
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "access-control-allow-credentials",
+              "value": "true"
+            },
+            {
+              "name": "access-control-allow-headers",
+              "value": "Origin, X-Requested-With, Content-Type, Accept, Authorization"
+            },
+            {
+              "name": "access-control-allow-methods",
+              "value": "GET, OPTIONS"
+            },
+            {
+              "name": "access-control-allow-origin",
+              "value": "https://qa.gorollick.com"
+            },
+            {
+              "name": "cache-control",
+              "value": "private, no-cache, no-store, must-revalidate"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache, must-revalidate"
+            },
+            {
+              "name": "content-length",
+              "value": "27"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "name": "date",
+              "value": "Mon, 20 Jan 2025 09:37:50 GMT"
+            },
+            {
+              "name": "etag",
+              "value": "W/\"1b-x9EwtBVIkls7YpXyCouF8qqtkU0\""
+            },
+            {
+              "name": "server",
+              "value": "nginx"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=15768000; includeSubDomains"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 27,
+            "mimeType": "application/json"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 429,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "52.162.210.125",
+        "startedDateTime": "2025-01-20T09:37:47.586Z",
+        "time": 1214.9439999376236,
+        "timings": {
+          "blocked": 1.4940000244975091,
+          "dns": 5.62,
+          "ssl": 235.669,
+          "connect": 468.218,
+          "send": 0.9459999999999695,
+          "wait": 733.7949998430014,
+          "receive": 4.871000070124865,
+          "_blocked_queueing": 1.104000024497509,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
       }
     ]
   }
