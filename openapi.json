@@ -3,7 +3,7 @@
   "info": {
     "title": "HarToOpenApi",
     "version": "1.0.0",
-    "description": "OpenAPI spec generated from HAR data for qa.gorollick.com on 2025-01-20T07:28:58.696Z"
+    "description": "OpenAPI spec generated from HAR data for qa.gorollick.com on 2025-01-20T08:03:20.690Z"
   },
   "paths": {
     "/api/geocode/86336": {
@@ -11,6 +11,16 @@
         "description": "",
         "operationId": "getApiGeocodeById",
         "parameters": [
+          {
+            "description": "cookie",
+            "in": "header",
+            "name": "cookie",
+            "schema": {
+              "default": "_vwo_ds=3%241737356614%3A22.36187259%3A%3A; _vwo_uuid=D9CB9BB543671B71ABD6A67AF331C26F6; zip=86336; _vwo_uuid_v2=D761515BE3CD17148864552296899E8C4|609649387132e191379d5cec5e7d6730; _vis_opt_s=1%7C; _vis_opt_test_cookie=1; _pubcid=93808ee5-5756-465d-88e7-207889d11a88; _sharedID=bf87ca83-d21a-4d54-8e18-d9a4eb51370e; _sharedID_cst=VyxHLMwsHQ%3D%3D; _fbp=fb.1.1737360014302.969791556622762447; _hp2_ses_props.2484844913=%7B%22ts%22%3A1737360013113%2C%22d%22%3A%22qa.gorollick.com%22%2C%22h%22%3A%22%2Fr%2Finventory%2Frvs-for-sale%22%2C%22q%22%3A%22%3Fdistance%3D200%26zip%3D86336%26categories%3Drvs%22%7D; _gcl_au=1.1.1141836078.1737360017; __gads=ID=13e5efa678235b26:T=1737360018:RT=1737360018:S=ALNI_MZ5ePlOQRiJap_-kFH7YLR5_IpS_g; __gpi=UID=00000fec0c324f7e:T=1737360018:RT=1737360018:S=ALNI_ManTJGLqpjaNx8jnzcoZzLFBldYrg; __eoi=ID=3b16e87c76c80f9e:T=1737360018:RT=1737360018:S=AA-AfjZHq9QjV8aYPp7nan5NfN4V; _ga=GA1.2.1053247222.1737360019; _gid=GA1.2.193055681.1737360019; _pubcid_cst=zix7LPQsHA%3D%3D; _gat_UA-115314153-3=1; _hp2_id.2484844913=%7B%22userId%22%3A%226203459445565571%22%2C%22pageviewId%22%3A%225668473040850445%22%2C%22sessionId%22%3A%226471930034234591%22%2C%22identity%22%3Anull%2C%22trackerVersion%22%3A%224.0%22%7D; FCNEC=%5B%5B%22AKsRol-c567or0oeyjZMwUoOuPKh33MqKxzv_Ud_EK3CvGpthihv3Hja3tRYEquN5Z8dnFescbtDYrr3EZb_0YzwiTNCGj0dmyiAXeHtiTP0-UAk0u9n5ocLosYU-_F5Lob-mqucMVv23LLZQ-Nyc5N85PytLOxtPA%3D%3D%22%5D%5D; cto_bidid=BstQCl9tQk9vZFY4Y0dEMmx5S1UzZUdlWWVNV2Iwc3E2Y3A0azR3T2hzOERieHo1eHh0RUI2aVVyQjM4MUtrR0tSOGJrYVd1QU82akxaR1gwd080YTRLOUw0bEF4NDZnNWw1YUsxRCUyRmFUSjY5SDBvJTNE; cto_bundle=YrT-k19scUlEWlF5TFBpZVFHV0x5Vkx6RiUyQmJodERPYkNlNGhmd2ZPd0dQYXI5ZFpGaWpveCUyQmZERUg1UzdNdmVzWm1vdUdzdXJscVYyNFNncWJxSUoyQ0JrUG5IOEY2WXhqdDhEUVBsSDlOekt3ckN3N2NWalhidTZjcGpheFNOR0MlMkZqZ25oYUJVSGtFUU9xS1o3b0Ntd3h1alczNjNkTFo4YTBVYzByY0dkYUZsUTFsMmpObzI0Q0lwZ2doWG1PZjlHSUhvTno3bGF5dzBUS2xOVGJsb1oycGZRJTNEJTNE; _vwo_sn=2290%3A7%3A%3A%3A1; Aimbase.Analytics.Session={\"id\":\"3d1720a1-aebd-4089-af81-bd4f8bb8a9b4\",\"lpvid\":\"b2a9b2a2-a4e1-49e0-add3-eb43cddf93c5\",\"ref\":\"\"}",
+              "example": "_vwo_ds=3%241737356614%3A22.36187259%3A%3A; _vwo_uuid=D9CB9BB543671B71ABD6A67AF331C26F6; zip=86336; _vwo_uuid_v2=D761515BE3CD17148864552296899E8C4|609649387132e191379d5cec5e7d6730; _vis_opt_s=1%7C; _vis_opt_test_cookie=1; _pubcid=93808ee5-5756-465d-88e7-207889d11a88; _sharedID=bf87ca83-d21a-4d54-8e18-d9a4eb51370e; _sharedID_cst=VyxHLMwsHQ%3D%3D; _fbp=fb.1.1737360014302.969791556622762447; _hp2_ses_props.2484844913=%7B%22ts%22%3A1737360013113%2C%22d%22%3A%22qa.gorollick.com%22%2C%22h%22%3A%22%2Fr%2Finventory%2Frvs-for-sale%22%2C%22q%22%3A%22%3Fdistance%3D200%26zip%3D86336%26categories%3Drvs%22%7D; _gcl_au=1.1.1141836078.1737360017; __gads=ID=13e5efa678235b26:T=1737360018:RT=1737360018:S=ALNI_MZ5ePlOQRiJap_-kFH7YLR5_IpS_g; __gpi=UID=00000fec0c324f7e:T=1737360018:RT=1737360018:S=ALNI_ManTJGLqpjaNx8jnzcoZzLFBldYrg; __eoi=ID=3b16e87c76c80f9e:T=1737360018:RT=1737360018:S=AA-AfjZHq9QjV8aYPp7nan5NfN4V; _ga=GA1.2.1053247222.1737360019; _gid=GA1.2.193055681.1737360019; _pubcid_cst=zix7LPQsHA%3D%3D; _gat_UA-115314153-3=1; _hp2_id.2484844913=%7B%22userId%22%3A%226203459445565571%22%2C%22pageviewId%22%3A%225668473040850445%22%2C%22sessionId%22%3A%226471930034234591%22%2C%22identity%22%3Anull%2C%22trackerVersion%22%3A%224.0%22%7D; FCNEC=%5B%5B%22AKsRol-c567or0oeyjZMwUoOuPKh33MqKxzv_Ud_EK3CvGpthihv3Hja3tRYEquN5Z8dnFescbtDYrr3EZb_0YzwiTNCGj0dmyiAXeHtiTP0-UAk0u9n5ocLosYU-_F5Lob-mqucMVv23LLZQ-Nyc5N85PytLOxtPA%3D%3D%22%5D%5D; cto_bidid=BstQCl9tQk9vZFY4Y0dEMmx5S1UzZUdlWWVNV2Iwc3E2Y3A0azR3T2hzOERieHo1eHh0RUI2aVVyQjM4MUtrR0tSOGJrYVd1QU82akxaR1gwd080YTRLOUw0bEF4NDZnNWw1YUsxRCUyRmFUSjY5SDBvJTNE; cto_bundle=YrT-k19scUlEWlF5TFBpZVFHV0x5Vkx6RiUyQmJodERPYkNlNGhmd2ZPd0dQYXI5ZFpGaWpveCUyQmZERUg1UzdNdmVzWm1vdUdzdXJscVYyNFNncWJxSUoyQ0JrUG5IOEY2WXhqdDhEUVBsSDlOekt3ckN3N2NWalhidTZjcGpheFNOR0MlMkZqZ25oYUJVSGtFUU9xS1o3b0Ntd3h1alczNjNkTFo4YTBVYzByY0dkYUZsUTFsMmpObzI0Q0lwZ2doWG1PZjlHSUhvTno3bGF5dzBUS2xOVGJsb1oycGZRJTNEJTNE; _vwo_sn=2290%3A7%3A%3A%3A1; Aimbase.Analytics.Session={\"id\":\"3d1720a1-aebd-4089-af81-bd4f8bb8a9b4\",\"lpvid\":\"b2a9b2a2-a4e1-49e0-add3-eb43cddf93c5\",\"ref\":\"\"}",
+              "type": "string"
+            }
+          },
           {
             "description": "priority",
             "in": "header",
@@ -41,6 +51,37 @@
             "description": ""
           }
         },
+        "security": [
+          {
+            "cookie": [
+              "cookieVwoDs",
+              "cookieVwoUuid",
+              "cookieZip",
+              "cookieVwoUuidV2",
+              "cookieVisOptS",
+              "cookieVisOptTestCookie",
+              "cookiePubcid",
+              "cookieSharedId",
+              "cookieSharedIdCst",
+              "cookieFbp",
+              "cookieHp2SesProps2484844913",
+              "cookieGclAu",
+              "cookieGads",
+              "cookieGpi",
+              "cookieEoi",
+              "cookieGa",
+              "cookieGid",
+              "cookiePubcidCst",
+              "cookieGatUa1153141533",
+              "cookieHp2Id2484844913",
+              "cookieFcnec",
+              "cookieCtoBidid",
+              "cookieCtoBundle",
+              "cookieVwoSn",
+              "cookieAimbaseAnalyticsSession"
+            ]
+          }
+        ],
         "summary": "Get Api Geocode By ID"
       },
       "parameters": []
@@ -55,8 +96,8 @@
             "in": "query",
             "name": "inventoryId",
             "schema": {
-              "default": "046955ca-b72c-4725-85fe-c6178190c91c",
-              "example": "046955ca-b72c-4725-85fe-c6178190c91c",
+              "default": "076e8ab8-d064-4b9d-9d84-3934c33044c9",
+              "example": "076e8ab8-d064-4b9d-9d84-3934c33044c9",
               "type": "string"
             }
           },
@@ -85,8 +126,18 @@
             "in": "query",
             "name": "_",
             "schema": {
-              "default": "1737357753356",
-              "example": "1737357753356",
+              "default": "1737360121471",
+              "example": "1737360121471",
+              "type": "string"
+            }
+          },
+          {
+            "description": "cookie",
+            "in": "header",
+            "name": "cookie",
+            "schema": {
+              "default": "_vwo_ds=3%241737356614%3A22.36187259%3A%3A; _vwo_uuid=D9CB9BB543671B71ABD6A67AF331C26F6; zip=86336; _vwo_uuid_v2=D761515BE3CD17148864552296899E8C4|609649387132e191379d5cec5e7d6730; _vis_opt_s=1%7C; _vis_opt_test_cookie=1; _pubcid=93808ee5-5756-465d-88e7-207889d11a88; _sharedID=bf87ca83-d21a-4d54-8e18-d9a4eb51370e; _sharedID_cst=VyxHLMwsHQ%3D%3D; _fbp=fb.1.1737360014302.969791556622762447; _hp2_ses_props.2484844913=%7B%22ts%22%3A1737360013113%2C%22d%22%3A%22qa.gorollick.com%22%2C%22h%22%3A%22%2Fr%2Finventory%2Frvs-for-sale%22%2C%22q%22%3A%22%3Fdistance%3D200%26zip%3D86336%26categories%3Drvs%22%7D; _gcl_au=1.1.1141836078.1737360017; __gads=ID=13e5efa678235b26:T=1737360018:RT=1737360018:S=ALNI_MZ5ePlOQRiJap_-kFH7YLR5_IpS_g; __gpi=UID=00000fec0c324f7e:T=1737360018:RT=1737360018:S=ALNI_ManTJGLqpjaNx8jnzcoZzLFBldYrg; __eoi=ID=3b16e87c76c80f9e:T=1737360018:RT=1737360018:S=AA-AfjZHq9QjV8aYPp7nan5NfN4V; _ga=GA1.2.1053247222.1737360019; _gid=GA1.2.193055681.1737360019; _pubcid_cst=zix7LPQsHA%3D%3D; _gat_UA-115314153-3=1; _vwo_sn=2290%3A6%3A%3A%3A1; Aimbase.Analytics.Session={\"id\":\"3d1720a1-aebd-4089-af81-bd4f8bb8a9b4\",\"lpvid\":\"a8ab679c-5866-4e4a-ab11-7b8782f9bbe9\",\"ref\":\"\"}; _hp2_id.2484844913=%7B%22userId%22%3A%226203459445565571%22%2C%22pageviewId%22%3A%225668473040850445%22%2C%22sessionId%22%3A%226471930034234591%22%2C%22identity%22%3Anull%2C%22trackerVersion%22%3A%224.0%22%7D; FCNEC=%5B%5B%22AKsRol-c567or0oeyjZMwUoOuPKh33MqKxzv_Ud_EK3CvGpthihv3Hja3tRYEquN5Z8dnFescbtDYrr3EZb_0YzwiTNCGj0dmyiAXeHtiTP0-UAk0u9n5ocLosYU-_F5Lob-mqucMVv23LLZQ-Nyc5N85PytLOxtPA%3D%3D%22%5D%5D; cto_bidid=BstQCl9tQk9vZFY4Y0dEMmx5S1UzZUdlWWVNV2Iwc3E2Y3A0azR3T2hzOERieHo1eHh0RUI2aVVyQjM4MUtrR0tSOGJrYVd1QU82akxaR1gwd080YTRLOUw0bEF4NDZnNWw1YUsxRCUyRmFUSjY5SDBvJTNE; cto_bundle=YrT-k19scUlEWlF5TFBpZVFHV0x5Vkx6RiUyQmJodERPYkNlNGhmd2ZPd0dQYXI5ZFpGaWpveCUyQmZERUg1UzdNdmVzWm1vdUdzdXJscVYyNFNncWJxSUoyQ0JrUG5IOEY2WXhqdDhEUVBsSDlOekt3ckN3N2NWalhidTZjcGpheFNOR0MlMkZqZ25oYUJVSGtFUU9xS1o3b0Ntd3h1alczNjNkTFo4YTBVYzByY0dkYUZsUTFsMmpObzI0Q0lwZ2doWG1PZjlHSUhvTno3bGF5dzBUS2xOVGJsb1oycGZRJTNEJTNE",
+              "example": "_vwo_ds=3%241737356614%3A22.36187259%3A%3A; _vwo_uuid=D9CB9BB543671B71ABD6A67AF331C26F6; zip=86336; _vwo_uuid_v2=D761515BE3CD17148864552296899E8C4|609649387132e191379d5cec5e7d6730; _vis_opt_s=1%7C; _vis_opt_test_cookie=1; _pubcid=93808ee5-5756-465d-88e7-207889d11a88; _sharedID=bf87ca83-d21a-4d54-8e18-d9a4eb51370e; _sharedID_cst=VyxHLMwsHQ%3D%3D; _fbp=fb.1.1737360014302.969791556622762447; _hp2_ses_props.2484844913=%7B%22ts%22%3A1737360013113%2C%22d%22%3A%22qa.gorollick.com%22%2C%22h%22%3A%22%2Fr%2Finventory%2Frvs-for-sale%22%2C%22q%22%3A%22%3Fdistance%3D200%26zip%3D86336%26categories%3Drvs%22%7D; _gcl_au=1.1.1141836078.1737360017; __gads=ID=13e5efa678235b26:T=1737360018:RT=1737360018:S=ALNI_MZ5ePlOQRiJap_-kFH7YLR5_IpS_g; __gpi=UID=00000fec0c324f7e:T=1737360018:RT=1737360018:S=ALNI_ManTJGLqpjaNx8jnzcoZzLFBldYrg; __eoi=ID=3b16e87c76c80f9e:T=1737360018:RT=1737360018:S=AA-AfjZHq9QjV8aYPp7nan5NfN4V; _ga=GA1.2.1053247222.1737360019; _gid=GA1.2.193055681.1737360019; _pubcid_cst=zix7LPQsHA%3D%3D; _gat_UA-115314153-3=1; _vwo_sn=2290%3A6%3A%3A%3A1; Aimbase.Analytics.Session={\"id\":\"3d1720a1-aebd-4089-af81-bd4f8bb8a9b4\",\"lpvid\":\"a8ab679c-5866-4e4a-ab11-7b8782f9bbe9\",\"ref\":\"\"}; _hp2_id.2484844913=%7B%22userId%22%3A%226203459445565571%22%2C%22pageviewId%22%3A%225668473040850445%22%2C%22sessionId%22%3A%226471930034234591%22%2C%22identity%22%3Anull%2C%22trackerVersion%22%3A%224.0%22%7D; FCNEC=%5B%5B%22AKsRol-c567or0oeyjZMwUoOuPKh33MqKxzv_Ud_EK3CvGpthihv3Hja3tRYEquN5Z8dnFescbtDYrr3EZb_0YzwiTNCGj0dmyiAXeHtiTP0-UAk0u9n5ocLosYU-_F5Lob-mqucMVv23LLZQ-Nyc5N85PytLOxtPA%3D%3D%22%5D%5D; cto_bidid=BstQCl9tQk9vZFY4Y0dEMmx5S1UzZUdlWWVNV2Iwc3E2Y3A0azR3T2hzOERieHo1eHh0RUI2aVVyQjM4MUtrR0tSOGJrYVd1QU82akxaR1gwd080YTRLOUw0bEF4NDZnNWw1YUsxRCUyRmFUSjY5SDBvJTNE; cto_bundle=YrT-k19scUlEWlF5TFBpZVFHV0x5Vkx6RiUyQmJodERPYkNlNGhmd2ZPd0dQYXI5ZFpGaWpveCUyQmZERUg1UzdNdmVzWm1vdUdzdXJscVYyNFNncWJxSUoyQ0JrUG5IOEY2WXhqdDhEUVBsSDlOekt3ckN3N2NWalhidTZjcGpheFNOR0MlMkZqZ25oYUJVSGtFUU9xS1o3b0Ntd3h1alczNjNkTFo4YTBVYzByY0dkYUZsUTFsMmpObzI0Q0lwZ2doWG1PZjlHSUhvTno3bGF5dzBUS2xOVGJsb1oycGZRJTNEJTNE",
               "type": "string"
             }
           },
@@ -102,7 +153,7 @@
           }
         ],
         "responses": {
-          "400": {
+          "200": {
             "content": {
               "multipart/form-data": {
                 "schema": {
@@ -120,82 +171,179 @@
             "description": ""
           }
         },
+        "security": [
+          {
+            "cookie": [
+              "cookieVwoDs",
+              "cookieVwoUuid",
+              "cookieZip",
+              "cookieVwoUuidV2",
+              "cookieVisOptS",
+              "cookieVisOptTestCookie",
+              "cookiePubcid",
+              "cookieSharedId",
+              "cookieSharedIdCst",
+              "cookieFbp",
+              "cookieHp2SesProps2484844913",
+              "cookieGclAu",
+              "cookieGads",
+              "cookieGpi",
+              "cookieEoi",
+              "cookieGa",
+              "cookieGid",
+              "cookiePubcidCst",
+              "cookieGatUa1153141533",
+              "cookieVwoSn",
+              "cookieAimbaseAnalyticsSession",
+              "cookieHp2Id2484844913",
+              "cookieFcnec",
+              "cookieCtoBidid",
+              "cookieCtoBundle"
+            ]
+          }
+        ],
         "summary": "Get Api Usbank Getcloudapplylink"
       },
       "parameters": []
-    },
-    "/verify-recaptcha": {
-      "parameters": [],
-      "post": {
-        "description": "",
-        "operationId": "postVerifyRecaptcha",
-        "parameters": [
-          {
-            "description": "priority",
-            "in": "header",
-            "name": "priority",
-            "schema": {
-              "default": "u=1, i",
-              "example": "u=1, i",
-              "type": "string"
-            }
-          }
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "example": {
-                "token": "03AFcWeA66dIblA6vuwZhH-5j6cPtX7wKPOqJViVazr3Fe7N8lBU-dPhKDsN1Z80hMcNhf7jCO33MnyCoGOoZMbjyp8SGur6Kl4wa2jMz_NKt9Wexax3SV827hTmsvP3YzSNNL9jd4DMP1UtHkfM81-VqQmqMHY0pHpMVmSBSJgEdvQNzc0jvgmv8K7TJh3pRSWF7xcNTS720L1P5wDxtQyNI3HrbbPUz4-YjxfvfwYqGoHPd4JyMO_38OyqQdqlojEqHpJP7MAmFRxKDrEUuYqTc2FqGiySICSHfTc1khyHVuXO-dDrkb6dwW15PG6ixdf7zMKKaRYM-rrZBB5dsR_3b-QNHCYkPzhmBn2o-xdzsYEICZ-Kebe4pZsD0xEvW1oYrqFaaea2kNGkOFMke8TbEi2afvPZGgqe7UWZ13QDskPpG73_Ry5zl1eWv57WbhT3J_vN1oFVxKGKJO7MqRwFsvT5OmMjy0joZssCjqg0q2CxqYtW23bkKXnSO5X_FhuPasl3Le_xWfFy81UXiHWPShd14CUrj7div1mRDrKN4eI8yLEr29KF4ZAFXJjpn0slPA6VSC7VtxjmocnF3NwsBkmfWUo0XjFtX_FY4Shsg0JrT9arvQmmNpHQRm75u82njqwToqjD89Z8x2a7XRggw5DGQMlBe5ZtyKlweT70GyPuJUQdhW_oKS64cK4O6Ry75a8LhX8wsJ4_NoImqUEkQITLSmM_YtpD0Xwh-8u4NK6L5HU3bwQcXbxWV-DigZyHmjXtThivxXhO1tUThtBiu1oSgLdi35yU9JEAKFCNZkJ3eeZxtOeodx6VLwFBxUCdpwYCCcWlplruU1IaI_D2Y44-8Pmkx7oz3tXBAPcoUxD9F6n116gIs3LF0HX4OESsLuufW_LQtcH5zHOvpcYmkfvzdG0UfVnoSAyRK3O05AGhLW0OM-j9eQR9DKvVrUCBZCNxRJaFotMKzYAKsOUy1kQOccBIa6Gl117RmlPg9a5T4cTwrx2g5Y6opPfAHLmACggY2XolXDJyAPqo_BkH05pOvnxNSJBtFNiFDbacqTjxGuwP5wIYVo4V0C-UeOmcRTfGu7z3zwZGxXaT_EvthZ8zV6pFx8fjy7mGADRAVfOrICLt-YUP5ru5ThyF6lRyqp-MzOl-ERTzoWYEm6jsWrfw6FVgFh3GfspYLL4Gum66vmcXT-VEuulN71o7WIekWvxZKHm4k6b1T0C6Z8OZ0SVtTPD1taZITBisYBAjR5b4HQjYI66cU76i7E_1gsgsTDHbjBm7qe1gQW6P8tbHzhiUhrkcvFrpoCn-icj-4U2ORqmPxU7FuOIgsBLmj6MoIrELjmg24j6yA6bT7oGm3DCBl4b9YFxP3aiM5JuouAggzxfYLnDOTM6cMCx3KVqptqADjjyKzgScSffA6bDSp-n7-IO1dfh0MzDjDO5a6bSbCFOIZ-j4V8ZXptMh-BmKXd0dXNy_j8ETaV8wlqjzLGFQsMD5O9xcMiWrcBG3JYh2dCvIc5Wq30GXbH9bADrDHgZriZ9CT0FIL-2kiyirDb9Gg-OBdrt5mR2cIQ5KU6vNYV3_tyNh89kB7SwbmnZyQ0iT8i-oLCLJImgCgrO1lgmb_c2z80K0kIv-yiW-N9_vzvMTNJVEh8N6wWHNSWHf9jvP1WKWRye0mnVwgNBGdDZk3RWXOKg9gjOI-UuvKFB3DE5OHea_d0W66EHrGUONXh8YPPwfBFJEZy--HUgc3YC1sOJAwVOeM4ImYQtpHhnW6NtyQ18qgKDhMDDP71VjkFcQYDUt-J1wvWewurxUYtYQ5_FOiFkZWUXDkqQXPEd-3JmuV5GfhUl7uzrHIbgsxcigH8ankGJHmo-0bir8Pa6IObidkRX45VRMgOm4Hny2nTixVkOFY-9wzDNkW8WBopG5NG9ACf04_ZKV9DjOs6DxxcKBmIFkaxbjq91nZhTeF4MmGuf7w"
-              },
-              "schema": {
-                "additionalProperties": false,
-                "properties": {
-                  "token": {
-                    "type": "string"
-                  }
-                },
-                "required": [],
-                "title": "VerifyRecaptchaPostRequest",
-                "type": "object"
-              }
-            }
-          },
-          "required": true
-        },
-        "responses": {
-          "200": {
-            "content": {
-              "multipart/form-data": {
-                "schema": {
-                  "properties": {
-                    "filename": {
-                      "description": "",
-                      "format": "binary",
-                      "type": "string"
-                    }
-                  },
-                  "type": "object"
-                }
-              }
-            },
-            "description": "",
-            "headers": {
-              "x-custom-header": {
-                "description": "Custom header x-custom-header",
-                "schema": {
-                  "type": "string"
-                }
-              }
-            }
-          }
-        },
-        "summary": "Post Verify Recaptcha"
-      }
     }
   },
   "servers": [
     {
       "url": "https://qa.gorollick.com"
     }
-  ]
+  ],
+  "components": {
+    "securitySchemes": {
+      "cookieVwoDs": {
+        "type": "apiKey",
+        "name": "_vwo_ds",
+        "in": "cookie"
+      },
+      "cookieVwoUuid": {
+        "type": "apiKey",
+        "name": "_vwo_uuid",
+        "in": "cookie"
+      },
+      "cookieZip": {
+        "type": "apiKey",
+        "name": "zip",
+        "in": "cookie"
+      },
+      "cookieVwoUuidV2": {
+        "type": "apiKey",
+        "name": "_vwo_uuid_v2",
+        "in": "cookie"
+      },
+      "cookieVisOptS": {
+        "type": "apiKey",
+        "name": "_vis_opt_s",
+        "in": "cookie"
+      },
+      "cookieVisOptTestCookie": {
+        "type": "apiKey",
+        "name": "_vis_opt_test_cookie",
+        "in": "cookie"
+      },
+      "cookiePubcid": {
+        "type": "apiKey",
+        "name": "_pubcid",
+        "in": "cookie"
+      },
+      "cookieSharedId": {
+        "type": "apiKey",
+        "name": "_sharedID",
+        "in": "cookie"
+      },
+      "cookieSharedIdCst": {
+        "type": "apiKey",
+        "name": "_sharedID_cst",
+        "in": "cookie"
+      },
+      "cookieFbp": {
+        "type": "apiKey",
+        "name": "_fbp",
+        "in": "cookie"
+      },
+      "cookieHp2SesProps2484844913": {
+        "type": "apiKey",
+        "name": "_hp2_ses_props.2484844913",
+        "in": "cookie"
+      },
+      "cookieGclAu": {
+        "type": "apiKey",
+        "name": "_gcl_au",
+        "in": "cookie"
+      },
+      "cookieGads": {
+        "type": "apiKey",
+        "name": "__gads",
+        "in": "cookie"
+      },
+      "cookieGpi": {
+        "type": "apiKey",
+        "name": "__gpi",
+        "in": "cookie"
+      },
+      "cookieEoi": {
+        "type": "apiKey",
+        "name": "__eoi",
+        "in": "cookie"
+      },
+      "cookieGa": {
+        "type": "apiKey",
+        "name": "_ga",
+        "in": "cookie"
+      },
+      "cookieGid": {
+        "type": "apiKey",
+        "name": "_gid",
+        "in": "cookie"
+      },
+      "cookiePubcidCst": {
+        "type": "apiKey",
+        "name": "_pubcid_cst",
+        "in": "cookie"
+      },
+      "cookieGatUa1153141533": {
+        "type": "apiKey",
+        "name": "_gat_UA-115314153-3",
+        "in": "cookie"
+      },
+      "cookieVwoSn": {
+        "type": "apiKey",
+        "name": "_vwo_sn",
+        "in": "cookie"
+      },
+      "cookieAimbaseAnalyticsSession": {
+        "type": "apiKey",
+        "name": "Aimbase.Analytics.Session",
+        "in": "cookie"
+      },
+      "cookieHp2Id2484844913": {
+        "type": "apiKey",
+        "name": "_hp2_id.2484844913",
+        "in": "cookie"
+      },
+      "cookieFcnec": {
+        "type": "apiKey",
+        "name": "FCNEC",
+        "in": "cookie"
+      },
+      "cookieCtoBidid": {
+        "type": "apiKey",
+        "name": "cto_bidid",
+        "in": "cookie"
+      },
+      "cookieCtoBundle": {
+        "type": "apiKey",
+        "name": "cto_bundle",
+        "in": "cookie"
+      },
+      "cookie": {
+        "type": "apiKey",
+        "name": "cookie",
+        "in": "header"
+      }
+    }
+  }
 }
