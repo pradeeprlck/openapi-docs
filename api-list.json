@@ -4550,6 +4550,296 @@
           "_workerFetchStart": -1,
           "_workerRespondWithSettled": -1
         }
+      },
+      {
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "send",
+                "scriptId": "42098",
+                "url": "https://qa.gorollick.com/usaa/scripts/jquery-3.6.1.min.js",
+                "lineNumber": 1,
+                "columnNumber": 82857
+              },
+              {
+                "functionName": "ajax",
+                "scriptId": "42098",
+                "url": "https://qa.gorollick.com/usaa/scripts/jquery-3.6.1.min.js",
+                "lineNumber": 1,
+                "columnNumber": 78434
+              },
+              {
+                "functionName": "handleSubscribeClick",
+                "scriptId": "42115",
+                "url": "https://qa.gorollick.com/usaa",
+                "lineNumber": 1342,
+                "columnNumber": 18
+              },
+              {
+                "functionName": "dispatch",
+                "scriptId": "42098",
+                "url": "https://qa.gorollick.com/usaa/scripts/jquery-3.6.1.min.js",
+                "lineNumber": 1,
+                "columnNumber": 43063
+              },
+              {
+                "functionName": "y.handle",
+                "scriptId": "42098",
+                "url": "https://qa.gorollick.com/usaa/scripts/jquery-3.6.1.min.js",
+                "lineNumber": 1,
+                "columnNumber": 41047
+              }
+            ]
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "xhr",
+        "cache": {},
+        "connection": "5838657",
+        "pageref": "page_12",
+        "request": {
+          "method": "POST",
+          "url": "https://qa.gorollick.com/usaa/discover-savings",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":authority",
+              "value": "qa.gorollick.com"
+            },
+            {
+              "name": ":method",
+              "value": "POST"
+            },
+            {
+              "name": ":path",
+              "value": "/usaa/discover-savings"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "accept",
+              "value": "application/json, text/javascript, */*; q=0.01"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-US,en-IN;q=0.9,en;q=0.8,te;q=0.7"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache"
+            },
+            {
+              "name": "content-length",
+              "value": "368"
+            },
+            {
+              "name": "content-type",
+              "value": "application/x-www-form-urlencoded; charset=UTF-8"
+            },
+            {
+              "name": "dnt",
+              "value": "1"
+            },
+            {
+              "name": "origin",
+              "value": "https://qa.gorollick.com"
+            },
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "priority",
+              "value": "u=1, i"
+            },
+            {
+              "name": "referer",
+              "value": "https://qa.gorollick.com/usaa"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"Windows\""
+            },
+            {
+              "name": "sec-fetch-dest",
+              "value": "empty"
+            },
+            {
+              "name": "sec-fetch-mode",
+              "value": "cors"
+            },
+            {
+              "name": "sec-fetch-site",
+              "value": "same-origin"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "x-requested-with",
+              "value": "XMLHttpRequest"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 368,
+          "postData": {
+            "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+            "text": "email=easypradeep%40outlook.com&countryCode=US&avalaObj%5BuserUid%5D=1b2fc82f-e5e0-40f0-ba5c-5790130f555d&avalaObj%5BsessionUid%5D=266e2d57-93ae-4857-948f-a69555dddfa0&avalaObj%5Bsource%5D=&avalaObj%5Bcampaign%5D=&avalaObj%5Bevent%5D=&avalaObj%5Bmedium%5D=&avalaObj%5Bterm%5D=&avalaObj%5Bcontent%5D=&sessionId=1440553d-5209-493f-a2c9-0ef33e2c67d3&dealerID=&dealerName=",
+            "params": [
+              {
+                "name": "email",
+                "value": "easypradeep%40outlook.com"
+              },
+              {
+                "name": "countryCode",
+                "value": "US"
+              },
+              {
+                "name": "avalaObj%5BuserUid%5D",
+                "value": "1b2fc82f-e5e0-40f0-ba5c-5790130f555d"
+              },
+              {
+                "name": "avalaObj%5BsessionUid%5D",
+                "value": "266e2d57-93ae-4857-948f-a69555dddfa0"
+              },
+              {
+                "name": "avalaObj%5Bsource%5D",
+                "value": ""
+              },
+              {
+                "name": "avalaObj%5Bcampaign%5D",
+                "value": ""
+              },
+              {
+                "name": "avalaObj%5Bevent%5D",
+                "value": ""
+              },
+              {
+                "name": "avalaObj%5Bmedium%5D",
+                "value": ""
+              },
+              {
+                "name": "avalaObj%5Bterm%5D",
+                "value": ""
+              },
+              {
+                "name": "avalaObj%5Bcontent%5D",
+                "value": ""
+              },
+              {
+                "name": "sessionId",
+                "value": "1440553d-5209-493f-a2c9-0ef33e2c67d3"
+              },
+              {
+                "name": "dealerID",
+                "value": ""
+              },
+              {
+                "name": "dealerName",
+                "value": ""
+              }
+            ]
+          }
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "access-control-allow-credentials",
+              "value": "true"
+            },
+            {
+              "name": "access-control-allow-headers",
+              "value": "Origin, X-Requested-With, Content-Type, Accept"
+            },
+            {
+              "name": "access-control-allow-methods",
+              "value": "GET, OPTIONS"
+            },
+            {
+              "name": "access-control-allow-origin",
+              "value": "https://qa.gorollick.com"
+            },
+            {
+              "name": "cache-control",
+              "value": "No-Store"
+            },
+            {
+              "name": "content-length",
+              "value": "15"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "name": "date",
+              "value": "Mon, 20 Jan 2025 10:27:49 GMT"
+            },
+            {
+              "name": "etag",
+              "value": "W/\"f-puHNDTmTkdiVLQyC4XbCo1kz4g8\""
+            },
+            {
+              "name": "server",
+              "value": "nginx"
+            },
+            {
+              "name": "x-custom-header",
+              "value": "86336"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 15,
+            "mimeType": "application/json",
+            "text": "{\"result\":\"OK\"}"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 323,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "52.162.210.125",
+        "startedDateTime": "2025-01-20T10:27:46.962Z",
+        "time": 704.5650002242029,
+        "timings": {
+          "blocked": 1.9039999580085278,
+          "dns": 0.0040000000000000036,
+          "ssl": 227.80599999999998,
+          "connect": 456.90700000000004,
+          "send": 0.6119999999999663,
+          "wait": 243.81599997872115,
+          "receive": 1.3220002874732018,
+          "_blocked_queueing": 1.1869999580085278,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
       }
     ]
   }

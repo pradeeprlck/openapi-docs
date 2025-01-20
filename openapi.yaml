@@ -2,7 +2,7 @@ openapi: 3.0.0
 info:
   title: HarToOpenApi
   version: 1.0.0
-  description: OpenAPI spec generated from HAR data for specs on 2025-01-20T10:26:15.451Z
+  description: OpenAPI spec generated from HAR data for specs on 2025-01-20T10:28:57.714Z
 paths:
   /RollickGetDealerAward:
     get:
@@ -1275,6 +1275,95 @@ paths:
                 type: string
       summary: Get Samsclub Verify
     parameters: []
+  /usaa/discover-savings:
+    parameters: []
+    post:
+      description: ''
+      operationId: postUsaaDiscoverSavings
+      parameters:
+        - description: priority
+          in: header
+          name: priority
+          schema:
+            default: u=1, i
+            example: u=1, i
+            type: string
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              properties:
+                avalaObj%5Bcampaign%5D:
+                  format: binary
+                  type: string
+                avalaObj%5Bcontent%5D:
+                  format: binary
+                  type: string
+                avalaObj%5Bevent%5D:
+                  format: binary
+                  type: string
+                avalaObj%5Bmedium%5D:
+                  format: binary
+                  type: string
+                avalaObj%5BsessionUid%5D:
+                  type: string
+                avalaObj%5Bsource%5D:
+                  format: binary
+                  type: string
+                avalaObj%5Bterm%5D:
+                  format: binary
+                  type: string
+                avalaObj%5BuserUid%5D:
+                  type: string
+                countryCode:
+                  type: string
+                dealerID:
+                  format: binary
+                  type: string
+                dealerName:
+                  format: binary
+                  type: string
+                email:
+                  type: string
+                sessionId:
+                  type: string
+              required:
+                - email
+                - countryCode
+                - avalaObj%5BuserUid%5D
+                - avalaObj%5BsessionUid%5D
+                - avalaObj%5Bsource%5D
+                - avalaObj%5Bcampaign%5D
+                - avalaObj%5Bevent%5D
+                - avalaObj%5Bmedium%5D
+                - avalaObj%5Bterm%5D
+                - avalaObj%5Bcontent%5D
+                - sessionId
+                - dealerID
+                - dealerName
+              type: object
+        required: true
+      responses:
+        '200':
+          content:
+            application/json:
+              example:
+                result: OK
+              schema:
+                additionalProperties: false
+                properties:
+                  result:
+                    type: string
+                required: []
+                title: UsaaDiscoverSavingsPostRequest
+                type: object
+          description: ''
+          headers:
+            x-custom-header:
+              description: Custom header x-custom-header
+              schema:
+                type: string
+      summary: Post Usaa Discover Savings
   /verify-recaptcha:
     parameters: []
     post:
