@@ -8792,7 +8792,2144 @@
             "_workerFetchStart": -1,
             "_workerRespondWithSettled": -1
           }
-        }
+        },
+        {
+            "_initiator": {
+              "type": "script",
+              "stack": {
+                "callFrames": [
+                  {
+                    "functionName": "send",
+                    "scriptId": "33",
+                    "url": "https://ezgo.txtsv.com/themes/custom/ezergo/assets/ejs/libraries/jquery.min.js?spq5cn",
+                    "lineNumber": 1,
+                    "columnNumber": 80624
+                  },
+                  {
+                    "functionName": "ajax",
+                    "scriptId": "33",
+                    "url": "https://ezgo.txtsv.com/themes/custom/ezergo/assets/ejs/libraries/jquery.min.js?spq5cn",
+                    "lineNumber": 1,
+                    "columnNumber": 76166
+                  },
+                  {
+                    "functionName": "SubmitLead",
+                    "scriptId": "120",
+                    "url": "https://widget.rollick.io/widgets/dr/scripts/dealer.js",
+                    "lineNumber": 1469,
+                    "columnNumber": 27
+                  },
+                  {
+                    "functionName": "PatchAffinity",
+                    "scriptId": "120",
+                    "url": "https://widget.rollick.io/widgets/dr/scripts/dealer.js",
+                    "lineNumber": 844,
+                    "columnNumber": 17
+                  },
+                  {
+                    "functionName": "GetOffers",
+                    "scriptId": "120",
+                    "url": "https://widget.rollick.io/widgets/dr/scripts/dealer.js",
+                    "lineNumber": 2464,
+                    "columnNumber": 24
+                  },
+                  {
+                    "functionName": "ValidateUser",
+                    "scriptId": "120",
+                    "url": "https://widget.rollick.io/widgets/dr/scripts/dealer.js",
+                    "lineNumber": 2443,
+                    "columnNumber": 17
+                  },
+                  {
+                    "functionName": "MessageHandler",
+                    "scriptId": "120",
+                    "url": "https://widget.rollick.io/widgets/dr/scripts/dealer.js",
+                    "lineNumber": 183,
+                    "columnNumber": 25
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "120",
+                    "url": "https://widget.rollick.io/widgets/dr/scripts/dealer.js",
+                    "lineNumber": 56,
+                    "columnNumber": 21
+                  }
+                ]
+              }
+            },
+            "_priority": "High",
+            "_resourceType": "xhr",
+            "cache": {},
+            "connection": "6631999",
+            "request": {
+              "method": "POST",
+              "url": "https://queue.rollick.io/queue/df7c35b0-2320-40fb-bd0e-c8bd6443de37",
+              "httpVersion": "http/2.0",
+              "headers": [
+                {
+                  "name": ":authority",
+                  "value": "queue.rollick.io"
+                },
+                {
+                  "name": ":method",
+                  "value": "POST"
+                },
+                {
+                  "name": ":path",
+                  "value": "/queue/df7c35b0-2320-40fb-bd0e-c8bd6443de37"
+                },
+                {
+                  "name": ":scheme",
+                  "value": "https"
+                },
+                {
+                  "name": "accept",
+                  "value": "application/json, text/javascript, */*; q=0.01"
+                },
+                {
+                  "name": "accept-encoding",
+                  "value": "gzip, deflate, br, zstd"
+                },
+                {
+                  "name": "accept-language",
+                  "value": "en-US,en-IN;q=0.9,en;q=0.8,te;q=0.7"
+                },
+                {
+                  "name": "cache-control",
+                  "value": "no-cache"
+                },
+                {
+                  "name": "content-length",
+                  "value": "1376"
+                },
+                {
+                  "name": "content-type",
+                  "value": "application/json; charset=UTF-8"
+                },
+                {
+                  "name": "dnt",
+                  "value": "1"
+                },
+                {
+                  "name": "origin",
+                  "value": "https://ezgo.txtsv.com"
+                },
+                {
+                  "name": "pragma",
+                  "value": "no-cache"
+                },
+                {
+                  "name": "priority",
+                  "value": "u=1, i"
+                },
+                {
+                  "name": "referer",
+                  "value": "https://ezgo.txtsv.com/"
+                },
+                {
+                  "name": "sec-ch-ua",
+                  "value": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""
+                },
+                {
+                  "name": "sec-ch-ua-mobile",
+                  "value": "?0"
+                },
+                {
+                  "name": "sec-ch-ua-platform",
+                  "value": "\"Windows\""
+                },
+                {
+                  "name": "sec-fetch-dest",
+                  "value": "empty"
+                },
+                {
+                  "name": "sec-fetch-mode",
+                  "value": "cors"
+                },
+                {
+                  "name": "sec-fetch-site",
+                  "value": "cross-site"
+                },
+                {
+                  "name": "user-agent",
+                  "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                }
+              ],
+              "queryString": [],
+              "cookies": [],
+              "headersSize": -1,
+              "bodySize": 1376,
+              "postData": {
+                "mimeType": "application/json; charset=UTF-8",
+                "text": "{\"s\":\"oem\",\"uid\":\"1fa3c60a-764e-4757-878b-b3f7db8aeb64\",\"sid\":\"64780424-360c-48ef-92be-e73d9a4dcefa\",\"source\":\"Organic\",\"campaign\":\"\",\"type\":\"Digital Retail\",\"category\":\"E-Z-GO Website\",\"firstName\":\"Pradeep\",\"lastName\":\"Reddy\",\"email\":\"chadapradeepreddy@gmail.com\",\"phone\":\"897-868-4173\",\"postalCode\":\"78783\",\"countryCode\":\"US\",\"comments\":\"\",\"timeToPurchase\":\"In over 3 months\",\"languageCode\":\"EN\",\"buyFromHome\":true,\"submittedFrom\":\"https://ezgo.txtsv.com/personal/shopping-tools/request-quote\",\"brand\":\"EZG\",\"brandName\":\"E-Z-GO\",\"productCode\":\"10002916\",\"productName\":\"Freedom RXV ELiTE Lithium Special Edition Phantom\",\"productYear\":\"2025\",\"vehicleType\":\"Golf Cart\",\"color\":\"Bright White\",\"msrp\":15768,\"imageUrl\":\"https://ezgo.txtsv.com/sites/default/files/2024-11/FreedomRXV_SpecialEdition_Phantom_960x720.png\",\"partnerChoice\":\"Custom\",\"partnerId\":\"490fc703f7040810\",\"partnerName\":\"Mission Golf Cars - Austin\",\"preselect\":false,\"optIn\":false,\"textMe\":0,\"referrer\":\"\",\"utm_medium\":\"\",\"transactionId\":\"2b082ae8-b7d8-420e-b5dd-021f24ab2a94\",\"avala\":{\"userUid\":\"1fa3c60a-764e-4757-878b-b3f7db8aeb64\",\"sessionUid\":\"64780424-360c-48ef-92be-e73d9a4dcefa\",\"source\":\"Organic\",\"campaign\":\"\",\"event\":\"\"},\"optInListCode\":\"\",\"preorderable\":false,\"reservable\":true,\"promoCode\":\"\",\"promoUseId\":\"\",\"appendPrequal\":true,\"orderModelCode\":\"10002916\",\"vehicleConditionType\":\"s\",\"price\":15768}"
+              }
+            },
+            "response": {
+              "status": 200,
+              "statusText": "",
+              "httpVersion": "http/2.0",
+              "headers": [
+                {
+                  "name": "access-control-allow-credentials",
+                  "value": "true"
+                },
+                {
+                  "name": "access-control-allow-headers",
+                  "value": "Origin, X-Requested-With, Content-Type, Accept"
+                },
+                {
+                  "name": "access-control-allow-methods",
+                  "value": "GET, OPTIONS"
+                },
+                {
+                  "name": "access-control-allow-origin",
+                  "value": "https://ezgo.txtsv.com"
+                },
+                {
+                  "name": "content-length",
+                  "value": "29"
+                },
+                {
+                  "name": "content-type",
+                  "value": "application/json; charset=utf-8"
+                },
+                {
+                  "name": "date",
+                  "value": "Wed, 22 Jan 2025 07:13:53 GMT"
+                },
+                {
+                  "name": "etag",
+                  "value": "W/\"1d-/zSA7bbVzoOaHuJMGT47K3Qe22I\""
+                },
+                {
+                  "name": "server",
+                  "value": "nginx"
+                },
+                {
+                  "name": "strict-transport-security",
+                  "value": "max-age=15768000; includeSubDomains"
+                }
+              ],
+              "cookies": [],
+              "content": {
+                "size": 29,
+                "mimeType": "application/json",
+                "text": "{\"result\":\"b92eff4356a54849\"}"
+              },
+              "redirectURL": "",
+              "headersSize": -1,
+              "bodySize": -1,
+              "_transferSize": 344,
+              "_error": null,
+              "_fetchedViaServiceWorker": false
+            },
+            "serverIPAddress": "52.159.106.128",
+            "startedDateTime": "2025-01-22T07:13:49.955Z",
+            "time": 937.1689995750785,
+            "timings": {
+              "blocked": 713.643999792099,
+              "dns": -1,
+              "ssl": -1,
+              "connect": -1,
+              "send": 0.15700000000000003,
+              "wait": 223.03600004893542,
+              "receive": 0.331999734044075,
+              "_blocked_queueing": 712.117999792099,
+              "_workerStart": -1,
+              "_workerReady": -1,
+              "_workerFetchStart": -1,
+              "_workerRespondWithSettled": -1
+            }
+          },
+          {
+            "_initiator": {
+              "type": "script",
+              "stack": {
+                "callFrames": [
+                  {
+                    "functionName": "send",
+                    "scriptId": "33",
+                    "url": "https://ezgo.txtsv.com/themes/custom/ezergo/assets/ejs/libraries/jquery.min.js?spq5cn",
+                    "lineNumber": 1,
+                    "columnNumber": 80624
+                  },
+                  {
+                    "functionName": "ajax",
+                    "scriptId": "33",
+                    "url": "https://ezgo.txtsv.com/themes/custom/ezergo/assets/ejs/libraries/jquery.min.js?spq5cn",
+                    "lineNumber": 1,
+                    "columnNumber": 76166
+                  },
+                  {
+                    "functionName": "GetOffers",
+                    "scriptId": "120",
+                    "url": "https://widget.rollick.io/widgets/dr/scripts/dealer.js",
+                    "lineNumber": 2573,
+                    "columnNumber": 19
+                  },
+                  {
+                    "functionName": "ValidateUser",
+                    "scriptId": "120",
+                    "url": "https://widget.rollick.io/widgets/dr/scripts/dealer.js",
+                    "lineNumber": 2443,
+                    "columnNumber": 17
+                  },
+                  {
+                    "functionName": "MessageHandler",
+                    "scriptId": "120",
+                    "url": "https://widget.rollick.io/widgets/dr/scripts/dealer.js",
+                    "lineNumber": 183,
+                    "columnNumber": 25
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "120",
+                    "url": "https://widget.rollick.io/widgets/dr/scripts/dealer.js",
+                    "lineNumber": 56,
+                    "columnNumber": 21
+                  }
+                ]
+              }
+            },
+            "_priority": "High",
+            "_resourceType": "xhr",
+            "cache": {},
+            "connection": "6632005",
+            "request": {
+              "method": "POST",
+              "url": "https://widget.rollick.io/oemIncentives",
+              "httpVersion": "http/2.0",
+              "headers": [
+                {
+                  "name": ":authority",
+                  "value": "widget.rollick.io"
+                },
+                {
+                  "name": ":method",
+                  "value": "POST"
+                },
+                {
+                  "name": ":path",
+                  "value": "/oemIncentives"
+                },
+                {
+                  "name": ":scheme",
+                  "value": "https"
+                },
+                {
+                  "name": "accept",
+                  "value": "application/json, text/javascript, */*; q=0.01"
+                },
+                {
+                  "name": "accept-encoding",
+                  "value": "gzip, deflate, br, zstd"
+                },
+                {
+                  "name": "accept-language",
+                  "value": "en-US,en-IN;q=0.9,en;q=0.8,te;q=0.7"
+                },
+                {
+                  "name": "cache-control",
+                  "value": "no-cache"
+                },
+                {
+                  "name": "content-length",
+                  "value": "275"
+                },
+                {
+                  "name": "content-type",
+                  "value": "application/json; charset=UTF-8"
+                },
+                {
+                  "name": "dnt",
+                  "value": "1"
+                },
+                {
+                  "name": "origin",
+                  "value": "https://ezgo.txtsv.com"
+                },
+                {
+                  "name": "pragma",
+                  "value": "no-cache"
+                },
+                {
+                  "name": "priority",
+                  "value": "u=1, i"
+                },
+                {
+                  "name": "referer",
+                  "value": "https://ezgo.txtsv.com/"
+                },
+                {
+                  "name": "sec-ch-ua",
+                  "value": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""
+                },
+                {
+                  "name": "sec-ch-ua-mobile",
+                  "value": "?0"
+                },
+                {
+                  "name": "sec-ch-ua-platform",
+                  "value": "\"Windows\""
+                },
+                {
+                  "name": "sec-fetch-dest",
+                  "value": "empty"
+                },
+                {
+                  "name": "sec-fetch-mode",
+                  "value": "cors"
+                },
+                {
+                  "name": "sec-fetch-site",
+                  "value": "cross-site"
+                },
+                {
+                  "name": "user-agent",
+                  "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                }
+              ],
+              "queryString": [],
+              "cookies": [],
+              "headersSize": -1,
+              "bodySize": 275,
+              "postData": {
+                "mimeType": "application/json; charset=UTF-8",
+                "text": "{\"search\":{\"brands\":[33],\"categories\":[6],\"id\":\"\",\"condition\":\"S\",\"location\":\"\",\"category\":\"Golf Carts\",\"year\":\"2025\",\"make\":\"E-Z-GO\",\"model\":\"Freedom RXV ELiTE Lithium Special Edition Phantom\",\"modelId\":\"\",\"trimId\":0,\"preview\":\"0\",\"msrp\":15768,\"price\":15768,\"affinityId\":0}}"
+              }
+            },
+            "response": {
+              "status": 200,
+              "statusText": "",
+              "httpVersion": "http/2.0",
+              "headers": [
+                {
+                  "name": "access-control-allow-credentials",
+                  "value": "true"
+                },
+                {
+                  "name": "access-control-allow-headers",
+                  "value": "Origin, X-Requested-With, Content-Type, Accept"
+                },
+                {
+                  "name": "access-control-allow-methods",
+                  "value": "GET, OPTIONS"
+                },
+                {
+                  "name": "access-control-allow-origin",
+                  "value": "https://ezgo.txtsv.com"
+                },
+                {
+                  "name": "cache-control",
+                  "value": "private, no-cache, no-store, must-revalidate"
+                },
+                {
+                  "name": "content-encoding",
+                  "value": "gzip"
+                },
+                {
+                  "name": "content-type",
+                  "value": "application/json; charset=utf-8"
+                },
+                {
+                  "name": "date",
+                  "value": "Wed, 22 Jan 2025 07:13:53 GMT"
+                },
+                {
+                  "name": "etag",
+                  "value": "W/\"15a-KGRXLDjMGsM7FVzS3j/AFE8RpI0\""
+                },
+                {
+                  "name": "request-context",
+                  "value": "appId=cid-v1:0a80f7a3-de40-464e-95b4-2ecc5aec1cd0"
+                },
+                {
+                  "name": "server",
+                  "value": "nginx"
+                },
+                {
+                  "name": "strict-transport-security",
+                  "value": "max-age=15768000; includeSubDomains"
+                },
+                {
+                  "name": "vary",
+                  "value": "Accept-Encoding"
+                }
+              ],
+              "cookies": [],
+              "content": {
+                "size": 346,
+                "mimeType": "application/json",
+                "text": "[{\"decodedVehicle\":{\"segmentId\":1,\"segmentName\":\"Powersports\",\"categoryId\":6,\"categoryName\":\"Golf Carts\",\"brandId\":33,\"brandName\":\"E-Z-GO\",\"modelId\":null,\"modelName\":null,\"familyId\":null,\"familyName\":null,\"year\":\"2025\",\"trimId\":0,\"trimName\":null,\"matchCode\":-1},\"incentives\":[],\"incentiveResult\":\"No incentives found\",\"suggestedIncentives\":null}]"
+              },
+              "redirectURL": "",
+              "headersSize": -1,
+              "bodySize": -1,
+              "_transferSize": 653,
+              "_error": null,
+              "_fetchedViaServiceWorker": false
+            },
+            "serverIPAddress": "52.159.106.128",
+            "startedDateTime": "2025-01-22T07:13:49.957Z",
+            "time": 1097.4139999598265,
+            "timings": {
+              "blocked": 711.3169999839962,
+              "dns": -1,
+              "ssl": -1,
+              "connect": -1,
+              "send": 0.4609999999999994,
+              "wait": 384.40900017890334,
+              "receive": 1.2269997969269753,
+              "_blocked_queueing": 705.1409999839962,
+              "_workerStart": -1,
+              "_workerReady": -1,
+              "_workerFetchStart": -1,
+              "_workerRespondWithSettled": -1
+            }
+          },
+          {
+            "_initiator": {
+              "type": "script",
+              "stack": {
+                "callFrames": [
+                  {
+                    "functionName": "send",
+                    "scriptId": "33",
+                    "url": "https://ezgo.txtsv.com/themes/custom/ezergo/assets/ejs/libraries/jquery.min.js?spq5cn",
+                    "lineNumber": 1,
+                    "columnNumber": 80624
+                  },
+                  {
+                    "functionName": "ajax",
+                    "scriptId": "33",
+                    "url": "https://ezgo.txtsv.com/themes/custom/ezergo/assets/ejs/libraries/jquery.min.js?spq5cn",
+                    "lineNumber": 1,
+                    "columnNumber": 76166
+                  },
+                  {
+                    "functionName": "SubmitPartialLead",
+                    "scriptId": "120",
+                    "url": "https://widget.rollick.io/widgets/dr/scripts/dealer.js",
+                    "lineNumber": 1500,
+                    "columnNumber": 27
+                  },
+                  {
+                    "functionName": "success",
+                    "scriptId": "120",
+                    "url": "https://widget.rollick.io/widgets/dr/scripts/dealer.js",
+                    "lineNumber": 1452,
+                    "columnNumber": 29
+                  },
+                  {
+                    "functionName": "c",
+                    "scriptId": "33",
+                    "url": "https://ezgo.txtsv.com/themes/custom/ezergo/assets/ejs/libraries/jquery.min.js?spq5cn",
+                    "lineNumber": 1,
+                    "columnNumber": 25303
+                  },
+                  {
+                    "functionName": "fireWith",
+                    "scriptId": "33",
+                    "url": "https://ezgo.txtsv.com/themes/custom/ezergo/assets/ejs/libraries/jquery.min.js?spq5cn",
+                    "lineNumber": 1,
+                    "columnNumber": 26052
+                  },
+                  {
+                    "functionName": "l",
+                    "scriptId": "33",
+                    "url": "https://ezgo.txtsv.com/themes/custom/ezergo/assets/ejs/libraries/jquery.min.js?spq5cn",
+                    "lineNumber": 1,
+                    "columnNumber": 77781
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "33",
+                    "url": "https://ezgo.txtsv.com/themes/custom/ezergo/assets/ejs/libraries/jquery.min.js?spq5cn",
+                    "lineNumber": 1,
+                    "columnNumber": 80264
+                  }
+                ],
+                "parent": {
+                  "description": "load",
+                  "callFrames": [
+                    {
+                      "functionName": "send",
+                      "scriptId": "33",
+                      "url": "https://ezgo.txtsv.com/themes/custom/ezergo/assets/ejs/libraries/jquery.min.js?spq5cn",
+                      "lineNumber": 1,
+                      "columnNumber": 80449
+                    },
+                    {
+                      "functionName": "ajax",
+                      "scriptId": "33",
+                      "url": "https://ezgo.txtsv.com/themes/custom/ezergo/assets/ejs/libraries/jquery.min.js?spq5cn",
+                      "lineNumber": 1,
+                      "columnNumber": 76166
+                    },
+                    {
+                      "functionName": "SubmitLead",
+                      "scriptId": "120",
+                      "url": "https://widget.rollick.io/widgets/dr/scripts/dealer.js",
+                      "lineNumber": 1469,
+                      "columnNumber": 27
+                    },
+                    {
+                      "functionName": "PatchAffinity",
+                      "scriptId": "120",
+                      "url": "https://widget.rollick.io/widgets/dr/scripts/dealer.js",
+                      "lineNumber": 844,
+                      "columnNumber": 17
+                    },
+                    {
+                      "functionName": "GetOffers",
+                      "scriptId": "120",
+                      "url": "https://widget.rollick.io/widgets/dr/scripts/dealer.js",
+                      "lineNumber": 2464,
+                      "columnNumber": 24
+                    },
+                    {
+                      "functionName": "ValidateUser",
+                      "scriptId": "120",
+                      "url": "https://widget.rollick.io/widgets/dr/scripts/dealer.js",
+                      "lineNumber": 2443,
+                      "columnNumber": 17
+                    },
+                    {
+                      "functionName": "MessageHandler",
+                      "scriptId": "120",
+                      "url": "https://widget.rollick.io/widgets/dr/scripts/dealer.js",
+                      "lineNumber": 183,
+                      "columnNumber": 25
+                    },
+                    {
+                      "functionName": "",
+                      "scriptId": "120",
+                      "url": "https://widget.rollick.io/widgets/dr/scripts/dealer.js",
+                      "lineNumber": 56,
+                      "columnNumber": 21
+                    }
+                  ]
+                }
+              }
+            },
+            "_priority": "High",
+            "_resourceType": "xhr",
+            "cache": {},
+            "connection": "6632005",
+            "request": {
+              "method": "POST",
+              "url": "https://validate.rollick.io/savelead",
+              "httpVersion": "http/2.0",
+              "headers": [
+                {
+                  "name": ":authority",
+                  "value": "validate.rollick.io"
+                },
+                {
+                  "name": ":method",
+                  "value": "POST"
+                },
+                {
+                  "name": ":path",
+                  "value": "/savelead"
+                },
+                {
+                  "name": ":scheme",
+                  "value": "https"
+                },
+                {
+                  "name": "accept",
+                  "value": "application/json, text/javascript, */*; q=0.01"
+                },
+                {
+                  "name": "accept-encoding",
+                  "value": "gzip, deflate, br, zstd"
+                },
+                {
+                  "name": "accept-language",
+                  "value": "en-US,en-IN;q=0.9,en;q=0.8,te;q=0.7"
+                },
+                {
+                  "name": "cache-control",
+                  "value": "no-cache"
+                },
+                {
+                  "name": "content-length",
+                  "value": "1279"
+                },
+                {
+                  "name": "content-type",
+                  "value": "application/json; charset=UTF-8"
+                },
+                {
+                  "name": "dnt",
+                  "value": "1"
+                },
+                {
+                  "name": "origin",
+                  "value": "https://ezgo.txtsv.com"
+                },
+                {
+                  "name": "pragma",
+                  "value": "no-cache"
+                },
+                {
+                  "name": "priority",
+                  "value": "u=1, i"
+                },
+                {
+                  "name": "referer",
+                  "value": "https://ezgo.txtsv.com/"
+                },
+                {
+                  "name": "sec-ch-ua",
+                  "value": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""
+                },
+                {
+                  "name": "sec-ch-ua-mobile",
+                  "value": "?0"
+                },
+                {
+                  "name": "sec-ch-ua-platform",
+                  "value": "\"Windows\""
+                },
+                {
+                  "name": "sec-fetch-dest",
+                  "value": "empty"
+                },
+                {
+                  "name": "sec-fetch-mode",
+                  "value": "cors"
+                },
+                {
+                  "name": "sec-fetch-site",
+                  "value": "cross-site"
+                },
+                {
+                  "name": "user-agent",
+                  "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                }
+              ],
+              "queryString": [],
+              "cookies": [],
+              "headersSize": -1,
+              "bodySize": 1279,
+              "postData": {
+                "mimeType": "application/json; charset=UTF-8",
+                "text": "{\"s\":\"s2\",\"partnerId\":\"\",\"rosId\":\"1fa3c60a-764e-4757-878b-b3f7db8aeb64\",\"fn\":\"Pradeep\",\"ln\":\"Reddy\",\"phone\":\"897-868-4173\",\"email\":\"chadapradeepreddy@gmail.com\",\"countryCode\":\"US\",\"z\":\"78783\",\"comments\":\"\",\"url\":\"https://ezgo.txtsv.com/personal/shopping-tools/request-quote\",\"source\":\"Online\",\"vehicle\":{\"bike_year\":\"2025\",\"manuf\":\"E-Z-GO\",\"model\":\"Freedom RXV ELiTE Lithium Special Edition Phantom\",\"msrp\":15768,\"price\":15768,\"serial\":\"\",\"vin\":\"\",\"stockno\":\"\",\"vehtypename\":\"Golf Cart\",\"bike_image_full\":\"https://ezgo.txtsv.com/sites/default/files/2024-11/FreedomRXV_SpecialEdition_Phantom_960x720.png\",\"color\":\"Bright White\",\"location\":\"\",\"condition\":\"s\",\"segment\":\"\",\"year\":\"2025\"},\"affinity\":\"\",\"affinityId\":\"\",\"vid\":0,\"sourceType\":\"Dealer Website\",\"usaa\":false,\"pk_id\":\"\",\"pk_campaign\":\"\",\"pk_source\":\"\",\"pk_medium\":\"\",\"pk_kwd\":\"\",\"pk_content\":\"\",\"avala\":{\"userUid\":\"1fa3c60a-764e-4757-878b-b3f7db8aeb64\",\"sessionUid\":\"64780424-360c-48ef-92be-e73d9a4dcefa\",\"source\":\"\",\"campaign\":\"\",\"event\":\"\"},\"timeIteration\":\"In over 3 months\",\"location\":\"\",\"submittedFrom\":\"https://ezgo.txtsv.com/personal/shopping-tools/request-quote\",\"leadNo\":\"95066103\",\"leadStatus\":\"Submitted\",\"sessionId\":\"64780424-360c-48ef-92be-e73d9a4dcefa\",\"leadType\":\"Digital Retail\",\"website\":\"ezgo.txtsv.com\"}"
+              }
+            },
+            "response": {
+              "status": 200,
+              "statusText": "",
+              "httpVersion": "http/2.0",
+              "headers": [
+                {
+                  "name": "access-control-allow-credentials",
+                  "value": "true"
+                },
+                {
+                  "name": "access-control-allow-headers",
+                  "value": "Origin, X-Requested-With, Content-Type, Accept"
+                },
+                {
+                  "name": "access-control-allow-methods",
+                  "value": "GET, POST, OPTIONS"
+                },
+                {
+                  "name": "access-control-allow-origin",
+                  "value": "https://ezgo.txtsv.com"
+                },
+                {
+                  "name": "cache-control",
+                  "value": "private, no-cache, no-store, must-revalidate"
+                },
+                {
+                  "name": "content-length",
+                  "value": "30"
+                },
+                {
+                  "name": "content-type",
+                  "value": "application/json; charset=utf-8"
+                },
+                {
+                  "name": "date",
+                  "value": "Wed, 22 Jan 2025 07:13:54 GMT"
+                },
+                {
+                  "name": "etag",
+                  "value": "W/\"1e-hqdpwCNDOua5wyxn2wd28zKcxUg\""
+                },
+                {
+                  "name": "request-context",
+                  "value": "appId=cid-v1:"
+                },
+                {
+                  "name": "server",
+                  "value": "nginx"
+                },
+                {
+                  "name": "strict-transport-security",
+                  "value": "max-age=15768000; includeSubDomains"
+                },
+                {
+                  "name": "x-request-id",
+                  "value": "d92c4318-f537-4518-805f-e52c81de1e9f"
+                }
+              ],
+              "cookies": [],
+              "content": {
+                "size": 30,
+                "mimeType": "application/json",
+                "text": "{\"code\":200,\"text\":\"\",\"id\":\"\"}"
+              },
+              "redirectURL": "",
+              "headersSize": -1,
+              "bodySize": -1,
+              "_transferSize": 456,
+              "_error": null,
+              "_fetchedViaServiceWorker": false
+            },
+            "serverIPAddress": "52.159.106.128",
+            "startedDateTime": "2025-01-22T07:13:50.895Z",
+            "time": 956.2019999139011,
+            "timings": {
+              "blocked": 734.1870000548661,
+              "dns": -1,
+              "ssl": -1,
+              "connect": -1,
+              "send": 0.3420000000000001,
+              "wait": 221.22199991735815,
+              "receive": 0.4509999416768551,
+              "_blocked_queueing": 733.3120000548661,
+              "_workerStart": -1,
+              "_workerReady": -1,
+              "_workerFetchStart": -1,
+              "_workerRespondWithSettled": -1
+            }
+          },
+          {
+            "_initiator": {
+              "type": "script",
+              "stack": {
+                "callFrames": [
+                  {
+                    "functionName": "send",
+                    "scriptId": "33",
+                    "url": "https://ezgo.txtsv.com/themes/custom/ezergo/assets/ejs/libraries/jquery.min.js?spq5cn",
+                    "lineNumber": 1,
+                    "columnNumber": 80624
+                  },
+                  {
+                    "functionName": "ajax",
+                    "scriptId": "33",
+                    "url": "https://ezgo.txtsv.com/themes/custom/ezergo/assets/ejs/libraries/jquery.min.js?spq5cn",
+                    "lineNumber": 1,
+                    "columnNumber": 76166
+                  },
+                  {
+                    "functionName": "rollick.saveSession",
+                    "scriptId": "39",
+                    "url": "https://widget.rollick.io/oem/textron?site=EZG",
+                    "lineNumber": 9966,
+                    "columnNumber": 16
+                  },
+                  {
+                    "functionName": "success",
+                    "scriptId": "120",
+                    "url": "https://widget.rollick.io/widgets/dr/scripts/dealer.js",
+                    "lineNumber": 1461,
+                    "columnNumber": 32
+                  },
+                  {
+                    "functionName": "c",
+                    "scriptId": "33",
+                    "url": "https://ezgo.txtsv.com/themes/custom/ezergo/assets/ejs/libraries/jquery.min.js?spq5cn",
+                    "lineNumber": 1,
+                    "columnNumber": 25303
+                  },
+                  {
+                    "functionName": "fireWith",
+                    "scriptId": "33",
+                    "url": "https://ezgo.txtsv.com/themes/custom/ezergo/assets/ejs/libraries/jquery.min.js?spq5cn",
+                    "lineNumber": 1,
+                    "columnNumber": 26052
+                  },
+                  {
+                    "functionName": "l",
+                    "scriptId": "33",
+                    "url": "https://ezgo.txtsv.com/themes/custom/ezergo/assets/ejs/libraries/jquery.min.js?spq5cn",
+                    "lineNumber": 1,
+                    "columnNumber": 77781
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "33",
+                    "url": "https://ezgo.txtsv.com/themes/custom/ezergo/assets/ejs/libraries/jquery.min.js?spq5cn",
+                    "lineNumber": 1,
+                    "columnNumber": 80264
+                  }
+                ],
+                "parent": {
+                  "description": "load",
+                  "callFrames": [
+                    {
+                      "functionName": "send",
+                      "scriptId": "33",
+                      "url": "https://ezgo.txtsv.com/themes/custom/ezergo/assets/ejs/libraries/jquery.min.js?spq5cn",
+                      "lineNumber": 1,
+                      "columnNumber": 80449
+                    },
+                    {
+                      "functionName": "ajax",
+                      "scriptId": "33",
+                      "url": "https://ezgo.txtsv.com/themes/custom/ezergo/assets/ejs/libraries/jquery.min.js?spq5cn",
+                      "lineNumber": 1,
+                      "columnNumber": 76166
+                    },
+                    {
+                      "functionName": "SubmitLead",
+                      "scriptId": "120",
+                      "url": "https://widget.rollick.io/widgets/dr/scripts/dealer.js",
+                      "lineNumber": 1469,
+                      "columnNumber": 27
+                    },
+                    {
+                      "functionName": "PatchAffinity",
+                      "scriptId": "120",
+                      "url": "https://widget.rollick.io/widgets/dr/scripts/dealer.js",
+                      "lineNumber": 844,
+                      "columnNumber": 17
+                    },
+                    {
+                      "functionName": "GetOffers",
+                      "scriptId": "120",
+                      "url": "https://widget.rollick.io/widgets/dr/scripts/dealer.js",
+                      "lineNumber": 2464,
+                      "columnNumber": 24
+                    },
+                    {
+                      "functionName": "ValidateUser",
+                      "scriptId": "120",
+                      "url": "https://widget.rollick.io/widgets/dr/scripts/dealer.js",
+                      "lineNumber": 2443,
+                      "columnNumber": 17
+                    },
+                    {
+                      "functionName": "MessageHandler",
+                      "scriptId": "120",
+                      "url": "https://widget.rollick.io/widgets/dr/scripts/dealer.js",
+                      "lineNumber": 183,
+                      "columnNumber": 25
+                    },
+                    {
+                      "functionName": "",
+                      "scriptId": "120",
+                      "url": "https://widget.rollick.io/widgets/dr/scripts/dealer.js",
+                      "lineNumber": 56,
+                      "columnNumber": 21
+                    }
+                  ]
+                }
+              }
+            },
+            "_priority": "High",
+            "_resourceType": "xhr",
+            "cache": {},
+            "connection": "6632005",
+            "request": {
+              "method": "POST",
+              "url": "https://widget.rollick.io/user-session/ezgo.txtsv.com/chadapradeepreddy@gmail.com/1fa3c60a-764e-4757-878b-b3f7db8aeb64",
+              "httpVersion": "http/2.0",
+              "headers": [
+                {
+                  "name": ":authority",
+                  "value": "widget.rollick.io"
+                },
+                {
+                  "name": ":method",
+                  "value": "POST"
+                },
+                {
+                  "name": ":path",
+                  "value": "/user-session/ezgo.txtsv.com/chadapradeepreddy@gmail.com/1fa3c60a-764e-4757-878b-b3f7db8aeb64"
+                },
+                {
+                  "name": ":scheme",
+                  "value": "https"
+                },
+                {
+                  "name": "accept",
+                  "value": "application/json, text/javascript, */*; q=0.01"
+                },
+                {
+                  "name": "accept-encoding",
+                  "value": "gzip, deflate, br, zstd"
+                },
+                {
+                  "name": "accept-language",
+                  "value": "en-US,en-IN;q=0.9,en;q=0.8,te;q=0.7"
+                },
+                {
+                  "name": "cache-control",
+                  "value": "no-cache"
+                },
+                {
+                  "name": "content-length",
+                  "value": "5512"
+                },
+                {
+                  "name": "content-type",
+                  "value": "application/json; charset=UTF-8"
+                },
+                {
+                  "name": "dnt",
+                  "value": "1"
+                },
+                {
+                  "name": "origin",
+                  "value": "https://ezgo.txtsv.com"
+                },
+                {
+                  "name": "pragma",
+                  "value": "no-cache"
+                },
+                {
+                  "name": "priority",
+                  "value": "u=1, i"
+                },
+                {
+                  "name": "referer",
+                  "value": "https://ezgo.txtsv.com/"
+                },
+                {
+                  "name": "sec-ch-ua",
+                  "value": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""
+                },
+                {
+                  "name": "sec-ch-ua-mobile",
+                  "value": "?0"
+                },
+                {
+                  "name": "sec-ch-ua-platform",
+                  "value": "\"Windows\""
+                },
+                {
+                  "name": "sec-fetch-dest",
+                  "value": "empty"
+                },
+                {
+                  "name": "sec-fetch-mode",
+                  "value": "cors"
+                },
+                {
+                  "name": "sec-fetch-site",
+                  "value": "cross-site"
+                },
+                {
+                  "name": "user-agent",
+                  "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                }
+              ],
+              "queryString": [],
+              "cookies": [],
+              "headersSize": -1,
+              "bodySize": 5512,
+              "postData": {
+                "mimeType": "application/json; charset=UTF-8",
+                "text": "{\"user\":{\"uid\":\"1fa3c60a-764e-4757-878b-b3f7db8aeb64\",\"fn\":\"Pradeep\",\"ln\":\"Reddy\",\"p\":\"897-868-4173\",\"e\":\"chadapradeepreddy@gmail.com\",\"z\":\"78783\",\"an\":\"\",\"ac\":\"\",\"rid\":\"\",\"isFromS4\":false,\"s4Affinity\":\"\",\"aaa\":\"\",\"usaa\":\"\",\"ttp\":\"In over 3 months\",\"textMe\":true,\"verified\":false,\"tradeIn\":{},\"bfh\":true,\"prequal\":{\"hash\":\"\"}},\"leads\":{\"4213950121\":{\"currency\":\"$\",\"customer\":{\"firstName\":\"Pradeep\",\"lastName\":\"Reddy\",\"phone\":\"897-868-4173\",\"email\":\"chadapradeepreddy@gmail.com\",\"zip\":\"78783\",\"prequal\":{\"hash\":\"\"}},\"dealer\":{\"id\":\"\",\"pan\":\"textron\",\"logo\":\"\",\"name\":\"ezg\",\"parent\":\"\",\"targetedStates\":\"\",\"isBFHOn\":true,\"aaaActive\":false,\"prequalEnabled\":false,\"synchronyEnabled\":false,\"appointmentEnabled\":true,\"textUsEnabled\":false,\"nationalGeneralEnabled\":false,\"singleLocationDealer\":true,\"locations\":\"\",\"tradeInPct\":40,\"modules\":[\"request-a-quote\",\"reserve-now\",\"offers\",\"trade-in\",\"appointment\"],\"tradeInModule\":\"GCR\",\"enableSmallSparksBan\":\"true\",\"disclaimerSmallSparksBan\":\"California state law prohibits the sale of Model Year 2024 and later gas powered vehicles. <a href='https://ezgo.txtsv.com/california-legal-notices' target='_blank'> <span class='red-learn-more'> Learn More. </span> </a>\",\"CTAs\":[\"request-a-quote\",\"reserve-now\"],\"CTATexts\":[\"Start My Deal\",\"Reserve Now\"],\"template\":\"\",\"rollickCTA\":true,\"subscriptionType\":\"1\",\"isOEMDealer\":false,\"processConfig\":{\"Base\":{\"CANAM\":{\"Condition\":\"New\",\"processCode\":[100,101,200]},\"SKIDOO\":{\"Condition\":\"New\",\"processCode\":[101,200]},\"SEADOO\":{\"Condition\":\"New\",\"processCode\":[101,200]},\"WINNEBAGO\":{\"Condition\":\"New\",\"processCode\":[101,200]}}},\"lenderIds\":\"\",\"expressBuyHelperHeader\":\"We make shopping easier. Choose one to get started\",\"nextStepHelperHeader\":\"What should I do next?\",\"preview\":\"\",\"sponserdbrand\":\"\",\"paymentProfiles\":[{\"type\":\"paymentech.com\",\"country\":\"US\",\"id\":\"cpt575871604462\",\"clientKey\":\"ysrraiypeqdqe5all5yimw6vv8hemaym\",\"enabled\":true,\"mode\":\"PROD\",\"verified\":true},{\"type\":\"paymentech.com\",\"country\":\"CA\",\"id\":\"cpt734670917398\",\"clientKey\":\"1e2676203fa694b3776ba0e057966db0\",\"enabled\":true,\"mode\":\"PROD\",\"verified\":true}],\"paymentEnabled\":true,\"preApprovalOn\":true,\"simpleDealerUrl\":\"{% simpleDealerUrl %}\",\"preApprovalButtonText\":\"{% preApprovalButtonText %}\",\"email\":\"\",\"conciergeId\":\"e262f41b565a98b6\",\"brandName\":\"E-Z-GO\",\"incentiveEnabledOnAffinity\":true,\"aimbaseId\":\"\",\"financePreApprovals\":[{\"type\":\"preapproval\",\"name\":\"Sheffield Financial\",\"status\":1,\"settings\":[{\"brandId\":33,\"redirectUrl\":\"https://secure.sheffieldfinancial.com/newLoanApplication.aspx?M21\",\"status\":1}],\"profileStatus\":1}],\"financePrequal\":[{\"type\":\"prequal\",\"name\":\"Sheffield Financial\",\"provider\":\"Sheffield\",\"status\":1,\"redirectUrl\":\"https://prequalify.sheffieldfinancial.com/Apply/Landing?oem=ezgo\"}],\"promoCodeEnabled\":true,\"IsBRP\":false},\"vehicle\":{\"color\":\"Bright White\",\"deposit\":500,\"image\":\"https://ezgo.txtsv.com/sites/default/files/2024-11/FreedomRXV_SpecialEdition_Phantom_960x720.png\",\"make\":\"E-Z-GO\",\"model\":\"Freedom RXV ELiTE Lithium Special Edition Phantom\",\"modelCode\":\"10002916\",\"msrp\":15768,\"price\":15768,\"year\":\"2025\",\"category\":\"Golf Cart\",\"reserve\":true,\"isPrevent\":false,\"isLsv\":false,\"id\":4213950121,\"reservable\":true,\"mappedData\":{\"segmentId\":null,\"segmentName\":null,\"categoryId\":null,\"categoryName\":null,\"brandId\":33,\"brandName\":\"E-Z-GO\",\"modelId\":null,\"modelName\":null,\"familyId\":null,\"familyName\":null,\"year\":\"2025\",\"trimId\":0,\"trimName\":null,\"matchCode\":-1},\"location\":\"\",\"condition\":\"s\"},\"payment\":{},\"offersTotal\":0,\"adjustedPrice\":15768,\"trade\":{\"amount\":0,\"payoff\":0,\"net\":0,\"withinTradeLimit\":true,\"hasData\":false},\"lead\":{\"transactionId\":\"2b082ae8-b7d8-420e-b5dd-021f24ab2a94\",\"comments\":\"\",\"ttp\":\"In over 3 months\",\"location\":\"\",\"bfh\":true,\"optIn\":false,\"promo\":null,\"promoCode\":\"\",\"promoUseId\":\"\",\"hasData\":true,\"partnerChoice\":\"Custom\",\"partnerId\":\"490fc703f7040810\",\"partnerName\":\"Mission Golf Cars - Austin\"},\"prequal\":{\"hasData\":false,\"success\":false},\"appointment\":{\"hasData\":false,\"type\":\"\",\"scheduleDate1\":\"\",\"scheduleDate2\":\"\",\"timeOfDay\":\"\",\"method\":\"\",\"comments\":\"\"},\"reservenow\":{\"hasData\":false,\"comments\":false,\"reserve\":false,\"paymentInfo\":null,\"transactionCCId\":\"\",\"orderNumber\":\"\",\"deposit\":0},\"preQualTabName\":\"Explore Financing\",\"financeProvider\":{\"preApproval\":\"\",\"preQual\":\"Rollick\"},\"hasPrice\":true,\"partnerModules\":[\"request-a-quote\",\"reserve-now\",\"offers\",\"trade-in\",\"appointment\"],\"bfh\":{\"arc2\":{\"Off Road\":{\"enabled\":true,\"url\":\"https://arcticcat.txtsv.com/shopping-tools/dealer-driveway\"},\"Snow\":{\"enabled\":false,\"url\":\"\"}},\"ezg\":{\"enabled\":true,\"url\":\"https://ezgo.txtsv.com/personal/shopping-tools/find-dealer/dealer-driveway\"}},\"siteId\":\"EZG\",\"termsCondition\":\"https://gorollick.com/company/site-info/privacy-policy-terms-of-service/\",\"brandCode\":\"EZG\",\"LeadId\":161624,\"QuoteId\":\"811d03a0-d88f-11ef-8b2f-e7b34f7ede5c\",\"hasTradeIn\":false,\"key\":\"df7c35b0-2320-40fb-bd0e-c8bd6443de37\",\"timeToPurchase\":{\"1\":[\"Next 2 days\",\"3 to 7 days\",\"8 to 14 days\",\"15 to 30 days\",\"1 to 3 months\",\"In over 3 months\"],\"2\":[\"Within the next 30 days\",\"1 to 3 months\",\"4 to 6 months\",\"6 to 12 months\",\"12+ months\"],\"3\":[\"Within the next 30 days\",\"1 to 3 months\",\"4 to 6 months\",\"6 to 12 months\",\"12+ months\"],\"4\":[\"Within the next 30 days\",\"1 to 3 months\",\"4 to 6 months\",\"6 to 12 months\",\"12+ months\"],\"default\":[\"Next 2 days\",\"3 to 7 days\",\"8 to 14 days\",\"15 to 30 days\",\"1 to 3 months\",\"In over 3 months\"]},\"module\":\"Offers\",\"rollickCTAClicked\":true,\"hasOffer\":true,\"submittingPrequal\":false}}}"
+              }
+            },
+            "response": {
+              "status": 200,
+              "statusText": "",
+              "httpVersion": "http/2.0",
+              "headers": [
+                {
+                  "name": "access-control-allow-credentials",
+                  "value": "true"
+                },
+                {
+                  "name": "access-control-allow-headers",
+                  "value": "Origin, X-Requested-With, Content-Type, Accept"
+                },
+                {
+                  "name": "access-control-allow-methods",
+                  "value": "GET, OPTIONS"
+                },
+                {
+                  "name": "access-control-allow-origin",
+                  "value": "https://ezgo.txtsv.com"
+                },
+                {
+                  "name": "cache-control",
+                  "value": "private, no-cache, no-store, must-revalidate"
+                },
+                {
+                  "name": "content-length",
+                  "value": "15"
+                },
+                {
+                  "name": "content-type",
+                  "value": "application/json; charset=utf-8"
+                },
+                {
+                  "name": "date",
+                  "value": "Wed, 22 Jan 2025 07:13:53 GMT"
+                },
+                {
+                  "name": "etag",
+                  "value": "W/\"f-ayLlCL3PuzXSThdu78iReSEjl6Y\""
+                },
+                {
+                  "name": "request-context",
+                  "value": "appId=cid-v1:0a80f7a3-de40-464e-95b4-2ecc5aec1cd0"
+                },
+                {
+                  "name": "server",
+                  "value": "nginx"
+                },
+                {
+                  "name": "strict-transport-security",
+                  "value": "max-age=15768000; includeSubDomains"
+                }
+              ],
+              "cookies": [],
+              "content": {
+                "size": 15,
+                "mimeType": "application/json",
+                "text": "{\"result\":true}"
+              },
+              "redirectURL": "",
+              "headersSize": -1,
+              "bodySize": -1,
+              "_transferSize": 423,
+              "_error": null,
+              "_fetchedViaServiceWorker": false
+            },
+            "serverIPAddress": "52.159.106.128",
+            "startedDateTime": "2025-01-22T07:13:50.897Z",
+            "time": 448.2579999603331,
+            "timings": {
+              "blocked": 224.18900007483364,
+              "dns": -1,
+              "ssl": -1,
+              "connect": -1,
+              "send": 0.248,
+              "wait": 223.30900017783046,
+              "receive": 0.5119997076690197,
+              "_blocked_queueing": 223.37700007483363,
+              "_workerStart": -1,
+              "_workerReady": -1,
+              "_workerFetchStart": -1,
+              "_workerRespondWithSettled": -1
+            }
+          },
+          {
+            "_initiator": {
+              "type": "script",
+              "stack": {
+                "callFrames": [
+                  {
+                    "functionName": "send",
+                    "scriptId": "33",
+                    "url": "https://ezgo.txtsv.com/themes/custom/ezergo/assets/ejs/libraries/jquery.min.js?spq5cn",
+                    "lineNumber": 1,
+                    "columnNumber": 80624
+                  },
+                  {
+                    "functionName": "ajax",
+                    "scriptId": "33",
+                    "url": "https://ezgo.txtsv.com/themes/custom/ezergo/assets/ejs/libraries/jquery.min.js?spq5cn",
+                    "lineNumber": 1,
+                    "columnNumber": 76166
+                  },
+                  {
+                    "functionName": "ce.<computed>",
+                    "scriptId": "33",
+                    "url": "https://ezgo.txtsv.com/themes/custom/ezergo/assets/ejs/libraries/jquery.min.js?spq5cn",
+                    "lineNumber": 1,
+                    "columnNumber": 78231
+                  },
+                  {
+                    "functionName": "CheckQuoted",
+                    "scriptId": "120",
+                    "url": "https://widget.rollick.io/widgets/dr/scripts/dealer.js",
+                    "lineNumber": 286,
+                    "columnNumber": 19
+                  },
+                  {
+                    "functionName": "CheckLeads",
+                    "scriptId": "120",
+                    "url": "https://widget.rollick.io/widgets/dr/scripts/dealer.js",
+                    "lineNumber": 273,
+                    "columnNumber": 46
+                  },
+                  {
+                    "functionName": "JobHandler",
+                    "scriptId": "120",
+                    "url": "https://widget.rollick.io/widgets/dr/scripts/dealer.js",
+                    "lineNumber": 252,
+                    "columnNumber": 21
+                  }
+                ]
+              }
+            },
+            "_priority": "High",
+            "_resourceType": "xhr",
+            "cache": {},
+            "connection": "6632005",
+            "request": {
+              "method": "GET",
+              "url": "https://widget.rollick.io/has-quote/95066103/811d03a0-d88f-11ef-8b2f-e7b34f7ede5c",
+              "httpVersion": "http/2.0",
+              "headers": [
+                {
+                  "name": ":authority",
+                  "value": "widget.rollick.io"
+                },
+                {
+                  "name": ":method",
+                  "value": "GET"
+                },
+                {
+                  "name": ":path",
+                  "value": "/has-quote/95066103/811d03a0-d88f-11ef-8b2f-e7b34f7ede5c"
+                },
+                {
+                  "name": ":scheme",
+                  "value": "https"
+                },
+                {
+                  "name": "accept",
+                  "value": "*/*"
+                },
+                {
+                  "name": "accept-encoding",
+                  "value": "gzip, deflate, br, zstd"
+                },
+                {
+                  "name": "accept-language",
+                  "value": "en-US,en-IN;q=0.9,en;q=0.8,te;q=0.7"
+                },
+                {
+                  "name": "cache-control",
+                  "value": "no-cache"
+                },
+                {
+                  "name": "dnt",
+                  "value": "1"
+                },
+                {
+                  "name": "origin",
+                  "value": "https://ezgo.txtsv.com"
+                },
+                {
+                  "name": "pragma",
+                  "value": "no-cache"
+                },
+                {
+                  "name": "priority",
+                  "value": "u=1, i"
+                },
+                {
+                  "name": "referer",
+                  "value": "https://ezgo.txtsv.com/"
+                },
+                {
+                  "name": "sec-ch-ua",
+                  "value": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""
+                },
+                {
+                  "name": "sec-ch-ua-mobile",
+                  "value": "?0"
+                },
+                {
+                  "name": "sec-ch-ua-platform",
+                  "value": "\"Windows\""
+                },
+                {
+                  "name": "sec-fetch-dest",
+                  "value": "empty"
+                },
+                {
+                  "name": "sec-fetch-mode",
+                  "value": "cors"
+                },
+                {
+                  "name": "sec-fetch-site",
+                  "value": "cross-site"
+                },
+                {
+                  "name": "user-agent",
+                  "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                }
+              ],
+              "queryString": [],
+              "cookies": [],
+              "headersSize": -1,
+              "bodySize": 0
+            },
+            "response": {
+              "status": 200,
+              "statusText": "",
+              "httpVersion": "http/2.0",
+              "headers": [
+                {
+                  "name": "access-control-allow-credentials",
+                  "value": "true"
+                },
+                {
+                  "name": "access-control-allow-headers",
+                  "value": "Origin, X-Requested-With, Content-Type, Accept"
+                },
+                {
+                  "name": "access-control-allow-methods",
+                  "value": "GET, OPTIONS"
+                },
+                {
+                  "name": "access-control-allow-origin",
+                  "value": "https://ezgo.txtsv.com"
+                },
+                {
+                  "name": "cache-control",
+                  "value": "private, no-cache, no-store, must-revalidate"
+                },
+                {
+                  "name": "content-length",
+                  "value": "78"
+                },
+                {
+                  "name": "content-type",
+                  "value": "application/json; charset=utf-8"
+                },
+                {
+                  "name": "date",
+                  "value": "Wed, 22 Jan 2025 07:13:59 GMT"
+                },
+                {
+                  "name": "etag",
+                  "value": "W/\"4e-9MbLR3+nuXZm3ySfAsKMiX/NKDo\""
+                },
+                {
+                  "name": "request-context",
+                  "value": "appId=cid-v1:0a80f7a3-de40-464e-95b4-2ecc5aec1cd0"
+                },
+                {
+                  "name": "server",
+                  "value": "nginx"
+                },
+                {
+                  "name": "strict-transport-security",
+                  "value": "max-age=15768000; includeSubDomains"
+                }
+              ],
+              "cookies": [],
+              "content": {
+                "size": 78,
+                "mimeType": "application/json",
+                "text": "{\"quoted\":false,\"quoteId\":\"\",\"quoteLink\":\"\",\"transactionCCId\":\"\",\"orderId\":\"\"}"
+              },
+              "redirectURL": "",
+              "headersSize": -1,
+              "bodySize": -1,
+              "_transferSize": 487,
+              "_error": null,
+              "_fetchedViaServiceWorker": false
+            },
+            "serverIPAddress": "52.159.106.128",
+            "startedDateTime": "2025-01-22T07:13:56.655Z",
+            "time": 228.13399974256754,
+            "timings": {
+              "blocked": 2.6199998291134836,
+              "dns": -1,
+              "ssl": -1,
+              "connect": -1,
+              "send": 0.256,
+              "wait": 224.471999982059,
+              "receive": 0.7859999313950539,
+              "_blocked_queueing": 1.5369998291134834,
+              "_workerStart": -1,
+              "_workerReady": -1,
+              "_workerFetchStart": -1,
+              "_workerRespondWithSettled": -1
+            }
+          },
+          {
+            "_initiator": {
+              "type": "script",
+              "stack": {
+                "callFrames": [
+                  {
+                    "functionName": "send",
+                    "scriptId": "33",
+                    "url": "https://ezgo.txtsv.com/themes/custom/ezergo/assets/ejs/libraries/jquery.min.js?spq5cn",
+                    "lineNumber": 1,
+                    "columnNumber": 80624
+                  },
+                  {
+                    "functionName": "ajax",
+                    "scriptId": "33",
+                    "url": "https://ezgo.txtsv.com/themes/custom/ezergo/assets/ejs/libraries/jquery.min.js?spq5cn",
+                    "lineNumber": 1,
+                    "columnNumber": 76166
+                  },
+                  {
+                    "functionName": "SubmitLead",
+                    "scriptId": "120",
+                    "url": "https://widget.rollick.io/widgets/dr/scripts/dealer.js",
+                    "lineNumber": 1469,
+                    "columnNumber": 27
+                  },
+                  {
+                    "functionName": "SaveAppointment",
+                    "scriptId": "120",
+                    "url": "https://widget.rollick.io/widgets/dr/scripts/dealer.js",
+                    "lineNumber": 826,
+                    "columnNumber": 13
+                  },
+                  {
+                    "functionName": "MessageHandler",
+                    "scriptId": "120",
+                    "url": "https://widget.rollick.io/widgets/dr/scripts/dealer.js",
+                    "lineNumber": 143,
+                    "columnNumber": 25
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "120",
+                    "url": "https://widget.rollick.io/widgets/dr/scripts/dealer.js",
+                    "lineNumber": 56,
+                    "columnNumber": 21
+                  }
+                ]
+              }
+            },
+            "_priority": "High",
+            "_resourceType": "xhr",
+            "cache": {},
+            "connection": "6632306",
+            "request": {
+              "method": "POST",
+              "url": "https://queue.rollick.io/queue/df7c35b0-2320-40fb-bd0e-c8bd6443de37",
+              "httpVersion": "http/2.0",
+              "headers": [
+                {
+                  "name": ":authority",
+                  "value": "queue.rollick.io"
+                },
+                {
+                  "name": ":method",
+                  "value": "POST"
+                },
+                {
+                  "name": ":path",
+                  "value": "/queue/df7c35b0-2320-40fb-bd0e-c8bd6443de37"
+                },
+                {
+                  "name": ":scheme",
+                  "value": "https"
+                },
+                {
+                  "name": "accept",
+                  "value": "application/json, text/javascript, */*; q=0.01"
+                },
+                {
+                  "name": "accept-encoding",
+                  "value": "gzip, deflate, br, zstd"
+                },
+                {
+                  "name": "accept-language",
+                  "value": "en-US,en-IN;q=0.9,en;q=0.8,te;q=0.7"
+                },
+                {
+                  "name": "cache-control",
+                  "value": "no-cache"
+                },
+                {
+                  "name": "content-length",
+                  "value": "1539"
+                },
+                {
+                  "name": "content-type",
+                  "value": "application/json; charset=UTF-8"
+                },
+                {
+                  "name": "dnt",
+                  "value": "1"
+                },
+                {
+                  "name": "origin",
+                  "value": "https://ezgo.txtsv.com"
+                },
+                {
+                  "name": "pragma",
+                  "value": "no-cache"
+                },
+                {
+                  "name": "priority",
+                  "value": "u=1, i"
+                },
+                {
+                  "name": "referer",
+                  "value": "https://ezgo.txtsv.com/"
+                },
+                {
+                  "name": "sec-ch-ua",
+                  "value": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""
+                },
+                {
+                  "name": "sec-ch-ua-mobile",
+                  "value": "?0"
+                },
+                {
+                  "name": "sec-ch-ua-platform",
+                  "value": "\"Windows\""
+                },
+                {
+                  "name": "sec-fetch-dest",
+                  "value": "empty"
+                },
+                {
+                  "name": "sec-fetch-mode",
+                  "value": "cors"
+                },
+                {
+                  "name": "sec-fetch-site",
+                  "value": "cross-site"
+                },
+                {
+                  "name": "user-agent",
+                  "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                }
+              ],
+              "queryString": [],
+              "cookies": [],
+              "headersSize": -1,
+              "bodySize": 1539,
+              "postData": {
+                "mimeType": "application/json; charset=UTF-8",
+                "text": "{\"s\":\"oem\",\"uid\":\"1fa3c60a-764e-4757-878b-b3f7db8aeb64\",\"sid\":\"64780424-360c-48ef-92be-e73d9a4dcefa\",\"source\":\"Organic\",\"campaign\":\"\",\"type\":\"Digital Retail\",\"category\":\"E-Z-GO Website\",\"firstName\":\"Pradeep\",\"lastName\":\"Reddy\",\"email\":\"chadapradeepreddy@gmail.com\",\"phone\":\"897-868-4173\",\"postalCode\":\"78783\",\"countryCode\":\"US\",\"comments\":\"Appointment Requested.\",\"timeToPurchase\":\"In over 3 months\",\"languageCode\":\"EN\",\"buyFromHome\":false,\"submittedFrom\":\"https://ezgo.txtsv.com/personal/shopping-tools/request-quote\",\"brand\":\"EZG\",\"brandName\":\"E-Z-GO\",\"productCode\":\"10002916\",\"productName\":\"Freedom RXV ELiTE Lithium Special Edition Phantom\",\"productYear\":\"2025\",\"vehicleType\":\"Golf Cart\",\"color\":\"Bright White\",\"msrp\":15768,\"imageUrl\":\"https://ezgo.txtsv.com/sites/default/files/2024-11/FreedomRXV_SpecialEdition_Phantom_960x720.png\",\"partnerChoice\":\"Custom\",\"partnerId\":\"490fc703f7040810\",\"partnerName\":\"Mission Golf Cars - Austin\",\"preselect\":true,\"optIn\":false,\"textMe\":1,\"referrer\":\"\",\"utm_medium\":\"\",\"transactionId\":\"2b082ae8-b7d8-420e-b5dd-021f24ab2a94\",\"avala\":{\"userUid\":\"1fa3c60a-764e-4757-878b-b3f7db8aeb64\",\"sessionUid\":\"64780424-360c-48ef-92be-e73d9a4dcefa\",\"source\":\"Organic\",\"campaign\":\"\",\"event\":\"\"},\"optInListCode\":\"\",\"preorderable\":false,\"reservable\":true,\"promoCode\":\"\",\"promoUseId\":\"\",\"appendPrequal\":true,\"orderModelCode\":\"10002916\",\"vehicleConditionType\":\"s\",\"price\":15768,\"appointment\":{\"type\":\"Appointment\",\"scheduleDate1\":\"01/22/2025\",\"scheduleDate2\":\"\",\"timeOfDay\":\"Morning\",\"method\":\"In-Store\",\"comments\":\"\"}}"
+              }
+            },
+            "response": {
+              "status": 200,
+              "statusText": "",
+              "httpVersion": "http/2.0",
+              "headers": [
+                {
+                  "name": "access-control-allow-credentials",
+                  "value": "true"
+                },
+                {
+                  "name": "access-control-allow-headers",
+                  "value": "Origin, X-Requested-With, Content-Type, Accept"
+                },
+                {
+                  "name": "access-control-allow-methods",
+                  "value": "GET, OPTIONS"
+                },
+                {
+                  "name": "access-control-allow-origin",
+                  "value": "https://ezgo.txtsv.com"
+                },
+                {
+                  "name": "content-length",
+                  "value": "29"
+                },
+                {
+                  "name": "content-type",
+                  "value": "application/json; charset=utf-8"
+                },
+                {
+                  "name": "date",
+                  "value": "Wed, 22 Jan 2025 07:14:28 GMT"
+                },
+                {
+                  "name": "etag",
+                  "value": "W/\"1d-/zSA7bbVzoOaHuJMGT47K3Qe22I\""
+                },
+                {
+                  "name": "server",
+                  "value": "nginx"
+                },
+                {
+                  "name": "strict-transport-security",
+                  "value": "max-age=15768000; includeSubDomains"
+                }
+              ],
+              "cookies": [],
+              "content": {
+                "size": 29,
+                "mimeType": "application/json",
+                "text": "{\"result\":\"b92eff4356a54849\"}"
+              },
+              "redirectURL": "",
+              "headersSize": -1,
+              "bodySize": -1,
+              "_transferSize": 344,
+              "_error": null,
+              "_fetchedViaServiceWorker": false
+            },
+            "serverIPAddress": "52.159.106.128",
+            "startedDateTime": "2025-01-22T07:14:25.733Z",
+            "time": 897.6340000517666,
+            "timings": {
+              "blocked": 672.2239999926984,
+              "dns": -1,
+              "ssl": -1,
+              "connect": -1,
+              "send": 0.16600000000000004,
+              "wait": 224.57899988487364,
+              "receive": 0.6650001741945744,
+              "_blocked_queueing": 671.6599999926984,
+              "_workerStart": -1,
+              "_workerReady": -1,
+              "_workerFetchStart": -1,
+              "_workerRespondWithSettled": -1
+            }
+          },
+          {
+            "_initiator": {
+              "type": "script",
+              "stack": {
+                "callFrames": [
+                  {
+                    "functionName": "send",
+                    "scriptId": "33",
+                    "url": "https://ezgo.txtsv.com/themes/custom/ezergo/assets/ejs/libraries/jquery.min.js?spq5cn",
+                    "lineNumber": 1,
+                    "columnNumber": 80624
+                  },
+                  {
+                    "functionName": "ajax",
+                    "scriptId": "33",
+                    "url": "https://ezgo.txtsv.com/themes/custom/ezergo/assets/ejs/libraries/jquery.min.js?spq5cn",
+                    "lineNumber": 1,
+                    "columnNumber": 76166
+                  },
+                  {
+                    "functionName": "SubmitPartialLead",
+                    "scriptId": "120",
+                    "url": "https://widget.rollick.io/widgets/dr/scripts/dealer.js",
+                    "lineNumber": 1500,
+                    "columnNumber": 27
+                  },
+                  {
+                    "functionName": "success",
+                    "scriptId": "120",
+                    "url": "https://widget.rollick.io/widgets/dr/scripts/dealer.js",
+                    "lineNumber": 1452,
+                    "columnNumber": 29
+                  },
+                  {
+                    "functionName": "c",
+                    "scriptId": "33",
+                    "url": "https://ezgo.txtsv.com/themes/custom/ezergo/assets/ejs/libraries/jquery.min.js?spq5cn",
+                    "lineNumber": 1,
+                    "columnNumber": 25303
+                  },
+                  {
+                    "functionName": "fireWith",
+                    "scriptId": "33",
+                    "url": "https://ezgo.txtsv.com/themes/custom/ezergo/assets/ejs/libraries/jquery.min.js?spq5cn",
+                    "lineNumber": 1,
+                    "columnNumber": 26052
+                  },
+                  {
+                    "functionName": "l",
+                    "scriptId": "33",
+                    "url": "https://ezgo.txtsv.com/themes/custom/ezergo/assets/ejs/libraries/jquery.min.js?spq5cn",
+                    "lineNumber": 1,
+                    "columnNumber": 77781
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "33",
+                    "url": "https://ezgo.txtsv.com/themes/custom/ezergo/assets/ejs/libraries/jquery.min.js?spq5cn",
+                    "lineNumber": 1,
+                    "columnNumber": 80264
+                  }
+                ],
+                "parent": {
+                  "description": "load",
+                  "callFrames": [
+                    {
+                      "functionName": "send",
+                      "scriptId": "33",
+                      "url": "https://ezgo.txtsv.com/themes/custom/ezergo/assets/ejs/libraries/jquery.min.js?spq5cn",
+                      "lineNumber": 1,
+                      "columnNumber": 80449
+                    },
+                    {
+                      "functionName": "ajax",
+                      "scriptId": "33",
+                      "url": "https://ezgo.txtsv.com/themes/custom/ezergo/assets/ejs/libraries/jquery.min.js?spq5cn",
+                      "lineNumber": 1,
+                      "columnNumber": 76166
+                    },
+                    {
+                      "functionName": "SubmitLead",
+                      "scriptId": "120",
+                      "url": "https://widget.rollick.io/widgets/dr/scripts/dealer.js",
+                      "lineNumber": 1469,
+                      "columnNumber": 27
+                    },
+                    {
+                      "functionName": "SaveAppointment",
+                      "scriptId": "120",
+                      "url": "https://widget.rollick.io/widgets/dr/scripts/dealer.js",
+                      "lineNumber": 826,
+                      "columnNumber": 13
+                    },
+                    {
+                      "functionName": "MessageHandler",
+                      "scriptId": "120",
+                      "url": "https://widget.rollick.io/widgets/dr/scripts/dealer.js",
+                      "lineNumber": 143,
+                      "columnNumber": 25
+                    },
+                    {
+                      "functionName": "",
+                      "scriptId": "120",
+                      "url": "https://widget.rollick.io/widgets/dr/scripts/dealer.js",
+                      "lineNumber": 56,
+                      "columnNumber": 21
+                    }
+                  ]
+                }
+              }
+            },
+            "_priority": "High",
+            "_resourceType": "xhr",
+            "cache": {},
+            "connection": "6632306",
+            "request": {
+              "method": "POST",
+              "url": "https://validate.rollick.io/savelead",
+              "httpVersion": "http/2.0",
+              "headers": [
+                {
+                  "name": ":authority",
+                  "value": "validate.rollick.io"
+                },
+                {
+                  "name": ":method",
+                  "value": "POST"
+                },
+                {
+                  "name": ":path",
+                  "value": "/savelead"
+                },
+                {
+                  "name": ":scheme",
+                  "value": "https"
+                },
+                {
+                  "name": "accept",
+                  "value": "application/json, text/javascript, */*; q=0.01"
+                },
+                {
+                  "name": "accept-encoding",
+                  "value": "gzip, deflate, br, zstd"
+                },
+                {
+                  "name": "accept-language",
+                  "value": "en-US,en-IN;q=0.9,en;q=0.8,te;q=0.7"
+                },
+                {
+                  "name": "cache-control",
+                  "value": "no-cache"
+                },
+                {
+                  "name": "content-length",
+                  "value": "1265"
+                },
+                {
+                  "name": "content-type",
+                  "value": "application/json; charset=UTF-8"
+                },
+                {
+                  "name": "dnt",
+                  "value": "1"
+                },
+                {
+                  "name": "origin",
+                  "value": "https://ezgo.txtsv.com"
+                },
+                {
+                  "name": "pragma",
+                  "value": "no-cache"
+                },
+                {
+                  "name": "priority",
+                  "value": "u=1, i"
+                },
+                {
+                  "name": "referer",
+                  "value": "https://ezgo.txtsv.com/"
+                },
+                {
+                  "name": "sec-ch-ua",
+                  "value": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""
+                },
+                {
+                  "name": "sec-ch-ua-mobile",
+                  "value": "?0"
+                },
+                {
+                  "name": "sec-ch-ua-platform",
+                  "value": "\"Windows\""
+                },
+                {
+                  "name": "sec-fetch-dest",
+                  "value": "empty"
+                },
+                {
+                  "name": "sec-fetch-mode",
+                  "value": "cors"
+                },
+                {
+                  "name": "sec-fetch-site",
+                  "value": "cross-site"
+                },
+                {
+                  "name": "user-agent",
+                  "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                }
+              ],
+              "queryString": [],
+              "cookies": [],
+              "headersSize": -1,
+              "bodySize": 1265,
+              "postData": {
+                "mimeType": "application/json; charset=UTF-8",
+                "text": "{\"s\":\"s2\",\"partnerId\":\"\",\"rosId\":\"1fa3c60a-764e-4757-878b-b3f7db8aeb64\",\"fn\":\"Pradeep\",\"ln\":\"Reddy\",\"phone\":\"897-868-4173\",\"email\":\"chadapradeepreddy@gmail.com\",\"countryCode\":\"US\",\"z\":\"78783\",\"comments\":\"\",\"url\":\"https://ezgo.txtsv.com/personal/shopping-tools/request-quote\",\"source\":\"Online\",\"vehicle\":{\"bike_year\":\"2025\",\"manuf\":\"E-Z-GO\",\"model\":\"Freedom RXV ELiTE Lithium Special Edition Phantom\",\"msrp\":15768,\"price\":15768,\"serial\":\"\",\"vin\":\"\",\"stockno\":\"\",\"vehtypename\":\"Golf Cart\",\"bike_image_full\":\"https://ezgo.txtsv.com/sites/default/files/2024-11/FreedomRXV_SpecialEdition_Phantom_960x720.png\",\"color\":\"Bright White\",\"location\":\"\",\"condition\":\"s\",\"segment\":\"\",\"year\":\"2025\"},\"affinity\":\"\",\"affinityId\":\"\",\"vid\":0,\"sourceType\":\"Dealer Website\",\"usaa\":false,\"pk_id\":\"\",\"pk_campaign\":\"\",\"pk_source\":\"\",\"pk_medium\":\"\",\"pk_kwd\":\"\",\"pk_content\":\"\",\"avala\":{\"userUid\":\"1fa3c60a-764e-4757-878b-b3f7db8aeb64\",\"sessionUid\":\"64780424-360c-48ef-92be-e73d9a4dcefa\",\"source\":\"\",\"campaign\":\"\",\"event\":\"\"},\"timeIteration\":\"In over 3 months\",\"submittedFrom\":\"https://ezgo.txtsv.com/personal/shopping-tools/request-quote\",\"leadNo\":\"95066103\",\"leadStatus\":\"Submitted\",\"sessionId\":\"64780424-360c-48ef-92be-e73d9a4dcefa\",\"leadType\":\"Digital Retail\",\"website\":\"ezgo.txtsv.com\"}"
+              }
+            },
+            "response": {
+              "status": 200,
+              "statusText": "",
+              "httpVersion": "http/2.0",
+              "headers": [
+                {
+                  "name": "access-control-allow-credentials",
+                  "value": "true"
+                },
+                {
+                  "name": "access-control-allow-headers",
+                  "value": "Origin, X-Requested-With, Content-Type, Accept"
+                },
+                {
+                  "name": "access-control-allow-methods",
+                  "value": "GET, POST, OPTIONS"
+                },
+                {
+                  "name": "access-control-allow-origin",
+                  "value": "https://ezgo.txtsv.com"
+                },
+                {
+                  "name": "cache-control",
+                  "value": "private, no-cache, no-store, must-revalidate"
+                },
+                {
+                  "name": "content-length",
+                  "value": "30"
+                },
+                {
+                  "name": "content-type",
+                  "value": "application/json; charset=utf-8"
+                },
+                {
+                  "name": "date",
+                  "value": "Wed, 22 Jan 2025 07:14:29 GMT"
+                },
+                {
+                  "name": "etag",
+                  "value": "W/\"1e-hqdpwCNDOua5wyxn2wd28zKcxUg\""
+                },
+                {
+                  "name": "request-context",
+                  "value": "appId=cid-v1:"
+                },
+                {
+                  "name": "server",
+                  "value": "nginx"
+                },
+                {
+                  "name": "strict-transport-security",
+                  "value": "max-age=15768000; includeSubDomains"
+                },
+                {
+                  "name": "x-request-id",
+                  "value": "53b9c742-88e8-4d35-90c6-13cb6b2fef43"
+                }
+              ],
+              "cookies": [],
+              "content": {
+                "size": 30,
+                "mimeType": "application/json",
+                "text": "{\"code\":200,\"text\":\"\",\"id\":\"\"}"
+              },
+              "redirectURL": "",
+              "headersSize": -1,
+              "bodySize": -1,
+              "_transferSize": 456,
+              "_error": null,
+              "_fetchedViaServiceWorker": false
+            },
+            "serverIPAddress": "52.159.106.128",
+            "startedDateTime": "2025-01-22T07:14:26.633Z",
+            "time": 449.2080002091825,
+            "timings": {
+              "blocked": 226.6610004223585,
+              "dns": -1,
+              "ssl": -1,
+              "connect": -1,
+              "send": 0.4159999999999999,
+              "wait": 221.6609999333024,
+              "receive": 0.46999985352158546,
+              "_blocked_queueing": 224.5540004223585,
+              "_workerStart": -1,
+              "_workerReady": -1,
+              "_workerFetchStart": -1,
+              "_workerRespondWithSettled": -1
+            }
+          },
+          {
+            "_initiator": {
+              "type": "script",
+              "stack": {
+                "callFrames": [
+                  {
+                    "functionName": "send",
+                    "scriptId": "16",
+                    "url": "https://code.jquery.com/jquery-3.5.1.min.js",
+                    "lineNumber": 1,
+                    "columnNumber": 82612
+                  },
+                  {
+                    "functionName": "ajax",
+                    "scriptId": "16",
+                    "url": "https://code.jquery.com/jquery-3.5.1.min.js",
+                    "lineNumber": 1,
+                    "columnNumber": 78222
+                  },
+                  {
+                    "functionName": "S.<computed>",
+                    "scriptId": "16",
+                    "url": "https://code.jquery.com/jquery-3.5.1.min.js",
+                    "lineNumber": 1,
+                    "columnNumber": 80242
+                  },
+                  {
+                    "functionName": "tradeInStep4",
+                    "scriptId": "17",
+                    "url": "https://widget.rollick.io/widgets/dr/templates/textron/ezg/dr.js",
+                    "lineNumber": 2871,
+                    "columnNumber": 6
+                  },
+                  {
+                    "functionName": "tradeInStep3",
+                    "scriptId": "17",
+                    "url": "https://widget.rollick.io/widgets/dr/templates/textron/ezg/dr.js",
+                    "lineNumber": 2855,
+                    "columnNumber": 8
+                  },
+                  {
+                    "functionName": "onclick",
+                    "scriptId": "38",
+                    "url": "https://widget.rollick.io/widgets/dr/templates/textron/ezg/default-en.html",
+                    "lineNumber": 1304,
+                    "columnNumber": 145
+                  }
+                ]
+              }
+            },
+            "_priority": "High",
+            "_resourceType": "xhr",
+            "cache": {},
+            "connection": "6634351",
+            "request": {
+              "method": "GET",
+              "url": "https://widget.rollick.io/gcr/finalPrice/1975",
+              "httpVersion": "http/2.0",
+              "headers": [
+                {
+                  "name": ":authority",
+                  "value": "widget.rollick.io"
+                },
+                {
+                  "name": ":method",
+                  "value": "GET"
+                },
+                {
+                  "name": ":path",
+                  "value": "/gcr/finalPrice/1975"
+                },
+                {
+                  "name": ":scheme",
+                  "value": "https"
+                },
+                {
+                  "name": "accept",
+                  "value": "*/*"
+                },
+                {
+                  "name": "accept-encoding",
+                  "value": "gzip, deflate, br, zstd"
+                },
+                {
+                  "name": "accept-language",
+                  "value": "en-US,en-IN;q=0.9,en;q=0.8,te;q=0.7"
+                },
+                {
+                  "name": "cache-control",
+                  "value": "no-cache"
+                },
+                {
+                  "name": "dnt",
+                  "value": "1"
+                },
+                {
+                  "name": "pragma",
+                  "value": "no-cache"
+                },
+                {
+                  "name": "priority",
+                  "value": "u=1, i"
+                },
+                {
+                  "name": "referer",
+                  "value": "https://widget.rollick.io/widgets/dr/templates/textron/ezg/default-en.html"
+                },
+                {
+                  "name": "sec-ch-ua",
+                  "value": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""
+                },
+                {
+                  "name": "sec-ch-ua-mobile",
+                  "value": "?0"
+                },
+                {
+                  "name": "sec-ch-ua-platform",
+                  "value": "\"Windows\""
+                },
+                {
+                  "name": "sec-fetch-dest",
+                  "value": "empty"
+                },
+                {
+                  "name": "sec-fetch-mode",
+                  "value": "cors"
+                },
+                {
+                  "name": "sec-fetch-site",
+                  "value": "same-origin"
+                },
+                {
+                  "name": "user-agent",
+                  "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                },
+                {
+                  "name": "x-requested-with",
+                  "value": "XMLHttpRequest"
+                }
+              ],
+              "queryString": [],
+              "cookies": [],
+              "headersSize": -1,
+              "bodySize": 0
+            },
+            "response": {
+              "status": 200,
+              "statusText": "",
+              "httpVersion": "http/2.0",
+              "headers": [
+                {
+                  "name": "access-control-allow-credentials",
+                  "value": "true"
+                },
+                {
+                  "name": "access-control-allow-headers",
+                  "value": "Origin, X-Requested-With, Content-Type, Accept"
+                },
+                {
+                  "name": "access-control-allow-methods",
+                  "value": "GET, OPTIONS"
+                },
+                {
+                  "name": "access-control-allow-origin",
+                  "value": "*"
+                },
+                {
+                  "name": "cache-control",
+                  "value": "private, no-cache, no-store, must-revalidate"
+                },
+                {
+                  "name": "content-encoding",
+                  "value": "gzip"
+                },
+                {
+                  "name": "content-type",
+                  "value": "application/json; charset=utf-8"
+                },
+                {
+                  "name": "date",
+                  "value": "Wed, 22 Jan 2025 07:58:24 GMT"
+                },
+                {
+                  "name": "etag",
+                  "value": "W/\"943-jYCpcJLQyaRaZesVNVlJ+0fLYCw\""
+                },
+                {
+                  "name": "request-context",
+                  "value": "appId=cid-v1:0a80f7a3-de40-464e-95b4-2ecc5aec1cd0"
+                },
+                {
+                  "name": "server",
+                  "value": "nginx"
+                },
+                {
+                  "name": "strict-transport-security",
+                  "value": "max-age=15768000; includeSubDomains"
+                },
+                {
+                  "name": "vary",
+                  "value": "Accept-Encoding"
+                }
+              ],
+              "cookies": [],
+              "content": {
+                "size": 2371,
+                "mimeType": "application/json",
+                "text": "{\"id\":1975,\"date\":\"2023-05-25T20:31:32\",\"date_gmt\":\"2023-05-25T20:31:32\",\"guid\":{\"rendered\":\"https://golfcartresource.com/api/gcvalues/golfcart/2021-electric-e-z-go-rxv-does-not-run-6/\"},\"modified\":\"2023-05-25T20:31:34\",\"modified_gmt\":\"2023-05-25T20:31:34\",\"slug\":\"2009-electric-e-z-go-rxv-excellent\",\"status\":\"publish\",\"type\":\"golfcart\",\"link\":\"https://golfcartresource.com/api/gcvalues/golfcart/2009-electric-e-z-go-rxv-excellent/\",\"title\":{\"rendered\":\"2009 Electric E-Z-GO RXV &#8211; Excellent\"},\"content\":{\"rendered\":\"\",\"protected\":false},\"featured_media\":0,\"template\":\"\",\"golf_car_year\":[20],\"golf_car_make\":[32],\"golf_car_model\":[64],\"golf_car_condition\":[4],\"golf_car_power_type\":[5],\"golf_car_battery_age\":[26],\"class_list\":[\"post-1975\",\"golfcart\",\"type-golfcart\",\"status-publish\",\"hentry\",\"golf_car_year-20\",\"golf_car_make-e-z-go\",\"golf_car_model-rxv\",\"golf_car_condition-excellent\",\"golf_car_power_type-electric\",\"golf_car_battery_age-new\"],\"acf\":[],\"private_party_value\":\"3981\",\"trade_value\":\"3066\",\"_links\":{\"self\":[{\"href\":\"https://golfcartresource.com/api/gcvalues/wp-json/wp/v2/golfcart/1975\",\"targetHints\":{\"allow\":[\"GET\"]}}],\"collection\":[{\"href\":\"https://golfcartresource.com/api/gcvalues/wp-json/wp/v2/golfcart\"}],\"about\":[{\"href\":\"https://golfcartresource.com/api/gcvalues/wp-json/wp/v2/types/golfcart\"}],\"wp:attachment\":[{\"href\":\"https://golfcartresource.com/api/gcvalues/wp-json/wp/v2/media?parent=1975\"}],\"wp:term\":[{\"taxonomy\":\"golf_car_year\",\"embeddable\":true,\"href\":\"https://golfcartresource.com/api/gcvalues/wp-json/wp/v2/golf_car_year?post=1975\"},{\"taxonomy\":\"golf_car_make\",\"embeddable\":true,\"href\":\"https://golfcartresource.com/api/gcvalues/wp-json/wp/v2/golf_car_make?post=1975\"},{\"taxonomy\":\"golf_car_model\",\"embeddable\":true,\"href\":\"https://golfcartresource.com/api/gcvalues/wp-json/wp/v2/golf_car_model?post=1975\"},{\"taxonomy\":\"golf_car_condition\",\"embeddable\":true,\"href\":\"https://golfcartresource.com/api/gcvalues/wp-json/wp/v2/golf_car_condition?post=1975\"},{\"taxonomy\":\"golf_car_power_type\",\"embeddable\":true,\"href\":\"https://golfcartresource.com/api/gcvalues/wp-json/wp/v2/golf_car_power_type?post=1975\"},{\"taxonomy\":\"golf_car_battery_age\",\"embeddable\":true,\"href\":\"https://golfcartresource.com/api/gcvalues/wp-json/wp/v2/golf_car_battery_age?post=1975\"}],\"curies\":[{\"name\":\"wp\",\"href\":\"https://api.w.org/{rel}\",\"templated\":true}]}}"
+              },
+              "redirectURL": "",
+              "headersSize": -1,
+              "bodySize": -1,
+              "_transferSize": 1109,
+              "_error": null,
+              "_fetchedViaServiceWorker": false
+            },
+            "serverIPAddress": "52.159.106.128",
+            "startedDateTime": "2025-01-22T07:58:21.510Z",
+            "time": 919.2180000245571,
+            "timings": {
+              "blocked": 2.9230003228783605,
+              "dns": -1,
+              "ssl": -1,
+              "connect": -1,
+              "send": 0.236,
+              "wait": 914.9269999296367,
+              "receive": 1.131999772042036,
+              "_blocked_queueing": 1.6630003228783607,
+              "_workerStart": -1,
+              "_workerReady": -1,
+              "_workerFetchStart": -1,
+              "_workerRespondWithSettled": -1
+            }
+          }
       ]
     }
   }

@@ -3,7 +3,7 @@
   "info": {
     "title": "HarToOpenApi",
     "version": "1.0.0",
-    "description": "OpenAPI spec generated from HAR data for specs on 2025-01-22T07:10:58.499Z"
+    "description": "OpenAPI spec generated from HAR data for specs on 2025-01-22T07:59:18.955Z"
   },
   "paths": {
     "/aimbase-list-dealers": {
@@ -18735,6 +18735,447 @@
       },
       "parameters": []
     },
+    "/gcr/finalPrice/1975": {
+      "get": {
+        "description": "",
+        "operationId": "getGcrFinalPriceById",
+        "parameters": [
+          {
+            "description": "priority",
+            "in": "header",
+            "name": "priority",
+            "schema": {
+              "default": "u=1, i",
+              "example": "u=1, i",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "example": {
+                  "_links": {
+                    "about": [
+                      {
+                        "href": "https://golfcartresource.com/api/gcvalues/wp-json/wp/v2/types/golfcart"
+                      }
+                    ],
+                    "collection": [
+                      {
+                        "href": "https://golfcartresource.com/api/gcvalues/wp-json/wp/v2/golfcart"
+                      }
+                    ],
+                    "curies": [
+                      {
+                        "href": "https://api.w.org/{rel}",
+                        "name": "wp",
+                        "templated": true
+                      }
+                    ],
+                    "self": [
+                      {
+                        "href": "https://golfcartresource.com/api/gcvalues/wp-json/wp/v2/golfcart/1975",
+                        "targetHints": {
+                          "allow": [
+                            "GET"
+                          ]
+                        }
+                      }
+                    ],
+                    "wp:attachment": [
+                      {
+                        "href": "https://golfcartresource.com/api/gcvalues/wp-json/wp/v2/media?parent=1975"
+                      }
+                    ],
+                    "wp:term": [
+                      {
+                        "embeddable": true,
+                        "href": "https://golfcartresource.com/api/gcvalues/wp-json/wp/v2/golf_car_year?post=1975",
+                        "taxonomy": "golf_car_year"
+                      },
+                      {
+                        "embeddable": true,
+                        "href": "https://golfcartresource.com/api/gcvalues/wp-json/wp/v2/golf_car_make?post=1975",
+                        "taxonomy": "golf_car_make"
+                      },
+                      {
+                        "embeddable": true,
+                        "href": "https://golfcartresource.com/api/gcvalues/wp-json/wp/v2/golf_car_model?post=1975",
+                        "taxonomy": "golf_car_model"
+                      },
+                      {
+                        "embeddable": true,
+                        "href": "https://golfcartresource.com/api/gcvalues/wp-json/wp/v2/golf_car_condition?post=1975",
+                        "taxonomy": "golf_car_condition"
+                      },
+                      {
+                        "embeddable": true,
+                        "href": "https://golfcartresource.com/api/gcvalues/wp-json/wp/v2/golf_car_power_type?post=1975",
+                        "taxonomy": "golf_car_power_type"
+                      },
+                      {
+                        "embeddable": true,
+                        "href": "https://golfcartresource.com/api/gcvalues/wp-json/wp/v2/golf_car_battery_age?post=1975",
+                        "taxonomy": "golf_car_battery_age"
+                      }
+                    ]
+                  },
+                  "acf": [],
+                  "class_list": [
+                    "post-1975",
+                    "golfcart",
+                    "type-golfcart",
+                    "status-publish",
+                    "hentry",
+                    "golf_car_year-20",
+                    "golf_car_make-e-z-go",
+                    "golf_car_model-rxv",
+                    "golf_car_condition-excellent",
+                    "golf_car_power_type-electric",
+                    "golf_car_battery_age-new"
+                  ],
+                  "content": {
+                    "protected": false,
+                    "rendered": ""
+                  },
+                  "date": "2023-05-25T20:31:32",
+                  "date_gmt": "2023-05-25T20:31:32",
+                  "featured_media": 0,
+                  "golf_car_battery_age": [
+                    26
+                  ],
+                  "golf_car_condition": [
+                    4
+                  ],
+                  "golf_car_make": [
+                    32
+                  ],
+                  "golf_car_model": [
+                    64
+                  ],
+                  "golf_car_power_type": [
+                    5
+                  ],
+                  "golf_car_year": [
+                    20
+                  ],
+                  "guid": {
+                    "rendered": "https://golfcartresource.com/api/gcvalues/golfcart/2021-electric-e-z-go-rxv-does-not-run-6/"
+                  },
+                  "id": 1975,
+                  "link": "https://golfcartresource.com/api/gcvalues/golfcart/2009-electric-e-z-go-rxv-excellent/",
+                  "modified": "2023-05-25T20:31:34",
+                  "modified_gmt": "2023-05-25T20:31:34",
+                  "private_party_value": "3981",
+                  "slug": "2009-electric-e-z-go-rxv-excellent",
+                  "status": "publish",
+                  "template": "",
+                  "title": {
+                    "rendered": "2009 Electric E-Z-GO RXV &#8211; Excellent"
+                  },
+                  "trade_value": "3066",
+                  "type": "golfcart"
+                },
+                "schema": {
+                  "additionalProperties": false,
+                  "properties": {
+                    "_links": {
+                      "additionalProperties": false,
+                      "properties": {
+                        "about": {
+                          "items": {
+                            "additionalProperties": false,
+                            "properties": {
+                              "href": {
+                                "format": "uri",
+                                "type": "string",
+                                "x-qt-uri-protocols": [
+                                  "https"
+                                ]
+                              }
+                            },
+                            "required": [],
+                            "title": "About",
+                            "type": "object"
+                          },
+                          "type": "array"
+                        },
+                        "collection": {
+                          "items": {
+                            "additionalProperties": false,
+                            "properties": {
+                              "href": {
+                                "format": "uri",
+                                "type": "string",
+                                "x-qt-uri-protocols": [
+                                  "https"
+                                ]
+                              }
+                            },
+                            "required": [],
+                            "title": "About",
+                            "type": "object"
+                          },
+                          "type": "array"
+                        },
+                        "curies": {
+                          "items": {
+                            "additionalProperties": false,
+                            "properties": {
+                              "href": {
+                                "type": "string"
+                              },
+                              "name": {
+                                "type": "string"
+                              },
+                              "templated": {
+                                "type": "boolean"
+                              }
+                            },
+                            "required": [],
+                            "title": "Cury",
+                            "type": "object"
+                          },
+                          "type": "array"
+                        },
+                        "self": {
+                          "items": {
+                            "additionalProperties": false,
+                            "properties": {
+                              "href": {
+                                "format": "uri",
+                                "type": "string",
+                                "x-qt-uri-protocols": [
+                                  "https"
+                                ]
+                              },
+                              "targetHints": {
+                                "additionalProperties": false,
+                                "properties": {
+                                  "allow": {
+                                    "items": {
+                                      "type": "string"
+                                    },
+                                    "type": "array"
+                                  }
+                                },
+                                "required": [],
+                                "title": "TargetHints",
+                                "type": "object"
+                              }
+                            },
+                            "required": [],
+                            "title": "Self",
+                            "type": "object"
+                          },
+                          "type": "array"
+                        },
+                        "wp:attachment": {
+                          "items": {
+                            "additionalProperties": false,
+                            "properties": {
+                              "href": {
+                                "format": "uri",
+                                "type": "string",
+                                "x-qt-uri-protocols": [
+                                  "https"
+                                ]
+                              }
+                            },
+                            "required": [],
+                            "title": "About",
+                            "type": "object"
+                          },
+                          "type": "array"
+                        },
+                        "wp:term": {
+                          "items": {
+                            "additionalProperties": false,
+                            "properties": {
+                              "embeddable": {
+                                "type": "boolean"
+                              },
+                              "href": {
+                                "format": "uri",
+                                "type": "string",
+                                "x-qt-uri-protocols": [
+                                  "https"
+                                ]
+                              },
+                              "taxonomy": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [],
+                            "title": "WpTerm",
+                            "type": "object"
+                          },
+                          "type": "array"
+                        }
+                      },
+                      "required": [],
+                      "title": "Links",
+                      "type": "object"
+                    },
+                    "acf": {
+                      "items": {},
+                      "type": "array"
+                    },
+                    "class_list": {
+                      "items": {
+                        "type": "string"
+                      },
+                      "type": "array"
+                    },
+                    "content": {
+                      "additionalProperties": false,
+                      "properties": {
+                        "protected": {
+                          "type": "boolean"
+                        },
+                        "rendered": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [],
+                      "title": "Content",
+                      "type": "object"
+                    },
+                    "date": {
+                      "format": "date-time",
+                      "type": "string"
+                    },
+                    "date_gmt": {
+                      "format": "date-time",
+                      "type": "string"
+                    },
+                    "featured_media": {
+                      "type": "integer"
+                    },
+                    "golf_car_battery_age": {
+                      "items": {
+                        "type": "integer"
+                      },
+                      "type": "array"
+                    },
+                    "golf_car_condition": {
+                      "items": {
+                        "type": "integer"
+                      },
+                      "type": "array"
+                    },
+                    "golf_car_make": {
+                      "items": {
+                        "type": "integer"
+                      },
+                      "type": "array"
+                    },
+                    "golf_car_model": {
+                      "items": {
+                        "type": "integer"
+                      },
+                      "type": "array"
+                    },
+                    "golf_car_power_type": {
+                      "items": {
+                        "type": "integer"
+                      },
+                      "type": "array"
+                    },
+                    "golf_car_year": {
+                      "items": {
+                        "type": "integer"
+                      },
+                      "type": "array"
+                    },
+                    "guid": {
+                      "additionalProperties": false,
+                      "properties": {
+                        "rendered": {
+                          "format": "uri",
+                          "type": "string",
+                          "x-qt-uri-protocols": [
+                            "https"
+                          ]
+                        }
+                      },
+                      "required": [],
+                      "title": "GUID",
+                      "type": "object"
+                    },
+                    "id": {
+                      "type": "integer"
+                    },
+                    "link": {
+                      "format": "uri",
+                      "type": "string",
+                      "x-qt-uri-protocols": [
+                        "https"
+                      ]
+                    },
+                    "modified": {
+                      "format": "date-time",
+                      "type": "string"
+                    },
+                    "modified_gmt": {
+                      "format": "date-time",
+                      "type": "string"
+                    },
+                    "private_party_value": {
+                      "format": "integer",
+                      "type": "string"
+                    },
+                    "slug": {
+                      "type": "string"
+                    },
+                    "status": {
+                      "type": "string"
+                    },
+                    "template": {
+                      "type": "string"
+                    },
+                    "title": {
+                      "additionalProperties": false,
+                      "properties": {
+                        "rendered": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [],
+                      "title": "Title",
+                      "type": "object"
+                    },
+                    "trade_value": {
+                      "format": "integer",
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [],
+                  "title": "GCRFinalPriceByIDGetRequest",
+                  "type": "object"
+                }
+              }
+            },
+            "description": "",
+            "headers": {
+              "request-context": {
+                "description": "Custom header request-context",
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "summary": "Get Gcr Final Price By ID"
+      },
+      "parameters": []
+    },
     "/gcr/tradeInEstimate": {
       "parameters": [],
       "post": {
@@ -19336,6 +19777,304 @@
           }
         },
         "summary": "Post Gcr Trade In Estimate"
+      }
+    },
+    "/has-quote/95066103/811d03a0-d88f-11ef-8b2f-e7b34f7ede5c": {
+      "get": {
+        "description": "",
+        "operationId": "getHasQuoteByIdByUuid",
+        "parameters": [
+          {
+            "description": "priority",
+            "in": "header",
+            "name": "priority",
+            "schema": {
+              "default": "u=1, i",
+              "example": "u=1, i",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "example": {
+                  "orderId": "",
+                  "quoteId": "",
+                  "quoteLink": "",
+                  "quoted": false,
+                  "transactionCCId": ""
+                },
+                "schema": {
+                  "additionalProperties": false,
+                  "properties": {
+                    "orderId": {
+                      "type": "string"
+                    },
+                    "quoteId": {
+                      "type": "string"
+                    },
+                    "quoteLink": {
+                      "type": "string"
+                    },
+                    "quoted": {
+                      "type": "boolean"
+                    },
+                    "transactionCCId": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [],
+                  "title": "HasQuoteByIDByUUIDGetRequest",
+                  "type": "object"
+                }
+              }
+            },
+            "description": "",
+            "headers": {
+              "request-context": {
+                "description": "Custom header request-context",
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "summary": "Get Has Quote By ID By UUID"
+      },
+      "parameters": []
+    },
+    "/oemIncentives": {
+      "parameters": [],
+      "post": {
+        "description": "",
+        "operationId": "postOemIncentives",
+        "parameters": [
+          {
+            "description": "priority",
+            "in": "header",
+            "name": "priority",
+            "schema": {
+              "default": "u=1, i",
+              "example": "u=1, i",
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "example": {
+                "search": {
+                  "affinityId": 0,
+                  "brands": [
+                    33
+                  ],
+                  "categories": [
+                    6
+                  ],
+                  "category": "Golf Carts",
+                  "condition": "S",
+                  "id": "",
+                  "location": "",
+                  "make": "E-Z-GO",
+                  "model": "Freedom RXV ELiTE Lithium Special Edition Phantom",
+                  "modelId": "",
+                  "msrp": 15768,
+                  "preview": "0",
+                  "price": 15768,
+                  "trimId": 0,
+                  "year": "2025"
+                }
+              },
+              "schema": {
+                "additionalProperties": false,
+                "properties": {
+                  "search": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "affinityId": {
+                        "type": "integer"
+                      },
+                      "brands": {
+                        "items": {
+                          "type": "integer"
+                        },
+                        "type": "array"
+                      },
+                      "categories": {
+                        "items": {
+                          "type": "integer"
+                        },
+                        "type": "array"
+                      },
+                      "category": {
+                        "type": "string"
+                      },
+                      "condition": {
+                        "type": "string"
+                      },
+                      "id": {
+                        "type": "string"
+                      },
+                      "location": {
+                        "type": "string"
+                      },
+                      "make": {
+                        "type": "string"
+                      },
+                      "model": {
+                        "type": "string"
+                      },
+                      "modelId": {
+                        "type": "string"
+                      },
+                      "msrp": {
+                        "type": "integer"
+                      },
+                      "preview": {
+                        "format": "integer",
+                        "type": "string"
+                      },
+                      "price": {
+                        "type": "integer"
+                      },
+                      "trimId": {
+                        "type": "integer"
+                      },
+                      "year": {
+                        "format": "integer",
+                        "type": "string"
+                      }
+                    },
+                    "required": [],
+                    "title": "Search",
+                    "type": "object"
+                  }
+                },
+                "required": [],
+                "title": "OEMIncentivesPostRequest",
+                "type": "object"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "example": [
+                  {
+                    "decodedVehicle": {
+                      "brandId": 33,
+                      "brandName": "E-Z-GO",
+                      "categoryId": 6,
+                      "categoryName": "Golf Carts",
+                      "familyId": null,
+                      "familyName": null,
+                      "matchCode": -1,
+                      "modelId": null,
+                      "modelName": null,
+                      "segmentId": 1,
+                      "segmentName": "Powersports",
+                      "trimId": 0,
+                      "trimName": null,
+                      "year": "2025"
+                    },
+                    "incentiveResult": "No incentives found",
+                    "incentives": [],
+                    "suggestedIncentives": null
+                  }
+                ],
+                "schema": {
+                  "items": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "decodedVehicle": {
+                        "additionalProperties": false,
+                        "properties": {
+                          "brandId": {
+                            "type": "integer"
+                          },
+                          "brandName": {
+                            "type": "string"
+                          },
+                          "categoryId": {
+                            "type": "integer"
+                          },
+                          "categoryName": {
+                            "type": "string"
+                          },
+                          "familyId": {
+                            "nullable": true
+                          },
+                          "familyName": {
+                            "nullable": true
+                          },
+                          "matchCode": {
+                            "type": "integer"
+                          },
+                          "modelId": {
+                            "nullable": true
+                          },
+                          "modelName": {
+                            "nullable": true
+                          },
+                          "segmentId": {
+                            "type": "integer"
+                          },
+                          "segmentName": {
+                            "type": "string"
+                          },
+                          "trimId": {
+                            "type": "integer"
+                          },
+                          "trimName": {
+                            "nullable": true
+                          },
+                          "year": {
+                            "format": "integer",
+                            "type": "string"
+                          }
+                        },
+                        "required": [],
+                        "title": "DecodedVehicle",
+                        "type": "object"
+                      },
+                      "incentiveResult": {
+                        "type": "string"
+                      },
+                      "incentives": {
+                        "items": {},
+                        "type": "array"
+                      },
+                      "suggestedIncentives": {
+                        "nullable": true
+                      }
+                    },
+                    "required": [],
+                    "title": "OEMIncentivesPostRequestElement",
+                    "type": "object"
+                  },
+                  "type": "array"
+                }
+              }
+            },
+            "description": "",
+            "headers": {
+              "request-context": {
+                "description": "Custom header request-context",
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "summary": "Post Oem Incentives"
       }
     },
     "/ping/df7c35b0-2320-40fb-bd0e-c8bd6443de37": {
@@ -44122,6 +44861,14 @@
             "application/json": {
               "example": {
                 "appendPrequal": true,
+                "appointment": {
+                  "comments": "",
+                  "method": "In-Store",
+                  "scheduleDate1": "01/22/2025",
+                  "scheduleDate2": "",
+                  "timeOfDay": "Morning",
+                  "type": "Appointment"
+                },
                 "avala": {
                   "campaign": "",
                   "event": "",
@@ -44131,28 +44878,24 @@
                 },
                 "brand": "EZG",
                 "brandName": "E-Z-GO",
-                "buyFromHome": true,
+                "buyFromHome": false,
                 "campaign": "",
                 "category": "E-Z-GO Website",
                 "color": "Bright White",
-                "comments": "",
+                "comments": "Appointment Requested.",
                 "countryCode": "US",
                 "email": "chadapradeepreddy@gmail.com",
                 "firstName": "Pradeep",
                 "imageUrl": "https://ezgo.txtsv.com/sites/default/files/2024-11/FreedomRXV_SpecialEdition_Phantom_960x720.png",
-                "ip": "49.43.218.37",
                 "languageCode": "EN",
                 "lastName": "Reddy",
                 "msrp": 15768,
-                "optIn": true,
-                "optInDate": 1737528425754,
-                "optInListCode": "NewsPromo,E-Z-GO Master - Personal",
-                "optInSource": "Textron",
+                "optIn": false,
+                "optInListCode": "",
                 "orderModelCode": "10002916",
                 "partnerChoice": "Custom",
                 "partnerId": "490fc703f7040810",
                 "partnerName": "Mission Golf Cars - Austin",
-                "payment": {},
                 "phone": "897-868-4173",
                 "postalCode": "78783",
                 "preorderable": false,
@@ -44183,6 +44926,32 @@
                 "properties": {
                   "appendPrequal": {
                     "type": "boolean"
+                  },
+                  "appointment": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "comments": {
+                        "type": "string"
+                      },
+                      "method": {
+                        "type": "string"
+                      },
+                      "scheduleDate1": {
+                        "type": "string"
+                      },
+                      "scheduleDate2": {
+                        "type": "string"
+                      },
+                      "timeOfDay": {
+                        "type": "string"
+                      },
+                      "type": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [],
+                    "title": "Appointment",
+                    "type": "object"
                   },
                   "avala": {
                     "additionalProperties": false,
@@ -44543,6 +45312,9 @@
                   "ln": {
                     "type": "string"
                   },
+                  "location": {
+                    "type": "string"
+                  },
                   "partnerId": {
                     "type": "string"
                   },
@@ -44750,10 +45522,18 @@
               "example": {
                 "leads": {
                   "4213950121": {
-                    "LeadId": 0,
-                    "QuoteId": "",
+                    "LeadId": 161624,
+                    "QuoteId": "811d03a0-d88f-11ef-8b2f-e7b34f7ede5c",
                     "adjustedPrice": 15768,
-                    "appointment": {},
+                    "appointment": {
+                      "comments": "",
+                      "hasData": false,
+                      "method": "",
+                      "scheduleDate1": "",
+                      "scheduleDate2": "",
+                      "timeOfDay": "",
+                      "type": ""
+                    },
                     "bfh": {
                       "arc2": {
                         "Off Road": {
@@ -44777,7 +45557,9 @@
                       "firstName": "Pradeep",
                       "lastName": "Reddy",
                       "phone": "897-868-4173",
-                      "prequal": {},
+                      "prequal": {
+                        "hash": ""
+                      },
                       "zip": "78783"
                     },
                     "dealer": {
@@ -44917,6 +45699,7 @@
                       "preApproval": "",
                       "preQual": "Rollick"
                     },
+                    "hasOffer": true,
                     "hasPrice": true,
                     "hasTradeIn": false,
                     "key": "df7c35b0-2320-40fb-bd0e-c8bd6443de37",
@@ -44924,23 +45707,18 @@
                       "bfh": true,
                       "comments": "",
                       "hasData": true,
-                      "optIn": true,
-                      "optInDate": 1737528425693,
-                      "optInListCode": "NewsPromo,E-Z-GO Master - Personal",
-                      "optInSource": "Textron",
+                      "location": "",
+                      "optIn": false,
                       "partnerChoice": "Custom",
                       "partnerId": "490fc703f7040810",
                       "partnerName": "Mission Golf Cars - Austin",
-                      "preselect": true,
                       "promo": null,
                       "promoCode": "",
                       "promoUseId": "",
-                      "textMe": 1,
                       "transactionId": "2b082ae8-b7d8-420e-b5dd-021f24ab2a94",
                       "ttp": "In over 3 months"
                     },
-                    "leadStatus": "Submitted",
-                    "module": "Request-a-Quote",
+                    "module": "Offers",
                     "offersTotal": 0,
                     "partnerModules": [
                       "request-a-quote",
@@ -44949,14 +45727,22 @@
                       "trade-in",
                       "appointment"
                     ],
-                    "payment": {
-                      "hasData": true
-                    },
+                    "payment": {},
                     "preQualTabName": "Explore Financing",
-                    "prequal": {},
-                    "promo": null,
-                    "promotions": {},
-                    "reservenow": {},
+                    "prequal": {
+                      "hasData": false,
+                      "success": false
+                    },
+                    "reservenow": {
+                      "comments": false,
+                      "deposit": 0,
+                      "hasData": false,
+                      "orderNumber": "",
+                      "paymentInfo": null,
+                      "reserve": false,
+                      "transactionCCId": ""
+                    },
+                    "rollickCTAClicked": true,
                     "siteId": "EZG",
                     "submittingPrequal": false,
                     "termsCondition": "https://gorollick.com/company/site-info/privacy-policy-terms-of-service/",
@@ -45001,6 +45787,7 @@
                     },
                     "trade": {
                       "amount": 0,
+                      "hasData": false,
                       "net": 0,
                       "payoff": 0,
                       "withinTradeLimit": true
@@ -45014,6 +45801,7 @@
                       "image": "https://ezgo.txtsv.com/sites/default/files/2024-11/FreedomRXV_SpecialEdition_Phantom_960x720.png",
                       "isLsv": false,
                       "isPrevent": false,
+                      "location": "",
                       "make": "E-Z-GO",
                       "mappedData": {
                         "brandId": 33,
@@ -45049,7 +45837,6 @@
                   "e": "chadapradeepreddy@gmail.com",
                   "fn": "Pradeep",
                   "isFromS4": false,
-                  "leadId": "95066103",
                   "ln": "Reddy",
                   "p": "897-868-4173",
                   "prequal": {
@@ -45095,7 +45882,31 @@
                           },
                           "appointment": {
                             "additionalProperties": false,
-                            "title": "TradeIn",
+                            "properties": {
+                              "comments": {
+                                "type": "string"
+                              },
+                              "hasData": {
+                                "type": "boolean"
+                              },
+                              "method": {
+                                "type": "string"
+                              },
+                              "scheduleDate1": {
+                                "type": "string"
+                              },
+                              "scheduleDate2": {
+                                "type": "string"
+                              },
+                              "timeOfDay": {
+                                "type": "string"
+                              },
+                              "type": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [],
+                            "title": "Appointment",
                             "type": "object"
                           },
                           "bfh": {
@@ -45187,7 +45998,13 @@
                               },
                               "prequal": {
                                 "additionalProperties": false,
-                                "title": "TradeIn",
+                                "properties": {
+                                  "hash": {
+                                    "type": "string"
+                                  }
+                                },
+                                "required": [],
+                                "title": "CustomerPrequal",
                                 "type": "object"
                               },
                               "zip": {
@@ -45204,12 +46021,22 @@
                             "properties": {
                               "CTATexts": {
                                 "items": {
+                                  "enum": [
+                                    "Start My Deal",
+                                    "Reserve Now"
+                                  ],
+                                  "title": "CTAText",
                                   "type": "string"
                                 },
                                 "type": "array"
                               },
                               "CTAs": {
                                 "items": {
+                                  "enum": [
+                                    "request-a-quote",
+                                    "reserve-now"
+                                  ],
+                                  "title": "Cta",
                                   "type": "string"
                                 },
                                 "type": "array"
@@ -45375,21 +46202,44 @@
                                   "additionalProperties": false,
                                   "properties": {
                                     "clientKey": {
+                                      "enum": [
+                                        "ysrraiypeqdqe5all5yimw6vv8hemaym",
+                                        "1e2676203fa694b3776ba0e057966db0"
+                                      ],
+                                      "title": "ClientKey",
                                       "type": "string"
                                     },
                                     "country": {
+                                      "enum": [
+                                        "US",
+                                        "CA"
+                                      ],
+                                      "title": "Country",
                                       "type": "string"
                                     },
                                     "enabled": {
                                       "type": "boolean"
                                     },
                                     "id": {
+                                      "enum": [
+                                        "cpt575871604462",
+                                        "cpt734670917398"
+                                      ],
+                                      "title": "ID",
                                       "type": "string"
                                     },
                                     "mode": {
+                                      "enum": [
+                                        "PROD"
+                                      ],
+                                      "title": "Mode",
                                       "type": "string"
                                     },
                                     "type": {
+                                      "enum": [
+                                        "paymentech.com"
+                                      ],
+                                      "title": "Type",
                                       "type": "string"
                                     },
                                     "verified": {
@@ -45554,6 +46404,9 @@
                             "title": "FinanceProvider",
                             "type": "object"
                           },
+                          "hasOffer": {
+                            "type": "boolean"
+                          },
                           "hasPrice": {
                             "type": "boolean"
                           },
@@ -45575,6 +46428,9 @@
                               },
                               "hasData": {
                                 "type": "boolean"
+                              },
+                              "location": {
+                                "type": "string"
                               },
                               "optIn": {
                                 "type": "boolean"
@@ -45655,7 +46511,16 @@
                           },
                           "prequal": {
                             "additionalProperties": false,
-                            "title": "TradeIn",
+                            "properties": {
+                              "hasData": {
+                                "type": "boolean"
+                              },
+                              "success": {
+                                "type": "boolean"
+                              }
+                            },
+                            "required": [],
+                            "title": "4213950121_Prequal",
                             "type": "object"
                           },
                           "promo": {
@@ -45668,8 +46533,35 @@
                           },
                           "reservenow": {
                             "additionalProperties": false,
-                            "title": "TradeIn",
+                            "properties": {
+                              "comments": {
+                                "type": "boolean"
+                              },
+                              "deposit": {
+                                "type": "integer"
+                              },
+                              "hasData": {
+                                "type": "boolean"
+                              },
+                              "orderNumber": {
+                                "type": "string"
+                              },
+                              "paymentInfo": {
+                                "nullable": true
+                              },
+                              "reserve": {
+                                "type": "boolean"
+                              },
+                              "transactionCCId": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [],
+                            "title": "Reservenow",
                             "type": "object"
+                          },
+                          "rollickCTAClicked": {
+                            "type": "boolean"
                           },
                           "siteId": {
                             "type": "string"
@@ -45728,6 +46620,9 @@
                               "amount": {
                                 "type": "integer"
                               },
+                              "hasData": {
+                                "type": "boolean"
+                              },
                               "net": {
                                 "type": "integer"
                               },
@@ -45775,6 +46670,9 @@
                               },
                               "isPrevent": {
                                 "type": "boolean"
+                              },
+                              "location": {
+                                "type": "string"
                               },
                               "make": {
                                 "type": "string"
@@ -45910,7 +46808,7 @@
                           }
                         },
                         "required": [],
-                        "title": "Prequal",
+                        "title": "CustomerPrequal",
                         "type": "object"
                       },
                       "rid": {
