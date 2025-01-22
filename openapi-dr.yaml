@@ -2,8 +2,141 @@ openapi: 3.0.0
 info:
   title: HarToOpenApi
   version: 1.0.0
-  description: OpenAPI spec generated from HAR data for specs on 2025-01-22T07:59:18.955Z
+  description: OpenAPI spec generated from HAR data for specs on 2025-01-22T10:07:15.785Z
 paths:
+  /:
+    get:
+      description: ''
+      operationId: get
+      parameters:
+        - description: rosId
+          in: query
+          name: rosId
+          schema:
+            default: 1fa3c60a-764e-4757-878b-b3f7db8aeb64
+            example: 1fa3c60a-764e-4757-878b-b3f7db8aeb64
+            type: string
+        - description: fn
+          in: query
+          name: fn
+          schema:
+            default: Pradeep
+            example: Pradeep
+            type: string
+        - description: ln
+          in: query
+          name: ln
+          schema:
+            default: Reddy
+            example: Reddy
+            type: string
+        - description: p
+          in: query
+          name: p
+          schema:
+            default: 897-868-4171
+            example: 897-868-4171
+            type: string
+        - description: z
+          in: query
+          name: z
+          schema:
+            default: ''
+            example: ''
+            type: string
+        - description: e
+          in: query
+          name: e
+          schema:
+            default: chadapradeepreddy@gmail.com
+            example: chadapradeepreddy@gmail.com
+            type: string
+        - description: vid
+          in: query
+          name: vid
+          schema:
+            default: '-2'
+            example: '-2'
+            type: string
+        - description: an
+          in: query
+          name: an
+          schema:
+            default: Rollick Outdoor
+            example: Rollick Outdoor
+            type: string
+        - description: pan
+          in: query
+          name: pan
+          schema:
+            default: perkspot
+            example: perkspot
+            type: string
+        - description: d
+          in: query
+          name: d
+          schema:
+            default: a4a03e903d23bbc6
+            example: a4a03e903d23bbc6
+            type: string
+        - description: orgId
+          in: query
+          name: orgId
+          schema:
+            default: undefined
+            example: undefined
+            type: string
+        - description: orgName
+          in: query
+          name: orgName
+          schema:
+            default: undefined
+            example: undefined
+            type: string
+        - description: r
+          in: query
+          name: r
+          schema:
+            default: >-
+              https://www.lovemotorsports.com/--inventory?veh=eyJjb25kaXRpb24iOiJOIiwidHlwZSI6Ik1vdG9yY3ljbGUgLyBTY29vdGVyIiwic3ViY2F0ZWdvcnkiOiIiLCJ5ZWFyIjoiMjAyNSIsIm1ha2UiOiJBcHJpbGlhwq4iLCJtb2RlbCI6IlJTIDQ1NyIsImNvbG9yIjoiTElHSFQiLCJwcmljZSI6Njc5OSwicHJpY2VUeXBlIjoiTVNSUCIsIm1zcnAiOjY3OTksImltYWdlIjoiaHR0cHM6Ly9jZG4uZGVhbGVyc3Bpa2UuY29tL2ltZ2xpYi92MS8xMDI0eDEwMjQvaW1nbGliL0Fzc2V0cy9JbnZlbnRvcnkvODQvQjIvODRCMkI5NEEtQ0RDMS00Q0UxLTk0MzItM0U5NjlGNzdFMDNGLmpwZyIsInNlcmlhbCI6IiIsImlkIjoiMTYyODE5NDkiLCJzdG9ja25vIjoiTTI1MjAxIiwidmluIjoiWkQ0WEVVQTAwUzYwMDEzODQiLCJsb2NhdGlvbiI6IkhvbW9zYXNzYSIsImRlcG9zaXQiOjAsInJlc2VydmFibGUiOnRydWUsInN0cmlwcGVkUHJpY2UiOjAsInN0cmlwcGVkTVNSUCI6MCwiY2xvdWRBcHBseUxpbmsiOiIiLCJzcGVjaWZpY1BhcnRuZXJJZCI6ImE0YTAzZTkwM2QyM2JiYzYiLCJtYXBwZWREYXRhIjp7InNlZ21lbnRJZCI6MCwic2VnbWVudE5hbWUiOiJQb3dlcnNwb3J0cyIsImNhdGVnb3J5SWQiOjAsImNhdGVnb3J5TmFtZSI6Ik1vdG9yY3ljbGUgLyBTY29vdGVyIiwiYnJhbmRJZCI6MCwiYnJhbmROYW1lIjoiQXByaWxpYSIsIm1vZGVsSWQiOiIiLCJtb2RlbE5hbWUiOiJSUyA0NTciLCJmYW1pbHlJZCI6IiIsImZhbWlseU5hbWUiOiJSUyIsInllYXIiOiIyMDI1IiwidHJpbUlkIjo1NTkxMzksInRyaW1OYW1lIjoiQmFzZSIsImRpc3BsYXlOYW1lIjoiUlMgNDU3IEJhc2UiLCJ0bGFNb2RlbE5hbWUiOm51bGwsInRsYVRyaW1OYW1lIjpudWxsLCJ0bGFEaXNwbGF5TmFtZSI6bnVsbCwibWF0Y2hDb2RlIjoyM319
+            example: >-
+              https://www.lovemotorsports.com/--inventory?veh=eyJjb25kaXRpb24iOiJOIiwidHlwZSI6Ik1vdG9yY3ljbGUgLyBTY29vdGVyIiwic3ViY2F0ZWdvcnkiOiIiLCJ5ZWFyIjoiMjAyNSIsIm1ha2UiOiJBcHJpbGlhwq4iLCJtb2RlbCI6IlJTIDQ1NyIsImNvbG9yIjoiTElHSFQiLCJwcmljZSI6Njc5OSwicHJpY2VUeXBlIjoiTVNSUCIsIm1zcnAiOjY3OTksImltYWdlIjoiaHR0cHM6Ly9jZG4uZGVhbGVyc3Bpa2UuY29tL2ltZ2xpYi92MS8xMDI0eDEwMjQvaW1nbGliL0Fzc2V0cy9JbnZlbnRvcnkvODQvQjIvODRCMkI5NEEtQ0RDMS00Q0UxLTk0MzItM0U5NjlGNzdFMDNGLmpwZyIsInNlcmlhbCI6IiIsImlkIjoiMTYyODE5NDkiLCJzdG9ja25vIjoiTTI1MjAxIiwidmluIjoiWkQ0WEVVQTAwUzYwMDEzODQiLCJsb2NhdGlvbiI6IkhvbW9zYXNzYSIsImRlcG9zaXQiOjAsInJlc2VydmFibGUiOnRydWUsInN0cmlwcGVkUHJpY2UiOjAsInN0cmlwcGVkTVNSUCI6MCwiY2xvdWRBcHBseUxpbmsiOiIiLCJzcGVjaWZpY1BhcnRuZXJJZCI6ImE0YTAzZTkwM2QyM2JiYzYiLCJtYXBwZWREYXRhIjp7InNlZ21lbnRJZCI6MCwic2VnbWVudE5hbWUiOiJQb3dlcnNwb3J0cyIsImNhdGVnb3J5SWQiOjAsImNhdGVnb3J5TmFtZSI6Ik1vdG9yY3ljbGUgLyBTY29vdGVyIiwiYnJhbmRJZCI6MCwiYnJhbmROYW1lIjoiQXByaWxpYSIsIm1vZGVsSWQiOiIiLCJtb2RlbE5hbWUiOiJSUyA0NTciLCJmYW1pbHlJZCI6IiIsImZhbWlseU5hbWUiOiJSUyIsInllYXIiOiIyMDI1IiwidHJpbUlkIjo1NTkxMzksInRyaW1OYW1lIjoiQmFzZSIsImRpc3BsYXlOYW1lIjoiUlMgNDU3IEJhc2UiLCJ0bGFNb2RlbE5hbWUiOm51bGwsInRsYVRyaW1OYW1lIjpudWxsLCJ0bGFEaXNwbGF5TmFtZSI6bnVsbCwibWF0Y2hDb2RlIjoyM319
+            type: string
+        - description: priority
+          in: header
+          name: priority
+          schema:
+            default: u=1, i
+            example: u=1, i
+            type: string
+      responses:
+        '404':
+          content:
+            application/json:
+              example:
+                code: 404
+                id: null
+                text: Invalid Email Domain
+              schema:
+                additionalProperties: false
+                properties:
+                  code:
+                    type: integer
+                  id:
+                    nullable: true
+                  text:
+                    type: string
+                required: []
+                title: GetRequest
+                type: object
+          description: ''
+          headers:
+            request-context:
+              description: Custom header request-context
+              schema:
+                type: string
+      summary: Get
+    parameters: []
   /aimbase-list-dealers:
     parameters: []
     post:
@@ -6588,6 +6721,58 @@ paths:
               schema:
                 type: string
       summary: Post Aimbase Locate Dealer
+  /api/record/add:
+    parameters: []
+    post:
+      description: ''
+      operationId: postApiRecordAdd
+      parameters:
+        - description: priority
+          in: header
+          name: priority
+          schema:
+            default: u=1, i
+            example: u=1, i
+            type: string
+      requestBody:
+        content:
+          application/json:
+            example:
+              action: ' Widget Click'
+              category: lovemotorsports.com
+              module: s2
+              value: 1737532985147
+            schema:
+              additionalProperties: false
+              properties:
+                action:
+                  type: string
+                category:
+                  type: string
+                module:
+                  type: string
+                value:
+                  type: integer
+              required: []
+              title: APIRecordAddPostRequest
+              type: object
+        required: true
+      responses:
+        '200':
+          content:
+            application/json:
+              example:
+                queued: true
+              schema:
+                additionalProperties: false
+                properties:
+                  queued:
+                    type: boolean
+                required: []
+                title: APIRecordAddPostRequest
+                type: object
+          description: ''
+      summary: Post Api Record Add
   /api/serveDRAd:
     parameters: []
     post:
@@ -6772,6 +6957,137 @@ paths:
       summary: >-
         Get Api Trim Match E Z GO Freedom 20 RXV 20 E Li TE 20 Lithium 20
         Special 20 Edition 20 Phantom By ID
+    parameters: []
+  /api/trimMatch/Motorcycle%20%2F%20Scooter/Aprilia%C2%AE/RS%20457/2025/-/-:
+    get:
+      description: ''
+      operationId: getApiTrimMatchMotorcycle202F20ScooterApriliaC2AeRs20457ById
+      parameters:
+        - description: priority
+          in: header
+          name: priority
+          schema:
+            default: u=1, i
+            example: u=1, i
+            type: string
+      responses:
+        '200':
+          content:
+            application/json:
+              example:
+                data:
+                  - - brandId: 0
+                      brandName: Aprilia
+                      categoryId: 0
+                      categoryName: Motorcycle / Scooter
+                      displayName: RS 457 Base
+                      familyId: ''
+                      familyName: RS
+                      matchCode: 23
+                      modelId: ''
+                      modelName: RS 457
+                      segmentId: 0
+                      segmentName: Powersports
+                      tlaDisplayName: null
+                      tlaModelName: null
+                      tlaTrimName: null
+                      trimId: 559139
+                      trimName: Base
+                      year: '2025'
+                  - affectedRows: 0
+                    changedRows: 0
+                    fieldCount: 0
+                    insertId: 0
+                    message: ''
+                    protocol41: true
+                    serverStatus: 34
+                    warningCount: 0
+              schema:
+                additionalProperties: false
+                properties:
+                  data:
+                    items:
+                      anyOf:
+                        - items:
+                            additionalProperties: false
+                            properties:
+                              brandId:
+                                type: integer
+                              brandName:
+                                type: string
+                              categoryId:
+                                type: integer
+                              categoryName:
+                                type: string
+                              displayName:
+                                type: string
+                              familyId:
+                                type: string
+                              familyName:
+                                type: string
+                              matchCode:
+                                type: integer
+                              modelId:
+                                type: string
+                              modelName:
+                                type: string
+                              segmentId:
+                                type: integer
+                              segmentName:
+                                type: string
+                              tlaDisplayName:
+                                nullable: true
+                              tlaModelName:
+                                nullable: true
+                              tlaTrimName:
+                                nullable: true
+                              trimId:
+                                type: integer
+                              trimName:
+                                type: string
+                              year:
+                                format: integer
+                                type: string
+                            required: []
+                            title: PurpleDatum
+                            type: object
+                          type: array
+                        - additionalProperties: false
+                          properties:
+                            affectedRows:
+                              type: integer
+                            changedRows:
+                              type: integer
+                            fieldCount:
+                              type: integer
+                            insertId:
+                              type: integer
+                            message:
+                              type: string
+                            protocol41:
+                              type: boolean
+                            serverStatus:
+                              type: integer
+                            warningCount:
+                              type: integer
+                          required: []
+                          title: FluffyDatum
+                          type: object
+                      title: DatumUnion
+                    type: array
+                required: []
+                title: >-
+                  APITrimMatchMotorcycle202F20ScooterApriliaC2AERs20457ByIDGetRequest
+                type: object
+          description: ''
+          headers:
+            request-context:
+              description: Custom header request-context
+              schema:
+                type: string
+      summary: >-
+        Get Api Trim Match Motorcycle 20 2 F 20 Scooter Aprilia C 2 AE RS 20457
+        By ID
     parameters: []
   /brands:
     get:
@@ -15042,73 +15358,37 @@ paths:
             type: string
       requestBody:
         content:
-          application/json:
-            example:
-              search:
-                affinityId: 0
-                brands:
-                  - 33
-                categories:
-                  - 6
-                category: Golf Carts
-                condition: S
-                id: ''
-                location: ''
-                make: E-Z-GO
-                model: Freedom RXV ELiTE Lithium Special Edition Phantom
-                modelId: ''
-                msrp: 15768
-                preview: '0'
-                price: 15768
-                trimId: 0
-                year: '2025'
+          application/x-www-form-urlencoded:
             schema:
-              additionalProperties: false
               properties:
-                search:
-                  additionalProperties: false
-                  properties:
-                    affinityId:
-                      type: integer
-                    brands:
-                      items:
-                        type: integer
-                      type: array
-                    categories:
-                      items:
-                        type: integer
-                      type: array
-                    category:
-                      type: string
-                    condition:
-                      type: string
-                    id:
-                      type: string
-                    location:
-                      type: string
-                    make:
-                      type: string
-                    model:
-                      type: string
-                    modelId:
-                      type: string
-                    msrp:
-                      type: integer
-                    preview:
-                      format: integer
-                      type: string
-                    price:
-                      type: integer
-                    trimId:
-                      type: integer
-                    year:
-                      format: integer
-                      type: string
-                  required: []
-                  title: Search
-                  type: object
-              required: []
-              title: OEMIncentivesPostRequest
+                search%5BaffinityId%5D:
+                  type: string
+                search%5Bcategory%5D:
+                  type: string
+                search%5Bcondition%5D:
+                  type: string
+                search%5Bid%5D:
+                  type: string
+                search%5Bmake%5D:
+                  type: string
+                search%5Bmodel%5D:
+                  type: string
+                search%5Bmsrp%5D:
+                  type: string
+                search%5Bprice%5D:
+                  type: string
+                search%5Byear%5D:
+                  type: string
+              required:
+                - search%5Bcondition%5D
+                - search%5Byear%5D
+                - search%5Bmake%5D
+                - search%5Bmodel%5D
+                - search%5Bcategory%5D
+                - search%5Bmsrp%5D
+                - search%5Bprice%5D
+                - search%5BaffinityId%5D
+                - search%5Bid%5D
               type: object
         required: true
       responses:
@@ -15117,23 +15397,26 @@ paths:
             application/json:
               example:
                 - decodedVehicle:
-                    brandId: 33
-                    brandName: E-Z-GO
-                    categoryId: 6
-                    categoryName: Golf Carts
-                    familyId: null
-                    familyName: null
-                    matchCode: -1
-                    modelId: null
-                    modelName: null
-                    segmentId: 1
+                    brandId: 0
+                    brandName: Aprilia
+                    categoryId: 0
+                    categoryName: Motorcycle / Scooter
+                    displayName: RS 457 Base
+                    familyId: ''
+                    familyName: RS
+                    matchCode: 50
+                    modelId: ''
+                    modelName: RS 457
+                    segmentId: 0
                     segmentName: Powersports
-                    trimId: 0
-                    trimName: null
+                    tlaDisplayName: null
+                    tlaModelName: null
+                    tlaTrimName: null
+                    trimId: 559139
+                    trimName: Base
                     year: '2025'
                   incentiveResult: No incentives found
                   incentives: []
-                  suggestedIncentives: null
               schema:
                 items:
                   additionalProperties: false
@@ -15149,24 +15432,42 @@ paths:
                           type: integer
                         categoryName:
                           type: string
+                        displayName:
+                          type: string
                         familyId:
-                          nullable: true
+                          anyOf:
+                            - nullable: true
+                              type: string
                         familyName:
-                          nullable: true
+                          anyOf:
+                            - nullable: true
+                              type: string
                         matchCode:
                           type: integer
                         modelId:
-                          nullable: true
+                          anyOf:
+                            - nullable: true
+                              type: string
                         modelName:
-                          nullable: true
+                          anyOf:
+                            - nullable: true
+                              type: string
                         segmentId:
                           type: integer
                         segmentName:
                           type: string
+                        tlaDisplayName:
+                          nullable: true
+                        tlaModelName:
+                          nullable: true
+                        tlaTrimName:
+                          nullable: true
                         trimId:
                           type: integer
                         trimName:
-                          nullable: true
+                          anyOf:
+                            - nullable: true
+                              type: string
                         year:
                           format: integer
                           type: string
@@ -37711,6 +38012,139 @@ paths:
               schema:
                 type: string
       summary: Post Savelead
+  /user-session-generate-code/www.lovemotorsports.com/pradeep.chada@rollick.io:
+    get:
+      description: ''
+      operationId: getUserSessionGenerateCodeWwwLovemotorsportsComPradeepChadaRollickIo
+      parameters:
+        - description: dealerId
+          in: query
+          name: dealerId
+          schema:
+            default: a4a03e903d23bbc6
+            example: a4a03e903d23bbc6
+            type: string
+        - description: vehicle
+          in: query
+          name: vehicle
+          schema:
+            default: 2025 Aprilia® RS 457
+            example: 2025 Aprilia® RS 457
+            type: string
+        - description: priority
+          in: header
+          name: priority
+          schema:
+            default: u=1, i
+            example: u=1, i
+            type: string
+      responses:
+        '200':
+          content:
+            application/json:
+              example:
+                result: true
+              schema:
+                additionalProperties: false
+                properties:
+                  result:
+                    type: boolean
+                required: []
+                title: >-
+                  UserSessionGenerateCodeWWWLovemotorsportsCOMPradeepChadaRollickIoGetRequest
+                type: object
+          description: ''
+          headers:
+            request-context:
+              description: Custom header request-context
+              schema:
+                type: string
+      summary: >-
+        Get User Session Generate Code Www Lovemotorsports Com Pradeep Chada
+        Rollick Io
+    parameters: []
+  /user-session-resume/www.lovemotorsports.com/761603:
+    get:
+      description: ''
+      operationId: getUserSessionResumeWwwLovemotorsportsComById
+      parameters:
+        - description: priority
+          in: header
+          name: priority
+          schema:
+            default: u=1, i
+            example: u=1, i
+            type: string
+      responses:
+        '200':
+          content:
+            application/json:
+              example:
+                leads: {}
+                user:
+                  aaa: ''
+                  bfh: false
+                  e: pradeep.chada@rollick.io
+                  fn: Pradeep
+                  ln: Reddy
+                  p: 897-868-4171
+                  textMe: false
+                  tradeIn: {}
+                  uid: bb2a6999-c77c-4e67-b106-b626b172d6d4
+                  usaa: ''
+                  verified: false
+                  z: ''
+              schema:
+                additionalProperties: false
+                properties:
+                  leads:
+                    additionalProperties: false
+                    title: Leads
+                    type: object
+                  user:
+                    additionalProperties: false
+                    properties:
+                      aaa:
+                        type: string
+                      bfh:
+                        type: boolean
+                      e:
+                        type: string
+                      fn:
+                        type: string
+                      ln:
+                        type: string
+                      p:
+                        type: string
+                      textMe:
+                        type: boolean
+                      tradeIn:
+                        additionalProperties: false
+                        title: Leads
+                        type: object
+                      uid:
+                        format: uuid
+                        type: string
+                      usaa:
+                        type: string
+                      verified:
+                        type: boolean
+                      z:
+                        type: string
+                    required: []
+                    title: User
+                    type: object
+                required: []
+                title: UserSessionResumeWWWLovemotorsportsCOMByIDGetRequest
+                type: object
+          description: ''
+          headers:
+            request-context:
+              description: Custom header request-context
+              schema:
+                type: string
+      summary: Get User Session Resume Www Lovemotorsports Com By ID
+    parameters: []
   /user-session/ezgo.txtsv.com/chadapradeepreddy@gmail.com/1fa3c60a-764e-4757-878b-b3f7db8aeb64:
     parameters: []
     post:
