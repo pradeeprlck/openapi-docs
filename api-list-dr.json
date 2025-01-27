@@ -14910,6 +14910,326 @@
               "_workerFetchStart": -1,
               "_workerRespondWithSettled": -1
             }
+          },
+          {
+            "_initiator": {
+              "type": "script",
+              "stack": {
+                "callFrames": [
+                  {
+                    "functionName": "",
+                    "scriptId": "551",
+                    "url": "https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5.9.1/dist/bundles/elastic-apm-rum.umd.min.js",
+                    "lineNumber": 0,
+                    "columnNumber": 36331
+                  },
+                  {
+                    "functionName": "r.<computed>",
+                    "scriptId": "551",
+                    "url": "https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5.9.1/dist/bundles/elastic-apm-rum.umd.min.js",
+                    "lineNumber": 0,
+                    "columnNumber": 18903
+                  },
+                  {
+                    "functionName": "nrWrapper",
+                    "scriptId": "670",
+                    "url": "https://storage.googleapis.com/widget.kenect.com/resources/scripts/newRelic.js.gz",
+                    "lineNumber": 1,
+                    "columnNumber": 28143
+                  },
+                  {
+                    "functionName": "send",
+                    "scriptId": "540",
+                    "url": "https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js",
+                    "lineNumber": 5,
+                    "columnNumber": 18238
+                  },
+                  {
+                    "functionName": "ajax",
+                    "scriptId": "540",
+                    "url": "https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js",
+                    "lineNumber": 5,
+                    "columnNumber": 13721
+                  },
+                  {
+                    "functionName": "x.<computed>",
+                    "scriptId": "540",
+                    "url": "https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js",
+                    "lineNumber": 5,
+                    "columnNumber": 14696
+                  },
+                  {
+                    "functionName": "getUsaaOffers",
+                    "scriptId": "699",
+                    "url": "https://widget.rollick.io/widgets/dr/scripts/dealer.js",
+                    "lineNumber": 4195,
+                    "columnNumber": 48
+                  },
+                  {
+                    "functionName": "placeCtas",
+                    "scriptId": "699",
+                    "url": "https://widget.rollick.io/widgets/dr/scripts/dealer.js",
+                    "lineNumber": 3940,
+                    "columnNumber": 42
+                  },
+                  {
+                    "functionName": "script.onload",
+                    "scriptId": "643",
+                    "url": "https://widget.rollick.io/00262",
+                    "lineNumber": 397,
+                    "columnNumber": 107
+                  }
+                ],
+                "parent": {
+                  "description": "load",
+                  "callFrames": [
+                    {
+                      "functionName": "loadDealerScript",
+                      "scriptId": "643",
+                      "url": "https://widget.rollick.io/00262",
+                      "lineNumber": 388,
+                      "columnNumber": 26
+                    },
+                    {
+                      "functionName": "script.onload",
+                      "scriptId": "643",
+                      "url": "https://widget.rollick.io/00262",
+                      "lineNumber": 296,
+                      "columnNumber": 21
+                    }
+                  ],
+                  "parent": {
+                    "description": "load",
+                    "callFrames": [
+                      {
+                        "functionName": "loadTemplateScript",
+                        "scriptId": "643",
+                        "url": "https://widget.rollick.io/00262",
+                        "lineNumber": 293,
+                        "columnNumber": 26
+                      },
+                      {
+                        "functionName": "init",
+                        "scriptId": "643",
+                        "url": "https://widget.rollick.io/00262",
+                        "lineNumber": 221,
+                        "columnNumber": 40
+                      }
+                    ],
+                    "parent": {
+                      "description": "load",
+                      "callFrames": [
+                        {
+                          "functionName": "e.addEventListener",
+                          "scriptId": "551",
+                          "url": "https://cdn.jsdelivr.net/npm/@elastic/apm-rum@5.9.1/dist/bundles/elastic-apm-rum.umd.min.js",
+                          "lineNumber": 0,
+                          "columnNumber": 37870
+                        },
+                        {
+                          "functionName": "t.<computed>",
+                          "scriptId": "629",
+                          "url": "https://modal-widget.services.dealerspike.net/static/js/2.64bce9f8.chunk.js",
+                          "lineNumber": 1,
+                          "columnNumber": 27457
+                        },
+                        {
+                          "functionName": "",
+                          "scriptId": "643",
+                          "url": "https://widget.rollick.io/00262",
+                          "lineNumber": 901,
+                          "columnNumber": 46
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            },
+            "_priority": "High",
+            "_resourceType": "xhr",
+            "cache": {},
+            "connection": "8159528",
+            "pageref": "page_1",
+            "request": {
+              "method": "GET",
+              "url": "https://gorollick.com/api/usaa-offers/a4a03e903d23bbc6",
+              "httpVersion": "http/2.0",
+              "headers": [
+                {
+                  "name": ":authority",
+                  "value": "gorollick.com"
+                },
+                {
+                  "name": ":method",
+                  "value": "GET"
+                },
+                {
+                  "name": ":path",
+                  "value": "/api/usaa-offers/a4a03e903d23bbc6"
+                },
+                {
+                  "name": ":scheme",
+                  "value": "https"
+                },
+                {
+                  "name": "accept",
+                  "value": "*/*"
+                },
+                {
+                  "name": "accept-encoding",
+                  "value": "gzip, deflate, br, zstd"
+                },
+                {
+                  "name": "accept-language",
+                  "value": "en-US,en-IN;q=0.9,en;q=0.8,te;q=0.7"
+                },
+                {
+                  "name": "dnt",
+                  "value": "1"
+                },
+                {
+                  "name": "origin",
+                  "value": "https://www.lovemotorsports.com"
+                },
+                {
+                  "name": "priority",
+                  "value": "u=1, i"
+                },
+                {
+                  "name": "referer",
+                  "value": "https://www.lovemotorsports.com/"
+                },
+                {
+                  "name": "sec-ch-ua",
+                  "value": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""
+                },
+                {
+                  "name": "sec-ch-ua-mobile",
+                  "value": "?0"
+                },
+                {
+                  "name": "sec-ch-ua-platform",
+                  "value": "\"Windows\""
+                },
+                {
+                  "name": "sec-fetch-dest",
+                  "value": "empty"
+                },
+                {
+                  "name": "sec-fetch-mode",
+                  "value": "cors"
+                },
+                {
+                  "name": "sec-fetch-site",
+                  "value": "cross-site"
+                },
+                {
+                  "name": "user-agent",
+                  "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                }
+              ],
+              "queryString": [],
+              "cookies": [],
+              "headersSize": -1,
+              "bodySize": 0
+            },
+            "response": {
+              "status": 200,
+              "statusText": "",
+              "httpVersion": "http/2.0",
+              "headers": [
+                {
+                  "name": "access-control-allow-credentials",
+                  "value": "true"
+                },
+                {
+                  "name": "access-control-allow-headers",
+                  "value": "Origin, X-Requested-With, Content-Type, Accept, Authorization"
+                },
+                {
+                  "name": "access-control-allow-methods",
+                  "value": "GET, OPTIONS"
+                },
+                {
+                  "name": "access-control-allow-origin",
+                  "value": "https://www.lovemotorsports.com"
+                },
+                {
+                  "name": "cache-control",
+                  "value": "private, no-cache, no-store, must-revalidate"
+                },
+                {
+                  "name": "cache-control",
+                  "value": "no-cache, must-revalidate"
+                },
+                {
+                  "name": "content-encoding",
+                  "value": "gzip"
+                },
+                {
+                  "name": "content-type",
+                  "value": "application/json; charset=utf-8"
+                },
+                {
+                  "name": "date",
+                  "value": "Mon, 27 Jan 2025 15:34:54 GMT"
+                },
+                {
+                  "name": "etag",
+                  "value": "W/\"84fe-R8S2EjRFvdbth2jtk8zGdFdjv+Q\""
+                },
+                {
+                  "name": "link",
+                  "value": "<https://gorollick.com/api/usaa-offers/a4a03e903d23bbc6>; rel=\"canonical\""
+                },
+                {
+                  "name": "request-context",
+                  "value": "appId=cid-v1:"
+                },
+                {
+                  "name": "server",
+                  "value": "nginx"
+                },
+                {
+                  "name": "strict-transport-security",
+                  "value": "max-age=15768000; includeSubDomains"
+                },
+                {
+                  "name": "vary",
+                  "value": "Accept-Encoding"
+                }
+              ],
+              "cookies": [],
+              "content": {
+                "size": 34046,
+                "mimeType": "application/json",
+                "text": "{\"offers\":{\"Polaris\":[{\"id\":\"f0ef7581c6b379fc\",\"brandId\":19,\"oemName\":\"Polaris\",\"status\":1,\"shortDescription\":\"Polaris Limited-Time Offer for USAA Members Only\",\"internalName\":\"POL20250100106\",\"incentiveId\":\"POL20250100106\",\"longDescription\":\"USAA members get a $500 Mastercard Gift card on approved purchase of any new 2024-2025 Polaris General 1000. Offer valid only for existing USAA Members. Program registration must be submitted before your purchase date. Offer good until June 30, 2025. \",\"price\":500,\"startDate\":\"08/30/2024\",\"endDate\":\"06/30/2025\",\"startDateTimestamp\":1724994000000,\"endDateTimestamp\":1751345999999,\"image\":\"https://cdn.rollick.io/images/marketplace/usaa/Polaris/2025 GENERAL 1000.jpg\",\"disclaimer\":\"\",\"type\":10,\"year\":2025,\"model\":\"General 1000\",\"make\":\"Polaris\",\"segmentId\":1,\"categoryId\":3,\"trimName\":\"\",\"cardTitle\":\"Gift Card on Any New 2024-2025 Polaris General 1000\",\"isBestOffer\":false},{\"id\":\"d951dfabfe44b8e6\",\"brandId\":19,\"oemName\":\"Polaris\",\"status\":1,\"shortDescription\":\"Polaris Limited-Time Offer for USAA Members Only\",\"internalName\":\"POL20250100107\",\"incentiveId\":\"POL20250100107\",\"longDescription\":\"USAA members get a $500 Mastercard Gift card on approved purchase of any new 2024-2025 Polaris General XP 1000. Offer valid only for existing USAA Members. Program registration must be submitted before your purchase date. Offer good until June 30, 2025. \",\"price\":500,\"startDate\":\"08/30/2024\",\"endDate\":\"06/30/2025\",\"startDateTimestamp\":1724994000000,\"endDateTimestamp\":1751345999999,\"image\":\"https://cdn.rollick.io/images/marketplace/usaa/Polaris/2025 GENERAL XP 1000.jpg\",\"disclaimer\":\"\",\"type\":10,\"year\":2025,\"model\":\"General XP 1000\",\"make\":\"Polaris\",\"segmentId\":1,\"categoryId\":3,\"trimName\":\"\",\"cardTitle\":\"Gift Card on Any New 2024-2025 Polaris General XP 1000\",\"isBestOffer\":false},{\"id\":\"f3b00f4d7eda58f8\",\"brandId\":19,\"oemName\":\"Polaris\",\"status\":1,\"shortDescription\":\"Polaris Limited-Time Offer for USAA Members Only\",\"internalName\":\"POL20250100066\",\"incentiveId\":\"POL20250100066\",\"longDescription\":\"USAA members get a $500 Mastercard Gift card on approved purchase of any new 2024-2025 Polaris Ranger 1000. Offer valid only for existing USAA Members. Program registration must be submitted before your purchase date. Offer good until June 30, 2025. \",\"price\":500,\"startDate\":\"08/30/2024\",\"endDate\":\"06/30/2025\",\"startDateTimestamp\":1724994000000,\"endDateTimestamp\":1751345999999,\"image\":\"https://cdn.rollick.io/images/marketplace/usaa/Polaris/2025 RANGER 1000.jpg\",\"disclaimer\":\"\",\"type\":10,\"year\":2024,\"model\":\"Ranger 1000\",\"make\":\"Polaris\",\"segmentId\":1,\"categoryId\":3,\"trimName\":\"\",\"cardTitle\":\"Gift Card on Any New 2024-2025 Polaris Ranger 1000\",\"isBestOffer\":false},{\"id\":\"d274b2118604cbdf\",\"brandId\":19,\"oemName\":\"Polaris\",\"status\":1,\"shortDescription\":\"Polaris Limited-Time Offer for USAA Members Only\",\"internalName\":\"POL20250100065\",\"incentiveId\":\"POL20250100065\",\"longDescription\":\"USAA members get a $500 Mastercard Gift card on approved purchase of any new 2024-2025 Polaris Ranger 570 Full Size. Offer valid only for existing USAA Members. Program registration must be submitted before your purchase date. Offer good until June 30, 2025. \",\"price\":500,\"startDate\":\"08/30/2024\",\"endDate\":\"06/30/2025\",\"startDateTimestamp\":1724994000000,\"endDateTimestamp\":1751345999999,\"image\":\"https://cdn.rollick.io/images/marketplace/usaa/Polaris/2025 RANGER 570 FULL-SIZE.jpg\",\"disclaimer\":\"\",\"type\":10,\"year\":2024,\"model\":\"Ranger 570 Full Size\",\"make\":\"Polaris\",\"segmentId\":1,\"categoryId\":3,\"trimName\":\"\",\"cardTitle\":\"Gift Card on Any New 2024-2025 Polaris Ranger 570 Full Size\",\"isBestOffer\":false},{\"id\":\"57bd1dbbfc29386e\",\"brandId\":19,\"oemName\":\"Polaris\",\"status\":1,\"shortDescription\":\"Polaris Limited-Time Offer for USAA Members Only\",\"internalName\":\"POL20250100063\",\"incentiveId\":\"POL20250100063\",\"longDescription\":\"USAA members get a $500 Mastercard Gift card on approved purchase of any new 2024-2025 Polaris Ranger SP 570. Offer valid only for existing USAA Members. Program registration must be submitted before your purchase date. Offer good until June 30, 2025. \",\"price\":500,\"startDate\":\"08/30/2024\",\"endDate\":\"06/30/2025\",\"startDateTimestamp\":1724994000000,\"endDateTimestamp\":1751345999999,\"image\":\"https://cdn.rollick.io/images/marketplace/usaa/Polaris/2025 RANGER SP 570.jpg\",\"disclaimer\":\"\",\"type\":10,\"year\":2024,\"model\":\"Ranger SP 570\",\"make\":\"Polaris\",\"segmentId\":1,\"categoryId\":3,\"trimName\":\"\",\"cardTitle\":\"Gift Card on Any New 2024-2025 Polaris Ranger SP 570\",\"isBestOffer\":false},{\"id\":\"057f51b19049d8f8\",\"brandId\":19,\"oemName\":\"Polaris\",\"status\":1,\"shortDescription\":\"Polaris Limited-Time Offer for USAA Members Only\",\"internalName\":\"POL20250100064\",\"incentiveId\":\"POL20250100064\",\"longDescription\":\"USAA members get a $500 Mastercard Gift card on approved purchase of any new 2024-2025 Polaris RANGER SP 570 NorthStar Edition. Offer valid only for existing USAA Members. Program registration must be submitted before your purchase date. Offer good until June 30, 2025. \",\"price\":500,\"startDate\":\"08/30/2024\",\"endDate\":\"06/30/2025\",\"startDateTimestamp\":1724994000000,\"endDateTimestamp\":1751345999999,\"image\":\"https://cdn.rollick.io/images/marketplace/usaa/Polaris/2025 RANGER SP 570 NORTHSTAR EDITION.jpg\",\"disclaimer\":\"\",\"type\":10,\"year\":2024,\"model\":\"RANGER SP 570 NorthStar Edition\",\"make\":\"Polaris\",\"segmentId\":1,\"categoryId\":3,\"trimName\":\"\",\"cardTitle\":\"Gift Card on Any New 2024-2025 Polaris RANGER SP 570 NorthStar Edition\",\"isBestOffer\":false},{\"id\":\"0f1af771f2d3aa5c\",\"brandId\":19,\"oemName\":\"Polaris\",\"status\":1,\"shortDescription\":\"Polaris Limited-Time Offer for USAA Members Only\",\"internalName\":\"POL20250100071\",\"incentiveId\":\"POL20250100071\",\"longDescription\":\"USAA members get a $750 Mastercard Gift card on approved purchase of any new 2024 Polaris RANGER XD 1500. Offer valid only for existing USAA Members. Program registration must be submitted before your purchase date. Offer good until June 30, 2025. \",\"price\":750,\"startDate\":\"08/30/2024\",\"endDate\":\"06/30/2025\",\"startDateTimestamp\":1724994000000,\"endDateTimestamp\":1751345999999,\"image\":\"https://cdn.rollick.io/images/marketplace/usaa/Polaris/2024 RANGER XD 1500.jpg\",\"disclaimer\":\"\",\"type\":10,\"year\":2024,\"model\":\"RANGER XD 1500\",\"make\":\"Polaris\",\"segmentId\":1,\"categoryId\":3,\"trimName\":\"\",\"cardTitle\":\"Gift Card on Any New 2024 Polaris RANGER XD 1500\",\"isBestOffer\":false},{\"id\":\"042ed61a88e8b816\",\"brandId\":19,\"oemName\":\"Polaris\",\"status\":1,\"shortDescription\":\"Polaris Limited-Time Offer for USAA Members Only\",\"internalName\":\"POL20250100069\",\"incentiveId\":\"POL20250100069\",\"longDescription\":\"USAA members get a $500 Mastercard Gift card on approved purchase of any new 2024-2025 Polaris Ranger XD 1500 Northstar Edition. Offer valid only for existing USAA Members. Program registration must be submitted before your purchase date. Offer good until June 30, 2025. \",\"price\":500,\"startDate\":\"08/30/2024\",\"endDate\":\"06/30/2025\",\"startDateTimestamp\":1724994000000,\"endDateTimestamp\":1751345999999,\"image\":\"https://cdn.rollick.io/images/marketplace/usaa/Polaris/2025 RANGER XD 1500 NORTHSTAR EDITION.jpg\",\"disclaimer\":\"\",\"type\":10,\"year\":2024,\"model\":\"Ranger XD 1500 Northstar Edition\",\"make\":\"Polaris\",\"segmentId\":1,\"categoryId\":3,\"trimName\":\"\",\"cardTitle\":\"Gift Card on Any New 2024-2025 Polaris Ranger XD 1500 Northstar Edition\",\"isBestOffer\":false},{\"id\":\"dbbc1b1474da2832\",\"brandId\":19,\"oemName\":\"Polaris\",\"status\":1,\"shortDescription\":\"Polaris Limited-Time Offer for USAA Members Only\",\"internalName\":\"POL20250100067\",\"incentiveId\":\"POL20250100067\",\"longDescription\":\"USAA members get a $500 Mastercard Gift card on approved purchase of any new 2024-2025 Polaris Ranger XP 1000. Offer valid only for existing USAA Members. Program registration must be submitted before your purchase date. Offer good until June 30, 2025. \",\"price\":500,\"startDate\":\"08/30/2024\",\"endDate\":\"06/30/2025\",\"startDateTimestamp\":1724994000000,\"endDateTimestamp\":1751345999999,\"image\":\"https://cdn.rollick.io/images/marketplace/usaa/Polaris/2025 RANGER XP 1000.jpg\",\"disclaimer\":\"\",\"type\":10,\"year\":2024,\"model\":\"Ranger XP 1000\",\"make\":\"Polaris\",\"segmentId\":1,\"categoryId\":3,\"trimName\":\"\",\"cardTitle\":\"Gift Card on Any New 2024-2025 Polaris Ranger XP 1000\",\"isBestOffer\":false},{\"id\":\"cb6f3fa5cfa90ba2\",\"brandId\":19,\"oemName\":\"Polaris\",\"status\":1,\"shortDescription\":\"Polaris Limited-Time Offer for USAA Members Only\",\"internalName\":\"POL20250100068\",\"incentiveId\":\"POL20250100068\",\"longDescription\":\"USAA members get a $500 Mastercard Gift card on approved purchase of any new 2024-2025 Polaris Ranger XP 1000 Northstar Edition. Offer valid only for existing USAA Members. Program registration must be submitted before your purchase date. Offer good until June 30, 2025. \",\"price\":500,\"startDate\":\"08/30/2024\",\"endDate\":\"06/30/2025\",\"startDateTimestamp\":1724994000000,\"endDateTimestamp\":1751345999999,\"image\":\"https://cdn.rollick.io/images/marketplace/usaa/Polaris/2025 RANGER XP 1000 NORTHSTAR EDITION.jpg\",\"disclaimer\":\"\",\"type\":10,\"year\":2024,\"model\":\"Ranger XP 1000 Northstar Edition\",\"make\":\"Polaris\",\"segmentId\":1,\"categoryId\":3,\"trimName\":\"\",\"cardTitle\":\"Gift Card on Any New 2024-2025 Polaris Ranger XP 1000 Northstar Edition\",\"isBestOffer\":false},{\"id\":\"377ddcd6f4d8e8d4\",\"brandId\":19,\"oemName\":\"Polaris\",\"status\":1,\"shortDescription\":\"Polaris Limited-Time Offer for USAA Members Only\",\"internalName\":\"POL20250100070\",\"incentiveId\":\"POL20250100070\",\"longDescription\":\"USAA members get a $500 Mastercard Gift card on approved purchase of any new 2024-2025 Polaris RANGER XP 1000 NorthStar Trail Boss Edition. Offer valid only for existing USAA Members. Program registration must be submitted before your purchase date. Offer good until June 30, 2025. \",\"price\":500,\"startDate\":\"08/30/2024\",\"endDate\":\"06/30/2025\",\"startDateTimestamp\":1724994000000,\"endDateTimestamp\":1751345999999,\"image\":\"https://cdn.rollick.io/images/marketplace/usaa/Polaris/2025 RANGER XP 1000 NORTHSTAR TRAIL BOSS EDITION.jpg\",\"disclaimer\":\"\",\"type\":10,\"year\":2024,\"model\":\"RANGER XP 1000 NorthStar Trail Boss Edition\",\"make\":\"Polaris\",\"segmentId\":1,\"categoryId\":3,\"trimName\":\"\",\"cardTitle\":\"Gift Card on Any New 2024-2025 Polaris RANGER XP 1000 NorthStar Trail Boss Edition\",\"isBestOffer\":false},{\"id\":\"074fa808c92e38ae\",\"brandId\":19,\"oemName\":\"Polaris\",\"status\":1,\"shortDescription\":\"Polaris Limited-Time Offer for USAA Members Only\",\"internalName\":\"POL20250100094\",\"incentiveId\":\"POL20250100094\",\"longDescription\":\"USAA members get a $500 Mastercard Gift card on approved purchase of any new 2024-2025 Polaris RANGER XP 1000 Texas Edition. Offer valid only for existing USAA Members. Program registration must be submitted before your purchase date. Offer good until June 30, 2025. \",\"price\":500,\"startDate\":\"08/30/2024\",\"endDate\":\"06/30/2025\",\"startDateTimestamp\":1724994000000,\"endDateTimestamp\":1751345999999,\"image\":\"https://cdn.rollick.io/images/marketplace/usaa/Polaris/2025 RANGER XP 1000 TEXAS EDITION.jpg\",\"disclaimer\":\"\",\"type\":10,\"year\":2025,\"model\":\"RANGER XP 1000 Texas Edition\",\"make\":\"Polaris\",\"segmentId\":1,\"categoryId\":3,\"trimName\":\"\",\"cardTitle\":\"Gift Card on Any New 2024-2025 Polaris RANGER XP 1000 Texas Edition\",\"isBestOffer\":false},{\"id\":\"6d907148029a2933\",\"brandId\":19,\"oemName\":\"Polaris\",\"status\":1,\"shortDescription\":\"Polaris Limited-Time Offer for USAA Members Only\",\"internalName\":\"POL20250100072\",\"incentiveId\":\"POL20250100072\",\"longDescription\":\"USAA members get a $500 Mastercard Gift card on approved purchase of any new 2024 Polaris RANGER XP Kinetic. Offer valid only for existing USAA Members. Program registration must be submitted before your purchase date. Offer good until June 30, 2025. \",\"price\":500,\"startDate\":\"08/30/2024\",\"endDate\":\"06/30/2025\",\"startDateTimestamp\":1724994000000,\"endDateTimestamp\":1751345999999,\"image\":\"https://cdn.rollick.io/images/marketplace/usaa/Polaris/2024-rgr-ev-ultimate-icybluepearl-cgi-3q-R24E3DC2BD.jpg\",\"disclaimer\":\"\",\"type\":10,\"year\":2024,\"model\":\"RANGER XP Kinetic\",\"make\":\"Polaris\",\"segmentId\":1,\"categoryId\":3,\"trimName\":\"\",\"cardTitle\":\"Gift Card on Any New 2024 Polaris RANGER XP Kinetic\",\"isBestOffer\":false},{\"id\":\"047bfd51e5a9189c\",\"brandId\":19,\"oemName\":\"Polaris\",\"status\":1,\"shortDescription\":\"Polaris Limited-Time Offer for USAA Members Only\",\"internalName\":\"POL20250100054\",\"incentiveId\":\"POL20250100054\",\"longDescription\":\"USAA members get a $500 Mastercard Gift card on approved purchase of any new 2024-2025 Polaris RZR Pro R. Offer valid only for existing USAA Members. Program registration must be submitted before your purchase date. Offer good until June 30, 2025. \",\"price\":500,\"startDate\":\"05/02/2024\",\"endDate\":\"06/30/2025\",\"startDateTimestamp\":1714626000000,\"endDateTimestamp\":1751345999999,\"image\":\"https://cdn.rollick.io/images/marketplace/usaa/Polaris/rzr-pro-r-ultimate-Z24RGD2KAH---rzr-pro-r-4-ultimate-Z24RMD2KBL.jpg\",\"disclaimer\":\"\",\"type\":10,\"year\":2024,\"model\":\"RZR Pro R\",\"make\":\"Polaris\",\"segmentId\":1,\"categoryId\":3,\"trimName\":\"\",\"cardTitle\":\"Gift Card on Any New 2024-2025 Polaris RZR Pro R\",\"isBestOffer\":false},{\"id\":\"873eb42f0ae86863\",\"brandId\":19,\"oemName\":\"Polaris\",\"status\":1,\"shortDescription\":\"Polaris Limited-Time Offer for USAA Members Only\",\"internalName\":\"POL20250100084\",\"incentiveId\":\"POL20250100084\",\"longDescription\":\"USAA members get a $500 Mastercard Gift card on approved purchase of any new 2025 Polaris RZR Pro S. Offer valid only for existing USAA Members. Program registration must be submitted before your purchase date. Offer good until June 30, 2025. \",\"price\":500,\"startDate\":\"08/30/2024\",\"endDate\":\"06/30/2025\",\"startDateTimestamp\":1724994000000,\"endDateTimestamp\":1751345999999,\"image\":\"https://cdn.rollick.io/images/marketplace/usaa/Polaris/2025 RZR PRO S.jpg\",\"disclaimer\":\"\",\"type\":10,\"year\":2025,\"model\":\"RZR Pro S\",\"make\":\"Polaris\",\"segmentId\":1,\"categoryId\":3,\"trimName\":\"\",\"cardTitle\":\"Gift Card on Any New 2025 Polaris RZR Pro S\",\"isBestOffer\":false},{\"id\":\"1201fabe1b75c9eb\",\"brandId\":19,\"oemName\":\"Polaris\",\"status\":1,\"shortDescription\":\"Polaris Limited-Time Offer for USAA Members Only\",\"internalName\":\"POL20250100053\",\"incentiveId\":\"POL20250100053\",\"longDescription\":\"USAA members get a $500 Mastercard Gift card on approved purchase of any new 2024-2025 Polaris RZR Pro XP. Offer valid only for existing USAA Members. Program registration must be submitted before your purchase date. Offer good until June 30, 2025. \",\"price\":500,\"startDate\":\"05/02/2024\",\"endDate\":\"06/30/2025\",\"startDateTimestamp\":1714626000000,\"endDateTimestamp\":1751345999999,\"image\":\"https://cdn.rollick.io/images/marketplace/usaa/Polaris/rzr-pro-xp-ultimate---rzr-pro-xp-4-sport.jpg\",\"disclaimer\":\"\",\"type\":10,\"year\":2024,\"model\":\"RZR Pro XP\",\"make\":\"Polaris\",\"segmentId\":1,\"categoryId\":3,\"trimName\":\"\",\"cardTitle\":\"Gift Card on Any New 2024-2025 Polaris RZR Pro XP\",\"isBestOffer\":false},{\"id\":\"ee177a4afc4768b9\",\"brandId\":19,\"oemName\":\"Polaris\",\"status\":1,\"shortDescription\":\"Polaris Limited-Time Offer for USAA Members Only\",\"internalName\":\"POL20250100050\",\"incentiveId\":\"POL20250100050\",\"longDescription\":\"USAA members get a $500 Mastercard Gift card on approved purchase of any new 2024-2025 Polaris RZR Trail. Offer valid only for existing USAA Members. Program registration must be submitted before your purchase date. Offer good until June 30, 2025. \",\"price\":500,\"startDate\":\"05/02/2024\",\"endDate\":\"06/30/2025\",\"startDateTimestamp\":1714626000000,\"endDateTimestamp\":1751345999999,\"image\":\"https://cdn.rollick.io/images/marketplace/usaa/Polaris/WebMedium_PNG-2024-rzr-900trailsport-zenithblue-cgi-3qfront-Z24A5E87A5.png\",\"disclaimer\":\"\",\"type\":10,\"year\":2024,\"model\":\"RZR Trail\",\"make\":\"Polaris\",\"segmentId\":1,\"categoryId\":3,\"trimName\":\"\",\"cardTitle\":\"Gift Card on Any New 2024-2025 Polaris RZR Trail\",\"isBestOffer\":false},{\"id\":\"ce4b2d1c5516c881\",\"brandId\":19,\"oemName\":\"Polaris\",\"status\":1,\"shortDescription\":\"Polaris Limited-Time Offer for USAA Members Only\",\"internalName\":\"POL20250100051\",\"incentiveId\":\"POL20250100051\",\"longDescription\":\"USAA members get a $500 Mastercard Gift card on approved purchase of any new 2024-2025 Polaris RZR Trail S. Offer valid only for existing USAA Members. Program registration must be submitted before your purchase date. Offer good until June 30, 2025. \",\"price\":500,\"startDate\":\"05/02/2024\",\"endDate\":\"06/30/2025\",\"startDateTimestamp\":1714626000000,\"endDateTimestamp\":1751345999999,\"image\":\"https://cdn.rollick.io/images/marketplace/usaa/Polaris/WebMedium_PNG-2024-rzr-1000strailultimate-zenithblue-cgi-3qfront-Z24ASK99A5.png\",\"disclaimer\":\"\",\"type\":10,\"year\":2024,\"model\":\"RZR Trail S\",\"make\":\"Polaris\",\"segmentId\":1,\"categoryId\":3,\"trimName\":\"\",\"cardTitle\":\"Gift Card on Any New 2024-2025 Polaris RZR Trail S\",\"isBestOffer\":false},{\"id\":\"d880c9d038d15983\",\"brandId\":19,\"oemName\":\"Polaris\",\"status\":1,\"shortDescription\":\"Polaris Limited-Time Offer for USAA Members Only\",\"internalName\":\"POL20250100060\",\"incentiveId\":\"POL20250100060\",\"longDescription\":\"USAA members get a $500 Mastercard Gift card on approved purchase of any new 2024 Polaris RZR Turbo R. Offer valid only for existing USAA Members. Program registration must be submitted before your purchase date. Offer good until June 30, 2025. \",\"price\":500,\"startDate\":\"08/30/2024\",\"endDate\":\"06/30/2025\",\"startDateTimestamp\":1724994000000,\"endDateTimestamp\":1751345999999,\"image\":\"https://cdn.rollick.io/images/marketplace/usaa/Polaris/rzr-turbo-r-4-ultimate---2024-rzr-turborultimate-crew.jpg\",\"disclaimer\":\"\",\"type\":10,\"year\":2024,\"model\":\"RZR Turbo R\",\"make\":\"Polaris\",\"segmentId\":1,\"categoryId\":3,\"trimName\":\"\",\"cardTitle\":\"Gift Card on Any New 2024 Polaris RZR Turbo R\",\"isBestOffer\":false},{\"id\":\"f24c885bde65398a\",\"brandId\":19,\"oemName\":\"Polaris\",\"status\":1,\"shortDescription\":\"Polaris Limited-Time Offer for USAA Members Only\",\"internalName\":\"POL20250100052\",\"incentiveId\":\"POL20250100052\",\"longDescription\":\"USAA members get a $500 Mastercard Gift card on approved purchase of any new 2024-2025 Polaris RZR XP. Offer valid only for existing USAA Members. Program registration must be submitted before your purchase date. Offer good until June 30, 2025. \",\"price\":500,\"startDate\":\"05/02/2024\",\"endDate\":\"06/30/2025\",\"startDateTimestamp\":1714626000000,\"endDateTimestamp\":1751345999999,\"image\":\"https://cdn.rollick.io/images/marketplace/usaa/Polaris/mil-rzr-xp-1000-ultimate-Z24NEF99AR---rzr-xp-4-1000-ultimate-Z24NMF99AM.jpg\",\"disclaimer\":\"\",\"type\":10,\"year\":2024,\"model\":\"RZR XP\",\"make\":\"Polaris\",\"segmentId\":1,\"categoryId\":3,\"trimName\":\"\",\"cardTitle\":\"Gift Card on Any New 2024-2025 Polaris RZR XP\",\"isBestOffer\":false},{\"id\":\"b2bcf390799da897\",\"brandId\":19,\"oemName\":\"Polaris\",\"status\":1,\"shortDescription\":\"Polaris Limited-Time Offer for USAA Members Only\",\"internalName\":\"POL20250100076\",\"incentiveId\":\"POL20250100076\",\"longDescription\":\"USAA members get a $350 Mastercard Gift card on approved purchase of any new 2024 Polaris Scrambler 850. Offer valid only for existing USAA Members. Program registration must be submitted before your purchase date. Offer good until June 30, 2025. \",\"price\":350,\"startDate\":\"08/30/2024\",\"endDate\":\"06/30/2025\",\"startDateTimestamp\":1724994000000,\"endDateTimestamp\":1751345999999,\"image\":\"https://cdn.rollick.io/images/marketplace/usaa/Polaris/2024-atv-Scrambler850-US-StormGray-cgi-Front3Q-A24SVA85A4.jpg\",\"disclaimer\":\"\",\"type\":10,\"year\":2024,\"model\":\"Scrambler 850\",\"make\":\"Polaris\",\"segmentId\":1,\"categoryId\":2,\"trimName\":\"\",\"cardTitle\":\"Gift Card on Any New 2024 Polaris Scrambler 850\",\"isBestOffer\":false},{\"id\":\"b5a02c25f441bb06\",\"brandId\":19,\"oemName\":\"Polaris\",\"status\":1,\"shortDescription\":\"Polaris Limited-Time Offer for USAA Members Only\",\"internalName\":\"POL20250100077\",\"incentiveId\":\"POL20250100077\",\"longDescription\":\"USAA members get a $350 Mastercard Gift card on approved purchase of any new 2024 Polaris Scrambler XP 1000 S. Offer valid only for existing USAA Members. Program registration must be submitted before your purchase date. Offer good until June 30, 2025. \",\"price\":350,\"startDate\":\"08/30/2024\",\"endDate\":\"06/30/2025\",\"startDateTimestamp\":1724994000000,\"endDateTimestamp\":1751345999999,\"image\":\"https://cdn.rollick.io/images/marketplace/usaa/Polaris/2024-atv-ScramblerXP1000S-US-LiftedLimePearl-cgi-Front3Q-A24SGE95AT.jpg\",\"disclaimer\":\"\",\"type\":10,\"year\":2024,\"model\":\"Scrambler XP 1000 S\",\"make\":\"Polaris\",\"segmentId\":1,\"categoryId\":2,\"trimName\":\"\",\"cardTitle\":\"Gift Card on Any New 2024 Polaris Scrambler XP 1000 S\",\"isBestOffer\":false},{\"id\":\"7574b86bbf163885\",\"brandId\":19,\"oemName\":\"Polaris\",\"status\":1,\"shortDescription\":\"Polaris Limited-Time Offer for USAA Members Only\",\"internalName\":\"POL20250100055\",\"incentiveId\":\"POL20250100055\",\"longDescription\":\"USAA members get a $350 Mastercard Gift card on approved purchase of any new 2024-2025 Polaris Sportsman 450. Offer valid only for existing USAA Members. Program registration must be submitted before your purchase date. Offer good until June 30, 2025. \",\"price\":350,\"startDate\":\"05/02/2024\",\"endDate\":\"06/30/2025\",\"startDateTimestamp\":1714626000000,\"endDateTimestamp\":1751345999999,\"image\":\"https://cdn.rollick.io/images/marketplace/usaa/Polaris/WebMedium_PNG-2024-atv-Sportsman450-US-SageGreen-cgi-Front3Q-A4SEA50B1.png\",\"disclaimer\":\"\",\"type\":10,\"year\":2024,\"model\":\"Sportsman 450\",\"make\":\"Polaris\",\"segmentId\":1,\"categoryId\":2,\"trimName\":\"\",\"cardTitle\":\"Gift Card on Any New 2024-2025 Polaris Sportsman 450\",\"isBestOffer\":false},{\"id\":\"5a42bfcd34e06bea\",\"brandId\":19,\"oemName\":\"Polaris\",\"status\":1,\"shortDescription\":\"Polaris Limited-Time Offer for USAA Members Only\",\"internalName\":\"POL20250100056\",\"incentiveId\":\"POL20250100056\",\"longDescription\":\"USAA members get a $350 Mastercard Gift card on approved purchase of any new 2024-2025 Polaris Sportsman 570. Offer valid only for existing USAA Members. Program registration must be submitted before your purchase date. Offer good until June 30, 2025. \",\"price\":350,\"startDate\":\"05/02/2024\",\"endDate\":\"06/30/2025\",\"startDateTimestamp\":1714626000000,\"endDateTimestamp\":1751345999999,\"image\":\"https://cdn.rollick.io/images/marketplace/usaa/Polaris/WebMedium_PNG-2024-atv-Sportsman570Premium-US-StormGray-cgi-Front3Q-A24SEZ57AG.png\",\"disclaimer\":\"\",\"type\":10,\"year\":2024,\"model\":\"Sportsman 570\",\"make\":\"Polaris\",\"segmentId\":1,\"categoryId\":2,\"trimName\":\"\",\"cardTitle\":\"Gift Card on Any New 2024-2025 Polaris Sportsman 570\",\"isBestOffer\":false},{\"id\":\"eca553d6adc9aacb\",\"brandId\":19,\"oemName\":\"Polaris\",\"status\":1,\"shortDescription\":\"Polaris Limited-Time Offer for USAA Members Only\",\"internalName\":\"POL20250100059\",\"incentiveId\":\"POL20250100059\",\"longDescription\":\"USAA members get a $350 Mastercard Gift card on approved purchase of any new 2024-2025 Polaris Sportsman 6X6 570. Offer valid only for existing USAA Members. Program registration must be submitted before your purchase date. Offer good until June 30, 2025. \",\"price\":350,\"startDate\":\"05/02/2024\",\"endDate\":\"06/30/2025\",\"startDateTimestamp\":1714626000000,\"endDateTimestamp\":1751345999999,\"image\":\"https://cdn.rollick.io/images/marketplace/usaa/Polaris/WebMedium_PNG-2022-ATV-Sportsman5706x6-US-SageGreen-cgi-Front3Q-A22S6E57A1.png\",\"disclaimer\":\"\",\"type\":10,\"year\":2024,\"model\":\"Sportsman 6X6 570\",\"make\":\"Polaris\",\"segmentId\":1,\"categoryId\":2,\"trimName\":\"\",\"cardTitle\":\"Gift Card on Any New 2024-2025 Polaris Sportsman 6X6 570\",\"isBestOffer\":false},{\"id\":\"cb722a031c8fabb5\",\"brandId\":19,\"oemName\":\"Polaris\",\"status\":1,\"shortDescription\":\"Polaris Limited-Time Offer for USAA Members Only\",\"internalName\":\"POL20250100057\",\"incentiveId\":\"POL20250100057\",\"longDescription\":\"USAA members get a $350 Mastercard Gift card on approved purchase of any new 2024-2025 Polaris Sportsman 850. Offer valid only for existing USAA Members. Program registration must be submitted before your purchase date. Offer good until June 30, 2025. \",\"price\":350,\"startDate\":\"05/02/2024\",\"endDate\":\"06/30/2025\",\"startDateTimestamp\":1714626000000,\"endDateTimestamp\":1751345999999,\"image\":\"https://cdn.rollick.io/images/marketplace/usaa/Polaris/WebMedium_PNG-2024-atv-Sportsman850-Premium-US-PolarisPursuitCamo-cgi-Front3Q-A24SXE85A9.png\",\"disclaimer\":\"\",\"type\":10,\"year\":2024,\"model\":\"Sportsman 850\",\"make\":\"Polaris\",\"segmentId\":1,\"categoryId\":2,\"trimName\":\"\",\"cardTitle\":\"Gift Card on Any New 2024-2025 Polaris Sportsman 850\",\"isBestOffer\":false},{\"id\":\"35939da9e6393a33\",\"brandId\":19,\"oemName\":\"Polaris\",\"status\":1,\"shortDescription\":\"Polaris Limited-Time Offer for USAA Members Only\",\"internalName\":\"POL20250100078\",\"incentiveId\":\"POL20250100078\",\"longDescription\":\"USAA members get a $350 Mastercard Gift card on approved purchase of any new 2024 Polaris Sportsman High Lifter Edition. Offer valid only for existing USAA Members. Program registration must be submitted before your purchase date. Offer good until June 30, 2025. \",\"price\":350,\"startDate\":\"08/30/2024\",\"endDate\":\"06/30/2025\",\"startDateTimestamp\":1724994000000,\"endDateTimestamp\":1751345999999,\"image\":\"https://cdn.rollick.io/images/marketplace/usaa/Polaris/2024_atv_HighLifter_XP1000_US_OnyxBlack_cgi_Front3Q_A24SXM95AM.jpg\",\"disclaimer\":\"\",\"type\":10,\"year\":2024,\"model\":\"Sportsman High Lifter Edition\",\"make\":\"Polaris\",\"segmentId\":1,\"categoryId\":2,\"trimName\":\"\",\"cardTitle\":\"Gift Card on Any New 2024 Polaris Sportsman High Lifter Edition\",\"isBestOffer\":false},{\"id\":\"181f11de3ee9d97d\",\"brandId\":19,\"oemName\":\"Polaris\",\"status\":1,\"shortDescription\":\"Polaris Limited-Time Offer for USAA Members Only\",\"internalName\":\"POL20250100079\",\"incentiveId\":\"POL20250100079\",\"longDescription\":\"USAA members get a $350 Mastercard Gift card on approved purchase of any new 2024-2025 Polaris Sportsman Hunt Edition. Offer valid only for existing USAA Members. Program registration must be submitted before your purchase date. Offer good until June 30, 2025. \",\"price\":350,\"startDate\":\"08/30/2024\",\"endDate\":\"06/30/2025\",\"startDateTimestamp\":1724994000000,\"endDateTimestamp\":1751345999999,\"image\":\"https://cdn.rollick.io/images/marketplace/usaa/Polaris/2025-atv-sportsmanXP1000huntedition-polarispursuitcamo-cgi-front3q-A25SXD95A9.jpg\",\"disclaimer\":\"\",\"type\":10,\"year\":2024,\"model\":\"Sportsman Hunt Edition\",\"make\":\"Polaris\",\"segmentId\":1,\"categoryId\":2,\"trimName\":\"\",\"cardTitle\":\"Gift Card on Any New 2024-2025 Polaris Sportsman Hunt Edition\",\"isBestOffer\":false},{\"id\":\"2c952b0462a80809\",\"brandId\":19,\"oemName\":\"Polaris\",\"status\":1,\"shortDescription\":\"Polaris Limited-Time Offer for USAA Members Only\",\"internalName\":\"POL20250100073\",\"incentiveId\":\"POL20250100073\",\"longDescription\":\"USAA members get a $350 Mastercard Gift card on approved purchase of any new 2024-2025 Polaris Sportsman Touring 570. Offer valid only for existing USAA Members. Program registration must be submitted before your purchase date. Offer good until June 30, 2025. \",\"price\":350,\"startDate\":\"08/30/2024\",\"endDate\":\"06/30/2025\",\"startDateTimestamp\":1724994000000,\"endDateTimestamp\":1751345999999,\"image\":\"https://cdn.rollick.io/images/marketplace/usaa/Polaris/2025-Sportsman-Touring-570-US-StealthGray-cgi-Front3Q-A25SDE57A4.jpg\",\"disclaimer\":\"\",\"type\":10,\"year\":2024,\"model\":\"Sportsman Touring 570\",\"make\":\"Polaris\",\"segmentId\":1,\"categoryId\":2,\"trimName\":\"\",\"cardTitle\":\"Gift Card on Any New 2024-2025 Polaris Sportsman Touring 570\",\"isBestOffer\":false},{\"id\":\"d616e47e28716aea\",\"brandId\":19,\"oemName\":\"Polaris\",\"status\":1,\"shortDescription\":\"Polaris Limited-Time Offer for USAA Members Only\",\"internalName\":\"POL20250100074\",\"incentiveId\":\"POL20250100074\",\"longDescription\":\"USAA members get a $350 Mastercard Gift card on approved purchase of any new 2024 Polaris Sportsman Touring 850. Offer valid only for existing USAA Members. Program registration must be submitted before your purchase date. Offer good until June 30, 2025. \",\"price\":350,\"startDate\":\"08/30/2024\",\"endDate\":\"06/30/2025\",\"startDateTimestamp\":1724994000000,\"endDateTimestamp\":1751345999999,\"image\":\"https://cdn.rollick.io/images/marketplace/usaa/Polaris/2024-atv-Sportsman850-Touring-US-OnyxBlack-cgi-Front3Q-A24SYE85AL.jpg\",\"disclaimer\":\"\",\"type\":10,\"year\":2024,\"model\":\"Sportsman Touring 850\",\"make\":\"Polaris\",\"segmentId\":1,\"categoryId\":2,\"trimName\":\"\",\"cardTitle\":\"Gift Card on Any New 2024 Polaris Sportsman Touring 850\",\"isBestOffer\":false},{\"id\":\"6099d67f1a5628c3\",\"brandId\":19,\"oemName\":\"Polaris\",\"status\":1,\"shortDescription\":\"Polaris Limited-Time Offer for USAA Members Only\",\"internalName\":\"POL20250100075\",\"incentiveId\":\"POL20250100075\",\"longDescription\":\"USAA members get a $350 Mastercard Gift card on approved purchase of any new 2024 Polaris Sportsman Touring XP 1000 Trail. Offer valid only for existing USAA Members. Program registration must be submitted before your purchase date. Offer good until June 30, 2025. \",\"price\":350,\"startDate\":\"08/30/2024\",\"endDate\":\"06/30/2025\",\"startDateTimestamp\":1724994000000,\"endDateTimestamp\":1751345999999,\"image\":\"https://cdn.rollick.io/images/marketplace/usaa/Polaris/2024-atv-SportsmanXP1000-Touring-US-HeavyMetal-cgi-Front3Q-A24SYY95AH.jpg\",\"disclaimer\":\"\",\"type\":10,\"year\":2024,\"model\":\"Sportsman Touring XP 1000 Trail\",\"make\":\"Polaris\",\"segmentId\":1,\"categoryId\":2,\"trimName\":\"\",\"cardTitle\":\"Gift Card on Any New 2024 Polaris Sportsman Touring XP 1000 Trail\",\"isBestOffer\":false},{\"id\":\"05a8787169020902\",\"brandId\":19,\"oemName\":\"Polaris\",\"status\":1,\"shortDescription\":\"Polaris Limited-Time Offer for USAA Members Only\",\"internalName\":\"POL20250100101\",\"incentiveId\":\"POL20250100101\",\"longDescription\":\"USAA members get a $350 Mastercard Gift card on approved purchase of any new 2024-2025 Polaris Sportsman X2 570. Offer valid only for existing USAA Members. Program registration must be submitted before your purchase date. Offer good until June 30, 2025. \",\"price\":350,\"startDate\":\"08/30/2024\",\"endDate\":\"06/30/2025\",\"startDateTimestamp\":1724994000000,\"endDateTimestamp\":1751345999999,\"image\":\"https://cdn.rollick.io/images/marketplace/usaa/Polaris/2025-atv-X2-570-US-OnyxBlack-cgi-Front3Q-A25SWE57AL.jpg\",\"disclaimer\":\"\",\"type\":10,\"year\":2025,\"model\":\"Sportsman X2 570\",\"make\":\"Polaris\",\"segmentId\":1,\"categoryId\":2,\"trimName\":\"\",\"cardTitle\":\"Gift Card on Any New 2024-2025 Polaris Sportsman X2 570\",\"isBestOffer\":false},{\"id\":\"df7a76b8961429f2\",\"brandId\":19,\"oemName\":\"Polaris\",\"status\":1,\"shortDescription\":\"Polaris Limited-Time Offer for USAA Members Only\",\"internalName\":\"POL20250100058\",\"incentiveId\":\"POL20250100058\",\"longDescription\":\"USAA members get a $350 Mastercard Gift card on approved purchase of any new 2024-2025 Polaris Sportsman XP 1000. Offer valid only for existing USAA Members. Program registration must be submitted before your purchase date. Offer good until June 30, 2025. \",\"price\":350,\"startDate\":\"05/02/2024\",\"endDate\":\"06/30/2025\",\"startDateTimestamp\":1714626000000,\"endDateTimestamp\":1751345999999,\"image\":\"https://cdn.rollick.io/images/marketplace/usaa/Polaris/WebMedium_PNG-2024-atv-SportsmanXP1000-UltimateTrail-US-IndyRedSpotlight-cgi-Front3Q-A24SXZ95AR.png\",\"disclaimer\":\"\",\"type\":10,\"year\":2024,\"model\":\"Sportsman XP 1000\",\"make\":\"Polaris\",\"segmentId\":1,\"categoryId\":2,\"trimName\":\"\",\"cardTitle\":\"Gift Card on Any New 2024-2025 Polaris Sportsman XP 1000\",\"isBestOffer\":false},{\"id\":\"b90db0207d01a8f6\",\"brandId\":19,\"oemName\":\"Polaris\",\"status\":1,\"shortDescription\":\"Polaris Limited-Time Offer for USAA Members Only\",\"internalName\":\"POL20250100100\",\"incentiveId\":\"POL20250100100\",\"longDescription\":\"USAA members get a $350 Mastercard Gift card on approved purchase of any new 2025 Polaris Sportsman XP 1000 S. Offer valid only for existing USAA Members. Program registration must be submitted before your purchase date. Offer good until June 30, 2025. \",\"price\":350,\"startDate\":\"08/30/2024\",\"endDate\":\"06/30/2025\",\"startDateTimestamp\":1724994000000,\"endDateTimestamp\":1751345999999,\"image\":\"https://cdn.rollick.io/images/marketplace/usaa/Polaris/2025-atv-sportsmanxp1000s-orangerust-cgi-front3q-A25SLZ95AF.jpg\",\"disclaimer\":\"\",\"type\":10,\"year\":2025,\"model\":\"Sportsman XP 1000 S\",\"make\":\"Polaris\",\"segmentId\":1,\"categoryId\":2,\"trimName\":\"\",\"cardTitle\":\"Gift Card on Any New 2025 Polaris Sportsman XP 1000 S\",\"isBestOffer\":false},{\"id\":\"ab3f3ca1a7acaa10\",\"brandId\":19,\"oemName\":\"Polaris\",\"status\":1,\"shortDescription\":\"Polaris Limited-Time Offer for USAA Members Only\",\"internalName\":\"POL20250100105\",\"incentiveId\":\"POL20250100105\",\"longDescription\":\"USAA members get a $500 Mastercard Gift card on approved purchase of any new 2025 Polaris XPEDITION Northstar. Offer valid only for existing USAA Members. Program registration must be submitted before your purchase date. Offer good until June 30, 2025. \",\"price\":500,\"startDate\":\"01/01/2025\",\"endDate\":\"06/30/2025\",\"startDateTimestamp\":1735711200000,\"endDateTimestamp\":1751345999999,\"image\":\"https://cdn.rollick.io/images/marketplace/usaa/Polaris/2025-polaris-xpedition-01 Northstar.jpg\",\"disclaimer\":\"\",\"type\":10,\"year\":2025,\"model\":\"XPEDITION Northstar\",\"make\":\"Polaris\",\"segmentId\":1,\"categoryId\":3,\"trimName\":\"Base\",\"cardTitle\":\"Gift Card on Any New 2025 Polaris XPEDITION Northstar\",\"isBestOffer\":false},{\"id\":\"491e1510177388d9\",\"brandId\":19,\"oemName\":\"Polaris\",\"status\":1,\"shortDescription\":\"Polaris Limited-Time Offer for USAA Members Only\",\"internalName\":\"POL20250100104\",\"incentiveId\":\"POL20250100104\",\"longDescription\":\"USAA members get a $750 Mastercard Gift card on approved purchase of any new 2025 Polaris XPEDITION Ultimate. Offer valid only for existing USAA Members. Program registration must be submitted before your purchase date. Offer good until June 30, 2025. \",\"price\":750,\"startDate\":\"01/01/2025\",\"endDate\":\"06/30/2025\",\"startDateTimestamp\":1735711200000,\"endDateTimestamp\":1751345999999,\"image\":\"https://cdn.rollick.io/images/marketplace/usaa/Polaris/2025-polaris-xpedition-02 Ultimate.jpg\",\"disclaimer\":\"\",\"type\":10,\"year\":2025,\"model\":\"XPEDITION Ultimate\",\"make\":\"Polaris\",\"segmentId\":1,\"categoryId\":3,\"trimName\":\"Base\",\"cardTitle\":\"Gift Card on Any New 2025 Polaris XPEDITION Ultimate\",\"isBestOffer\":true}]}}"
+              },
+              "redirectURL": "",
+              "headersSize": -1,
+              "bodySize": -1,
+              "_transferSize": 3337,
+              "_error": null,
+              "_fetchedViaServiceWorker": false
+            },
+            "serverIPAddress": "52.159.106.128",
+            "startedDateTime": "2025-01-27T15:34:54.404Z",
+            "time": 237.00599977746606,
+            "timings": {
+              "blocked": 8.905999696999789,
+              "dns": -1,
+              "ssl": -1,
+              "connect": -1,
+              "send": 0.2919999999999998,
+              "wait": 224.99000004324316,
+              "receive": 2.8180000372231007,
+              "_blocked_queueing": 1.8559996969997883,
+              "_workerStart": -1,
+              "_workerReady": -1,
+              "_workerFetchStart": -1,
+              "_workerRespondWithSettled": -1
+            }
           }
       ]
     }
