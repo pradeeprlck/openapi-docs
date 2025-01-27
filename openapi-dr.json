@@ -3,7 +3,7 @@
   "info": {
     "title": "HarToOpenApi",
     "version": "1.0.0",
-    "description": "OpenAPI spec generated from HAR data for specs on 2025-01-22T10:07:15.785Z"
+    "description": "OpenAPI spec generated from HAR data for specs on 2025-01-22T10:29:55.508Z"
   },
   "paths": {
     "/": {

@@ -12987,6 +12987,1929 @@
               "_workerFetchStart": -1,
               "_workerRespondWithSettled": -1
             }
+          },
+          {
+            "_initiator": {
+              "type": "script",
+              "stack": {
+                "callFrames": [
+                  {
+                    "functionName": "send",
+                    "scriptId": "915",
+                    "url": "https://code.jquery.com/jquery-3.3.1.min.js",
+                    "lineNumber": 1,
+                    "columnNumber": 80265
+                  },
+                  {
+                    "functionName": "ajax",
+                    "scriptId": "915",
+                    "url": "https://code.jquery.com/jquery-3.3.1.min.js",
+                    "lineNumber": 1,
+                    "columnNumber": 77117
+                  },
+                  {
+                    "functionName": "rollick.getInventory",
+                    "scriptId": "912",
+                    "url": "https://widget.rollick.io/oem/winnebago",
+                    "lineNumber": 1099,
+                    "columnNumber": 31
+                  },
+                  {
+                    "functionName": "getQuote",
+                    "scriptId": "912",
+                    "url": "https://widget.rollick.io/oem/winnebago",
+                    "lineNumber": 227,
+                    "columnNumber": 43
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "951",
+                    "url": "https://www.winnebago.com/scriptsbundle-21-Scripts_-_Regular_-_Custom_-_dealer-inventory-rollickshoppingtools-min?v=eCSPohTjTqhc0gQRmaHLWb5wa0NdHgNdnSKZKbM6nTQ1",
+                    "lineNumber": 0,
+                    "columnNumber": 767
+                  }
+                ],
+                "parent": {
+                  "description": "Promise.then",
+                  "callFrames": [
+                    {
+                      "functionName": "RollickShoppingTools.getRollickShoppingToolsPerModule",
+                      "scriptId": "951",
+                      "url": "https://www.winnebago.com/scriptsbundle-21-Scripts_-_Regular_-_Custom_-_dealer-inventory-rollickshoppingtools-min?v=eCSPohTjTqhc0gQRmaHLWb5wa0NdHgNdnSKZKbM6nTQ1",
+                      "lineNumber": 0,
+                      "columnNumber": 721
+                    },
+                    {
+                      "functionName": "onclick",
+                      "scriptId": "1023",
+                      "url": "https://www.winnebago.com/inventory/detail?DealerId=2278&inventoryId=9b63253d-f344-4bdf-8b6a-d0dcd86d2106",
+                      "lineNumber": 905,
+                      "columnNumber": 321
+                    }
+                  ]
+                }
+              }
+            },
+            "_priority": "High",
+            "_resourceType": "xhr",
+            "cache": {},
+            "connection": "8152385",
+            "pageref": "page_1",
+            "request": {
+              "method": "POST",
+              "url": "https://gorollick.com/api/info/",
+              "httpVersion": "http/2.0",
+              "headers": [
+                {
+                  "name": ":authority",
+                  "value": "gorollick.com"
+                },
+                {
+                  "name": ":method",
+                  "value": "POST"
+                },
+                {
+                  "name": ":path",
+                  "value": "/api/info/"
+                },
+                {
+                  "name": ":scheme",
+                  "value": "https"
+                },
+                {
+                  "name": "accept",
+                  "value": "application/json, text/javascript, */*; q=0.01"
+                },
+                {
+                  "name": "accept-encoding",
+                  "value": "gzip, deflate, br, zstd"
+                },
+                {
+                  "name": "accept-language",
+                  "value": "en-US,en-IN;q=0.9,en;q=0.8,te;q=0.7"
+                },
+                {
+                  "name": "content-length",
+                  "value": "67"
+                },
+                {
+                  "name": "content-type",
+                  "value": "application/json; charset=UTF-8"
+                },
+                {
+                  "name": "dnt",
+                  "value": "1"
+                },
+                {
+                  "name": "origin",
+                  "value": "https://www.winnebago.com"
+                },
+                {
+                  "name": "priority",
+                  "value": "u=1, i"
+                },
+                {
+                  "name": "referer",
+                  "value": "https://www.winnebago.com/"
+                },
+                {
+                  "name": "sec-ch-ua",
+                  "value": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""
+                },
+                {
+                  "name": "sec-ch-ua-mobile",
+                  "value": "?0"
+                },
+                {
+                  "name": "sec-ch-ua-platform",
+                  "value": "\"Windows\""
+                },
+                {
+                  "name": "sec-fetch-dest",
+                  "value": "empty"
+                },
+                {
+                  "name": "sec-fetch-mode",
+                  "value": "cors"
+                },
+                {
+                  "name": "sec-fetch-site",
+                  "value": "cross-site"
+                },
+                {
+                  "name": "user-agent",
+                  "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                }
+              ],
+              "queryString": [],
+              "cookies": [],
+              "headersSize": -1,
+              "bodySize": 67,
+              "postData": {
+                "mimeType": "application/json; charset=UTF-8",
+                "text": "{\"inventoryId\":\"9b63253d-f344-4bdf-8b6a-d0dcd86d2106\",\"useV1\":true}"
+              }
+            },
+            "response": {
+              "status": 200,
+              "statusText": "",
+              "httpVersion": "http/2.0",
+              "headers": [
+                {
+                  "name": "access-control-allow-credentials",
+                  "value": "true"
+                },
+                {
+                  "name": "access-control-allow-headers",
+                  "value": "Origin, X-Requested-With, Content-Type, Accept, Authorization"
+                },
+                {
+                  "name": "access-control-allow-methods",
+                  "value": "GET, OPTIONS"
+                },
+                {
+                  "name": "access-control-allow-origin",
+                  "value": "https://www.winnebago.com"
+                },
+                {
+                  "name": "cache-control",
+                  "value": "private, no-cache, no-store, must-revalidate"
+                },
+                {
+                  "name": "cache-control",
+                  "value": "no-cache, must-revalidate"
+                },
+                {
+                  "name": "content-encoding",
+                  "value": "gzip"
+                },
+                {
+                  "name": "content-type",
+                  "value": "application/json; charset=utf-8"
+                },
+                {
+                  "name": "date",
+                  "value": "Mon, 27 Jan 2025 15:20:22 GMT"
+                },
+                {
+                  "name": "etag",
+                  "value": "W/\"e15-rwFvDs2Gwy5+pikuBJN3x/hKNyA\""
+                },
+                {
+                  "name": "link",
+                  "value": "<https://gorollick.com/api/info/>; rel=\"canonical\""
+                },
+                {
+                  "name": "request-context",
+                  "value": "appId=cid-v1:"
+                },
+                {
+                  "name": "server",
+                  "value": "nginx"
+                },
+                {
+                  "name": "strict-transport-security",
+                  "value": "max-age=15768000; includeSubDomains"
+                },
+                {
+                  "name": "vary",
+                  "value": "Accept-Encoding"
+                }
+              ],
+              "cookies": [],
+              "content": {
+                "size": 3605,
+                "mimeType": "application/json",
+                "text": "{\"stats\":{\"counts\":0,\"pageSize\":-1,\"skip\":0,\"totalPages\":1,\"currentPage\":1,\"searchTime\":5,\"trimCount\":1,\"noDealerCount\":1,\"dealerCount\":0,\"distanceTime\":1},\"data\":[],\"filteredDealers\":[],\"trimInfo\":[{\"TrimId\":516235,\"Segment\":\"RVs\",\"Category\":\"Class C\",\"Subcategory\":\"\",\"Year\":\"2024\",\"Manufacturer\":\"Winnebago\",\"Model\":\"View\",\"Trim\":\"24D\",\"Display\":\"View 24D\",\"MSRP\":203450,\"Photo\":\"2021_Winnebago_View.jpg\",\"Logo\":\"https://cdn.rollick.io/images/oem/winnebago.png\",\"id\":\"9b63253d-f344-4bdf-8b6a-d0dcd86d2106\",\"condition\":\"N\",\"stockNumber\":\"30820\",\"location\":\"Buda\",\"color\":\"N/A Not A Colour\",\"mileage\":1112,\"clearanceFlag\":\"0\",\"dealerMSRP\":243383,\"price\":169495,\"priceType\":1,\"dealerBikeImage\":\"https://assets-cdn.interactcp.com/crestviewrv/unit_photo/imgh_800x600-wm_crestviewrv_com-m0124202421225651/unit_photo_202401240922565149997746.jpeg\",\"dealerTrimImage\":\"\",\"vin\":\"\",\"Length\":306,\"Weight\":11030,\"SleepingCapacity\":6,\"Number of Slideouts\":1,\"FloorPlan1\":\"https://cdn.rollick.io/images/crs/floorplans/2023_Winnebago_View_24D.jpg\",\"FloorPlan2\":\"\",\"Length Group\":\"20-30ft\",\"Weight Group\":\"More than 10,000lbs\",\"State\":\"TX\",\"Family\":\"View\",\"EngineType\":\"V6\",\"NumberOfSeats\":2,\"SegmentId\":3,\"CategoryId\":2010,\"BrandId\":438,\"tlaManufacturer\":\"winnebago\",\"tlaFamily\":\"view\",\"FamilyId\":\"View \",\"ModelId\":\"146085\",\"enginehours\":\"\",\"vdescription\":\"New 2024 Winnebago View 24D <p><strong>Winnebago View Class C diesel motorhome 24D highlights:</strong></p> <ul> <li>Rear Bath</li> <li>Murphy+ Bed</li> <li>Pedestal Table</li> <li>U-Shaped Dinette</li> <li>Swivel Cab Seats</li> <li>Bunk Over Cab</li> </ul> <p> </p> <p>A couple or family will enjoy the look of the interior each time they take this View Class C diesel motorhome on the road. With the curved cabinets, the lighted soft-close galley drawers, and the <strong>sprung-cushion dinette</strong> and sofa seats, there will surely be a favorite feature for everyone. You will be able to easily set up the queen <strong>Murphy+ bed</strong> when it's time for bedtime while the kids sleep on the bunk above the cab or the U-shaped dinette. You might like to add the <strong>theater seating option</strong> with swivel tables if you don't need that extra sleeping space. Everyone can get cleaned up in the full rear bathroom that has a space-saving sliding door before making meals with full kitchen amenities including a <strong>convection microwave/oven</strong>.</p> <p> </p> <p>With each View Class C diesel motorhome by Winnebago, you can extend your trips off grid with the industry-leading holding tanks, the <strong>two 100W solar panels</strong>, the two deep-cycle Group 31 RV batteries, the 2,000W inverter, plus the 3,600W Cummins Onan MicroQuiet LP generator. The<strong> insulated sleeper deck</strong> is built with premium thermal and acoustic insulation allowing the SuperShell sleeper deck to be more comfortable and relaxing during any season. The View is built on a Mercedes-Benz Sprinter chassis with <strong>advanced safety features</strong> giving you peace of mind, and the MBUX touchscreen infotainment system has <strong>intelligent voice control</strong>, navigation, a Wi-Fi hotspot, and more! The interior offers luxury space and simple solutions for storage, plus it also has vinyl flooring and laminate countertops for easy clean-up.</p>\",\"PackageId\":\"\",\"MfrModelcode\":\"\",\"IsNational\":0,\"Lat\":30.079,\"Lng\":-97.8248,\"zip\":null,\"showroomInv\":0,\"poolId\":null,\"Tag\":\"Motorhomes\",\"CountryCode\":\"US\",\"strippedMSRP\":null,\"strippedPrice\":null,\"Distance\":6685.8537923744225,\"dealerCount\":0,\"dealers\":[],\"displayPrice\":169495}]}"
+              },
+              "redirectURL": "",
+              "headersSize": -1,
+              "bodySize": -1,
+              "_transferSize": 2399,
+              "_error": null,
+              "_fetchedViaServiceWorker": false
+            },
+            "serverIPAddress": "52.159.106.128",
+            "startedDateTime": "2025-01-27T15:20:22.429Z",
+            "time": 586.9309999980032,
+            "timings": {
+              "blocked": 282.77900015056133,
+              "dns": -1,
+              "ssl": -1,
+              "connect": -1,
+              "send": 0.45100000000000007,
+              "wait": 301.84399990999697,
+              "receive": 1.8569999374449253,
+              "_blocked_queueing": 280.96400015056133,
+              "_workerStart": -1,
+              "_workerReady": -1,
+              "_workerFetchStart": -1,
+              "_workerRespondWithSettled": -1
+            }
+          },
+          {
+            "_initiator": {
+              "type": "script",
+              "stack": {
+                "callFrames": [
+                  {
+                    "functionName": "send",
+                    "scriptId": "5",
+                    "url": "https://code.jquery.com/jquery-3.5.1.min.js",
+                    "lineNumber": 1,
+                    "columnNumber": 82612
+                  },
+                  {
+                    "functionName": "ajax",
+                    "scriptId": "5",
+                    "url": "https://code.jquery.com/jquery-3.5.1.min.js",
+                    "lineNumber": 1,
+                    "columnNumber": 78222
+                  },
+                  {
+                    "functionName": "S.<computed>",
+                    "scriptId": "5",
+                    "url": "https://code.jquery.com/jquery-3.5.1.min.js",
+                    "lineNumber": 1,
+                    "columnNumber": 80242
+                  },
+                  {
+                    "functionName": "locateDealer",
+                    "scriptId": "8",
+                    "url": "https://widget.rollick.io/widgets/dr/templates/winnebago/dr.js",
+                    "lineNumber": 3646,
+                    "columnNumber": 10
+                  },
+                  {
+                    "functionName": "dealerInit",
+                    "scriptId": "8",
+                    "url": "https://widget.rollick.io/widgets/dr/templates/winnebago/dr.js",
+                    "lineNumber": 3635,
+                    "columnNumber": 8
+                  },
+                  {
+                    "functionName": "messageHandler",
+                    "scriptId": "8",
+                    "url": "https://widget.rollick.io/widgets/dr/templates/winnebago/dr.js",
+                    "lineNumber": 711,
+                    "columnNumber": 16
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "8",
+                    "url": "https://widget.rollick.io/widgets/dr/templates/winnebago/dr.js",
+                    "lineNumber": 640,
+                    "columnNumber": 8
+                  }
+                ]
+              }
+            },
+            "_priority": "High",
+            "_resourceType": "xhr",
+            "cache": {},
+            "connection": "8152410",
+            "request": {
+              "method": "GET",
+              "url": "https://widget.rollick.io/aimbase-verify-dealer/2273/WGO",
+              "httpVersion": "http/2.0",
+              "headers": [
+                {
+                  "name": ":authority",
+                  "value": "widget.rollick.io"
+                },
+                {
+                  "name": ":method",
+                  "value": "GET"
+                },
+                {
+                  "name": ":path",
+                  "value": "/aimbase-verify-dealer/2273/WGO"
+                },
+                {
+                  "name": ":scheme",
+                  "value": "https"
+                },
+                {
+                  "name": "accept",
+                  "value": "*/*"
+                },
+                {
+                  "name": "accept-encoding",
+                  "value": "gzip, deflate, br, zstd"
+                },
+                {
+                  "name": "accept-language",
+                  "value": "en-US,en-IN;q=0.9,en;q=0.8,te;q=0.7"
+                },
+                {
+                  "name": "dnt",
+                  "value": "1"
+                },
+                {
+                  "name": "if-none-match",
+                  "value": "W/\"2c-N7EDA7wkXyI6AQ8Aj1kxP0ES7wI\""
+                },
+                {
+                  "name": "priority",
+                  "value": "u=1, i"
+                },
+                {
+                  "name": "referer",
+                  "value": "https://widget.rollick.io/widgets/dr/templates/winnebago/default-en.html"
+                },
+                {
+                  "name": "sec-ch-ua",
+                  "value": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""
+                },
+                {
+                  "name": "sec-ch-ua-mobile",
+                  "value": "?0"
+                },
+                {
+                  "name": "sec-ch-ua-platform",
+                  "value": "\"Windows\""
+                },
+                {
+                  "name": "sec-fetch-dest",
+                  "value": "empty"
+                },
+                {
+                  "name": "sec-fetch-mode",
+                  "value": "cors"
+                },
+                {
+                  "name": "sec-fetch-site",
+                  "value": "same-origin"
+                },
+                {
+                  "name": "user-agent",
+                  "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                },
+                {
+                  "name": "x-requested-with",
+                  "value": "XMLHttpRequest"
+                }
+              ],
+              "queryString": [],
+              "cookies": [],
+              "headersSize": -1,
+              "bodySize": 0
+            },
+            "response": {
+              "status": 304,
+              "statusText": "",
+              "httpVersion": "http/2.0",
+              "headers": [
+                {
+                  "name": "access-control-allow-credentials",
+                  "value": "true"
+                },
+                {
+                  "name": "access-control-allow-headers",
+                  "value": "Origin, X-Requested-With, Content-Type, Accept"
+                },
+                {
+                  "name": "access-control-allow-methods",
+                  "value": "GET, OPTIONS"
+                },
+                {
+                  "name": "access-control-allow-origin",
+                  "value": "*"
+                },
+                {
+                  "name": "cache-control",
+                  "value": "private, max-age=60"
+                },
+                {
+                  "name": "date",
+                  "value": "Mon, 27 Jan 2025 15:20:24 GMT"
+                },
+                {
+                  "name": "etag",
+                  "value": "W/\"2c-N7EDA7wkXyI6AQ8Aj1kxP0ES7wI\""
+                },
+                {
+                  "name": "request-context",
+                  "value": "appId=cid-v1:0a80f7a3-de40-464e-95b4-2ecc5aec1cd0"
+                },
+                {
+                  "name": "server",
+                  "value": "nginx"
+                },
+                {
+                  "name": "strict-transport-security",
+                  "value": "max-age=15768000; includeSubDomains"
+                }
+              ],
+              "cookies": [],
+              "content": {
+                "size": 44,
+                "mimeType": "application/json",
+                "text": "{\"result\":true,\"name\":\"CRESTVIEW RV CENTER\"}"
+              },
+              "redirectURL": "",
+              "headersSize": -1,
+              "bodySize": 0,
+              "_transferSize": 339,
+              "_error": null,
+              "_fetchedViaServiceWorker": false
+            },
+            "serverIPAddress": "52.159.106.128",
+            "startedDateTime": "2025-01-27T15:20:23.715Z",
+            "time": 623.3760002069175,
+            "timings": {
+              "blocked": 2.9129997810721395,
+              "dns": -1,
+              "ssl": -1,
+              "connect": -1,
+              "send": 0.595,
+              "wait": 619.253999941498,
+              "receive": 0.6140004843473434,
+              "_blocked_queueing": 1.6529997810721397,
+              "_workerStart": -1,
+              "_workerReady": -1,
+              "_workerFetchStart": -1,
+              "_workerRespondWithSettled": -1
+            }
+          },
+          {
+            "_initiator": {
+              "type": "script",
+              "stack": {
+                "callFrames": [
+                  {
+                    "functionName": "send",
+                    "scriptId": "5",
+                    "url": "https://code.jquery.com/jquery-3.5.1.min.js",
+                    "lineNumber": 1,
+                    "columnNumber": 82612
+                  },
+                  {
+                    "functionName": "ajax",
+                    "scriptId": "5",
+                    "url": "https://code.jquery.com/jquery-3.5.1.min.js",
+                    "lineNumber": 1,
+                    "columnNumber": 78222
+                  },
+                  {
+                    "functionName": "S.<computed>",
+                    "scriptId": "5",
+                    "url": "https://code.jquery.com/jquery-3.5.1.min.js",
+                    "lineNumber": 1,
+                    "columnNumber": 80242
+                  },
+                  {
+                    "functionName": "getDealerInfo",
+                    "scriptId": "8",
+                    "url": "https://widget.rollick.io/widgets/dr/templates/winnebago/dr.js",
+                    "lineNumber": 3678,
+                    "columnNumber": 10
+                  },
+                  {
+                    "functionName": "dealerInit",
+                    "scriptId": "8",
+                    "url": "https://widget.rollick.io/widgets/dr/templates/winnebago/dr.js",
+                    "lineNumber": 3636,
+                    "columnNumber": 8
+                  },
+                  {
+                    "functionName": "messageHandler",
+                    "scriptId": "8",
+                    "url": "https://widget.rollick.io/widgets/dr/templates/winnebago/dr.js",
+                    "lineNumber": 711,
+                    "columnNumber": 16
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "8",
+                    "url": "https://widget.rollick.io/widgets/dr/templates/winnebago/dr.js",
+                    "lineNumber": 640,
+                    "columnNumber": 8
+                  }
+                ]
+              }
+            },
+            "_priority": "High",
+            "_resourceType": "xhr",
+            "cache": {},
+            "connection": "8152410",
+            "request": {
+              "method": "GET",
+              "url": "https://widget.rollick.io/getPartnerbyOemId/2273/438",
+              "httpVersion": "http/2.0",
+              "headers": [
+                {
+                  "name": ":authority",
+                  "value": "widget.rollick.io"
+                },
+                {
+                  "name": ":method",
+                  "value": "GET"
+                },
+                {
+                  "name": ":path",
+                  "value": "/getPartnerbyOemId/2273/438"
+                },
+                {
+                  "name": ":scheme",
+                  "value": "https"
+                },
+                {
+                  "name": "accept",
+                  "value": "*/*"
+                },
+                {
+                  "name": "accept-encoding",
+                  "value": "gzip, deflate, br, zstd"
+                },
+                {
+                  "name": "accept-language",
+                  "value": "en-US,en-IN;q=0.9,en;q=0.8,te;q=0.7"
+                },
+                {
+                  "name": "dnt",
+                  "value": "1"
+                },
+                {
+                  "name": "priority",
+                  "value": "u=1, i"
+                },
+                {
+                  "name": "referer",
+                  "value": "https://widget.rollick.io/widgets/dr/templates/winnebago/default-en.html"
+                },
+                {
+                  "name": "sec-ch-ua",
+                  "value": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""
+                },
+                {
+                  "name": "sec-ch-ua-mobile",
+                  "value": "?0"
+                },
+                {
+                  "name": "sec-ch-ua-platform",
+                  "value": "\"Windows\""
+                },
+                {
+                  "name": "sec-fetch-dest",
+                  "value": "empty"
+                },
+                {
+                  "name": "sec-fetch-mode",
+                  "value": "cors"
+                },
+                {
+                  "name": "sec-fetch-site",
+                  "value": "same-origin"
+                },
+                {
+                  "name": "user-agent",
+                  "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                },
+                {
+                  "name": "x-requested-with",
+                  "value": "XMLHttpRequest"
+                }
+              ],
+              "queryString": [],
+              "cookies": [],
+              "headersSize": -1,
+              "bodySize": 0
+            },
+            "response": {
+              "status": 200,
+              "statusText": "",
+              "httpVersion": "http/2.0",
+              "headers": [
+                {
+                  "name": "access-control-allow-credentials",
+                  "value": "true"
+                },
+                {
+                  "name": "access-control-allow-headers",
+                  "value": "Origin, X-Requested-With, Content-Type, Accept"
+                },
+                {
+                  "name": "access-control-allow-methods",
+                  "value": "GET, OPTIONS"
+                },
+                {
+                  "name": "access-control-allow-origin",
+                  "value": "*"
+                },
+                {
+                  "name": "cache-control",
+                  "value": "private, no-cache, no-store, must-revalidate"
+                },
+                {
+                  "name": "content-encoding",
+                  "value": "gzip"
+                },
+                {
+                  "name": "content-type",
+                  "value": "application/json; charset=utf-8"
+                },
+                {
+                  "name": "date",
+                  "value": "Mon, 27 Jan 2025 15:20:23 GMT"
+                },
+                {
+                  "name": "etag",
+                  "value": "W/\"1dfe-p9Ulm97qvDp0MoOnKev+RnevvKo\""
+                },
+                {
+                  "name": "request-context",
+                  "value": "appId=cid-v1:0a80f7a3-de40-464e-95b4-2ecc5aec1cd0"
+                },
+                {
+                  "name": "server",
+                  "value": "nginx"
+                },
+                {
+                  "name": "strict-transport-security",
+                  "value": "max-age=15768000; includeSubDomains"
+                },
+                {
+                  "name": "vary",
+                  "value": "Accept-Encoding"
+                }
+              ],
+              "cookies": [],
+              "content": {
+                "size": 7678,
+                "mimeType": "application/json",
+                "text": "[{\"_id\":\"3d3d1f1fd833a902\",\"name\":\"Crestview RV Center - Buda\",\"brands\":null,\"categories\":null,\"targetedStates\":[],\"phone\":[{\"number\":\"512-282-3516\"}],\"mailingAddress\":{\"address1\":\"15700 IH 35\",\"city\":\"Buda\",\"state\":\"TX\",\"zip\":\"78610\",\"country\":\"US\"},\"owner\":\"aaf10d851f05da30\",\"members\":[],\"locations\":[{\"website\":\"www.crestviewrv.com\",\"phoneNumber\":\"512-282-3516\",\"dmsType\":4,\"address1\":\"15700 IH 35\",\"city\":\"Buda\",\"state\":\"TX\",\"zip\":\"78610\",\"lat\":30.078968,\"lng\":-97.824805,\"country\":\"US\",\"trackedPhoneNumber\":null,\"locationFieldName\":\"Location\",\"locationValue\":\"Buda\",\"newInventoryUrl\":\"https://www.crestviewrv.com/new-rvs-for-sale?s=true&lots=303\",\"siteExists\":true,\"usedInventoryUrl\":\"https://www.crestviewrv.com/used-rvs-for-sale?s=true&lots=303\",\"coordinates\":{\"type\":\"Point\",\"coordinates\":[-97.824805,30.078968]}}],\"status\":1,\"createdBy\":\"unauthenticated\",\"createdDate\":1636403409976,\"modifiedBy\":\"system\",\"modifiedDate\":1737486910660,\"firstName\":\"Steve\",\"lastName\":\"Caraway\",\"email\":\"CrestviewRVCenter-Buda@rollickoutdoor.com\",\"partnerType\":4,\"partnerAccountNumber\":\"05468\",\"crmIntegration\":{\"platform\":\"Integrated Dealer Systems (IDS)\",\"options\":{\"createLead\":\"create\",\"via\":\"api\",\"format\":\"fsdf\",\"endPoint\":\"http://integrateddealersystems.com/IDSAstraPortalWebService/AstraRequest.asmx/ReceiveSupplierTrans\",\"idsDealerDestination\":\"145113\"}},\"brandCategories\":[],\"subscriptionType\":2,\"oemElms\":null,\"salesforceUpdatedDate\":1737486910645,\"salesforceNumber\":\"09736\",\"isIncentiveQWSOn\":true,\"salesDriverComponents\":{\"s4\":{\"status\":1,\"settings\":{\"autoEstimate\":1}},\"s2\":{\"status\":0,\"settings\":{\"v2\":{\"enabled\":false,\"buttonSettings\":{\"request-a-quote\":{\"text\":\"Express Buy\",\"fontColor\":\"#FFFFFF\",\"fontSize\":\"\",\"bgColor\":\"#3697D3\",\"enabled\":true},\"reserve-now\":{\"text\":\"Reserve Now\",\"fontColor\":\"#FFFFFF\",\"fontSize\":\"\",\"bgColor\":\"#3697D3\",\"enabled\":false,\"hasSubtext\":false},\"offers\":{\"text\":\"Special Offers\",\"fontColor\":\"#FFFFFF\",\"fontSize\":\"\",\"bgColor\":\"#3697D3\",\"enabled\":false},\"payment\":{\"text\":\"Calculate Payments\",\"fontColor\":\"#FFFFFF\",\"fontSize\":\"\",\"bgColor\":\"#3697D3\",\"enabled\":false},\"trade-in\":{\"text\":\"Estimate Trade-in\",\"fontColor\":\"#FFFFFF\",\"fontSize\":\"\",\"bgColor\":\"#3697D3\",\"enabled\":false},\"pre-qualify\":{\"text\":\"Prequalify for Financing\",\"fontColor\":\"#FFFFFF\",\"fontSize\":\"\",\"bgColor\":\"#3697D3\",\"enabled\":false},\"appointment\":{\"text\":\"Schedule an Appointment\",\"fontColor\":\"#FFFFFF\",\"fontSize\":\"\",\"bgColor\":\"#3697D3\",\"enabled\":false},\"text-us\":{\"text\":\"Text Us\",\"fontColor\":\"#FFFFFF\",\"fontSize\":\"\",\"bgColor\":\"#3697D3\",\"enabled\":false},\"finance\":{\"text\":\"Prequalify for Financing\",\"fontColor\":\"#FFFFFF\",\"fontSize\":\"\",\"bgColor\":\"#3697D3\",\"enabled\":false}},\"options\":{\"tracking\":false,\"widget\":false,\"widgetSettings\":{\"paymentCalculator\":{\"status\":false},\"reserve-now\":{\"status\":false,\"disclaimer\":\"Reservations require an initial ${deposit} credit card payment. The dealership will contact you about your payment details. Reservations are not final until the payment is received.\",\"deposit\":250,\"configurations\":[]},\"specialOffers\":{\"status\":false},\"tradeIn\":{\"status\":false,\"isOverride\":true,\"value\":40},\"financePreQual\":{\"status\":false,\"isOverride\":true},\"appointments\":{\"status\":false},\"standaloneTradeIn\":{\"status\":false,\"position\":\"TL\",\"offset\":100,\"zIndex\":1000},\"textUs\":{\"status\":false,\"kenectDealerId\":\"ce0d8a5e3d9218d4\"},\"financing\":{\"status\":false,\"isOverride\":true}}}}}},\"s1\":{\"status\":0,\"settings\":{}},\"prequal\":{\"status\":1,\"settings\":{\"creditScore\":560,\"monthsAtCurrentJob\":12,\"annualIncome\":[{\"range\":{\"from\":1,\"to\":5},\"value\":10000},{\"range\":{\"from\":5.1,\"to\":10},\"value\":20000},{\"range\":{\"from\":10.1,\"to\":20},\"value\":30000},{\"range\":{\"from\":20.1,\"to\":50},\"value\":60000},{\"range\":{\"from\":50.1,\"to\":100},\"value\":75000},{\"range\":{\"from\":100.1,\"to\":null},\"value\":100000}]}},\"buyfromhome\":{\"status\":0,\"settings\":{}},\"nadaguides\":{\"status\":0,\"settings\":{}},\"website\":{\"status\":0,\"settings\":{}},\"financeProfiles\":{\"preApproval\":[]},\"kenecttext\":{\"status\":0},\"kenectpayments\":{\"status\":0},\"prequal700credit\":{\"status\":0},\"prequalrollick\":{\"status\":0},\"usbankmarketplace\":{\"status\":1}},\"salesforceId\":\"0011I00000imB3tQAE\",\"oemDealerMapping\":[{\"aimDealerNumber\":\"1025\",\"oemMappingId\":\"fcdfc6c5094af854\",\"elmsId\":\"\",\"status\":0,\"oemId\":\"0cb0ba9d13450a70\",\"oemDealerNumber\":\"1025\",\"brands\":[403],\"brandCodes\":[\"GDRV\"],\"deliveryOption\":null,\"oemEnrollment\":\"Yes\"},{\"aimDealerNumber\":\"2273\",\"oemMappingId\":\"e01603eb13354867\",\"elmsId\":\"\",\"status\":0,\"oemId\":\"cdf58a856f794ac8\",\"oemDealerNumber\":\"2273\",\"brands\":[438,1053],\"brandCodes\":[\"WINNEBAGO\",\"WINNEBAGO_MOTOR_VIRT\"],\"deliveryOption\":null,\"oemEnrollment\":\"Yes\"},{\"aimDealerNumber\":\"471\",\"oemMappingId\":\"c97da3b4b58998a9\",\"elmsId\":\"\",\"status\":0,\"oemId\":\"0dcd5f4218225816\",\"oemDealerNumber\":\"471\",\"brands\":[434],\"brandCodes\":[\"TIFFIN\"],\"deliveryOption\":null,\"oemEnrollment\":\"Yes\"}],\"segments\":\"RV\",\"lenderIds\":null,\"ppsEnrolled\":false,\"crmNotify\":false,\"smsNotify\":false,\"adm\":false,\"doNotDisturb\":false,\"redirectAppointmentToAssignee\":false,\"ccAppointmentToDealer\":false,\"dsrSendEmail\":false,\"dsrSendSms\":false,\"bypassPartnerAccountNumber\":false,\"isIncentiveOn\":false,\"emailManuallyEdited\":false,\"dealerEnrollment\":false,\"limitNotification\":false,\"aaaApprovedFlag\":false,\"facebookMarketplace\":false,\"useParentDrSettings\":false,\"activationDate\":null,\"id\":null,\"parent\":\"ce0d8a5e3d9218d4\",\"disclaimer\":\"Disclaimer: Features and specifications of vehicles subject to change without notice. Vehicles as photographed may include options not included on base model. Special discounts and/or incentives may require additional verification. Please confirm all offers, inventory, images and pricing with dealership personnel prior to purchase. MSRP excludes destination and handling charges, taxes, title, license, options, and dealer charges. Offers included are the available offers at the time of certificate creation. Prices and special offers are subject to change without notice. Offers included adhere to expiration dates. To take advantage of offers you must take delivery from dealer inventory by the expiration date noted on the certificate. Offers may not be available to all customers in the US. Offers do not apply to taxes, title, document fees, shipping and handling fees or similar fees. Dealers set actual prices.\",\"employerData\":null,\"privacyPolicyUrl\":\"https://www.crestviewrv.com/privacy-policy\",\"contactUsUrl\":\"https://www.crestviewrv.com/contact-us\",\"financingDefaults\":{\"interestRate\":8.49,\"term\":null},\"defaultFees\":{\"docFees\":{\"feeValue\":0},\"dealerDestination\":{\"feeValue\":0},\"dealerPrepAssembly\":{\"feeValue\":0}},\"scriptStatus\":1,\"metaData\":{\"eBayDealership\":\"no\",\"textronDsmName\":\"\",\"eBayFeedStatus\":true,\"inventoryProvider\":\"\",\"inventoryFeedURL\":\"https://www.rvonedata.com/feed/export/data?accountId=111&token=sJr-wIpKZr_hDTeNfHBWgw&version=2&format=xml\",\"excludeFromInventory\":\"\"},\"dealerGroupConfig\":{\"groupName\":\"\",\"crmOverride\":\"no\"},\"isLenderRemoved\":false,\"isBrpRemoved\":false,\"isTextronNumberRemoved\":false,\"monetizabilityData\":{\"score\":-1,\"leadCount\":0,\"tgtMin\":-1,\"tgtMax\":0,\"incCost\":-1},\"partnerProgramMapping\":[{\"shared\":null,\"segment\":\"RV\",\"programType\":\"Marketplace\",\"programStatus\":1,\"programName\":\"US Bank Marketplace\",\"programAttributes\":[],\"partnerProgram\":\"U.S. Bank\",\"partnerDealerNumber\":\"76122\",\"brands\":[\"All\"]},{\"shared\":null,\"segment\":\"RV\",\"programType\":\"Inventory Syndication\",\"programStatus\":1,\"programName\":\"eBay Inventory Syndication\",\"programAttributes\":[],\"partnerProgram\":\"eBay Inc.\",\"partnerDealerNumber\":\"3d3d1f1fd833a902\",\"brands\":[\"All\"]}],\"commonDealerNumber\":\"6c96bfd5-ade0-a9cb-188e-149b6b469232\",\"openInventoryCaseNumber\":null,\"displayName\":null}]"
+              },
+              "redirectURL": "",
+              "headersSize": -1,
+              "bodySize": -1,
+              "_transferSize": 3343,
+              "_error": null,
+              "_fetchedViaServiceWorker": false
+            },
+            "serverIPAddress": "52.159.106.128",
+            "startedDateTime": "2025-01-27T15:20:23.716Z",
+            "time": 257.0290002040565,
+            "timings": {
+              "blocked": 2.756000280171633,
+              "dns": -1,
+              "ssl": -1,
+              "connect": -1,
+              "send": 0.4830000000000001,
+              "wait": 252.5750002183318,
+              "receive": 1.2149997055530548,
+              "_blocked_queueing": 1.1070002801716328,
+              "_workerStart": -1,
+              "_workerReady": -1,
+              "_workerFetchStart": -1,
+              "_workerRespondWithSettled": -1
+            }
+          },
+          {
+            "_initiator": {
+              "type": "script",
+              "stack": {
+                "callFrames": [
+                  {
+                    "functionName": "send",
+                    "scriptId": "5",
+                    "url": "https://code.jquery.com/jquery-3.5.1.min.js",
+                    "lineNumber": 1,
+                    "columnNumber": 82612
+                  },
+                  {
+                    "functionName": "ajax",
+                    "scriptId": "5",
+                    "url": "https://code.jquery.com/jquery-3.5.1.min.js",
+                    "lineNumber": 1,
+                    "columnNumber": 78222
+                  },
+                  {
+                    "functionName": "S.<computed>",
+                    "scriptId": "5",
+                    "url": "https://code.jquery.com/jquery-3.5.1.min.js",
+                    "lineNumber": 1,
+                    "columnNumber": 80242
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "8",
+                    "url": "https://widget.rollick.io/widgets/dr/templates/winnebago/dr.js",
+                    "lineNumber": 1642,
+                    "columnNumber": 18
+                  },
+                  {
+                    "functionName": "dispatch",
+                    "scriptId": "5",
+                    "url": "https://code.jquery.com/jquery-3.5.1.min.js",
+                    "lineNumber": 1,
+                    "columnNumber": 43089
+                  },
+                  {
+                    "functionName": "v.handle",
+                    "scriptId": "5",
+                    "url": "https://code.jquery.com/jquery-3.5.1.min.js",
+                    "lineNumber": 1,
+                    "columnNumber": 41073
+                  },
+                  {
+                    "functionName": "handleMouseUp_",
+                    "scriptId": "42",
+                    "url": "",
+                    "lineNumber": 824,
+                    "columnNumber": 31
+                  }
+                ]
+              }
+            },
+            "_priority": "High",
+            "_resourceType": "xhr",
+            "cache": {},
+            "connection": "8154175",
+            "request": {
+              "method": "GET",
+              "url": "https://widget.rollick.io/ng/makes/201/2016",
+              "httpVersion": "http/2.0",
+              "headers": [
+                {
+                  "name": ":authority",
+                  "value": "widget.rollick.io"
+                },
+                {
+                  "name": ":method",
+                  "value": "GET"
+                },
+                {
+                  "name": ":path",
+                  "value": "/ng/makes/201/2016"
+                },
+                {
+                  "name": ":scheme",
+                  "value": "https"
+                },
+                {
+                  "name": "accept",
+                  "value": "*/*"
+                },
+                {
+                  "name": "accept-encoding",
+                  "value": "gzip, deflate, br, zstd"
+                },
+                {
+                  "name": "accept-language",
+                  "value": "en-US,en-IN;q=0.9,en;q=0.8,te;q=0.7"
+                },
+                {
+                  "name": "dnt",
+                  "value": "1"
+                },
+                {
+                  "name": "priority",
+                  "value": "u=1, i"
+                },
+                {
+                  "name": "referer",
+                  "value": "https://widget.rollick.io/widgets/dr/templates/winnebago/default-en.html"
+                },
+                {
+                  "name": "sec-ch-ua",
+                  "value": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""
+                },
+                {
+                  "name": "sec-ch-ua-mobile",
+                  "value": "?0"
+                },
+                {
+                  "name": "sec-ch-ua-platform",
+                  "value": "\"Windows\""
+                },
+                {
+                  "name": "sec-fetch-dest",
+                  "value": "empty"
+                },
+                {
+                  "name": "sec-fetch-mode",
+                  "value": "cors"
+                },
+                {
+                  "name": "sec-fetch-site",
+                  "value": "same-origin"
+                },
+                {
+                  "name": "user-agent",
+                  "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                },
+                {
+                  "name": "x-requested-with",
+                  "value": "XMLHttpRequest"
+                }
+              ],
+              "queryString": [],
+              "cookies": [],
+              "headersSize": -1,
+              "bodySize": 0
+            },
+            "response": {
+              "status": 200,
+              "statusText": "",
+              "httpVersion": "http/2.0",
+              "headers": [
+                {
+                  "name": "access-control-allow-credentials",
+                  "value": "true"
+                },
+                {
+                  "name": "access-control-allow-headers",
+                  "value": "Origin, X-Requested-With, Content-Type, Accept"
+                },
+                {
+                  "name": "access-control-allow-methods",
+                  "value": "GET, OPTIONS"
+                },
+                {
+                  "name": "access-control-allow-origin",
+                  "value": "*"
+                },
+                {
+                  "name": "cache-control",
+                  "value": "private, no-cache, no-store, must-revalidate"
+                },
+                {
+                  "name": "content-encoding",
+                  "value": "gzip"
+                },
+                {
+                  "name": "content-type",
+                  "value": "application/json; charset=utf-8"
+                },
+                {
+                  "name": "date",
+                  "value": "Mon, 27 Jan 2025 15:24:27 GMT"
+                },
+                {
+                  "name": "etag",
+                  "value": "W/\"4b91-JoVc4BmqxHBwpLF+bbXSjYQSTkE\""
+                },
+                {
+                  "name": "request-context",
+                  "value": "appId=cid-v1:0a80f7a3-de40-464e-95b4-2ecc5aec1cd0"
+                },
+                {
+                  "name": "server",
+                  "value": "nginx"
+                },
+                {
+                  "name": "strict-transport-security",
+                  "value": "max-age=15768000; includeSubDomains"
+                },
+                {
+                  "name": "vary",
+                  "value": "Accept-Encoding"
+                }
+              ],
+              "cookies": [],
+              "content": {
+                "size": 19345,
+                "mimeType": "application/json",
+                "text": "[{\"id\":6035,\"name\":\"A Liner\",\"category\":\"Camping Trailers\"},{\"id\":3001,\"name\":\"Abcor Homes\",\"category\":\"Motor Homes\"},{\"id\":3002,\"name\":\"Adventurer\",\"category\":\"Motor Homes\"},{\"id\":2144,\"name\":\"Adventurer\",\"category\":\"Truck Campers\"},{\"id\":4044,\"name\":\"Aerolite\",\"category\":\"Travel Trailers\"},{\"id\":3004,\"name\":\"Airstream\",\"category\":\"Motor Homes\"},{\"id\":4211,\"name\":\"Airstream\",\"category\":\"Travel Trailers\"},{\"id\":2149,\"name\":\"Alaskan\",\"category\":\"Truck Campers\"},{\"id\":6196,\"name\":\"Alfa Gold by Lifestyle\",\"category\":\"Travel Trailers\"},{\"id\":3008,\"name\":\"Allegro\",\"category\":\"Motor Homes\"},{\"id\":3012,\"name\":\"American Allegiance\",\"category\":\"Motor Homes\"},{\"id\":3016,\"name\":\"American Dream\",\"category\":\"Motor Homes\"},{\"id\":3017,\"name\":\"American Eagle\",\"category\":\"Motor Homes\"},{\"id\":3018,\"name\":\"American Heritage\",\"category\":\"Motor Homes\"},{\"id\":6120,\"name\":\"American Revolution\",\"category\":\"Motor Homes\"},{\"id\":3021,\"name\":\"American Tradition\",\"category\":\"Motor Homes\"},{\"id\":6128,\"name\":\"Apex by Coachmen\",\"category\":\"Travel Trailers\"},{\"id\":4464,\"name\":\"Arctic Fox\",\"category\":\"Travel Trailers\"},{\"id\":2159,\"name\":\"Arctic Fox\",\"category\":\"Truck Campers\"},{\"id\":6093,\"name\":\"Aspen Trail\",\"category\":\"Travel Trailers\"},{\"id\":6271,\"name\":\"ATC\",\"category\":\"Travel Trailers\"},{\"id\":5012,\"name\":\"Athens Park Homes\",\"category\":\"Park Models\"},{\"id\":6129,\"name\":\"Augusta RV\",\"category\":\"Travel Trailers\"},{\"id\":6134,\"name\":\"Avenger\",\"category\":\"Travel Trailers\"},{\"id\":6221,\"name\":\"Avion by The RV Factory\",\"category\":\"Motor Homes\"},{\"id\":3034,\"name\":\"Bay Star\",\"category\":\"Motor Homes\"},{\"id\":6206,\"name\":\"Bearcat\",\"category\":\"Camping Trailers\"},{\"id\":6207,\"name\":\"Bearcat\",\"category\":\"Travel Trailers\"},{\"id\":3039,\"name\":\"Berkshire\",\"category\":\"Motor Homes\"},{\"id\":6249,\"name\":\"Bigfoot RV\",\"category\":\"Travel Trailers\"},{\"id\":6250,\"name\":\"Bigfoot RV\",\"category\":\"Truck Campers\"},{\"id\":4528,\"name\":\"Bison Coach\",\"category\":\"Travel Trailers\"},{\"id\":6187,\"name\":\"Black Rock\",\"category\":\"Travel Trailers\"},{\"id\":6136,\"name\":\"Blackstone by Outdoors RV\",\"category\":\"Travel Trailers\"},{\"id\":6251,\"name\":\"Blaze'N by Pacific Coachworks\",\"category\":\"Travel Trailers\"},{\"id\":4267,\"name\":\"Blue Ridge Cabin\",\"category\":\"Travel Trailers\"},{\"id\":6277,\"name\":\"BorderLand\",\"category\":\"Travel Trailers\"},{\"id\":3044,\"name\":\"Born Free\",\"category\":\"Motor Homes\"},{\"id\":3045,\"name\":\"Bounder\",\"category\":\"Motor Homes\"},{\"id\":6510,\"name\":\"Bowlus\",\"category\":\"Travel Trailers\"},{\"id\":6265,\"name\":\"Bundutec\",\"category\":\"Truck Campers\"},{\"id\":5201,\"name\":\"Cabins by Forest River\",\"category\":\"Park Models\"},{\"id\":4221,\"name\":\"Camp Lite\",\"category\":\"Travel Trailers\"},{\"id\":6082,\"name\":\"Camp Lite\",\"category\":\"Truck Campers\"},{\"id\":4133,\"name\":\"Camp-Inn\",\"category\":\"Travel Trailers\"},{\"id\":5120,\"name\":\"Canterbury/DNA Ent\",\"category\":\"Park Models\"},{\"id\":3054,\"name\":\"Canyon Star\",\"category\":\"Motor Homes\"},{\"id\":4139,\"name\":\"Cardinal by Forest River\",\"category\":\"Travel Trailers\"},{\"id\":4162,\"name\":\"Carson Trailer\",\"category\":\"Travel Trailers\"},{\"id\":4587,\"name\":\"Casita\",\"category\":\"Travel Trailers\"},{\"id\":5214,\"name\":\"Cavco\",\"category\":\"Park Models\"},{\"id\":4052,\"name\":\"Cedar Creek\",\"category\":\"Travel Trailers\"},{\"id\":6021,\"name\":\"Chalet\",\"category\":\"Camping Trailers\"},{\"id\":5076,\"name\":\"Chariot-Eagle\",\"category\":\"Park Models\"},{\"id\":3064,\"name\":\"Charleston\",\"category\":\"Motor Homes\"},{\"id\":4413,\"name\":\"Cherokee by Forest River\",\"category\":\"Travel Trailers\"},{\"id\":6253,\"name\":\"Chinook Motor Coach\",\"category\":\"Motor Homes\"},{\"id\":4332,\"name\":\"Cimarron Trailers\",\"category\":\"Travel Trailers\"},{\"id\":6154,\"name\":\"Clipper\",\"category\":\"Travel Trailers\"},{\"id\":3068,\"name\":\"Coach House\",\"category\":\"Motor Homes\"},{\"id\":6178,\"name\":\"Coachmen by Forest River\",\"category\":\"Camping Trailers\"},{\"id\":6175,\"name\":\"Coachmen by Forest River\",\"category\":\"Motor Homes\"},{\"id\":6176,\"name\":\"Coachmen by Forest River\",\"category\":\"Travel Trailers\"},{\"id\":4480,\"name\":\"Coleman by Dutchmen\",\"category\":\"Travel Trailers\"},{\"id\":6208,\"name\":\"Coleman by Livin Lite\",\"category\":\"Camping Trailers\"},{\"id\":6312,\"name\":\"Cornerstone Design Build, Inc.\",\"category\":\"Travel Trailers\"},{\"id\":4243,\"name\":\"Creekside by Outdoors RV\",\"category\":\"Travel Trailers\"},{\"id\":4117,\"name\":\"Crossroads RV\",\"category\":\"Travel Trailers\"},{\"id\":4477,\"name\":\"Cruiser RV\",\"category\":\"Travel Trailers\"},{\"id\":4235,\"name\":\"Crusader\",\"category\":\"Travel Trailers\"},{\"id\":6219,\"name\":\"Dart\",\"category\":\"Travel Trailers\"},{\"id\":4366,\"name\":\"Denali\",\"category\":\"Travel Trailers\"},{\"id\":4485,\"name\":\"Desert Fox\",\"category\":\"Travel Trailers\"},{\"id\":6228,\"name\":\"Destination by Winnebago\",\"category\":\"Travel Trailers\"},{\"id\":3096,\"name\":\"Discovery by Fleetwood\",\"category\":\"Motor Homes\"},{\"id\":4215,\"name\":\"DRV\",\"category\":\"Travel Trailers\"},{\"id\":4048,\"name\":\"Durango by KZ\",\"category\":\"Travel Trailers\"},{\"id\":3100,\"name\":\"Dutch Star\",\"category\":\"Motor Homes\"},{\"id\":6169,\"name\":\"DX3\",\"category\":\"Motor Homes\"},{\"id\":3102,\"name\":\"Dynaquest\",\"category\":\"Motor Homes\"},{\"id\":6089,\"name\":\"Eagle Cap by Adventurer\",\"category\":\"Truck Campers\"},{\"id\":3104,\"name\":\"Earthroamer\",\"category\":\"Motor Homes\"},{\"id\":4443,\"name\":\"Eclipse\",\"category\":\"Travel Trailers\"},{\"id\":6145,\"name\":\"Econ\",\"category\":\"Travel Trailers\"},{\"id\":6111,\"name\":\"Elite Trailer\",\"category\":\"Travel Trailers\"},{\"id\":4122,\"name\":\"Endura Max RV\",\"category\":\"Travel Trailers\"},{\"id\":3115,\"name\":\"Entegra Coach\",\"category\":\"Motor Homes\"},{\"id\":3116,\"name\":\"ERA\",\"category\":\"Motor Homes\"},{\"id\":6245,\"name\":\"Escape\",\"category\":\"Park Models\"},{\"id\":6246,\"name\":\"Escape\",\"category\":\"Travel Trailers\"},{\"id\":6463,\"name\":\"Escapod\",\"category\":\"Travel Trailers\"},{\"id\":3118,\"name\":\"Essex\",\"category\":\"Motor Homes\"},{\"id\":4547,\"name\":\"Evergreen RV\",\"category\":\"Travel Trailers\"},{\"id\":4588,\"name\":\"Excel/Peterson Ind\",\"category\":\"Travel Trailers\"},{\"id\":6247,\"name\":\"Exclusive Outfitters\",\"category\":\"Motor Homes\"},{\"id\":3128,\"name\":\"Excursion\",\"category\":\"Motor Homes\"},{\"id\":4004,\"name\":\"Exiss Trailers\",\"category\":\"Travel Trailers\"},{\"id\":3130,\"name\":\"Expedition\",\"category\":\"Motor Homes\"},{\"id\":3132,\"name\":\"Factory Motorhomes\",\"category\":\"Motor Homes\"},{\"id\":5096,\"name\":\"Fairmont Homes\",\"category\":\"Park Models\"},{\"id\":4153,\"name\":\"Flagstaff by Forest River\",\"category\":\"Travel Trailers\"},{\"id\":6034,\"name\":\"Flagstaff/Forest River\",\"category\":\"Camping Trailers\"},{\"id\":3144,\"name\":\"Flair-Fleetwood\",\"category\":\"Motor Homes\"},{\"id\":6259,\"name\":\"Force\",\"category\":\"Motor Homes\"},{\"id\":6272,\"name\":\"Ford RVs\",\"category\":\"Travel Trailers\"},{\"id\":6262,\"name\":\"Ford RVs\",\"category\":\"Truck Campers\"},{\"id\":6274,\"name\":\"Forest Park\",\"category\":\"Park Models\"},{\"id\":4289,\"name\":\"Forest River-California/Oregon\",\"category\":\"Travel Trailers\"},{\"id\":3147,\"name\":\"Forester\",\"category\":\"Motor Homes\"},{\"id\":3148,\"name\":\"Foretravel\",\"category\":\"Motor Homes\"},{\"id\":2127,\"name\":\"Four Wheel\",\"category\":\"Truck Campers\"},{\"id\":6086,\"name\":\"Fox Mountain\",\"category\":\"Travel Trailers\"},{\"id\":6198,\"name\":\"FR3\",\"category\":\"Motor Homes\"},{\"id\":6231,\"name\":\"Free Spirit Recreation\",\"category\":\"Travel Trailers\"},{\"id\":6260,\"name\":\"Fury\",\"category\":\"Travel Trailers\"},{\"id\":6204,\"name\":\"Game Day\",\"category\":\"Travel Trailers\"},{\"id\":4444,\"name\":\"Gaylord Sky Trailers\",\"category\":\"Travel Trailers\"},{\"id\":6218,\"name\":\"Genesis Supreme\",\"category\":\"Travel Trailers\"},{\"id\":3162,\"name\":\"Georgetown\",\"category\":\"Motor Homes\"},{\"id\":6156,\"name\":\"Georgian Bay\",\"category\":\"Travel Trailers\"},{\"id\":6273,\"name\":\"Glacier Ice House\",\"category\":\"Travel Trailers\"},{\"id\":6195,\"name\":\"Glacier Peak by Outdoors RV\",\"category\":\"Travel Trailers\"},{\"id\":6186,\"name\":\"Grand Design Recreational Vehicles\",\"category\":\"Travel Trailers\"},{\"id\":3171,\"name\":\"Gulf Stream\",\"category\":\"Motor Homes\"},{\"id\":4529,\"name\":\"Gulf Stream\",\"category\":\"Travel Trailers\"},{\"id\":6157,\"name\":\"Harbor View\",\"category\":\"Travel Trailers\"},{\"id\":3175,\"name\":\"Haulmark\",\"category\":\"Motor Homes\"},{\"id\":4390,\"name\":\"Heartland RVs\",\"category\":\"Travel Trailers\"},{\"id\":6236,\"name\":\"Highland Ridge RV\",\"category\":\"Travel Trailers\"},{\"id\":6306,\"name\":\"HL Enterprise\",\"category\":\"Travel Trailers\"},{\"id\":3179,\"name\":\"Holiday Rambler\",\"category\":\"Motor Homes\"},{\"id\":3184,\"name\":\"Host Campers\",\"category\":\"Motor Homes\"},{\"id\":2079,\"name\":\"Host Campers\",\"category\":\"Truck Campers\"},{\"id\":6297,\"name\":\"Ice Castle Fish Houses\",\"category\":\"Travel Trailers\"},{\"id\":6261,\"name\":\"Ignite\",\"category\":\"Travel Trailers\"},{\"id\":6270,\"name\":\"Instinct by Winnebago\",\"category\":\"Travel Trailers\"},{\"id\":6003,\"name\":\"Isabell Resorters\",\"category\":\"Camping Trailers\"},{\"id\":3189,\"name\":\"Isata\",\"category\":\"Motor Homes\"},{\"id\":3190,\"name\":\"Itasca\",\"category\":\"Motor Homes\"},{\"id\":3191,\"name\":\"Jamboree\",\"category\":\"Motor Homes\"},{\"id\":6025,\"name\":\"Jayco\",\"category\":\"Camping Trailers\"},{\"id\":3193,\"name\":\"Jayco\",\"category\":\"Motor Homes\"},{\"id\":4246,\"name\":\"Jayco\",\"category\":\"Travel Trailers\"},{\"id\":6203,\"name\":\"Jeep Campers\",\"category\":\"Camping Trailers\"},{\"id\":4138,\"name\":\"Keystone RV\",\"category\":\"Travel Trailers\"},{\"id\":3198,\"name\":\"King Aire\",\"category\":\"Motor Homes\"},{\"id\":4295,\"name\":\"Kodiak by Dutchmen\",\"category\":\"Travel Trailers\"},{\"id\":5125,\"name\":\"Kropf\",\"category\":\"Park Models\"},{\"id\":4148,\"name\":\"Lacrosse by Forest River\",\"category\":\"Travel Trailers\"},{\"id\":4008,\"name\":\"Lakota Trailers\",\"category\":\"Travel Trailers\"},{\"id\":2077,\"name\":\"Lance\",\"category\":\"Truck Campers\"},{\"id\":4230,\"name\":\"Lance Manufacturing\",\"category\":\"Travel Trailers\"},{\"id\":6226,\"name\":\"Latitude by Winnebago\",\"category\":\"Travel Trailers\"},{\"id\":4083,\"name\":\"Layton\",\"category\":\"Travel Trailers\"},{\"id\":3218,\"name\":\"Lazy Daze\",\"category\":\"Motor Homes\"},{\"id\":6240,\"name\":\"Legacy\",\"category\":\"Motor Homes\"},{\"id\":3223,\"name\":\"Leisure Travel Vans\",\"category\":\"Motor Homes\"},{\"id\":6166,\"name\":\"Lifestyle Luxury RV\",\"category\":\"Travel Trailers\"},{\"id\":6101,\"name\":\"Little Guy\",\"category\":\"Travel Trailers\"},{\"id\":6248,\"name\":\"Little Guy Trailers\",\"category\":\"Travel Trailers\"},{\"id\":3233,\"name\":\"London Aire\",\"category\":\"Motor Homes\"},{\"id\":6153,\"name\":\"Man Cave RV\",\"category\":\"Travel Trailers\"},{\"id\":6210,\"name\":\"Merhow Industries\",\"category\":\"Travel Trailers\"},{\"id\":6212,\"name\":\"Midwest Automotive Designs\",\"category\":\"Motor Homes\"},{\"id\":6223,\"name\":\"Mighty Lite\",\"category\":\"Travel Trailers\"},{\"id\":6146,\"name\":\"Minnie\",\"category\":\"Travel Trailers\"},{\"id\":3251,\"name\":\"Monaco\",\"category\":\"Motor Homes\"},{\"id\":3255,\"name\":\"Mountain Aire\",\"category\":\"Motor Homes\"},{\"id\":4544,\"name\":\"MXT by KZ\",\"category\":\"Travel Trailers\"},{\"id\":4049,\"name\":\"Nash\",\"category\":\"Travel Trailers\"},{\"id\":4219,\"name\":\"New Horizons\",\"category\":\"Travel Trailers\"},{\"id\":6075,\"name\":\"Nexus RV\",\"category\":\"Motor Homes\"},{\"id\":4283,\"name\":\"Nomad\",\"category\":\"Travel Trailers\"},{\"id\":2007,\"name\":\"Northern Lite\",\"category\":\"Truck Campers\"},{\"id\":6278,\"name\":\"Northland by Pacific Coachworks\",\"category\":\"Travel Trailers\"},{\"id\":2040,\"name\":\"Northstar\",\"category\":\"Truck Campers\"},{\"id\":4312,\"name\":\"Oliver Travel Trailers\",\"category\":\"Travel Trailers\"},{\"id\":6242,\"name\":\"Opus Camper\",\"category\":\"Camping Trailers\"},{\"id\":3274,\"name\":\"Pace-Arrow\",\"category\":\"Motor Homes\"},{\"id\":5176,\"name\":\"Palm Harbor Homes\",\"category\":\"Park Models\"},{\"id\":6045,\"name\":\"Palomino by Forest River\",\"category\":\"Camping Trailers\"},{\"id\":4449,\"name\":\"Palomino by Forest River\",\"category\":\"Travel Trailers\"},{\"id\":2152,\"name\":\"Palomino by Forest River\",\"category\":\"Truck Campers\"},{\"id\":6138,\"name\":\"Panther by Pacific Coachworks\",\"category\":\"Travel Trailers\"},{\"id\":6294,\"name\":\"Perch & Nest\",\"category\":\"Travel Trailers\"},{\"id\":6336,\"name\":\"Phaeton\",\"category\":\"Motor Homes\"},{\"id\":2108,\"name\":\"Phoenix\",\"category\":\"Truck Campers\"},{\"id\":3280,\"name\":\"Phoenix Cruiser\",\"category\":\"Motor Homes\"},{\"id\":5162,\"name\":\"Pinnacle Park Homes\",\"category\":\"Park Models\"},{\"id\":6214,\"name\":\"Pinnacle Park Homes\",\"category\":\"Travel Trailers\"},{\"id\":6235,\"name\":\"Platinum Cottages\",\"category\":\"Park Models\"},{\"id\":4517,\"name\":\"Play-Mor\",\"category\":\"Travel Trailers\"},{\"id\":3281,\"name\":\"Pleasure-Way\",\"category\":\"Motor Homes\"},{\"id\":6205,\"name\":\"Polaris\",\"category\":\"Travel Trailers\"},{\"id\":3284,\"name\":\"Powerhouse Coach\",\"category\":\"Motor Homes\"},{\"id\":6143,\"name\":\"Powerlite by Pacific Coachworks\",\"category\":\"Travel Trailers\"},{\"id\":5143,\"name\":\"Premier\",\"category\":\"Park Models\"},{\"id\":4379,\"name\":\"Premier\",\"category\":\"Travel Trailers\"},{\"id\":6122,\"name\":\"Prolite\",\"category\":\"Travel Trailers\"},{\"id\":5126,\"name\":\"Quailridge by Forest River\",\"category\":\"Park Models\"},{\"id\":6038,\"name\":\"Quicksilver\",\"category\":\"Camping Trailers\"},{\"id\":4350,\"name\":\"Quicksilver\",\"category\":\"Travel Trailers\"},{\"id\":4094,\"name\":\"R-Pod\",\"category\":\"Travel Trailers\"},{\"id\":6229,\"name\":\"Rage'N by Pacific Coachworks\",\"category\":\"Travel Trailers\"},{\"id\":6137,\"name\":\"Razorback by Dutchmen\",\"category\":\"Travel Trailers\"},{\"id\":6268,\"name\":\"Real Lite by Palomino\",\"category\":\"Camping Trailers\"},{\"id\":6269,\"name\":\"Real Lite by Palomino\",\"category\":\"Travel Trailers\"},{\"id\":6108,\"name\":\"Real Lite by Palomino\",\"category\":\"Truck Campers\"},{\"id\":5109,\"name\":\"Recreation by Design\",\"category\":\"Park Models\"},{\"id\":4296,\"name\":\"Recreation by Design\",\"category\":\"Travel Trailers\"},{\"id\":6091,\"name\":\"Redwood RV\",\"category\":\"Travel Trailers\"},{\"id\":3302,\"name\":\"Renegade Custom Coaches\",\"category\":\"Motor Homes\"},{\"id\":6263,\"name\":\"REV\",\"category\":\"Motor Homes\"},{\"id\":4430,\"name\":\"Riverside RV\",\"category\":\"Travel Trailers\"},{\"id\":4240,\"name\":\"Riverside Travel Trailer\",\"category\":\"Travel Trailers\"},{\"id\":6308,\"name\":\"Riverstone\",\"category\":\"Travel Trailers\"},{\"id\":3310,\"name\":\"Roadtrek\",\"category\":\"Motor Homes\"},{\"id\":6007,\"name\":\"Rockwood by Forest River\",\"category\":\"Camping Trailers\"},{\"id\":4072,\"name\":\"Rockwood by Forest River\",\"category\":\"Travel Trailers\"},{\"id\":6095,\"name\":\"Rubicon\",\"category\":\"Travel Trailers\"},{\"id\":6285,\"name\":\"Sabre by Forest River\",\"category\":\"Travel Trailers\"},{\"id\":4473,\"name\":\"Salem by Forest River\",\"category\":\"Travel Trailers\"},{\"id\":4102,\"name\":\"Sandpiper by Forest River\",\"category\":\"Travel Trailers\"},{\"id\":6144,\"name\":\"Sandsport by Pacific Coachworks\",\"category\":\"Travel Trailers\"},{\"id\":6132,\"name\":\"Sanibel by Forest River\",\"category\":\"Travel Trailers\"},{\"id\":4187,\"name\":\"Scamp\",\"category\":\"Travel Trailers\"},{\"id\":6254,\"name\":\"Scorpion by Winnebago\",\"category\":\"Travel Trailers\"},{\"id\":6224,\"name\":\"Sea Breeze by Pacific Coachworks\",\"category\":\"Travel Trailers\"},{\"id\":6233,\"name\":\"Seattle Tiny Homes\",\"category\":\"Travel Trailers\"},{\"id\":2173,\"name\":\"Seekers Express\",\"category\":\"Truck Campers\"},{\"id\":4106,\"name\":\"Shadow Trailers\",\"category\":\"Travel Trailers\"},{\"id\":6185,\"name\":\"Shasta by Forest River\",\"category\":\"Travel Trailers\"},{\"id\":4149,\"name\":\"Shoshoni\",\"category\":\"Travel Trailers\"},{\"id\":3326,\"name\":\"Show Hauler\",\"category\":\"Motor Homes\"},{\"id\":4521,\"name\":\"Sierra by Forest River\",\"category\":\"Travel Trailers\"},{\"id\":6088,\"name\":\"Snow River\",\"category\":\"Travel Trailers\"},{\"id\":6148,\"name\":\"Somerset\",\"category\":\"Camping Trailers\"},{\"id\":6188,\"name\":\"Sonic\",\"category\":\"Travel Trailers\"},{\"id\":4569,\"name\":\"Sooner\",\"category\":\"Travel Trailers\"},{\"id\":3338,\"name\":\"Southwind\",\"category\":\"Motor Homes\"},{\"id\":4338,\"name\":\"Space Craft\",\"category\":\"Travel Trailers\"},{\"id\":6201,\"name\":\"Spartan by Forest River\",\"category\":\"Travel Trailers\"},{\"id\":1002,\"name\":\"Sportchassis\",\"category\":\"Tow Vehicles\"},{\"id\":4362,\"name\":\"Sportsmen by KZ\",\"category\":\"Travel Trailers\"},{\"id\":3344,\"name\":\"Sportsmobile\",\"category\":\"Motor Homes\"},{\"id\":6140,\"name\":\"Sporttrek\",\"category\":\"Travel Trailers\"},{\"id\":4602,\"name\":\"Spree by KZ\",\"category\":\"Travel Trailers\"},{\"id\":6255,\"name\":\"Spyder by Winnebago\",\"category\":\"Travel Trailers\"},{\"id\":6054,\"name\":\"Starcraft\",\"category\":\"Camping Trailers\"},{\"id\":4504,\"name\":\"Starcraft\",\"category\":\"Travel Trailers\"},{\"id\":3353,\"name\":\"Storm\",\"category\":\"Motor Homes\"},{\"id\":5061,\"name\":\"Summit by Forest River\",\"category\":\"Park Models\"},{\"id\":4231,\"name\":\"Sundowner Trailers\",\"category\":\"Travel Trailers\"},{\"id\":3361,\"name\":\"Sunseeker by Forest River\",\"category\":\"Motor Homes\"},{\"id\":6118,\"name\":\"Sunset Park RV\",\"category\":\"Travel Trailers\"},{\"id\":6252,\"name\":\"Surf Side by Pacific Coachworks\",\"category\":\"Travel Trailers\"},{\"id\":4427,\"name\":\"Surveyor by Forest River\",\"category\":\"Travel Trailers\"},{\"id\":6287,\"name\":\"SylvanSport\",\"category\":\"Camping Trailers\"},{\"id\":6161,\"name\":\"T@B by Little Guy\",\"category\":\"Travel Trailers\"},{\"id\":6202,\"name\":\"T@G\",\"category\":\"Travel Trailers\"},{\"id\":4236,\"name\":\"Tango by Pacific Coachworks\",\"category\":\"Travel Trailers\"},{\"id\":6266,\"name\":\"TAXA\",\"category\":\"Travel Trailers\"},{\"id\":3367,\"name\":\"Terra\",\"category\":\"Motor Homes\"},{\"id\":6112,\"name\":\"Thor Motor Coach\",\"category\":\"Motor Homes\"},{\"id\":3370,\"name\":\"Tiger/Provan\",\"category\":\"Motor Homes\"},{\"id\":4467,\"name\":\"Timber Ridge by Outdoors RV\",\"category\":\"Travel Trailers\"},{\"id\":6275,\"name\":\"Tiny Heirloom\",\"category\":\"Travel Trailers\"},{\"id\":6241,\"name\":\"Tiny Idahomes\",\"category\":\"Travel Trailers\"},{\"id\":3371,\"name\":\"Tioga\",\"category\":\"Motor Homes\"},{\"id\":4103,\"name\":\"Tracer by Forest River\",\"category\":\"Travel Trailers\"},{\"id\":6152,\"name\":\"Trailmanor Manufacturing\",\"category\":\"Travel Trailers\"},{\"id\":4514,\"name\":\"Trails West\",\"category\":\"Travel Trailers\"},{\"id\":4564,\"name\":\"Travel Lite\",\"category\":\"Travel Trailers\"},{\"id\":2178,\"name\":\"Travel Lite\",\"category\":\"Truck Campers\"},{\"id\":6280,\"name\":\"Trek by Monaco\",\"category\":\"Motor Homes\"},{\"id\":6237,\"name\":\"Tumbleweed\",\"category\":\"Travel Trailers\"},{\"id\":6243,\"name\":\"Turtleback Trailers\",\"category\":\"Camping Trailers\"},{\"id\":6227,\"name\":\"Ultralite by Winnebago\",\"category\":\"Travel Trailers\"},{\"id\":6282,\"name\":\"Utopian Villas\",\"category\":\"Park Models\"},{\"id\":6281,\"name\":\"Utopian Villas\",\"category\":\"Travel Trailers\"},{\"id\":6437,\"name\":\"VanCraft\",\"category\":\"Motor Homes\"},{\"id\":6244,\"name\":\"Vanleigh RV\",\"category\":\"Travel Trailers\"},{\"id\":6276,\"name\":\"Vengeance by Forest River\",\"category\":\"Travel Trailers\"},{\"id\":6257,\"name\":\"Venom by KZ\",\"category\":\"Travel Trailers\"},{\"id\":3408,\"name\":\"Ventana\",\"category\":\"Motor Homes\"},{\"id\":6238,\"name\":\"Vibe by Forest River\",\"category\":\"Travel Trailers\"},{\"id\":6177,\"name\":\"Viking by Forest River\",\"category\":\"Camping Trailers\"},{\"id\":6155,\"name\":\"Viking by Forest River\",\"category\":\"Travel Trailers\"},{\"id\":4223,\"name\":\"Vintage Trailers\",\"category\":\"Travel Trailers\"},{\"id\":6211,\"name\":\"Vision by KZ\",\"category\":\"Travel Trailers\"},{\"id\":6073,\"name\":\"Voltage\",\"category\":\"Travel Trailers\"},{\"id\":6225,\"name\":\"Voyage by Winnebago\",\"category\":\"Travel Trailers\"},{\"id\":6222,\"name\":\"Weekend Warrior by The RV Factory\",\"category\":\"Travel Trailers\"},{\"id\":4624,\"name\":\"Wildcat by Forest River\",\"category\":\"Travel Trailers\"},{\"id\":4305,\"name\":\"Wildwood by Forest River\",\"category\":\"Travel Trailers\"},{\"id\":4436,\"name\":\"Wind River\",\"category\":\"Travel Trailers\"},{\"id\":3418,\"name\":\"Winnebago\",\"category\":\"Motor Homes\"},{\"id\":6256,\"name\":\"Winnie Drop\",\"category\":\"Travel Trailers\"},{\"id\":6102,\"name\":\"Wolf Creek\",\"category\":\"Truck Campers\"},{\"id\":5158,\"name\":\"Woodland Park\",\"category\":\"Park Models\"},{\"id\":4307,\"name\":\"Work and Play\",\"category\":\"Travel Trailers\"},{\"id\":4437,\"name\":\"XLR by Forest River\",\"category\":\"Travel Trailers\"},{\"id\":6114,\"name\":\"Yellowstone RV\",\"category\":\"Travel Trailers\"},{\"id\":6239,\"name\":\"Yetti Fish House\",\"category\":\"Travel Trailers\"}]"
+              },
+              "redirectURL": "",
+              "headersSize": -1,
+              "bodySize": -1,
+              "_transferSize": 3955,
+              "_error": null,
+              "_fetchedViaServiceWorker": false
+            },
+            "serverIPAddress": "52.159.106.128",
+            "startedDateTime": "2025-01-27T15:24:26.561Z",
+            "time": 783.8719999417663,
+            "timings": {
+              "blocked": 29.888999926179647,
+              "dns": -1,
+              "ssl": -1,
+              "connect": -1,
+              "send": 0.46300000000000097,
+              "wait": 751.6389998953938,
+              "receive": 1.8810001201927662,
+              "_blocked_queueing": 9.560999926179647,
+              "_workerStart": -1,
+              "_workerReady": -1,
+              "_workerFetchStart": -1,
+              "_workerRespondWithSettled": -1
+            }
+          },
+          {
+            "_initiator": {
+              "type": "script",
+              "stack": {
+                "callFrames": [
+                  {
+                    "functionName": "send",
+                    "scriptId": "5",
+                    "url": "https://code.jquery.com/jquery-3.5.1.min.js",
+                    "lineNumber": 1,
+                    "columnNumber": 82612
+                  },
+                  {
+                    "functionName": "ajax",
+                    "scriptId": "5",
+                    "url": "https://code.jquery.com/jquery-3.5.1.min.js",
+                    "lineNumber": 1,
+                    "columnNumber": 78222
+                  },
+                  {
+                    "functionName": "S.<computed>",
+                    "scriptId": "5",
+                    "url": "https://code.jquery.com/jquery-3.5.1.min.js",
+                    "lineNumber": 1,
+                    "columnNumber": 80242
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "8",
+                    "url": "https://widget.rollick.io/widgets/dr/templates/winnebago/dr.js",
+                    "lineNumber": 1690,
+                    "columnNumber": 14
+                  },
+                  {
+                    "functionName": "dispatch",
+                    "scriptId": "5",
+                    "url": "https://code.jquery.com/jquery-3.5.1.min.js",
+                    "lineNumber": 1,
+                    "columnNumber": 43089
+                  },
+                  {
+                    "functionName": "v.handle",
+                    "scriptId": "5",
+                    "url": "https://code.jquery.com/jquery-3.5.1.min.js",
+                    "lineNumber": 1,
+                    "columnNumber": 41073
+                  },
+                  {
+                    "functionName": "handleMouseUp_",
+                    "scriptId": "43",
+                    "url": "",
+                    "lineNumber": 1956,
+                    "columnNumber": 31
+                  }
+                ]
+              }
+            },
+            "_priority": "High",
+            "_resourceType": "xhr",
+            "cache": {},
+            "connection": "8154175",
+            "request": {
+              "method": "GET",
+              "url": "https://widget.rollick.io/ng/models/3008/2016/201",
+              "httpVersion": "http/2.0",
+              "headers": [
+                {
+                  "name": ":authority",
+                  "value": "widget.rollick.io"
+                },
+                {
+                  "name": ":method",
+                  "value": "GET"
+                },
+                {
+                  "name": ":path",
+                  "value": "/ng/models/3008/2016/201"
+                },
+                {
+                  "name": ":scheme",
+                  "value": "https"
+                },
+                {
+                  "name": "accept",
+                  "value": "*/*"
+                },
+                {
+                  "name": "accept-encoding",
+                  "value": "gzip, deflate, br, zstd"
+                },
+                {
+                  "name": "accept-language",
+                  "value": "en-US,en-IN;q=0.9,en;q=0.8,te;q=0.7"
+                },
+                {
+                  "name": "dnt",
+                  "value": "1"
+                },
+                {
+                  "name": "priority",
+                  "value": "u=1, i"
+                },
+                {
+                  "name": "referer",
+                  "value": "https://widget.rollick.io/widgets/dr/templates/winnebago/default-en.html"
+                },
+                {
+                  "name": "sec-ch-ua",
+                  "value": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""
+                },
+                {
+                  "name": "sec-ch-ua-mobile",
+                  "value": "?0"
+                },
+                {
+                  "name": "sec-ch-ua-platform",
+                  "value": "\"Windows\""
+                },
+                {
+                  "name": "sec-fetch-dest",
+                  "value": "empty"
+                },
+                {
+                  "name": "sec-fetch-mode",
+                  "value": "cors"
+                },
+                {
+                  "name": "sec-fetch-site",
+                  "value": "same-origin"
+                },
+                {
+                  "name": "user-agent",
+                  "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                },
+                {
+                  "name": "x-requested-with",
+                  "value": "XMLHttpRequest"
+                }
+              ],
+              "queryString": [],
+              "cookies": [],
+              "headersSize": -1,
+              "bodySize": 0
+            },
+            "response": {
+              "status": 200,
+              "statusText": "",
+              "httpVersion": "http/2.0",
+              "headers": [
+                {
+                  "name": "access-control-allow-credentials",
+                  "value": "true"
+                },
+                {
+                  "name": "access-control-allow-headers",
+                  "value": "Origin, X-Requested-With, Content-Type, Accept"
+                },
+                {
+                  "name": "access-control-allow-methods",
+                  "value": "GET, OPTIONS"
+                },
+                {
+                  "name": "access-control-allow-origin",
+                  "value": "*"
+                },
+                {
+                  "name": "cache-control",
+                  "value": "private, no-cache, no-store, must-revalidate"
+                },
+                {
+                  "name": "content-encoding",
+                  "value": "gzip"
+                },
+                {
+                  "name": "content-type",
+                  "value": "application/json; charset=utf-8"
+                },
+                {
+                  "name": "date",
+                  "value": "Mon, 27 Jan 2025 15:24:30 GMT"
+                },
+                {
+                  "name": "etag",
+                  "value": "W/\"441-8q21Zo5CD4cDaV/5VWX6RPZ7j80\""
+                },
+                {
+                  "name": "request-context",
+                  "value": "appId=cid-v1:0a80f7a3-de40-464e-95b4-2ecc5aec1cd0"
+                },
+                {
+                  "name": "server",
+                  "value": "nginx"
+                },
+                {
+                  "name": "strict-transport-security",
+                  "value": "max-age=15768000; includeSubDomains"
+                },
+                {
+                  "name": "vary",
+                  "value": "Accept-Encoding"
+                }
+              ],
+              "cookies": [],
+              "content": {
+                "size": 1089,
+                "mimeType": "application/json",
+                "text": "[{\"id\":6555120,\"name\":\"M-31SA Ford 362hp\"},{\"id\":6555121,\"name\":\"M-32SA Ford 362hp\"},{\"id\":6555113,\"name\":\"M-33AA Freightliner 340hp\"},{\"id\":6555114,\"name\":\"M-33AA Freightliner 360hp\"},{\"id\":6555123,\"name\":\"M-34PA 26K Ford 362hp\"},{\"id\":6555122,\"name\":\"M-34PA Ford 362hp\"},{\"id\":6555124,\"name\":\"M-34TGA Ford 362hp\"},{\"id\":6555125,\"name\":\"M-35QBA Ford 362hp\"},{\"id\":6555126,\"name\":\"M-36LA Ford 362hp\"},{\"id\":6555127,\"name\":\"M-36UA 26K Ford 362hp\"},{\"id\":6555099,\"name\":\"M-37AP Powerglide 450hp\"},{\"id\":6555115,\"name\":\"M-37PA Freightliner 360hp\"},{\"id\":6555116,\"name\":\"M-38QBA Freightliner 340hp\"},{\"id\":6555117,\"name\":\"M-38QBA Freightliner 360hp\"},{\"id\":6555118,\"name\":\"M-38QRA Freightliner 340hp\"},{\"id\":6555119,\"name\":\"M-38QRA Freightliner 360hp\"},{\"id\":6555100,\"name\":\"M-40AP Powerglide 450hp\"},{\"id\":6555101,\"name\":\"M-40SP Powerglide 450hp\"},{\"id\":6555102,\"name\":\"M-45LP Powerglide 450hp\"},{\"id\":6555104,\"name\":\"M-45OP Freightliner 600hp\"},{\"id\":6555103,\"name\":\"M-45OP Powerglide 450hp\"},{\"id\":6555106,\"name\":\"M-45UP Freightliner 600hp\"},{\"id\":6555105,\"name\":\"M-45UP Powerglide 450hp\"}]"
+              },
+              "redirectURL": "",
+              "headersSize": -1,
+              "bodySize": -1,
+              "_transferSize": 661,
+              "_error": null,
+              "_fetchedViaServiceWorker": false
+            },
+            "serverIPAddress": "52.159.106.128",
+            "startedDateTime": "2025-01-27T15:24:29.351Z",
+            "time": 763.9509998261929,
+            "timings": {
+              "blocked": 23.27499988937378,
+              "dns": -1,
+              "ssl": -1,
+              "connect": -1,
+              "send": 0.7100000000000009,
+              "wait": 736.8149999251068,
+              "receive": 3.1510000117123127,
+              "_blocked_queueing": 11.66599988937378,
+              "_workerStart": -1,
+              "_workerReady": -1,
+              "_workerFetchStart": -1,
+              "_workerRespondWithSettled": -1
+            }
+          },
+          {
+            "_initiator": {
+              "type": "script",
+              "stack": {
+                "callFrames": [
+                  {
+                    "functionName": "send",
+                    "scriptId": "5",
+                    "url": "https://code.jquery.com/jquery-3.5.1.min.js",
+                    "lineNumber": 1,
+                    "columnNumber": 82612
+                  },
+                  {
+                    "functionName": "ajax",
+                    "scriptId": "5",
+                    "url": "https://code.jquery.com/jquery-3.5.1.min.js",
+                    "lineNumber": 1,
+                    "columnNumber": 78222
+                  },
+                  {
+                    "functionName": "S.<computed>",
+                    "scriptId": "5",
+                    "url": "https://code.jquery.com/jquery-3.5.1.min.js",
+                    "lineNumber": 1,
+                    "columnNumber": 80242
+                  },
+                  {
+                    "functionName": "tradeInStep4",
+                    "scriptId": "8",
+                    "url": "https://widget.rollick.io/widgets/dr/templates/winnebago/dr.js",
+                    "lineNumber": 1823,
+                    "columnNumber": 6
+                  },
+                  {
+                    "functionName": "tradeInStep3",
+                    "scriptId": "8",
+                    "url": "https://widget.rollick.io/widgets/dr/templates/winnebago/dr.js",
+                    "lineNumber": 1806,
+                    "columnNumber": 8
+                  },
+                  {
+                    "functionName": "onclick",
+                    "scriptId": "48",
+                    "url": "https://widget.rollick.io/widgets/dr/templates/winnebago/default-en.html",
+                    "lineNumber": 951,
+                    "columnNumber": 126
+                  }
+                ]
+              }
+            },
+            "_priority": "High",
+            "_resourceType": "xhr",
+            "cache": {},
+            "connection": "8154175",
+            "request": {
+              "method": "GET",
+              "url": "https://widget.rollick.io/ng/estimate/201/6555119/Good",
+              "httpVersion": "http/2.0",
+              "headers": [
+                {
+                  "name": ":authority",
+                  "value": "widget.rollick.io"
+                },
+                {
+                  "name": ":method",
+                  "value": "GET"
+                },
+                {
+                  "name": ":path",
+                  "value": "/ng/estimate/201/6555119/Good"
+                },
+                {
+                  "name": ":scheme",
+                  "value": "https"
+                },
+                {
+                  "name": "accept",
+                  "value": "*/*"
+                },
+                {
+                  "name": "accept-encoding",
+                  "value": "gzip, deflate, br, zstd"
+                },
+                {
+                  "name": "accept-language",
+                  "value": "en-US,en-IN;q=0.9,en;q=0.8,te;q=0.7"
+                },
+                {
+                  "name": "dnt",
+                  "value": "1"
+                },
+                {
+                  "name": "priority",
+                  "value": "u=1, i"
+                },
+                {
+                  "name": "referer",
+                  "value": "https://widget.rollick.io/widgets/dr/templates/winnebago/default-en.html"
+                },
+                {
+                  "name": "sec-ch-ua",
+                  "value": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""
+                },
+                {
+                  "name": "sec-ch-ua-mobile",
+                  "value": "?0"
+                },
+                {
+                  "name": "sec-ch-ua-platform",
+                  "value": "\"Windows\""
+                },
+                {
+                  "name": "sec-fetch-dest",
+                  "value": "empty"
+                },
+                {
+                  "name": "sec-fetch-mode",
+                  "value": "cors"
+                },
+                {
+                  "name": "sec-fetch-site",
+                  "value": "same-origin"
+                },
+                {
+                  "name": "user-agent",
+                  "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                },
+                {
+                  "name": "x-requested-with",
+                  "value": "XMLHttpRequest"
+                }
+              ],
+              "queryString": [],
+              "cookies": [],
+              "headersSize": -1,
+              "bodySize": 0
+            },
+            "response": {
+              "status": 200,
+              "statusText": "",
+              "httpVersion": "http/2.0",
+              "headers": [
+                {
+                  "name": "access-control-allow-credentials",
+                  "value": "true"
+                },
+                {
+                  "name": "access-control-allow-headers",
+                  "value": "Origin, X-Requested-With, Content-Type, Accept"
+                },
+                {
+                  "name": "access-control-allow-methods",
+                  "value": "GET, OPTIONS"
+                },
+                {
+                  "name": "access-control-allow-origin",
+                  "value": "*"
+                },
+                {
+                  "name": "cache-control",
+                  "value": "private, no-cache, no-store, must-revalidate"
+                },
+                {
+                  "name": "content-length",
+                  "value": "36"
+                },
+                {
+                  "name": "content-type",
+                  "value": "application/json; charset=utf-8"
+                },
+                {
+                  "name": "date",
+                  "value": "Mon, 27 Jan 2025 15:24:42 GMT"
+                },
+                {
+                  "name": "etag",
+                  "value": "W/\"24-1sqn0Caf2PHUOHgq1G5h+SJ6Yyg\""
+                },
+                {
+                  "name": "request-context",
+                  "value": "appId=cid-v1:0a80f7a3-de40-464e-95b4-2ecc5aec1cd0"
+                },
+                {
+                  "name": "server",
+                  "value": "nginx"
+                },
+                {
+                  "name": "strict-transport-security",
+                  "value": "max-age=15768000; includeSubDomains"
+                }
+              ],
+              "cookies": [],
+              "content": {
+                "size": 36,
+                "mimeType": "application/json",
+                "text": "{\"estimate\":112650,\"jdPower\":112650}"
+              },
+              "redirectURL": "",
+              "headersSize": -1,
+              "bodySize": -1,
+              "_transferSize": 429,
+              "_error": null,
+              "_fetchedViaServiceWorker": false
+            },
+            "serverIPAddress": "52.159.106.128",
+            "startedDateTime": "2025-01-27T15:24:42.256Z",
+            "time": 552.8690000064671,
+            "timings": {
+              "blocked": 3.748999887049198,
+              "dns": -1,
+              "ssl": -1,
+              "connect": -1,
+              "send": 0.5580000000000003,
+              "wait": 545.9039999035299,
+              "receive": 2.6580002158880234,
+              "_blocked_queueing": 2.094999887049198,
+              "_workerStart": -1,
+              "_workerReady": -1,
+              "_workerFetchStart": -1,
+              "_workerRespondWithSettled": -1
+            }
+          },
+          {
+            "_initiator": {
+              "type": "script",
+              "stack": {
+                "callFrames": [
+                  {
+                    "functionName": "send",
+                    "scriptId": "915",
+                    "url": "https://code.jquery.com/jquery-3.3.1.min.js",
+                    "lineNumber": 1,
+                    "columnNumber": 80265
+                  },
+                  {
+                    "functionName": "ajax",
+                    "scriptId": "915",
+                    "url": "https://code.jquery.com/jquery-3.3.1.min.js",
+                    "lineNumber": 1,
+                    "columnNumber": 77117
+                  },
+                  {
+                    "functionName": "w.<computed>",
+                    "scriptId": "915",
+                    "url": "https://code.jquery.com/jquery-3.3.1.min.js",
+                    "lineNumber": 1,
+                    "columnNumber": 78093
+                  },
+                  {
+                    "functionName": "getPaymentTerms",
+                    "scriptId": "1009",
+                    "url": "https://widget.rollick.io/widgets/dr/scripts/dealer.js",
+                    "lineNumber": 866,
+                    "columnNumber": 44
+                  },
+                  {
+                    "functionName": "MessageHandler",
+                    "scriptId": "1009",
+                    "url": "https://widget.rollick.io/widgets/dr/scripts/dealer.js",
+                    "lineNumber": 234,
+                    "columnNumber": 25
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "1009",
+                    "url": "https://widget.rollick.io/widgets/dr/scripts/dealer.js",
+                    "lineNumber": 58,
+                    "columnNumber": 21
+                  }
+                ]
+              }
+            },
+            "_priority": "High",
+            "_resourceType": "xhr",
+            "cache": {},
+            "connection": "8154307",
+            "pageref": "page_1",
+            "request": {
+              "method": "POST",
+              "url": "https://widget.rollick.io/usb-apr-terms",
+              "httpVersion": "http/2.0",
+              "headers": [
+                {
+                  "name": ":authority",
+                  "value": "widget.rollick.io"
+                },
+                {
+                  "name": ":method",
+                  "value": "POST"
+                },
+                {
+                  "name": ":path",
+                  "value": "/usb-apr-terms"
+                },
+                {
+                  "name": ":scheme",
+                  "value": "https"
+                },
+                {
+                  "name": "accept",
+                  "value": "*/*"
+                },
+                {
+                  "name": "accept-encoding",
+                  "value": "gzip, deflate, br, zstd"
+                },
+                {
+                  "name": "accept-language",
+                  "value": "en-US,en-IN;q=0.9,en;q=0.8,te;q=0.7"
+                },
+                {
+                  "name": "content-length",
+                  "value": "67"
+                },
+                {
+                  "name": "content-type",
+                  "value": "application/x-www-form-urlencoded; charset=UTF-8"
+                },
+                {
+                  "name": "dnt",
+                  "value": "1"
+                },
+                {
+                  "name": "origin",
+                  "value": "https://www.winnebago.com"
+                },
+                {
+                  "name": "priority",
+                  "value": "u=1, i"
+                },
+                {
+                  "name": "referer",
+                  "value": "https://www.winnebago.com/"
+                },
+                {
+                  "name": "sec-ch-ua",
+                  "value": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""
+                },
+                {
+                  "name": "sec-ch-ua-mobile",
+                  "value": "?0"
+                },
+                {
+                  "name": "sec-ch-ua-platform",
+                  "value": "\"Windows\""
+                },
+                {
+                  "name": "sec-fetch-dest",
+                  "value": "empty"
+                },
+                {
+                  "name": "sec-fetch-mode",
+                  "value": "cors"
+                },
+                {
+                  "name": "sec-fetch-site",
+                  "value": "cross-site"
+                },
+                {
+                  "name": "user-agent",
+                  "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                }
+              ],
+              "queryString": [],
+              "cookies": [],
+              "headersSize": -1,
+              "bodySize": 67,
+              "postData": {
+                "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+                "text": "financeAmount=0&creditScore=800%2B&segment=rvs&year=2024&country=US",
+                "params": [
+                  {
+                    "name": "financeAmount",
+                    "value": "0"
+                  },
+                  {
+                    "name": "creditScore",
+                    "value": "800%2B"
+                  },
+                  {
+                    "name": "segment",
+                    "value": "rvs"
+                  },
+                  {
+                    "name": "year",
+                    "value": "2024"
+                  },
+                  {
+                    "name": "country",
+                    "value": "US"
+                  }
+                ]
+              }
+            },
+            "response": {
+              "status": 200,
+              "statusText": "",
+              "httpVersion": "http/2.0",
+              "headers": [
+                {
+                  "name": "access-control-allow-credentials",
+                  "value": "true"
+                },
+                {
+                  "name": "access-control-allow-headers",
+                  "value": "Origin, X-Requested-With, Content-Type, Accept"
+                },
+                {
+                  "name": "access-control-allow-methods",
+                  "value": "GET, OPTIONS"
+                },
+                {
+                  "name": "access-control-allow-origin",
+                  "value": "https://www.winnebago.com"
+                },
+                {
+                  "name": "cache-control",
+                  "value": "private, no-cache, no-store, must-revalidate"
+                },
+                {
+                  "name": "content-length",
+                  "value": "202"
+                },
+                {
+                  "name": "content-type",
+                  "value": "application/json; charset=utf-8"
+                },
+                {
+                  "name": "date",
+                  "value": "Mon, 27 Jan 2025 15:25:00 GMT"
+                },
+                {
+                  "name": "etag",
+                  "value": "W/\"ca-jWQsOAppTzAO94nHVDokkDtE4tI\""
+                },
+                {
+                  "name": "request-context",
+                  "value": "appId=cid-v1:0a80f7a3-de40-464e-95b4-2ecc5aec1cd0"
+                },
+                {
+                  "name": "server",
+                  "value": "nginx"
+                },
+                {
+                  "name": "strict-transport-security",
+                  "value": "max-age=15768000; includeSubDomains"
+                }
+              ],
+              "cookies": [],
+              "content": {
+                "size": 202,
+                "mimeType": "application/json",
+                "text": "{\"code\":400,\"payments\":[],\"requestPayload\":{\"financeAmount\":\"0\",\"creditScore\":\"800+\",\"segment\":\"rvs\",\"year\":\"2024\",\"country\":\"US\"},\"note\":\"The finance amount is too high for the selected credit score.\"}"
+              },
+              "redirectURL": "",
+              "headersSize": -1,
+              "bodySize": -1,
+              "_transferSize": 614,
+              "_error": null,
+              "_fetchedViaServiceWorker": false
+            },
+            "serverIPAddress": "52.159.106.128",
+            "startedDateTime": "2025-01-27T15:25:00.242Z",
+            "time": 235.5980002321303,
+            "timings": {
+              "blocked": 4.180000307261944,
+              "dns": -1,
+              "ssl": -1,
+              "connect": -1,
+              "send": 0.5450000000000002,
+              "wait": 229.95800017535686,
+              "receive": 0.9149997495114803,
+              "_blocked_queueing": 2.670000307261944,
+              "_workerStart": -1,
+              "_workerReady": -1,
+              "_workerFetchStart": -1,
+              "_workerRespondWithSettled": -1
+            }
+          },
+          {
+            "_initiator": {
+              "type": "script",
+              "stack": {
+                "callFrames": [
+                  {
+                    "functionName": "send",
+                    "scriptId": "915",
+                    "url": "https://code.jquery.com/jquery-3.3.1.min.js",
+                    "lineNumber": 1,
+                    "columnNumber": 80265
+                  },
+                  {
+                    "functionName": "ajax",
+                    "scriptId": "915",
+                    "url": "https://code.jquery.com/jquery-3.3.1.min.js",
+                    "lineNumber": 1,
+                    "columnNumber": 77117
+                  },
+                  {
+                    "functionName": "w.<computed>",
+                    "scriptId": "915",
+                    "url": "https://code.jquery.com/jquery-3.3.1.min.js",
+                    "lineNumber": 1,
+                    "columnNumber": 78093
+                  },
+                  {
+                    "functionName": "getPaymentTerms",
+                    "scriptId": "1009",
+                    "url": "https://widget.rollick.io/widgets/dr/scripts/dealer.js",
+                    "lineNumber": 866,
+                    "columnNumber": 44
+                  },
+                  {
+                    "functionName": "MessageHandler",
+                    "scriptId": "1009",
+                    "url": "https://widget.rollick.io/widgets/dr/scripts/dealer.js",
+                    "lineNumber": 234,
+                    "columnNumber": 25
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "1009",
+                    "url": "https://widget.rollick.io/widgets/dr/scripts/dealer.js",
+                    "lineNumber": 58,
+                    "columnNumber": 21
+                  }
+                ]
+              }
+            },
+            "_priority": "High",
+            "_resourceType": "xhr",
+            "cache": {},
+            "connection": "8154307",
+            "pageref": "page_1",
+            "request": {
+              "method": "POST",
+              "url": "https://widget.rollick.io/usb-apr-terms",
+              "httpVersion": "http/2.0",
+              "headers": [
+                {
+                  "name": ":authority",
+                  "value": "widget.rollick.io"
+                },
+                {
+                  "name": ":method",
+                  "value": "POST"
+                },
+                {
+                  "name": ":path",
+                  "value": "/usb-apr-terms"
+                },
+                {
+                  "name": ":scheme",
+                  "value": "https"
+                },
+                {
+                  "name": "accept",
+                  "value": "*/*"
+                },
+                {
+                  "name": "accept-encoding",
+                  "value": "gzip, deflate, br, zstd"
+                },
+                {
+                  "name": "accept-language",
+                  "value": "en-US,en-IN;q=0.9,en;q=0.8,te;q=0.7"
+                },
+                {
+                  "name": "content-length",
+                  "value": "72"
+                },
+                {
+                  "name": "content-type",
+                  "value": "application/x-www-form-urlencoded; charset=UTF-8"
+                },
+                {
+                  "name": "dnt",
+                  "value": "1"
+                },
+                {
+                  "name": "origin",
+                  "value": "https://www.winnebago.com"
+                },
+                {
+                  "name": "priority",
+                  "value": "u=1, i"
+                },
+                {
+                  "name": "referer",
+                  "value": "https://www.winnebago.com/"
+                },
+                {
+                  "name": "sec-ch-ua",
+                  "value": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""
+                },
+                {
+                  "name": "sec-ch-ua-mobile",
+                  "value": "?0"
+                },
+                {
+                  "name": "sec-ch-ua-platform",
+                  "value": "\"Windows\""
+                },
+                {
+                  "name": "sec-fetch-dest",
+                  "value": "empty"
+                },
+                {
+                  "name": "sec-fetch-mode",
+                  "value": "cors"
+                },
+                {
+                  "name": "sec-fetch-site",
+                  "value": "cross-site"
+                },
+                {
+                  "name": "user-agent",
+                  "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                }
+              ],
+              "queryString": [],
+              "cookies": [],
+              "headersSize": -1,
+              "bodySize": 72,
+              "postData": {
+                "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+                "text": "financeAmount=152546&creditScore=800%2B&segment=rvs&year=2024&country=US",
+                "params": [
+                  {
+                    "name": "financeAmount",
+                    "value": "152546"
+                  },
+                  {
+                    "name": "creditScore",
+                    "value": "800%2B"
+                  },
+                  {
+                    "name": "segment",
+                    "value": "rvs"
+                  },
+                  {
+                    "name": "year",
+                    "value": "2024"
+                  },
+                  {
+                    "name": "country",
+                    "value": "US"
+                  }
+                ]
+              }
+            },
+            "response": {
+              "status": 200,
+              "statusText": "",
+              "httpVersion": "http/2.0",
+              "headers": [
+                {
+                  "name": "access-control-allow-credentials",
+                  "value": "true"
+                },
+                {
+                  "name": "access-control-allow-headers",
+                  "value": "Origin, X-Requested-With, Content-Type, Accept"
+                },
+                {
+                  "name": "access-control-allow-methods",
+                  "value": "GET, OPTIONS"
+                },
+                {
+                  "name": "access-control-allow-origin",
+                  "value": "https://www.winnebago.com"
+                },
+                {
+                  "name": "cache-control",
+                  "value": "private, no-cache, no-store, must-revalidate"
+                },
+                {
+                  "name": "content-encoding",
+                  "value": "gzip"
+                },
+                {
+                  "name": "content-type",
+                  "value": "application/json; charset=utf-8"
+                },
+                {
+                  "name": "date",
+                  "value": "Mon, 27 Jan 2025 15:25:04 GMT"
+                },
+                {
+                  "name": "etag",
+                  "value": "W/\"1ff-Ii2X2JmZjhwMfDPtf9bLfbRWgf8\""
+                },
+                {
+                  "name": "request-context",
+                  "value": "appId=cid-v1:0a80f7a3-de40-464e-95b4-2ecc5aec1cd0"
+                },
+                {
+                  "name": "server",
+                  "value": "nginx"
+                },
+                {
+                  "name": "strict-transport-security",
+                  "value": "max-age=15768000; includeSubDomains"
+                },
+                {
+                  "name": "vary",
+                  "value": "Accept-Encoding"
+                }
+              ],
+              "cookies": [],
+              "content": {
+                "size": 511,
+                "mimeType": "application/json",
+                "text": "{\"code\":200,\"payments\":[{\"term\":\"144 months\",\"monthlyEmi\":\"1692.50\",\"apr\":\"8.49%\"},{\"term\":\"180 months\",\"monthlyEmi\":\"1501.29\",\"apr\":\"8.49%\"},{\"term\":\"240 months\",\"monthlyEmi\":\"1322.86\",\"apr\":\"8.49%\"}],\"requestPayload\":{\"financeAmount\":\"152546\",\"creditScore\":\"800+\",\"segment\":\"rvs\",\"year\":\"2024\",\"country\":\"US\"},\"additionalMetaData\":{\"creditScoreData\":[\"800+\",\"760-799\",\"740-759\",\"720-739\",\"700-719\",\"680-699\"],\"minFinanceAmountValue\":150001,\"maxFinanceAmountValue\":350000,\"maxFinanceAmountForMinScore\":100000}}"
+              },
+              "redirectURL": "",
+              "headersSize": -1,
+              "bodySize": -1,
+              "_transferSize": 724,
+              "_error": null,
+              "_fetchedViaServiceWorker": false
+            },
+            "serverIPAddress": "52.159.106.128",
+            "startedDateTime": "2025-01-27T15:25:04.360Z",
+            "time": 259.6720000728965,
+            "timings": {
+              "blocked": 4.875999976694584,
+              "dns": -1,
+              "ssl": -1,
+              "connect": -1,
+              "send": 0.375,
+              "wait": 253.37100001722575,
+              "receive": 1.0500000789761543,
+              "_blocked_queueing": 1.800999976694584,
+              "_workerStart": -1,
+              "_workerReady": -1,
+              "_workerFetchStart": -1,
+              "_workerRespondWithSettled": -1
+            }
           }
       ]
     }
